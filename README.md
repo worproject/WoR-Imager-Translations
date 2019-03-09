@@ -19,7 +19,7 @@ Issues related to the WoR tool should be reported on the [dedicated bug tracker]
 | Name                          | Status   | Contributors 
 | ----------------------------- | -------- | --------------
 | Čeština (Czech)               | Complete | martindrey , Nuparu00
-| Deutsch (German)              | Outdated | Schule04 
+| Deutsch (German)              | Complete | BastiJames333 , Schule04 
 | English                       | Complete | Mario Bălănică
 | Español (Spanish)             | Outdated | Ivan Ruiz (ivigamergames) 
 | Hrvatski (Croatian)           | Outdated | Biggie 
