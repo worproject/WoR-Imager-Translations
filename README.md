@@ -22,6 +22,7 @@ Issues related to the WoR tool should be reported on the [dedicated bug tracker]
 | Deutsch (German)              | Complete | BastiJames333 , Schule04 
 | English                       | Complete | Mario Bălănică
 | Español (Spanish)             | Outdated | Ivan Ruiz (ivigamergames) 
+| Français (French)             | Complete | Garfi69
 | Hrvatski (Croatian)           | Outdated | Biggie 
 | Italiano (Italian)            | Outdated | xicciodj , lorecast162 
 | Magyar (Hungarian)            | Outdated | Googulator 
