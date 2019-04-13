@@ -30,6 +30,7 @@ Issues related to the WoR tool should be reported on the [dedicated bug tracker]
 | Română (Romanian)             | Complete | Mario Bălănică
 | Türkçe (Turkish)              | Outdated | pixelomer
 | Русский (Russian)             | Complete | Andryshik345 , beeoss
+| Український (Ukrainian)       | Complete | Volodymyr Borodaykevych
 | 한국어 (Korean)               | Outdated | Raccooni
 | 日本語 (Japanese)             | Outdated | imai9999
 | 简体中文 (Simplified Chinese) | Complete | thchi12 , nyaruko
