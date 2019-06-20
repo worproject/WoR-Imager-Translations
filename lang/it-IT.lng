@@ -1,78 +1,43 @@
 ﻿[WoR lang file]
-Lang.IsOutdated=1
-WindowTitle=Windows on Raspberry
-LoggerWindowTitle=Logs
-AboutWindowTitle=About
+Name=Italiano (Italian)
+Author=xicciodj , lorecast162
+IsComplete=0
+
+[AboutWindow]
+WindowTitle=About
 AppVersionLabel=Version
 CreditsPage=Credits
 ChangelogPage=Changelog
 LicensesPage=Licenses
-LicenseAgreementWindowTitle=License agreement
+
+[LoggerWindow]
+WindowTitle=Logs
+
+[LicenseAgreementWindow]
+WindowTitle=License agreement
 AcceptBtn=Accept
 DeclineBtn=Decline
+
+[Messages]
+AnErrorOccurred=È stato riscontrato un errore! Controlla i log.
+TaskOngoing=An operation is currently in progress.%n%Are you sure you want to force close the application?
+
+[MainWindow]
+WindowTitle=Windows on Raspberry
 WelcomePage=Benvenuto
+SelectDiskPage=Seleziona il dispositivo
+SelectImagePage=Seleziona immagine
+SelectDriversPage=Seleziona driver
+SelectUEFIPage=Firmware UEFI
+ConfigurationPage=Configurazione
+FinishPage=Installa
 WelcomeLabel=Benvenuto su Windows on Raspberry Imager!
 WelcomeMsgTextBox=WoR (Windows on Raspberry) è uno strumento che può installare Windows su ARM (versione desktop completa, non IoT) sulla tua scheda SD per l'uso su un Raspberry Pi 3 B/B+ .
 SelectLangLabel=Seleziona la tua lingua:
 NextPageBtn=Avanti
 BackPageBtn=Indietro
-SelectDiskPage=Seleziona il dispositivo
-SelectDiskLabel=Seleziona il dispositivo
-SelectDiskMsg=Note: Even though the new USB driver is stable, booting from an USB device is not recommended since Windows can't create a paging file on it.
-DiskInfoBox.AtLeast8=Il dispositivo deve avere almeno 8GB di spazio libero!
-DiskInfoBox.Good=Il dispositivo selezionato ha almeno 8GB di spazio libero.
-DiskInfoBox.Enough=Il disco selezionato ha abbastanza spazio per un'installazione compressa.
-SelectImagePage=Seleziona immagine
-SelectImageLabel=Seleziona immagine Windows su ARM
-WindowsEditionLabel=Windows edition:
-WorkingBuildsTextBox=Note: Windows 10 1803 and newer versions are known to work.%n%Version 1809 can crash unexpectedly due to some changes in the WppRecorder.sys driver, so it should be avoided.
-SelectImgInfoBox.SelectedImageGood=L'immagine selezionata (version: %1) è OK!
-SelectImgInfoBox.SelectedImageInvalid=The selected file is not a valid Windows image!
-SelectImgInfoBox.SelectedImageUnsupported=The selected image file is not supported!
-SelectDriversPage=Seleziona driver
-SelectUEFIPage=Firmware UEFI
-ConfigurationPage=Configurazione
-FinishPage=Installa
-SelectDriversLabel=Seleziona driver
-DriversNoteTextBox=Nota: i driver devono essere compressi dentro un file zip.
-NoDriversTextBox=Puoi scaricare i driver funzionanti più recenti da:
-SelectDrvInfoBox.OK=L'archivio dei driver è OK!
-SelectDrvInfoBox.LicenseNotAccepted=You have not accepted one of the license agreements!
-SelectUEFILabel=Seleziona firmware UEFI
-UEFINoteTextBox=Nota: Il firmware UEFI deve avere l'estensione %2 .
-GetUEFITextBox=Puoi scaricare il più recente firmware UEFI per Raspberry Pi da:
-Message.AnErrorOccurred=È stato riscontrato un errore! Controlla i log.
-Message.TaskOngoing=An operation is currently in progress.%n%Are you sure you want to force close the application?
-ConfigurationLabel=Configurazione
-InstallOptionsGroup=Opzioni di installazione
-PartSchemeLabel=Schema partizioni:
-ImgInstallLabel=Installa immagine con:
-EnableLZXCheck=Abilita la compressione d'installazione LZX
-BootOptionsGroup=Opzioni di boot
-WoROptionsGroup=Opzioni di WoR
-SaveConfigExitLabel=Salva questa configurazione all'uscita
-InstallOverviewLabel=Panoramica installazione
-InstallInfoBox.Warn=Attenzione! Tutti i dati sul tuo dispositivo verranno cancellati! Fai un backup dei tuoi file prima che sia troppo tardi!
-InstallInfoBox.Time=Questo processo può durare molto tempo a seconda della performance del tuo dispositivo.
-TargetDeviceLabel=Dispositivo di destinazione
-OSLabel=Sistema operativo
-DriversPathLabel=Posizione driver
-UEFIPathLabel=Posizione firmware UEFI
-PartitionSchemeLabel=Schema partizioni
-ImageDeployerLabel=Metodo di installazione
-LZXCompressionLabel=Compressione LZX
-LZXCompression.YES=SI
-LZXCompression.NO=NO
 NextPageBtn.Install=Installa
 NextPageBtn.Finish=Finito
-InstallStatusLabel.GettingReady=Preparazione...
-InstallStatusLabel.FormattingDisk=Formattazione del dispositivo di destinazione...
-InstallStatusLabel.CreatingPartitions=Creazione delle partizioni...
-InstallStatusLabel.InstallingWindows=Installazione di Windows...
-InstallStatusLabel.InstallingBootFiles=Installazione dei file di boot...
-InstallStatusLabel.InstallingDrivers=Installazione dei driver...
-InstallStatusLabel.InstallFinished=L'installazione è finita!
-InstallStatusLabel.InstallFailed=L'installazione è fallita!
 StatusBar.Idle=Inattivo
 StatusBar.LoadingDisks=Caricamento driver...
 StatusBar.MountingISO=Montaggio immagine ISO...
@@ -88,3 +53,64 @@ StatusBar.CreatingBCD=Creazione del BCD...
 StatusBar.SettingTestMode=Impostazione di testsigning nointegritychecks su on...
 StatusBar.ConvertingEFI=Conversione della partizione di boot a ESP...
 StatusBar.InstallingDrivers=Installazione dei driver...
+
+[SelectDiskPage]
+SelectDiskLabel=Seleziona il dispositivo
+SelectDiskMsg=Note: Even though the new USB driver is stable, booting from an USB device is not recommended since Windows can't create a paging file on it.
+DiskInfoBox.AtLeast8=Il dispositivo deve avere almeno 8GB di spazio libero!
+DiskInfoBox.Good=Il dispositivo selezionato ha almeno 8GB di spazio libero.
+DiskInfoBox.Enough=Il disco selezionato ha abbastanza spazio per un'installazione compressa.
+
+[SelectImagePage]
+SelectImageLabel=Seleziona immagine Windows su ARM
+WindowsEditionLabel=Windows edition:
+WorkingBuildsTextBox=Note: Windows 10 1803 and newer versions are known to work.%n%Version 1809 can crash unexpectedly due to some changes in the WppRecorder.sys driver, so it should be avoided.
+SelectImgInfoBox.SelectedImageGood=L'immagine selezionata (version: %1) è OK!
+SelectImgInfoBox.SelectedImageInvalid=The selected file is not a valid Windows image!
+SelectImgInfoBox.SelectedImageUnsupported=The selected image file is not supported!
+
+[SelectDriversPage]
+SelectDriversLabel=Seleziona driver
+DriversNoteTextBox=Nota: i driver devono essere compressi dentro un file zip.
+NoDriversTextBox=Puoi scaricare i driver funzionanti più recenti da:
+SelectDrvInfoBox.OK=L'archivio dei driver è OK!
+SelectDrvInfoBox.LicenseNotAccepted=You have not accepted one of the license agreements!
+
+[SelectUEFIPage]
+SelectUEFILabel=Seleziona firmware UEFI
+UEFINoteTextBox=Nota: Il firmware UEFI deve avere l'estensione %2 .
+GetUEFITextBox=Puoi scaricare il più recente firmware UEFI per Raspberry Pi da:
+
+[SetupConfigurationPage]
+ConfigurationLabel=Configurazione
+InstallOptionsGroup=Opzioni di installazione
+PartSchemeLabel=Schema partizioni:
+ImgInstallLabel=Installa immagine con:
+EnableLZXCheck=Abilita la compressione d'installazione LZX
+BootOptionsGroup=Opzioni di boot
+WoROptionsGroup=Opzioni di WoR
+SaveConfigExitLabel=Salva questa configurazione all'uscita
+
+[SetupOverviewPage]
+InstallOverviewLabel=Panoramica installazione
+InstallWarnBox=Attenzione! Tutti i dati sul tuo dispositivo verranno cancellati! Fai un backup dei tuoi file prima che sia troppo tardi!
+TargetDeviceLabel=Dispositivo di destinazione
+OSLabel=Sistema operativo
+DriversPathLabel=Posizione driver
+UEFIPathLabel=Posizione firmware UEFI
+PartitionSchemeLabel=Schema partizioni
+ImageDeployerLabel=Metodo di installazione
+LZXCompressionLabel=Compressione LZX
+LZXCompression.YES=SI
+LZXCompression.NO=NO
+
+[SetupProgressPage]
+InstallInfoBox=Questo processo può durare molto tempo a seconda della performance del tuo dispositivo.
+InstallStatusLabel.GettingReady=Preparazione...
+InstallStatusLabel.FormattingDisk=Formattazione del dispositivo di destinazione...
+InstallStatusLabel.CreatingPartitions=Creazione delle partizioni...
+InstallStatusLabel.InstallingWindows=Installazione di Windows...
+InstallStatusLabel.InstallingBootFiles=Installazione dei file di boot...
+InstallStatusLabel.InstallingDrivers=Installazione dei driver...
+InstallStatusLabel.InstallFinished=L'installazione è finita!
+InstallStatusLabel.InstallFailed=L'installazione è fallita!

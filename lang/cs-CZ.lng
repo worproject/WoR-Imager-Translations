@@ -1,77 +1,43 @@
 ﻿[WoR lang file]
-WindowTitle=Windows on Raspberry
-LoggerWindowTitle=Logy
-AboutWindowTitle=O programu
+Name=Čeština (Czech)
+Author=martindrey , Nuparu00
+IsComplete=1
+
+[AboutWindow]
+WindowTitle=O programu
 AppVersionLabel=Verze
 CreditsPage=Tvůrci
 ChangelogPage=Seznam změn
 LicensesPage=Licence
-LicenseAgreementWindowTitle=Licenční ujednání
+
+[LoggerWindow]
+WindowTitle=Logy
+
+[LicenseAgreementWindow]
+WindowTitle=Licenční ujednání
 AcceptBtn=Příjmout
 DeclineBtn=Odmítnout
+
+[Messages]
+AnErrorOccurred=Neočekávaná chyba! Zkontrolujte logy.
+TaskOngoing=Oprace právě probíhá.%n%Opravdu chcete násilně ukončit aplikací?
+
+[MainWindow]
+WindowTitle=Windows on Raspberry
 WelcomePage=Vítejte
+SelectDiskPage=Vyberte zařízení
+SelectImagePage=Vyberte obraz
+SelectDriversPage=Vyberte ovladače
+SelectUEFIPage=UEFI firmware
+ConfigurationPage=Konfigurace
+FinishPage=Instalovat
 WelcomeLabel=Vítejte ve Windows on Raspberry Imager!
 WelcomeMsgTextBox=WoR (Windows on Raspberry) je nástroj, který umožňuje instalaci Windows na ARM (plné desktop verze, ne IoT) na SD kartu, pro Raspberry Pi 3 B/B+.
 SelectLangLabel=Zvolte jazyk:
 NextPageBtn=Další
 BackPageBtn=Zpět
-SelectDiskPage=Vyberte zařízení
-SelectDiskLabel=Vyberte zařízení
-SelectDiskMsg=Note: I když jsou nové ovladače USB stabilní, bootování z USB zařízení není doporučeno dokud nebude Windows schopen na zařízení vytvořit stránkovací soubor.
-DiskInfoBox.AtLeast8=Zařízení musí mít alespoň 8GB volného místa!
-DiskInfoBox.Good=Vybrané zařízení má alespoň 8GB místa.
-DiskInfoBox.Enough=Vybrané zařízení nemá dostatek místa pro komprimovanou instalaci.
-SelectImagePage=Vyberte obraz
-SelectImageLabel=Vyberte Váš Windows (ARM64) obraz
-WindowsEditionLabel=Windows edition:
-WorkingBuildsTextBox=Poznámka: Windows 10 1803 a novější verze fungují.%n%Verze 1809 může neočekávaně spadnout na základě změn v ovladači WppRecorder.sys, takže jsme vás na to chteli upozornit.
-SelectImgInfoBox.SelectedImageGood=Vybraný soubor virtuálního obrazu (verze: %1) je v pořádku!
-SelectImgInfoBox.SelectedImageInvalid=Vybraný soubor není platný obraz Windows!
-SelectImgInfoBox.SelectedImageUnsupported=Vybraný obraz není podporovaný!
-SelectDriversPage=Vyberte ovladače
-SelectUEFIPage=UEFI firmware
-ConfigurationPage=Konfigurace
-FinishPage=Instalovat
-SelectDriversLabel=Vyberte ovladače
-DriversNoteTextBox=Pozn.: Ovladače musí být archivované ve formátu ZIP.
-NoDriversTextBox=Nejnovější funkční ovladače můžete získat zde:
-SelectDrvInfoBox.OK=Archiv s ovladači je vpořádku!
-SelectDrvInfoBox.LicenseNotAccepted=Nepotvrdili jste licenční ujednání!
-SelectUEFILabel=Vyberte UEFI firmware
-UEFINoteTextBox=Pozn.: UEFI firmware musí mít připonu %2.
-GetUEFITextBox=Poslední Raspberry Pi UEFI firmware můžete získat z:
-Message.AnErrorOccurred=Neočekávaná chyba! Zkontrolujte logy.
-Message.TaskOngoing=Oprace právě probíhá.%n%Opravdu chcete násilně ukončit aplikací?
-ConfigurationLabel=Konfigurace
-InstallOptionsGroup=nastavení instalace
-PartSchemeLabel=Oddílování:
-ImgInstallLabel=Instalujte obraz s:
-EnableLZXCheck=Povolit LZX kompresi instalace
-BootOptionsGroup=Nastavení bootování
-WoROptionsGroup=Nastavení WoR
-SaveConfigExitLabel=Při ukončení uložit tuto konfiguraci.
-InstallOverviewLabel=Přehled instalace
-InstallInfoBox.Warn=Varování! Všechna data na Vaší zařízení budou vymazána! Máte poslední možnost vytvořit si zálohu!
-InstallInfoBox.Time=Tato operace může nějakou dobu trvat, záleží na rychlosti zařízení.
-TargetDeviceLabel=Cilové zařízení
-OSLabel=Operační systém
-DriversPathLabel=Cesta ovladačů
-UEFIPathLabel=Cesta UEFI firmware
-PartitionSchemeLabel=Oddílování
-ImageDeployerLabel=Metoda zavedení obrazu
-LZXCompressionLabel=LZX instalační komprese
-LZXCompression.YES=ANO
-LZXCompression.NO=NE
 NextPageBtn.Install=Instalovat
 NextPageBtn.Finish=Dokončit
-InstallStatusLabel.GettingReady=Příprava...
-InstallStatusLabel.FormattingDisk=Formátování cílového zařízení...
-InstallStatusLabel.CreatingPartitions=Vytváření oddílů...
-InstallStatusLabel.InstallingWindows=Instalace Windows...
-InstallStatusLabel.InstallingBootFiles=Instalace bootovacích souborů...
-InstallStatusLabel.InstallingDrivers=Instalace ovladačů...
-InstallStatusLabel.InstallFinished=Instalace byla dokončena!
-InstallStatusLabel.InstallFailed=Instalace selhala!
 StatusBar.Idle=Nečinný
 StatusBar.LoadingDisks=Načítání ovladačů...
 StatusBar.MountingISO=Připojování ISO obrazu...
@@ -87,3 +53,64 @@ StatusBar.CreatingBCD=Vytváření BCD...
 StatusBar.SettingTestMode=Nastavení testsigning a nointegritychecks na ON...
 StatusBar.ConvertingEFI=Konverze bootovacího oddílu do ESP...
 StatusBar.InstallingDrivers=Instalace ovladačů...
+
+[SelectDiskPage]
+SelectDiskLabel=Vyberte zařízení
+SelectDiskMsg=Note: I když jsou nové ovladače USB stabilní, bootování z USB zařízení není doporučeno dokud nebude Windows schopen na zařízení vytvořit stránkovací soubor.
+DiskInfoBox.AtLeast8=Zařízení musí mít alespoň 8GB volného místa!
+DiskInfoBox.Good=Vybrané zařízení má alespoň 8GB místa.
+DiskInfoBox.Enough=Vybrané zařízení nemá dostatek místa pro komprimovanou instalaci.
+
+[SelectImagePage]
+SelectImageLabel=Vyberte Váš Windows (ARM64) obraz
+WindowsEditionLabel=Windows edition:
+WorkingBuildsTextBox=Poznámka: Windows 10 1803 a novější verze fungují.%n%Verze 1809 může neočekávaně spadnout na základě změn v ovladači WppRecorder.sys, takže jsme vás na to chteli upozornit.
+SelectImgInfoBox.SelectedImageGood=Vybraný soubor virtuálního obrazu (verze: %1) je v pořádku!
+SelectImgInfoBox.SelectedImageInvalid=Vybraný soubor není platný obraz Windows!
+SelectImgInfoBox.SelectedImageUnsupported=Vybraný obraz není podporovaný!
+
+[SelectDriversPage]
+SelectDriversLabel=Vyberte ovladače
+DriversNoteTextBox=Pozn.: Ovladače musí být archivované ve formátu ZIP.
+NoDriversTextBox=Nejnovější funkční ovladače můžete získat zde:
+SelectDrvInfoBox.OK=Archiv s ovladači je vpořádku!
+SelectDrvInfoBox.LicenseNotAccepted=Nepotvrdili jste licenční ujednání!
+
+[SelectUEFIPage]
+SelectUEFILabel=Vyberte UEFI firmware
+UEFINoteTextBox=Pozn.: UEFI firmware musí mít připonu %2.
+GetUEFITextBox=Poslední Raspberry Pi UEFI firmware můžete získat z:
+
+[SetupConfigurationPage]
+ConfigurationLabel=Konfigurace
+InstallOptionsGroup=nastavení instalace
+PartSchemeLabel=Oddílování:
+ImgInstallLabel=Instalujte obraz s:
+EnableLZXCheck=Povolit LZX kompresi instalace
+BootOptionsGroup=Nastavení bootování
+WoROptionsGroup=Nastavení WoR
+SaveConfigExitLabel=Při ukončení uložit tuto konfiguraci.
+
+[SetupOverviewPage]
+InstallOverviewLabel=Přehled instalace
+InstallWarnBox=Varování! Všechna data na Vaší zařízení budou vymazána! Máte poslední možnost vytvořit si zálohu!
+TargetDeviceLabel=Cilové zařízení
+OSLabel=Operační systém
+DriversPathLabel=Cesta ovladačů
+UEFIPathLabel=Cesta UEFI firmware
+PartitionSchemeLabel=Oddílování
+ImageDeployerLabel=Metoda zavedení obrazu
+LZXCompressionLabel=LZX instalační komprese
+LZXCompression.YES=ANO
+LZXCompression.NO=NE
+
+[SetupProgressPage]
+InstallInfoBox=Tato operace může nějakou dobu trvat, záleží na rychlosti zařízení.
+InstallStatusLabel.GettingReady=Příprava...
+InstallStatusLabel.FormattingDisk=Formátování cílového zařízení...
+InstallStatusLabel.CreatingPartitions=Vytváření oddílů...
+InstallStatusLabel.InstallingWindows=Instalace Windows...
+InstallStatusLabel.InstallingBootFiles=Instalace bootovacích souborů...
+InstallStatusLabel.InstallingDrivers=Instalace ovladačů...
+InstallStatusLabel.InstallFinished=Instalace byla dokončena!
+InstallStatusLabel.InstallFailed=Instalace selhala!

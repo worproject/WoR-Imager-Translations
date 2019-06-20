@@ -1,77 +1,43 @@
 ﻿[WoR lang file]
-WindowTitle=Windows on Raspberry
-LoggerWindowTitle=Logs
-AboutWindowTitle=A propos
+Name=Français (French)
+Author=Garfi69
+IsComplete=1
+
+[AboutWindow]
+WindowTitle=A propos
 AppVersionLabel=Version
 CreditsPage=Crédits
 ChangelogPage=Changelog
 LicensesPage=Licences
-LicenseAgreementWindowTitle=Contrat de licence
+
+[LoggerWindow]
+WindowTitle=Logs
+
+[LicenseAgreementWindow]
+WindowTitle=Contrat de licence
 AcceptBtn=Accepter
 DeclineBtn=Refuser
+
+[Messages]
+AnErrorOccurred=Une erreur s'est produite ! Veuillez vérifier les logs.
+TaskOngoing=Une opération est actuellement en cours.%n%Etes-vous sur de vouloir forcer la fermeture de l'application?
+
+[MainWindow]
+WindowTitle=Windows on Raspberry
 WelcomePage=Bienvenue
+SelectDiskPage=Choix du disque
+SelectImagePage=Choix de l'image
+SelectDriversPage=Choix drivers
+SelectUEFIPage=Firmware UEFI
+ConfigurationPage=Configuration
+FinishPage=Installation
 WelcomeLabel=Bienvenue sur Windows on Raspberry Imager!
 WelcomeMsgTextBox=WoR (Windows on Raspberry) est un utilitaire vous permettant d'installer Windows ARM (bureau complet, non IoT) sur votre carte SD afin d'être utilisé sur un Raspberry Pi 3 B/B+ .
 SelectLangLabel=Sélectionner la langue:
 NextPageBtn=Suivant
 BackPageBtn=Retour
-SelectDiskPage=Choix du disque
-SelectDiskLabel=Sélectionner le disque
-SelectDiskMsg=Note: Même si le nouveau pilote USB est stable, il n'est pas recommandé de démarrer à partir d'un périphérique USB car Windows ne peut pas créer un fichier de pagination sur celui-ci.
-DiskInfoBox.AtLeast8=La carte doit posséder au moins 8 Go d'espace disponible !
-DiskInfoBox.Good=La carte sélectionnée dispose d'au moins 8 Go d'espace disponible.
-DiskInfoBox.Enough=La carte dispose de suffisamment d'espace pour une installation compressée.
-SelectImagePage=Choix de l'image
-SelectImageLabel=Sélectionner l'image de Windows ARM
-WindowsEditionLabel=Edition Windows:
-WorkingBuildsTextBox=Note: Windows 10 1803 et les versions plus récentes sont connues pour fonctionner.%n%Version 1809 peut planter inopinément en raison de certains changements dans le pilote WppRecorder.sys, il faut donc l'éviter.
-SelectImgInfoBox.SelectedImageGood=L'image sélectionnée (version: %1) est valide !
-SelectImgInfoBox.SelectedImageInvalid=Le fichier sélectionné n'est pas une image Windows valide !
-SelectImgInfoBox.SelectedImageUnsupported=Le fichier sélectionné n'est pas supporté !
-SelectDriversPage=Choix drivers
-SelectUEFIPage=Firmware UEFI
-ConfigurationPage=Configuration
-FinishPage=Installation
-SelectDriversLabel=Sélectionner les drivers
-DriversNoteTextBox=Note: Les drivers doivent être au format ZIP.
-NoDriversTextBox=Vous pouvez télécharger les derniers drivers ici:
-SelectDrvInfoBox.OK=L'archive est OK !
-SelectDrvInfoBox.LicenseNotAccepted=Vous n'avez pas accepté l'un des contrats de licence !
-SelectUEFILabel=Sélectionner le firmware UEFI
-UEFINoteTextBox=Note: le firmware UEFI doit avoir cette extension de fichier: %2
-GetUEFITextBox=Vous pouvez télécharger le dernier firmware pour Raspbery Pi ici:
-Message.AnErrorOccurred=Une erreur s'est produite ! Veuillez vérifier les logs.
-Message.TaskOngoing=Une opération est actuellement en cours.%n%Etes-vous sur de vouloir forcer la fermeture de l'application?
-ConfigurationLabel=Configuration
-InstallOptionsGroup=Options d'installation
-PartSchemeLabel=Table partition:
-ImgInstallLabel=Installer l'image avec:
-EnableLZXCheck=Activer la compression LZX
-BootOptionsGroup=Options du boot
-WoROptionsGroup=Option WoR
-SaveConfigExitLabel=Sauvegarder cette configuration en quittant
-InstallOverviewLabel=Résumé d'installation
-InstallInfoBox.Warn=Attention! Toutes les données de votre appareil seront effacées ! Faites une sauvegarde de vos fichiers avant qu'il ne soit trop tard !
-InstallInfoBox.Time=Ce processus peut prendre beaucoup de temps en fonction des performances de votre appareil.
-TargetDeviceLabel=Cible
-OSLabel=Système d'exploitation
-DriversPathLabel=Chemin des drivers
-UEFIPathLabel=Chemin du firmware UEFI
-PartitionSchemeLabel=Table partitionnement
-ImageDeployerLabel=Déploiement image
-LZXCompressionLabel=Installation compressée LZX
-LZXCompression.YES=OUI
-LZXCompression.NO=NON
 NextPageBtn.Install=Installation
 NextPageBtn.Finish=Terminé
-InstallStatusLabel.GettingReady=Préparation...
-InstallStatusLabel.FormattingDisk=Formatage du lecteur sélectionné...
-InstallStatusLabel.CreatingPartitions=Création des partitions...
-InstallStatusLabel.InstallingWindows=Installation de Windows...
-InstallStatusLabel.InstallingBootFiles=Installation des fichiers de démarrages...
-InstallStatusLabel.InstallingDrivers=Installation des drivers...
-InstallStatusLabel.InstallFinished=L'installation est terminée !
-InstallStatusLabel.InstallFailed=L'installation a échoué !
 StatusBar.Idle=En attente
 StatusBar.LoadingDisks=Attente disque...
 StatusBar.MountingISO=Montage de l'image ISO...
@@ -87,3 +53,64 @@ StatusBar.CreatingBCD=Création du BCD...
 StatusBar.SettingTestMode=Configuration testsigning et nointegritychecks...
 StatusBar.ConvertingEFI=Conversion de la partition de démarrage en ESP...
 StatusBar.InstallingDrivers=Installation des drivers...
+
+[SelectDiskPage]
+SelectDiskLabel=Sélectionner le disque
+SelectDiskMsg=Note: Même si le nouveau pilote USB est stable, il n'est pas recommandé de démarrer à partir d'un périphérique USB car Windows ne peut pas créer un fichier de pagination sur celui-ci.
+DiskInfoBox.AtLeast8=La carte doit posséder au moins 8 Go d'espace disponible !
+DiskInfoBox.Good=La carte sélectionnée dispose d'au moins 8 Go d'espace disponible.
+DiskInfoBox.Enough=La carte dispose de suffisamment d'espace pour une installation compressée.
+
+[SelectImagePage]
+SelectImageLabel=Sélectionner l'image de Windows ARM
+WindowsEditionLabel=Edition Windows:
+WorkingBuildsTextBox=Note: Windows 10 1803 et les versions plus récentes sont connues pour fonctionner.%n%Version 1809 peut planter inopinément en raison de certains changements dans le pilote WppRecorder.sys, il faut donc l'éviter.
+SelectImgInfoBox.SelectedImageGood=L'image sélectionnée (version: %1) est valide !
+SelectImgInfoBox.SelectedImageInvalid=Le fichier sélectionné n'est pas une image Windows valide !
+SelectImgInfoBox.SelectedImageUnsupported=Le fichier sélectionné n'est pas supporté !
+
+[SelectDriversPage]
+SelectDriversLabel=Sélectionner les drivers
+DriversNoteTextBox=Note: Les drivers doivent être au format ZIP.
+NoDriversTextBox=Vous pouvez télécharger les derniers drivers ici:
+SelectDrvInfoBox.OK=L'archive est OK !
+SelectDrvInfoBox.LicenseNotAccepted=Vous n'avez pas accepté l'un des contrats de licence !
+
+[SelectUEFIPage]
+SelectUEFILabel=Sélectionner le firmware UEFI
+UEFINoteTextBox=Note: le firmware UEFI doit avoir cette extension de fichier: %2
+GetUEFITextBox=Vous pouvez télécharger le dernier firmware pour Raspbery Pi ici:
+
+[SetupConfigurationPage]
+ConfigurationLabel=Configuration
+InstallOptionsGroup=Options d'installation
+PartSchemeLabel=Table partition:
+ImgInstallLabel=Installer l'image avec:
+EnableLZXCheck=Activer la compression LZX
+BootOptionsGroup=Options du boot
+WoROptionsGroup=Option WoR
+SaveConfigExitLabel=Sauvegarder cette configuration en quittant
+
+[SetupOverviewPage]
+InstallOverviewLabel=Résumé d'installation
+InstallWarnBox=Attention! Toutes les données de votre appareil seront effacées ! Faites une sauvegarde de vos fichiers avant qu'il ne soit trop tard !
+TargetDeviceLabel=Cible
+OSLabel=Système d'exploitation
+DriversPathLabel=Chemin des drivers
+UEFIPathLabel=Chemin du firmware UEFI
+PartitionSchemeLabel=Table partitionnement
+ImageDeployerLabel=Déploiement image
+LZXCompressionLabel=Installation compressée LZX
+LZXCompression.YES=OUI
+LZXCompression.NO=NON
+
+[SetupProgressPage]
+InstallInfoBox=Ce processus peut prendre beaucoup de temps en fonction des performances de votre appareil.
+InstallStatusLabel.GettingReady=Préparation...
+InstallStatusLabel.FormattingDisk=Formatage du lecteur sélectionné...
+InstallStatusLabel.CreatingPartitions=Création des partitions...
+InstallStatusLabel.InstallingWindows=Installation de Windows...
+InstallStatusLabel.InstallingBootFiles=Installation des fichiers de démarrages...
+InstallStatusLabel.InstallingDrivers=Installation des drivers...
+InstallStatusLabel.InstallFinished=L'installation est terminée !
+InstallStatusLabel.InstallFailed=L'installation a échoué !

@@ -1,77 +1,43 @@
 ﻿[WoR lang file]
-WindowTitle=Windows on Raspberry
-LoggerWindowTitle=Логи
-AboutWindowTitle=Про програму
+Name=Українська (Ukrainian)
+Author=Volodymyr Borodaykevych
+IsComplete=1
+
+[AboutWindow]
+WindowTitle=Про програму
 AppVersionLabel=Версія
 CreditsPage=Вдячність
 ChangelogPage=Зміни
 LicensesPage=Ліцензування
-LicenseAgreementWindowTitle=Ліцензійна угода
+
+[LoggerWindow]
+WindowTitle=Логи
+
+[LicenseAgreementWindow]
+WindowTitle=Ліцензійна угода
 AcceptBtn=Погодитися
 DeclineBtn=Відхилити
+
+[Messages]
+AnErrorOccurred=Виникла помилка! Будь ласка, перевірте логи.
+TaskOngoing=В даний момент виконується операція.%n%Ви впевнені, шо хочете примусово закрити додаток?
+
+[MainWindow]
+WindowTitle=Windows on Raspberry
 WelcomePage=Ласкаво просимо!
+SelectDiskPage=Виберіть носій
+SelectImagePage=Вибір образу
+SelectDriversPage=Вибір драйверів
+SelectUEFIPage=UEFI прошивка
+ConfigurationPage=Конфігурація
+FinishPage=Втановити
 WelcomeLabel=Ласкаво просимо в Windows on Raspberry Imager!
 WelcomeMsgTextBox=WoR (Windows on Raspberry) - це інструмент, який допоможе встановити Windows на ARM(повна версія, не IoT) на Вашу SD карту для використання на Raspberry Pi 3B/3B+.
 SelectLangLabel=Виберіть вашу мову:
 NextPageBtn=Далі
 BackPageBtn=Назад
-SelectDiskPage=Виберіть носій
-SelectDiskLabel=Виберіть носій
-SelectDiskMsg=Примітка: Навіть якщо новий драйвер USB стабільний, завантаження з пристрою USB не рекомендуется, оскільки Windows не може створити на ньому файл підвантаження.
-DiskInfoBox.AtLeast8=Вибраний носій мусить мати, хоча б, 8 ГБ вільного місця!
-DiskInfoBox.Good=Вибраний носій підходить.
-DiskInfoBox.Enough=Вибраного носія вистачає, щоб встрановити стиснутий образ.
-SelectImagePage=Вибір образу
-SelectImageLabel=Виберіть ваш Windows ARM образ
-WindowsEditionLabel=Windows edition:
-WorkingBuildsTextBox=Примітка: Windows 10 1803 новіші версії, як відомо, працюють.%n%В версії 1809 може неочікувано статися збій через деякі зміни в драйвері WppRecorder.sys, так що її варто уникати.
-SelectImgInfoBox.SelectedImageGood=Вибраний файл образу (версія: %1) підходить!
-SelectImgInfoBox.SelectedImageInvalid=Вибраний файл є недійсним образом Windows!
-SelectImgInfoBox.SelectedImageUnsupported=Вибраний образ не підтримується!
-SelectDriversPage=Вибір драйверів
-SelectUEFIPage=UEFI прошивка
-ConfigurationPage=Конфігурація
-FinishPage=Втановити
-SelectDriversLabel=Виберіть драйвери
-DriversNoteTextBox=Примітка: драйвери мають бути запаковані в ZIP форматі.
-NoDriversTextBox=Ви можете отримати останню версію працюючих драйверов тут:
-SelectDrvInfoBox.OK=Архів драйверів підходить!
-SelectDrvInfoBox.LicenseNotAccepted=Ви не прийняли одну з ліцензійних угод!
-SelectUEFILabel=Виберіть UEFI прошивку
-UEFINoteTextBox=Примітка: UEFI прошивка має мати разширення файлу %2
-GetUEFITextBox=Ви можете отримати останню версію Raspberry Pi UEFI прошивки тут:
-Message.AnErrorOccurred=Виникла помилка! Будь ласка, перевірте логи.
-Message.TaskOngoing=В даний момент виконується операція.%n%Ви впевнені, шо хочете примусово закрити додаток?
-ConfigurationLabel=Конфігурація
-InstallOptionsGroup=Опції встановлення
-PartSchemeLabel=Схема розділів:
-ImgInstallLabel=Встановити образ через:
-EnableLZXCheck=Увімкнути LZX стискання
-BootOptionsGroup=Опції запуску
-WoROptionsGroup=Налаштування WoR
-SaveConfigExitLabel=Зберегти цю конфігурацію при виході
-InstallOverviewLabel=Огляд встановлення
-InstallInfoBox.Warn=УВАГА! Вся інформація з вашого носія буде видалена! Зробіть резервну копію ваших файлів, поки не стало надто пізно!
-InstallInfoBox.Time=Цей процес може тривати багато часу, в залежності від швидкодії носія.
-TargetDeviceLabel=Вибраний носій
-OSLabel=Операційна система
-DriversPathLabel=Шлях драйверів
-UEFIPathLabel=Шлях UEFI прошивки
-PartitionSchemeLabel=Схема розділів
-ImageDeployerLabel=Встановлювач образу
-LZXCompressionLabel=LZX стискання
-LZXCompression.YES=ТАК
-LZXCompression.NO=НІ
 NextPageBtn.Install=Встановити
 NextPageBtn.Finish=Закінчити
-InstallStatusLabel.GettingReady=Очікуйте...
-InstallStatusLabel.FormattingDisk=Форматування вибраного носія...
-InstallStatusLabel.CreatingPartitions=Створення розділів...
-InstallStatusLabel.InstallingWindows=Встановлення Windows...
-InstallStatusLabel.InstallingBootFiles=Встановлюються файли запуску...
-InstallStatusLabel.InstallingDrivers=Встановлюються драйвери...
-InstallStatusLabel.InstallFinished=Встановлення завершено!
-InstallStatusLabel.InstallFailed=Встановлення перервано!
 StatusBar.Idle=Очікування
 StatusBar.LoadingDisks=Завантаження драйверів...
 StatusBar.MountingISO=Монтування ISO образу...
@@ -87,3 +53,64 @@ StatusBar.CreatingBCD=Створення BCD...
 StatusBar.SettingTestMode=Налаштування тестового режиму і перевірка цифрового підпису драйверів...
 StatusBar.ConvertingEFI=Перетворення завантажувального разділу в ESP...
 StatusBar.InstallingDrivers=Втановлення драйверів...
+
+[SelectDiskPage]
+SelectDiskLabel=Виберіть носій
+SelectDiskMsg=Примітка: Навіть якщо новий драйвер USB стабільний, завантаження з пристрою USB не рекомендуется, оскільки Windows не може створити на ньому файл підвантаження.
+DiskInfoBox.AtLeast8=Вибраний носій мусить мати, хоча б, 8 ГБ вільного місця!
+DiskInfoBox.Good=Вибраний носій підходить.
+DiskInfoBox.Enough=Вибраного носія вистачає, щоб встрановити стиснутий образ.
+
+[SelectImagePage]
+SelectImageLabel=Виберіть ваш Windows ARM образ
+WindowsEditionLabel=Windows edition:
+WorkingBuildsTextBox=Примітка: Windows 10 1803 новіші версії, як відомо, працюють.%n%В версії 1809 може неочікувано статися збій через деякі зміни в драйвері WppRecorder.sys, так що її варто уникати.
+SelectImgInfoBox.SelectedImageGood=Вибраний файл образу (версія: %1) підходить!
+SelectImgInfoBox.SelectedImageInvalid=Вибраний файл є недійсним образом Windows!
+SelectImgInfoBox.SelectedImageUnsupported=Вибраний образ не підтримується!
+
+[SelectDriversPage]
+SelectDriversLabel=Виберіть драйвери
+DriversNoteTextBox=Примітка: драйвери мають бути запаковані в ZIP форматі.
+NoDriversTextBox=Ви можете отримати останню версію працюючих драйверов тут:
+SelectDrvInfoBox.OK=Архів драйверів підходить!
+SelectDrvInfoBox.LicenseNotAccepted=Ви не прийняли одну з ліцензійних угод!
+
+[SelectUEFIPage]
+SelectUEFILabel=Виберіть UEFI прошивку
+UEFINoteTextBox=Примітка: UEFI прошивка має мати разширення файлу %2
+GetUEFITextBox=Ви можете отримати останню версію Raspberry Pi UEFI прошивки тут:
+
+[SetupConfigurationPage]
+ConfigurationLabel=Конфігурація
+InstallOptionsGroup=Опції встановлення
+PartSchemeLabel=Схема розділів:
+ImgInstallLabel=Встановити образ через:
+EnableLZXCheck=Увімкнути LZX стискання
+BootOptionsGroup=Опції запуску
+WoROptionsGroup=Налаштування WoR
+SaveConfigExitLabel=Зберегти цю конфігурацію при виході
+
+[SetupOverviewPage]
+InstallOverviewLabel=Огляд встановлення
+InstallWarnBox=УВАГА! Вся інформація з вашого носія буде видалена! Зробіть резервну копію ваших файлів, поки не стало надто пізно!
+TargetDeviceLabel=Вибраний носій
+OSLabel=Операційна система
+DriversPathLabel=Шлях драйверів
+UEFIPathLabel=Шлях UEFI прошивки
+PartitionSchemeLabel=Схема розділів
+ImageDeployerLabel=Встановлювач образу
+LZXCompressionLabel=LZX стискання
+LZXCompression.YES=ТАК
+LZXCompression.NO=НІ
+
+[SetupProgressPage]
+InstallInfoBox=Цей процес може тривати багато часу, в залежності від швидкодії носія.
+InstallStatusLabel.GettingReady=Очікуйте...
+InstallStatusLabel.FormattingDisk=Форматування вибраного носія...
+InstallStatusLabel.CreatingPartitions=Створення розділів...
+InstallStatusLabel.InstallingWindows=Встановлення Windows...
+InstallStatusLabel.InstallingBootFiles=Встановлюються файли запуску...
+InstallStatusLabel.InstallingDrivers=Встановлюються драйвери...
+InstallStatusLabel.InstallFinished=Встановлення завершено!
+InstallStatusLabel.InstallFailed=Встановлення перервано!

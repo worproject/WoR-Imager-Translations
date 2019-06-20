@@ -1,78 +1,43 @@
 ﻿[WoR lang file]
-Lang.IsOutdated=1
-WindowTitle=Windows on Raspberry
-LoggerWindowTitle=Dzienniki
-AboutWindowTitle=O Programie
+Name=Polski (Polish)
+Author=macmmm81 , Gotard
+IsComplete=0
+
+[AboutWindow]
+WindowTitle=O Programie
 AppVersionLabel=Wersja
 CreditsPage=Uznanie
 ChangelogPage=Changelog
 LicensesPage=Informacje Licencyjne
-LicenseAgreementWindowTitle=License agreement
+
+[LoggerWindow]
+WindowTitle=Dzienniki
+
+[LicenseAgreementWindow]
+WindowTitle=License agreement
 AcceptBtn=Accept
 DeclineBtn=Decline
+
+[Messages]
+AnErrorOccurred=Wystąpił błąd! Proszę, sprawdź dziennik programu.
+TaskOngoing=Wybrana operacja jest ciągle wykonywana.%n%Czy naprawdę chcesz wymusić zamknięcie programu?
+
+[MainWindow]
+WindowTitle=Windows on Raspberry
 WelcomePage=Witaj!
+SelectDiskPage=Wybór urządzenia
+SelectImagePage=Wybór obrazu systemu
+SelectDriversPage=Wybór sterowników
+SelectUEFIPage=Wybór pliku UEFI
+ConfigurationPage=Konfiguracja Instalacji
+FinishPage=Instalacja
 WelcomeLabel=Witaj w Windows on Raspberry Imager!
 WelcomeMsgTextBox=WoR (Windows on Raspberry) jest narzędziem, które potrafi zainstalować system Windows on ARM (pełna wersja, nie IoT) na twojej karcie SD do zastosowania w Raspberry Pi 3 B/B+.
 SelectLangLabel=Wybierz język:
 NextPageBtn=Dalej
 BackPageBtn=Wstecz
-SelectDiskPage=Wybór urządzenia
-SelectDiskLabel=Wybór urządzenia
-SelectDiskMsg=Note: Even though the new USB driver is stable, booting from an USB device is not recommended since Windows can't create a paging file on it.
-DiskInfoBox.AtLeast8=Urządzenie musi mieć co najmniej 8GB wolnego miejsca!
-DiskInfoBox.Good=Wybrane urządzenie posiada co najmniej 8GB wolnego miejsca.
-DiskInfoBox.Enough=Wybrane urządzenie posiada wystarczająco dużo miejsca na skompresowaną instalację.
-SelectImagePage=Wybór obrazu systemu
-SelectImageLabel=Wybierz obraz systemu Windows on ARM
-WindowsEditionLabel=Wersja Windows:
-WorkingBuildsTextBox=Note: Windows 10 1803 and newer versions are known to work.%n%Version 1809 can crash unexpectedly due to some changes in the WppRecorder.sys driver, so it should be avoided.
-SelectImgInfoBox.SelectedImageGood=Wybrany obraz (w wersji: %1) jest w porządku!
-SelectImgInfoBox.SelectedImageInvalid=Wybrany plik nie jest prawidłowym plikiem obrazu systemu Windows!
-SelectImgInfoBox.SelectedImageUnsupported=Wybrany plik obrazu jest nie wspierany!!
-SelectDriversPage=Wybór sterowników
-SelectUEFIPage=Wybór pliku UEFI
-ConfigurationPage=Konfiguracja Instalacji
-FinishPage=Instalacja
-SelectDriversLabel=Wybierz sterowniki
-DriversNoteTextBox=Uwaga: sterowniki muszą być spakowane do pliku ZIP!
-NoDriversTextBox=Możesz pobrać najnowsze działające sterowniki z:
-SelectDrvInfoBox.OK=Archiwum ze sterownikami jest w porządku!
-SelectDrvInfoBox.LicenseNotAccepted=You have not accepted one of the license agreements!
-SelectUEFILabel=Wybierz oprogramowanie UEFI
-UEFINoteTextBox=Uwaga: plik oprogramowania UEFI musi mieć rozszerzenie %2.
-GetUEFITextBox=Możesz pobrać najnowsze oprogramowanie UEFI z:
-Message.AnErrorOccurred=Wystąpił błąd! Proszę, sprawdź dziennik programu.
-Message.TaskOngoing=Wybrana operacja jest ciągle wykonywana.%n%Czy naprawdę chcesz wymusić zamknięcie programu?
-ConfigurationLabel=Konfiguracja Instalacji
-InstallOptionsGroup=Opcje instalacji
-PartSchemeLabel=Mapa Partycji:
-ImgInstallLabel=Zainstaluj obraz używając:
-EnableLZXCheck=Aktywuj kompresję instalacji LZX
-BootOptionsGroup=Ustawienia rozruchu
-WoROptionsGroup=Ustawienia WoR
-SaveConfigExitLabel=Zapisz tę konfigurację
-InstallOverviewLabel=Podsumowanie instalacji
-InstallInfoBox.Warn=Ostrzenie! Wszystkie dane na wybranym urządzeniu zostaną usunięte! Utwórz kopię zapasową wszystkich ważnych plików, zanim będzie za późno!
-InstallInfoBox.Time=Ten proces może zająć trochę czasu, w zależności od prędkości twojej urządzenia.
-TargetDeviceLabel=Urządzenie docelowe
-OSLabel=System operacyjny
-DriversPathLabel=Ścieżka do sterowników
-UEFIPathLabel=Ścieżka do pliku oprogramowania UEFI
-PartitionSchemeLabel=Mapa Partycji
-ImageDeployerLabel=Metoda instalacji obrazu
-LZXCompressionLabel=Kompresja instalacji LZX
-LZXCompression.YES=TAK
-LZXCompression.NO=NIE
 NextPageBtn.Install=Zainstaluj
 NextPageBtn.Finish=Zakończ
-InstallStatusLabel.GettingReady=Przygotowywanie...
-InstallStatusLabel.FormattingDisk=Formatowanie urządzenia docelowego...
-InstallStatusLabel.CreatingPartitions=Tworzenie partycji...
-InstallStatusLabel.InstallingWindows=Instalowanie systemu Windows...
-InstallStatusLabel.InstallingBootFiles=Instalowanie plików rozruchowych...
-InstallStatusLabel.InstallingDrivers=Instalowanie sterowników...
-InstallStatusLabel.InstallFinished=Instalacja została zakończona!
-InstallStatusLabel.InstallFailed=Instalacja się nie powiodła!
 StatusBar.Idle=Beczynny
 StatusBar.LoadingDisks=Ładowanie sterowników...
 StatusBar.MountingISO=Montowanie obrazu ISO...
@@ -88,3 +53,64 @@ StatusBar.CreatingBCD=Tworzenie BCD...
 StatusBar.SettingTestMode=Włączanie "testsigning" oraz "nointegritychecks"...
 StatusBar.ConvertingEFI=Konwersja partycji rozruchowej na ESP...
 StatusBar.InstallingDrivers=Instalowanie sterowników...
+
+[SelectDiskPage]
+SelectDiskLabel=Wybór urządzenia
+SelectDiskMsg=Note: Even though the new USB driver is stable, booting from an USB device is not recommended since Windows can't create a paging file on it.
+DiskInfoBox.AtLeast8=Urządzenie musi mieć co najmniej 8GB wolnego miejsca!
+DiskInfoBox.Good=Wybrane urządzenie posiada co najmniej 8GB wolnego miejsca.
+DiskInfoBox.Enough=Wybrane urządzenie posiada wystarczająco dużo miejsca na skompresowaną instalację.
+
+[SelectImagePage]
+SelectImageLabel=Wybierz obraz systemu Windows on ARM
+WindowsEditionLabel=Wersja Windows:
+WorkingBuildsTextBox=Note: Windows 10 1803 and newer versions are known to work.%n%Version 1809 can crash unexpectedly due to some changes in the WppRecorder.sys driver, so it should be avoided.
+SelectImgInfoBox.SelectedImageGood=Wybrany obraz (w wersji: %1) jest w porządku!
+SelectImgInfoBox.SelectedImageInvalid=Wybrany plik nie jest prawidłowym plikiem obrazu systemu Windows!
+SelectImgInfoBox.SelectedImageUnsupported=Wybrany plik obrazu jest nie wspierany!!
+
+[SelectDriversPage]
+SelectDriversLabel=Wybierz sterowniki
+DriversNoteTextBox=Uwaga: sterowniki muszą być spakowane do pliku ZIP!
+NoDriversTextBox=Możesz pobrać najnowsze działające sterowniki z:
+SelectDrvInfoBox.OK=Archiwum ze sterownikami jest w porządku!
+SelectDrvInfoBox.LicenseNotAccepted=You have not accepted one of the license agreements!
+
+[SelectUEFIPage]
+SelectUEFILabel=Wybierz oprogramowanie UEFI
+UEFINoteTextBox=Uwaga: plik oprogramowania UEFI musi mieć rozszerzenie %2.
+GetUEFITextBox=Możesz pobrać najnowsze oprogramowanie UEFI z:
+
+[SetupConfigurationPage]
+ConfigurationLabel=Konfiguracja Instalacji
+InstallOptionsGroup=Opcje instalacji
+PartSchemeLabel=Mapa Partycji:
+ImgInstallLabel=Zainstaluj obraz używając:
+EnableLZXCheck=Aktywuj kompresję instalacji LZX
+BootOptionsGroup=Ustawienia rozruchu
+WoROptionsGroup=Ustawienia WoR
+SaveConfigExitLabel=Zapisz tę konfigurację
+
+[SetupOverviewPage]
+InstallOverviewLabel=Podsumowanie instalacji
+InstallWarnBox=Ostrzenie! Wszystkie dane na wybranym urządzeniu zostaną usunięte! Utwórz kopię zapasową wszystkich ważnych plików, zanim będzie za późno!
+TargetDeviceLabel=Urządzenie docelowe
+OSLabel=System operacyjny
+DriversPathLabel=Ścieżka do sterowników
+UEFIPathLabel=Ścieżka do pliku oprogramowania UEFI
+PartitionSchemeLabel=Mapa Partycji
+ImageDeployerLabel=Metoda instalacji obrazu
+LZXCompressionLabel=Kompresja instalacji LZX
+LZXCompression.YES=TAK
+LZXCompression.NO=NIE
+
+[SetupProgressPage]
+InstallInfoBox=Ten proces może zająć trochę czasu, w zależności od prędkości twojej urządzenia.
+InstallStatusLabel.GettingReady=Przygotowywanie...
+InstallStatusLabel.FormattingDisk=Formatowanie urządzenia docelowego...
+InstallStatusLabel.CreatingPartitions=Tworzenie partycji...
+InstallStatusLabel.InstallingWindows=Instalowanie systemu Windows...
+InstallStatusLabel.InstallingBootFiles=Instalowanie plików rozruchowych...
+InstallStatusLabel.InstallingDrivers=Instalowanie sterowników...
+InstallStatusLabel.InstallFinished=Instalacja została zakończona!
+InstallStatusLabel.InstallFailed=Instalacja się nie powiodła!

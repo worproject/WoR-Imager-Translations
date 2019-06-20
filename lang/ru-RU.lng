@@ -1,77 +1,43 @@
 ﻿[WoR lang file]
-WindowTitle=Windows on Raspberry
-LoggerWindowTitle=Логи
-AboutWindowTitle=О программе
+Name=Русский (Russian)
+Author=Andryshik345 , beeoss
+IsComplete=1
+
+[AboutWindow]
+WindowTitle=О программе
 AppVersionLabel=Версия
 CreditsPage=Благодарность
 ChangelogPage=Изменения
 LicensesPage=Лицензирование
-LicenseAgreementWindowTitle=Лицензионное соглашение
+
+[LoggerWindow]
+WindowTitle=Логи
+
+[LicenseAgreementWindow]
+WindowTitle=Лицензионное соглашение
 AcceptBtn=Принять
 DeclineBtn=Отклонить
+
+[Messages]
+AnErrorOccurred=Произошла ошибка! Пожалуйста, проверьте логи.
+TaskOngoing=В данный момент выполняется операция.%n%Вы уверены, что хотите принудительно закрыть приложение?
+
+[MainWindow]
+WindowTitle=Windows on Raspberry
 WelcomePage=Добро пожаловать!
+SelectDiskPage=Выберите носитель
+SelectImagePage=Выбор образа
+SelectDriversPage=Выбор драйверов
+SelectUEFIPage=UEFI прошивка
+ConfigurationPage=Конфигурация
+FinishPage=Установить
 WelcomeLabel=Добро пожаловать в Windows on Raspberry Imager!
 WelcomeMsgTextBox=WoR (Windows on Raspberry) - это инструмент, который поможет установить Windows на ARM(полная версия, не IoT) на Вашу SD карту для использования на Raspberry Pi 3B/3B+.
 SelectLangLabel=Выберите ваш язык:
 NextPageBtn=Далее
 BackPageBtn=Назад
-SelectDiskPage=Выберите носитель
-SelectDiskLabel=Выберите носитель
-SelectDiskMsg=Примечание: Даже если новый драйвер USB стабилен, загрузка с устройства USB не рекомендуется, поскольку Windows не может создать на нем файл подкачки.
-DiskInfoBox.AtLeast8=Выбранный носитель должен иметь, хотя бы, 8 ГБ свободного места!
-DiskInfoBox.Good=Выбранный носитель подходит.
-DiskInfoBox.Enough=Выбранного носителя хватит, чтобы установить сжатый образ.
-SelectImagePage=Выбор образа
-SelectImageLabel=Выберите ваш Windows ARM образ
-WindowsEditionLabel=Windows edition:
-WorkingBuildsTextBox=Примечание: Windows 10 1803 и более новые версии, как известно, работают.%n%В версии 1809 может неожиданно произойти сбой из-за некоторых изменений в драйвере WppRecorder.sys, так что ее следует избегать.
-SelectImgInfoBox.SelectedImageGood=Выбранный файл образа (версия: %1) подходит!
-SelectImgInfoBox.SelectedImageInvalid=Выбранный файл не подходит в роли образа Windows!
-SelectImgInfoBox.SelectedImageUnsupported=Выбранный образ не поддерживается!
-SelectDriversPage=Выбор драйверов
-SelectUEFIPage=UEFI прошивка
-ConfigurationPage=Конфигурация
-FinishPage=Установить
-SelectDriversLabel=Выберите драйвера
-DriversNoteTextBox=Примечание: драйвера должен быть упакованы в ZIP формате.
-NoDriversTextBox=Вы можете получить последнюю версию рабочих драйверов здесь:
-SelectDrvInfoBox.OK=Архив драйверов подходит!
-SelectDrvInfoBox.LicenseNotAccepted=Вы не приняли одно из лицензионных соглашений!
-SelectUEFILabel=Выберите UEFI прошивку
-UEFINoteTextBox=Примечание: UEFI прошивка должна иметь расширение файла %2
-GetUEFITextBox=Вы можете получить последнюю версию Raspberry Pi UEFI прошивки отсюда:
-Message.AnErrorOccurred=Произошла ошибка! Пожалуйста, проверьте логи.
-Message.TaskOngoing=В данный момент выполняется операция.%n%Вы уверены, что хотите принудительно закрыть приложение?
-ConfigurationLabel=Конфигурация
-InstallOptionsGroup=Опции установки
-PartSchemeLabel=Схема разделов:
-ImgInstallLabel=Установить образ через:
-EnableLZXCheck=Включить LZX сжатие
-BootOptionsGroup=Опции запуска
-WoROptionsGroup=Настройки WoR
-SaveConfigExitLabel=Сохранить эту конфигурацию при выходе
-InstallOverviewLabel=Обзор установки
-InstallInfoBox.Warn=ВНИМАНИЕ! Вся информация с вашего носителя будет удалена! Сделайте резервную копию ваших файлов, пока не стало слишком поздно!
-InstallInfoBox.Time=Этот процесс может занять длительное время, в зависимости от производительности носителя.
-TargetDeviceLabel=Выбранный носитель
-OSLabel=Операционная система
-DriversPathLabel=Путь драйверов
-UEFIPathLabel=Путь UEFI прошивки
-PartitionSchemeLabel=Схема разделов
-ImageDeployerLabel=Установщик образа
-LZXCompressionLabel=LZX сжатие
-LZXCompression.YES=ДА
-LZXCompression.NO=НЕТ
 NextPageBtn.Install=Установить
 NextPageBtn.Finish=Завершить
-InstallStatusLabel.GettingReady=Ожидайте... 
-InstallStatusLabel.FormattingDisk=Форматирование выбранного носителя...
-InstallStatusLabel.CreatingPartitions=Создание разделов... 
-InstallStatusLabel.InstallingWindows=Устанавливается Windows...
-InstallStatusLabel.InstallingBootFiles=Устанавливаются файлы запуска...
-InstallStatusLabel.InstallingDrivers=Устанавливаются драйвера...
-InstallStatusLabel.InstallFinished=Установка завершена!
-InstallStatusLabel.InstallFailed=Установка прервана!
 StatusBar.Idle=Ожидание
 StatusBar.LoadingDisks=Загрузка драйверов...
 StatusBar.MountingISO=Монтирование ISO образа...
@@ -87,3 +53,64 @@ StatusBar.CreatingBCD=Создание BCD...
 StatusBar.SettingTestMode=Настройка тестового режима и проверки цифровой подписи драйверов...
 StatusBar.ConvertingEFI=Преобразование загрузочного раздела в ESP...
 StatusBar.InstallingDrivers=Установка драйверов...
+
+[SelectDiskPage]
+SelectDiskLabel=Выберите носитель
+SelectDiskMsg=Примечание: Даже если новый драйвер USB стабилен, загрузка с устройства USB не рекомендуется, поскольку Windows не может создать на нем файл подкачки.
+DiskInfoBox.AtLeast8=Выбранный носитель должен иметь, хотя бы, 8 ГБ свободного места!
+DiskInfoBox.Good=Выбранный носитель подходит.
+DiskInfoBox.Enough=Выбранного носителя хватит, чтобы установить сжатый образ.
+
+[SelectImagePage]
+SelectImageLabel=Выберите ваш Windows ARM образ
+WindowsEditionLabel=Windows edition:
+WorkingBuildsTextBox=Примечание: Windows 10 1803 и более новые версии, как известно, работают.%n%В версии 1809 может неожиданно произойти сбой из-за некоторых изменений в драйвере WppRecorder.sys, так что ее следует избегать.
+SelectImgInfoBox.SelectedImageGood=Выбранный файл образа (версия: %1) подходит!
+SelectImgInfoBox.SelectedImageInvalid=Выбранный файл не подходит в роли образа Windows!
+SelectImgInfoBox.SelectedImageUnsupported=Выбранный образ не поддерживается!
+
+[SelectDriversPage]
+SelectDriversLabel=Выберите драйвера
+DriversNoteTextBox=Примечание: драйвера должен быть упакованы в ZIP формате.
+NoDriversTextBox=Вы можете получить последнюю версию рабочих драйверов здесь:
+SelectDrvInfoBox.OK=Архив драйверов подходит!
+SelectDrvInfoBox.LicenseNotAccepted=Вы не приняли одно из лицензионных соглашений!
+
+[SelectUEFIPage]
+SelectUEFILabel=Выберите UEFI прошивку
+UEFINoteTextBox=Примечание: UEFI прошивка должна иметь расширение файла %2
+GetUEFITextBox=Вы можете получить последнюю версию Raspberry Pi UEFI прошивки отсюда:
+
+[SetupConfigurationPage]
+ConfigurationLabel=Конфигурация
+InstallOptionsGroup=Опции установки
+PartSchemeLabel=Схема разделов:
+ImgInstallLabel=Установить образ через:
+EnableLZXCheck=Включить LZX сжатие
+BootOptionsGroup=Опции запуска
+WoROptionsGroup=Настройки WoR
+SaveConfigExitLabel=Сохранить эту конфигурацию при выходе
+
+[SetupOverviewPage]
+InstallOverviewLabel=Обзор установки
+InstallWarnBox=ВНИМАНИЕ! Вся информация с вашего носителя будет удалена! Сделайте резервную копию ваших файлов, пока не стало слишком поздно!
+TargetDeviceLabel=Выбранный носитель
+OSLabel=Операционная система
+DriversPathLabel=Путь драйверов
+UEFIPathLabel=Путь UEFI прошивки
+PartitionSchemeLabel=Схема разделов
+ImageDeployerLabel=Установщик образа
+LZXCompressionLabel=LZX сжатие
+LZXCompression.YES=ДА
+LZXCompression.NO=НЕТ
+
+[SetupProgressPage]
+InstallInfoBox=Этот процесс может занять длительное время, в зависимости от производительности носителя.
+InstallStatusLabel.GettingReady=Ожидайте... 
+InstallStatusLabel.FormattingDisk=Форматирование выбранного носителя...
+InstallStatusLabel.CreatingPartitions=Создание разделов... 
+InstallStatusLabel.InstallingWindows=Устанавливается Windows...
+InstallStatusLabel.InstallingBootFiles=Устанавливаются файлы запуска...
+InstallStatusLabel.InstallingDrivers=Устанавливаются драйвера...
+InstallStatusLabel.InstallFinished=Установка завершена!
+InstallStatusLabel.InstallFailed=Установка прервана!

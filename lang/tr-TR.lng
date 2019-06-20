@@ -1,78 +1,43 @@
 ﻿[WoR lang file]
-Lang.IsOutdated=1
-WindowTitle=Windows on Raspberry
-LoggerWindowTitle=Logs
-AboutWindowTitle=About
+Name=Türkçe (Turkish)
+Author=pixelomer
+IsComplete=0
+
+[AboutWindow]
+WindowTitle=About
 AppVersionLabel=Version
 CreditsPage=Credits
 ChangelogPage=Changelog
 LicensesPage=Licenses
-LicenseAgreementWindowTitle=License agreement
+
+[LoggerWindow]
+WindowTitle=Logs
+
+[LicenseAgreementWindow]
+WindowTitle=License agreement
 AcceptBtn=Accept
 DeclineBtn=Decline
+
+[Messages]
+AnErrorOccurred=An error occurred! Please check the logs.
+TaskOngoing=An operation is currently in progress.%n%Are you sure you want to force close the application?
+
+[MainWindow]
+WindowTitle=Windows on Raspberry
 WelcomePage=Merhaba
+SelectDiskPage=Cihaz seç
+SelectImagePage=Görüntü Seç
+SelectDriversPage=Sürücüleri Seç
+SelectUEFIPage=UEFI Yazılımı
+ConfigurationPage=Konfigurasyon
+FinishPage=Yükle
 WelcomeLabel=WoR SD kart oluşturucusuna hoşgeldiniz!
 WelcomeMsgTextBox=WoR (Windows on Raspberry) Raspberry Pi 3B yada 3B+ ile kullanım için SD kartınıza Windows 10 (masaüstü versiyonudur, Windows 10 IoT değildir) kurmanızı sağlayan bir araçtır.
 SelectLangLabel=Dilinizi seçiniz:
 NextPageBtn=İleri
 BackPageBtn=Geri
-SelectDiskPage=Cihaz seç
-SelectDiskLabel=Cihaz seç
-SelectDiskMsg=Note: Even though the new USB driver is stable, booting from an USB device is not recommended since Windows can't create a paging file on it.
-DiskInfoBox.AtLeast8=Cihazda en az 8GB alan olmalıdır!
-DiskInfoBox.Good=Seçilen cihazda en az 8GB alan var.
-DiskInfoBox.Enough=The selected device has enough space for a compressed installation.
-SelectImagePage=Görüntü Seç
-SelectImageLabel=Windows 10 ARM görüntünüzü seçin
-WindowsEditionLabel=Windows edition:
-WorkingBuildsTextBox=Note: Windows 10 1803 and newer versions are known to work.%n%Version 1809 can crash unexpectedly due to some changes in the WppRecorder.sys driver, so it should be avoided.
-SelectImgInfoBox.SelectedImageGood=Seçilen görüntü (versiyon: %1) uygun!
-SelectImgInfoBox.SelectedImageInvalid=The selected file is not a valid Windows image!
-SelectImgInfoBox.SelectedImageUnsupported=The selected image file is not supported!
-SelectDriversPage=Sürücüleri Seç
-SelectUEFIPage=UEFI Yazılımı
-ConfigurationPage=Konfigurasyon
-FinishPage=Yükle
-SelectDriversLabel=Sürücüleri seçin
-DriversNoteTextBox=Not: Sürücüler ZIP dosya formatı ile arşivlenmiş olmalıdır.
-NoDriversTextBox=En güncel sürücüleri buradan alabilirsiniz:
-SelectDrvInfoBox.OK=The drivers archive is OK!
-SelectDrvInfoBox.LicenseNotAccepted=You have not accepted one of the license agreements!
-SelectUEFILabel=UEFI yazılımını seçin
-UEFINoteTextBox=Not: UEFI yazılımı %2 dosya formatında olmalıdır.
-GetUEFITextBox=En güncel Raspberry Pi UEFI yazılımını buradan alabilirsiniz:
-Message.AnErrorOccurred=An error occurred! Please check the logs.
-Message.TaskOngoing=An operation is currently in progress.%n%Are you sure you want to force close the application?
-ConfigurationLabel=Konfigurasyon
-InstallOptionsGroup=Kurulum seçenekleri
-PartSchemeLabel=Bölümleme tablosu:
-ImgInstallLabel=Install image with:
-EnableLZXCheck=LZX kurulum sıkıştırmasını etkinleştir
-BootOptionsGroup=Önyükleme seçenekleri
-WoROptionsGroup=WoR seçenekleri
-SaveConfigExitLabel=Bu konfigurasyonu kaydet ve çık
-InstallOverviewLabel=Kurulum - Genel bakış
-InstallInfoBox.Warn=Uyarı! Cihazdaki tüm veriler silinecektir! Çok geç olmadan önemli dosyalarınızı yedekleyin!
-InstallInfoBox.Time=This process may take a long time depending on the device performance.
-TargetDeviceLabel=Hedef cihaz
-OSLabel=İşletim sistemi
-DriversPathLabel=Sürücüler
-UEFIPathLabel=UEFI yazılımı
-PartitionSchemeLabel=Bölümleme tablosu
-ImageDeployerLabel=Görüntüyü oluşturma yöntemi
-LZXCompressionLabel=LZX kurulum sıkıştırması
-LZXCompression.YES=EVET
-LZXCompression.NO=HAYIR
 NextPageBtn.Install=Kur
 NextPageBtn.Finish=Bitir
-InstallStatusLabel.GettingReady=Hazırlanıyor...
-InstallStatusLabel.FormattingDisk=Hedef cihaz biçimlendiriliyor...
-InstallStatusLabel.CreatingPartitions=Bölüntüler oluşturuluyor...
-InstallStatusLabel.InstallingWindows=Windows kuruluyor...
-InstallStatusLabel.InstallingBootFiles=Önyükleme dosyaları yaratılıyor...
-InstallStatusLabel.InstallingDrivers=Sürücüler kuruluyor...
-InstallStatusLabel.InstallFinished=Kurulum tamamlandı!
-InstallStatusLabel.InstallFailed=The installation has failed!
 StatusBar.Idle=Boşta
 StatusBar.LoadingDisks=Diskler yükleniyor...
 StatusBar.MountingISO=ISO dosyası bağlanıyor...
@@ -88,3 +53,64 @@ StatusBar.CreatingBCD=BCD yaratılıyor...
 StatusBar.SettingTestMode=testsigning ve nointegritychecks değişkenleri ayarlanıyor...
 StatusBar.ConvertingEFI=Önyükleme bölüntüsü EFI Sistem Bölümüne dönüştürülüyor...
 StatusBar.InstallingDrivers=Sürücüler kuruluyor...
+
+[SelectDiskPage]
+SelectDiskLabel=Cihaz seç
+SelectDiskMsg=Note: Even though the new USB driver is stable, booting from an USB device is not recommended since Windows can't create a paging file on it.
+DiskInfoBox.AtLeast8=Cihazda en az 8GB alan olmalıdır!
+DiskInfoBox.Good=Seçilen cihazda en az 8GB alan var.
+DiskInfoBox.Enough=The selected device has enough space for a compressed installation.
+
+[SelectImagePage]
+SelectImageLabel=Windows 10 ARM görüntünüzü seçin
+WindowsEditionLabel=Windows edition:
+WorkingBuildsTextBox=Note: Windows 10 1803 and newer versions are known to work.%n%Version 1809 can crash unexpectedly due to some changes in the WppRecorder.sys driver, so it should be avoided.
+SelectImgInfoBox.SelectedImageGood=Seçilen görüntü (versiyon: %1) uygun!
+SelectImgInfoBox.SelectedImageInvalid=The selected file is not a valid Windows image!
+SelectImgInfoBox.SelectedImageUnsupported=The selected image file is not supported!
+
+[SelectDriversPage]
+SelectDriversLabel=Sürücüleri seçin
+DriversNoteTextBox=Not: Sürücüler ZIP dosya formatı ile arşivlenmiş olmalıdır.
+NoDriversTextBox=En güncel sürücüleri buradan alabilirsiniz:
+SelectDrvInfoBox.OK=The drivers archive is OK!
+SelectDrvInfoBox.LicenseNotAccepted=You have not accepted one of the license agreements!
+
+[SelectUEFIPage]
+SelectUEFILabel=UEFI yazılımını seçin
+UEFINoteTextBox=Not: UEFI yazılımı %2 dosya formatında olmalıdır.
+GetUEFITextBox=En güncel Raspberry Pi UEFI yazılımını buradan alabilirsiniz:
+
+[SetupConfigurationPage]
+ConfigurationLabel=Konfigurasyon
+InstallOptionsGroup=Kurulum seçenekleri
+PartSchemeLabel=Bölümleme tablosu:
+ImgInstallLabel=Install image with:
+EnableLZXCheck=LZX kurulum sıkıştırmasını etkinleştir
+BootOptionsGroup=Önyükleme seçenekleri
+WoROptionsGroup=WoR seçenekleri
+SaveConfigExitLabel=Bu konfigurasyonu kaydet ve çık
+
+[SetupOverviewPage]
+InstallOverviewLabel=Kurulum - Genel bakış
+InstallWarnBox=Uyarı! Cihazdaki tüm veriler silinecektir! Çok geç olmadan önemli dosyalarınızı yedekleyin!
+TargetDeviceLabel=Hedef cihaz
+OSLabel=İşletim sistemi
+DriversPathLabel=Sürücüler
+UEFIPathLabel=UEFI yazılımı
+PartitionSchemeLabel=Bölümleme tablosu
+ImageDeployerLabel=Görüntüyü oluşturma yöntemi
+LZXCompressionLabel=LZX kurulum sıkıştırması
+LZXCompression.YES=EVET
+LZXCompression.NO=HAYIR
+
+[SetupProgressPage]
+InstallInfoBox=This process may take a long time depending on the device performance.
+InstallStatusLabel.GettingReady=Hazırlanıyor...
+InstallStatusLabel.FormattingDisk=Hedef cihaz biçimlendiriliyor...
+InstallStatusLabel.CreatingPartitions=Bölüntüler oluşturuluyor...
+InstallStatusLabel.InstallingWindows=Windows kuruluyor...
+InstallStatusLabel.InstallingBootFiles=Önyükleme dosyaları yaratılıyor...
+InstallStatusLabel.InstallingDrivers=Sürücüler kuruluyor...
+InstallStatusLabel.InstallFinished=Kurulum tamamlandı!
+InstallStatusLabel.InstallFailed=The installation has failed!

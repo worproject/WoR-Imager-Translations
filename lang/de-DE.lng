@@ -1,77 +1,43 @@
 ﻿[WoR lang file]
-WindowTitle=Windows on Raspberry
-LoggerWindowTitle=Logdatei
-AboutWindowTitle=Über
+Name=Deutsch (German)
+Author=BastiJames333 , Schule04
+IsComplete=1
+
+[AboutWindow]
+WindowTitle=Über
 AppVersionLabel=Version
 CreditsPage=Mitwirkende
 ChangelogPage=Changelog
 LicensesPage=Lizenz
-LicenseAgreementWindowTitle=Lizenzabkommen
+
+[LoggerWindow]
+WindowTitle=Logdatei
+
+[LicenseAgreementWindow]
+WindowTitle=Lizenzabkommen
 AcceptBtn=Akzeptieren
 DeclineBtn=Ablehnen
+
+[Messages]
+AnErrorOccurred=Ein Fehler ist aufgetreten! Prüfen Sie die Logs.
+TaskOngoing=Es wird gerade ein Vorgang ausgeführt.%n%Möchten Sie das Schließen der Anwendung wirklich erzwingen?
+
+[MainWindow]
+WindowTitle=Windows on Raspberry
 WelcomePage=Willkommen
+SelectDiskPage=Gerät wählen
+SelectImagePage=Imagedatei wählen
+SelectDriversPage=Treiberpaket
+SelectUEFIPage=UEFI-Firmware
+ConfigurationPage=Konfiguration
+FinishPage=Installation
 WelcomeLabel=Willkommen zum Windows on Raspberry Imager!
 WelcomeMsgTextBox=WoR (Windows on Raspberry) ist ein Tool zum Instalieren von Windows on ARM (volle Desktop-Version, nicht IoT) auf Ihrer SD-Karte zum Gebrauch in einem Raspberry Pi 3 B/B+.
 SelectLangLabel=Sprache wählen:
 NextPageBtn=Weiter
 BackPageBtn=Zurück
-SelectDiskPage=Gerät wählen
-SelectDiskLabel=Wählen Sie das Gerät aus
-SelectDiskMsg=Achtung: Obwohl der neue USB-Treiber stabil ist, wird das Booten von einem USB-Gerät nicht empfohlen, da Windows keine Auslagerungsdatei darauf erstellen kann.
-DiskInfoBox.AtLeast8=Das Gerät muss mindestens 8GB Speicher haben!
-DiskInfoBox.Good=Das gewählte Gerät hat mindestens 8GB verfügbaren Speicher.
-DiskInfoBox.Enough=Das gewählte Gerät hat genug Speicher für eine gepackte Installation.
-SelectImagePage=Imagedatei wählen
-SelectImageLabel=Wählen Sie Ihre Windows on ARM-Imagedatei:
-WindowsEditionLabel=Windows Edition:
-WorkingBuildsTextBox=Achtung: Es ist bekannt, dass Windows 10 1803 und neuere Versionen funktionieren.%n%Die Version 1809 kann aufgrund einiger Änderungen des WppRecorder.sys-Treibers unerwartet abstürzen und sollte daher vermieden werden.
-SelectImgInfoBox.SelectedImageGood=Das ausgewählte Image (Version: %1) ist gut!
-SelectImgInfoBox.SelectedImageInvalid=Die ausgewählte Datei ist kein gültiges Windows-Abbild!
-SelectImgInfoBox.SelectedImageUnsupported=Das ausgewählte Image wird nicht unterstützt!
-SelectDriversPage=Treiberpaket
-SelectUEFIPage=UEFI-Firmware
-ConfigurationPage=Konfiguration
-FinishPage=Installation
-SelectDriversLabel=Treiber wählen
-DriversNoteTextBox=Hinweis: Die Treiber müssen im ZIP-Dateiformat archiviert sein.
-NoDriversTextBox=Sie können die neuesten funktionierenden Treiber hier erhalten:
-SelectDrvInfoBox.OK=Das Treiberarchiv ist OK!
-SelectDrvInfoBox.LicenseNotAccepted=Sie haben die Lizenzvereinbarung nicht akzeptiert!
-SelectUEFILabel=UEFI-Firmware wählen
-UEFINoteTextBox=Hinweis: Die UEFI-Firmware muss als Dateiendung %2 haben.
-GetUEFITextBox=Sie können die neueste Raspberry Pi UEFI-Firmware hier erhalten:
-Message.AnErrorOccurred=Ein Fehler ist aufgetreten! Prüfen Sie die Logs.
-Message.TaskOngoing=Es wird gerade ein Vorgang ausgeführt.%n%Möchten Sie das Schließen der Anwendung wirklich erzwingen?
-ConfigurationLabel=Konfiguration
-InstallOptionsGroup=Installationsoptionen
-PartSchemeLabel=Partitionsschema:
-ImgInstallLabel=Installation mit:
-EnableLZXCheck=LZX-Komprimierte Installation
-BootOptionsGroup=Startoptionen
-WoROptionsGroup=WoR-Optionen
-SaveConfigExitLabel=Diese Konfiguration beim Beenden speichern
-InstallOverviewLabel=Installationsübersicht
-InstallInfoBox.Warn=Warnung! Alle Daten auf Ihrer Gerät werden gelöscht! Machen Sie eine Sicherung bevor es zu spät ist!
-InstallInfoBox.Time=Dieser Prozess kann aufgrund der Geschwindigkeit der Gerät eine lange Zeit dauern.
-TargetDeviceLabel=Zielgerät
-OSLabel=Betriebssystem
-DriversPathLabel=Treiberpfad
-UEFIPathLabel=UEFI-Firmware-Pfad
-PartitionSchemeLabel=Partitionsschema
-ImageDeployerLabel=Imageschreiber
-LZXCompressionLabel=LZX-Kompression
-LZXCompression.YES=JA
-LZXCompression.NO=NEIN
 NextPageBtn.Install=Installieren
 NextPageBtn.Finish=Fertig stellen
-InstallStatusLabel.GettingReady=Vorbereiten...
-InstallStatusLabel.FormattingDisk=Zielgerät wird formatiert...
-InstallStatusLabel.CreatingPartitions=Partitionen werden erstellt...
-InstallStatusLabel.InstallingWindows=Windows wird installiert...
-InstallStatusLabel.InstallingBootFiles=Startdateien werden installiert...
-InstallStatusLabel.InstallingDrivers=Treiber werden installiert...
-InstallStatusLabel.InstallFinished=Die Installation wurde fertig gestellt!
-InstallStatusLabel.InstallFailed=Die Installation schlug fehl!
 StatusBar.Idle=Wartet
 StatusBar.LoadingDisks=Lade Treiber...
 StatusBar.MountingISO=ISO wird gemountet...
@@ -87,3 +53,64 @@ StatusBar.CreatingBCD=BCD wird erstellt...
 StatusBar.SettingTestMode=Aktivieren von testsigning und nointegritychecks...
 StatusBar.ConvertingEFI=Startpartition wird zur ESP konvertiert...
 StatusBar.InstallingDrivers=Treiber werden installiert...
+
+[SelectDiskPage]
+SelectDiskLabel=Wählen Sie das Gerät aus
+SelectDiskMsg=Achtung: Obwohl der neue USB-Treiber stabil ist, wird das Booten von einem USB-Gerät nicht empfohlen, da Windows keine Auslagerungsdatei darauf erstellen kann.
+DiskInfoBox.AtLeast8=Das Gerät muss mindestens 8GB Speicher haben!
+DiskInfoBox.Good=Das gewählte Gerät hat mindestens 8GB verfügbaren Speicher.
+DiskInfoBox.Enough=Das gewählte Gerät hat genug Speicher für eine gepackte Installation.
+
+[SelectImagePage]
+SelectImageLabel=Wählen Sie Ihre Windows on ARM-Imagedatei:
+WindowsEditionLabel=Windows Edition:
+WorkingBuildsTextBox=Achtung: Es ist bekannt, dass Windows 10 1803 und neuere Versionen funktionieren.%n%Die Version 1809 kann aufgrund einiger Änderungen des WppRecorder.sys-Treibers unerwartet abstürzen und sollte daher vermieden werden.
+SelectImgInfoBox.SelectedImageGood=Das ausgewählte Image (Version: %1) ist gut!
+SelectImgInfoBox.SelectedImageInvalid=Die ausgewählte Datei ist kein gültiges Windows-Abbild!
+SelectImgInfoBox.SelectedImageUnsupported=Das ausgewählte Image wird nicht unterstützt!
+
+[SelectDriversPage]
+SelectDriversLabel=Treiber wählen
+DriversNoteTextBox=Hinweis: Die Treiber müssen im ZIP-Dateiformat archiviert sein.
+NoDriversTextBox=Sie können die neuesten funktionierenden Treiber hier erhalten:
+SelectDrvInfoBox.OK=Das Treiberarchiv ist OK!
+SelectDrvInfoBox.LicenseNotAccepted=Sie haben die Lizenzvereinbarung nicht akzeptiert!
+
+[SelectUEFIPage]
+SelectUEFILabel=UEFI-Firmware wählen
+UEFINoteTextBox=Hinweis: Die UEFI-Firmware muss als Dateiendung %2 haben.
+GetUEFITextBox=Sie können die neueste Raspberry Pi UEFI-Firmware hier erhalten:
+
+[SetupConfigurationPage]
+ConfigurationLabel=Konfiguration
+InstallOptionsGroup=Installationsoptionen
+PartSchemeLabel=Partitionsschema:
+ImgInstallLabel=Installation mit:
+EnableLZXCheck=LZX-Komprimierte Installation
+BootOptionsGroup=Startoptionen
+WoROptionsGroup=WoR-Optionen
+SaveConfigExitLabel=Diese Konfiguration beim Beenden speichern
+
+[SetupOverviewPage]
+InstallOverviewLabel=Installationsübersicht
+InstallWarnBox=Warnung! Alle Daten auf Ihrer Gerät werden gelöscht! Machen Sie eine Sicherung bevor es zu spät ist!
+TargetDeviceLabel=Zielgerät
+OSLabel=Betriebssystem
+DriversPathLabel=Treiberpfad
+UEFIPathLabel=UEFI-Firmware-Pfad
+PartitionSchemeLabel=Partitionsschema
+ImageDeployerLabel=Imageschreiber
+LZXCompressionLabel=LZX-Kompression
+LZXCompression.YES=JA
+LZXCompression.NO=NEIN
+
+[SetupProgressPage]
+InstallInfoBox=Dieser Prozess kann aufgrund der Geschwindigkeit der Gerät eine lange Zeit dauern.
+InstallStatusLabel.GettingReady=Vorbereiten...
+InstallStatusLabel.FormattingDisk=Zielgerät wird formatiert...
+InstallStatusLabel.CreatingPartitions=Partitionen werden erstellt...
+InstallStatusLabel.InstallingWindows=Windows wird installiert...
+InstallStatusLabel.InstallingBootFiles=Startdateien werden installiert...
+InstallStatusLabel.InstallingDrivers=Treiber werden installiert...
+InstallStatusLabel.InstallFinished=Die Installation wurde fertig gestellt!
+InstallStatusLabel.InstallFailed=Die Installation schlug fehl!

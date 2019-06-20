@@ -1,77 +1,43 @@
 ﻿[WoR lang file]
-WindowTitle=Windows on Raspberry
-LoggerWindowTitle=记录
-AboutWindowTitle=关于
+Name=简体中文 (Simplified Chinese)
+Author=thchi12 , nyaruko
+IsComplete=1
+
+[AboutWindow]
+WindowTitle=关于
 AppVersionLabel=版本
 CreditsPage=归功于
 ChangelogPage=更新日志
 LicensesPage=许可
-LicenseAgreementWindowTitle=许可协议
+
+[LoggerWindow]
+WindowTitle=记录
+
+[LicenseAgreementWindow]
+WindowTitle=许可协议
 AcceptBtn=接受
 DeclineBtn=拒绝
+
+[Messages]
+AnErrorOccurred=发生错误！ 请检查日志.
+TaskOngoing=目前正在进行安装.%n%您确定要强制关闭应用程序吗？
+
+[MainWindow]
+WindowTitle=Windows on Raspberry
 WelcomePage=欢迎
+SelectDiskPage=选择您的设备
+SelectImagePage=选择映像
+SelectDriversPage=选择驱动程序
+SelectUEFIPage=UEFI 固件
+ConfigurationPage=配置
+FinishPage=安装
 WelcomeLabel=欢迎使用 Windows on Raspberry Imager!
 WelcomeMsgTextBox=WoR (Windows on Raspberry) 是一个可以帮助您在您的 SD 卡上安装 Windows 10 ARM (非 IoT 物联网版本，是带有桌面的完整版)的文件以用于你的树莓派 3B 或者是 3B+ 的工具。
 SelectLangLabel=选择语言:
 NextPageBtn=下一步
 BackPageBtn=上一步
-SelectDiskPage=选择您的设备
-SelectDiskLabel=选择您的设备
-SelectDiskMsg=注意: 即使新的USB驱动程序稳定，也不建议从USB设备启动，因为Windows无法在其上创建分页文件。
-DiskInfoBox.AtLeast8=您的设备至少需要 8GB！
-DiskInfoBox.Good=所选设备至少拥有 8GB 的可用空间。
-DiskInfoBox.Enough=所选设备有足够的空间用于压缩安装。
-SelectImagePage=选择映像
-SelectImageLabel=请选择您的 Windows 10 ARM 映像。
-WindowsEditionLabel=Windows版本:
-WorkingBuildsTextBox=注意: 已知Windows 10 1803和更新版本可以使用.%n%由于WppRecorder.sys驱动程序中的某些更改，版本1809可能会意外崩溃，因此应该避免使用。
-SelectImgInfoBox.SelectedImageGood=所选择的版本(版本： %1) 可以安装。
-SelectImgInfoBox.SelectedImageInvalid=所选文件不是有效的Windows映像！
-SelectImgInfoBox.SelectedImageUnsupported=不支持所选的映像文件！
-SelectDriversPage=选择驱动程序
-SelectUEFIPage=UEFI 固件
-ConfigurationPage=配置
-FinishPage=安装
-SelectDriversLabel=选择驱动程序
-DriversNoteTextBox=注意：您选择的驱动程序必须打包为 zip 格式。
-NoDriversTextBox=您可以从这里获得最新的可用驱动程序：
-SelectDrvInfoBox.OK=驱动程序可用！
-SelectDrvInfoBox.LicenseNotAccepted=您尚未接受其中一项许可协议!
-SelectUEFILabel=选择 UEFI 固件
-UEFINoteTextBox=注意：您的 UEFI 固件必须是 %2 扩展名。
-GetUEFITextBox=您可以在这里获取最新的 UEFI 固件：
-Message.AnErrorOccurred=发生错误！ 请检查日志.
-Message.TaskOngoing=目前正在进行安装.%n%您确定要强制关闭应用程序吗？
-ConfigurationLabel=配置
-InstallOptionsGroup=安装选项
-PartSchemeLabel=分区表:
-ImgInstallLabel=安装映像为:
-EnableLZXCheck=启用LZX压缩，可以减小占用空间。
-BootOptionsGroup=启动选项
-WoROptionsGroup=Windows 选项 
-SaveConfigExitLabel=退出时保存这次所用配置。
-InstallOverviewLabel=安装概览
-InstallInfoBox.Warn=警告！您的设备将会被擦除！请在确认安装前对您的设备数据进行备份！
-InstallInfoBox.Time=此过程可能需要很长时间，具体取决于SD卡的性能。
-TargetDeviceLabel=目标设备
-OSLabel=要安装的操作系统
-DriversPathLabel=驱动程序路径
-UEFIPathLabel=UEFI固件路径
-PartitionSchemeLabel=所使用的分区表
-ImageDeployerLabel=释放映像方式
-LZXCompressionLabel=是否启用 LZX 压缩
-LZXCompression.YES=是
-LZXCompression.NO=否
 NextPageBtn.Install=安装
 NextPageBtn.Finish=完成
-InstallStatusLabel.GettingReady=准备就绪
-InstallStatusLabel.FormattingDisk=正在格式化您的设备...
-InstallStatusLabel.CreatingPartitions=正在分区...
-InstallStatusLabel.InstallingWindows=正在安装 Windows...
-InstallStatusLabel.InstallingBootFiles=正在创建引导文件...
-InstallStatusLabel.InstallingDrivers=正在安装驱动程序...
-InstallStatusLabel.InstallFinished=安装完成！
-InstallStatusLabel.InstallFailed=安装失败！
 StatusBar.Idle=空闲
 StatusBar.LoadingDisks=正在加载磁盘信息...
 StatusBar.MountingISO=正在挂载光盘映像...
@@ -87,3 +53,64 @@ StatusBar.CreatingBCD=正在创建 BCD 存储...
 StatusBar.SettingTestMode=正在对 BCD 存储设置 testsigning 以及 nointegritychecks 选项...
 StatusBar.ConvertingEFI=正在将启动分区转换为 ESP 分区...
 StatusBar.InstallingDrivers=正在安装驱动程序...
+
+[SelectDiskPage]
+SelectDiskLabel=选择您的设备
+SelectDiskMsg=注意: 即使新的USB驱动程序稳定，也不建议从USB设备启动，因为Windows无法在其上创建分页文件。
+DiskInfoBox.AtLeast8=您的设备至少需要 8GB！
+DiskInfoBox.Good=所选设备至少拥有 8GB 的可用空间。
+DiskInfoBox.Enough=所选设备有足够的空间用于压缩安装。
+
+[SelectImagePage]
+SelectImageLabel=请选择您的 Windows 10 ARM 映像。
+WindowsEditionLabel=Windows版本:
+WorkingBuildsTextBox=注意: 已知Windows 10 1803和更新版本可以使用.%n%由于WppRecorder.sys驱动程序中的某些更改，版本1809可能会意外崩溃，因此应该避免使用。
+SelectImgInfoBox.SelectedImageGood=所选择的版本(版本： %1) 可以安装。
+SelectImgInfoBox.SelectedImageInvalid=所选文件不是有效的Windows映像！
+SelectImgInfoBox.SelectedImageUnsupported=不支持所选的映像文件！
+
+[SelectDriversPage]
+SelectDriversLabel=选择驱动程序
+DriversNoteTextBox=注意：您选择的驱动程序必须打包为 zip 格式。
+NoDriversTextBox=您可以从这里获得最新的可用驱动程序：
+SelectDrvInfoBox.OK=驱动程序可用！
+SelectDrvInfoBox.LicenseNotAccepted=您尚未接受其中一项许可协议!
+
+[SelectUEFIPage]
+SelectUEFILabel=选择 UEFI 固件
+UEFINoteTextBox=注意：您的 UEFI 固件必须是 %2 扩展名。
+GetUEFITextBox=您可以在这里获取最新的 UEFI 固件：
+
+[SetupConfigurationPage]
+ConfigurationLabel=配置
+InstallOptionsGroup=安装选项
+PartSchemeLabel=分区表:
+ImgInstallLabel=安装映像为:
+EnableLZXCheck=启用LZX压缩，可以减小占用空间。
+BootOptionsGroup=启动选项
+WoROptionsGroup=Windows 选项 
+SaveConfigExitLabel=退出时保存这次所用配置。
+
+[SetupOverviewPage]
+InstallOverviewLabel=安装概览
+InstallWarnBox=警告！您的设备将会被擦除！请在确认安装前对您的设备数据进行备份！
+TargetDeviceLabel=目标设备
+OSLabel=要安装的操作系统
+DriversPathLabel=驱动程序路径
+UEFIPathLabel=UEFI固件路径
+PartitionSchemeLabel=所使用的分区表
+ImageDeployerLabel=释放映像方式
+LZXCompressionLabel=是否启用 LZX 压缩
+LZXCompression.YES=是
+LZXCompression.NO=否
+
+[SetupProgressPage]
+InstallInfoBox=此过程可能需要很长时间，具体取决于SD卡的性能。
+InstallStatusLabel.GettingReady=准备就绪
+InstallStatusLabel.FormattingDisk=正在格式化您的设备...
+InstallStatusLabel.CreatingPartitions=正在分区...
+InstallStatusLabel.InstallingWindows=正在安装 Windows...
+InstallStatusLabel.InstallingBootFiles=正在创建引导文件...
+InstallStatusLabel.InstallingDrivers=正在安装驱动程序...
+InstallStatusLabel.InstallFinished=安装完成！
+InstallStatusLabel.InstallFailed=安装失败！
