@@ -16,22 +16,22 @@ Issues related to the WoR tool should be reported on the [dedicated bug tracker]
 
 ## Currently supported languages
 
-| Name                          | Status   | Contributors 
-| ----------------------------- | -------- | --------------
-| Čeština (Czech)               | Complete | martindrey , Nuparu00
-| Deutsch (German)              | Complete | BastiJames333 , Schule04 
-| English                       | Complete | Mario Bălănică
-| Español (Spanish)             | Outdated | Ivan Ruiz (ivigamergames) 
-| Français (French)             | Complete | Garfi69
-| Hrvatski (Croatian)           | Outdated | Biggie 
-| Italiano (Italian)            | Outdated | xicciodj , lorecast162 
-| Magyar (Hungarian)            | Outdated | Googulator 
-| Polski (Polish)               | Outdated | macmmm81 , Gotard
-| Română (Romanian)             | Complete | Mario Bălănică
-| Türkçe (Turkish)              | Outdated | pixelomer
-| Русский (Russian)             | Complete | Andryshik345 , beeoss
-| Українська (Ukrainian)       | Complete | Volodymyr Borodaykevych
-| 한국어 (Korean)               | Outdated | Raccooni
-| 日本語 (Japanese)             | Outdated | imai9999
-| 简体中文 (Simplified Chinese) | Complete | thchi12 , nyaruko
-| 繁體中文 (Traditional Chinese)| Complete | ConashinChen
+| Language                      | Filename  | Status   | Contributors 
+| ----------------------------- | --------- | -------- | --------------
+| Čeština (Czech)               | cs-CZ.lng | Complete | martindrey , Nuparu00
+| Deutsch (German)              | de-DE.lng | Complete | BastiJames333 , Schule04 
+| English                       | en-US.lng | Complete | Mario Bălănică
+| Español (Spanish)             | es-ES.lng | Outdated | Ivan Ruiz (ivigamergames) 
+| Français (French)             | fr-FR.lng | Complete | Garfi69
+| Hrvatski (Croatian)           | hr-HR.lng | Outdated | Biggie 
+| Italiano (Italian)            | it-IT.lng | Outdated | xicciodj , lorecast162 
+| Magyar (Hungarian)            | hu-HU.lng | Outdated | Googulator 
+| Polski (Polish)               | pl-PL.lng | Outdated | macmmm81 , Gotard
+| Română (Romanian)             | ro-RO.lng | Complete | Mario Bălănică
+| Türkçe (Turkish)              | tr-TR.lng | Outdated | pixelomer
+| Русский (Russian)             | ru-RU.lng | Complete | Andryshik345 , beeoss
+| Українська (Ukrainian)        | uk-UA.lng | Complete | Volodymyr Borodaykevych
+| 한국어 (Korean)               | ko-KR.lng | Outdated | Raccooni
+| 日本語 (Japanese)             | ja-JP.lng | Outdated | imai9999
+| 简体中文 (Simplified Chinese) | zh-CN.lng | Complete | thchi12 , nyaruko
+| 繁體中文 (Traditional Chinese)| zh-TW.lng | Complete | ConashinChen
