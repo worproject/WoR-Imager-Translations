@@ -3,6 +3,13 @@ Name=Română (Romanian)
 Author=Mario Bălănică
 IsComplete=1
 
+[UpdateNotifierWindow]
+WindowTitle=Actualizare
+NewVersionAvailableLabel=O nouă versiune este disponibilă
+NewVersionAvailableBox=Windows on Raspberry %ver% a fost lansat! Doriți să-l descărcați acum?
+DownloadBtn=Descarcă
+CloseBtn=Închide
+
 [AboutWindow]
 WindowTitle=Despre
 AppVersionLabel=Versiunea
@@ -12,6 +19,7 @@ LicensesPage=Licențe
 
 [LoggerWindow]
 WindowTitle=Log-uri
+CopyToClipboardBtn=Copiază
 
 [LicenseAgreementWindow]
 WindowTitle=Acord de licențiere
@@ -23,7 +31,6 @@ AnErrorOccurred=A apărut o eroare! Vă rugăm să verificați log-urile.
 TaskOngoing=O sarcină este în curs de desfășurare.%n%Sigur doriți să forțați închiderea aplicației?
 
 [MainWindow]
-WindowTitle=Windows on Raspberry
 WelcomePage=Bun venit
 SelectDiskPage=Selectați dispozitivul
 SelectImagePage=Selectați imaginea
@@ -31,9 +38,9 @@ SelectDriversPage=Selectați driverele
 SelectUEFIPage=Firmware UEFI
 ConfigurationPage=Configurare
 FinishPage=Instalare
-WelcomeLabel=Bun venit la creatorul de imagini WoR!
+WelcomeLabel=Bun venit la Windows on Raspberry!
 WelcomeMsgTextBox=WoR (Windows on Raspberry) este o unealtă ce poate instala Windows on ARM (versiunea desktop, nu cea IoT) pe un card SD pentru utilizarea într-un Raspberry Pi 3 B/B+ .
-SelectLangLabel=Selectează limba:
+SelectLangLabel=Selectați limba:
 NextPageBtn=Următorul
 BackPageBtn=Înapoi
 NextPageBtn.Install=Instalați
@@ -56,7 +63,7 @@ StatusBar.InstallingDrivers=Se instalează driverele...
 
 [SelectDiskPage]
 SelectDiskLabel=Selectați dispozitivul
-SelectDiskMsg=Notă: Deși noul driver USB este stabil, pornirea de pe un dispozitiv USB nu este recomandată deoarece Windows nu poate crea un fișier de paginare pe acesta.
+SelectDiskMsg=Notă: Deși noul driver USB este stabil, instalarea pe un dispozitiv USB nu este recomandată deoarece Windows nu poate crea un fișier de paginare pe acesta.
 DiskInfoBox.AtLeast8=Dispozitivul trebuie să aibă cel puțin 8GB de spațiu liber!
 DiskInfoBox.Good=Dispozitivul selectat are cel puțin 8GB de spațiu liber.
 DiskInfoBox.Enough=Dispozitivul selectat are spațiu suficient pentru o instalare compactă.

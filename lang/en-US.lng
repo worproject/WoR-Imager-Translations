@@ -3,6 +3,13 @@ Name=English
 Author=Mario Bălănică
 IsComplete=1
 
+[UpdateNotifierWindow]
+WindowTitle=Update
+NewVersionAvailableLabel=New version available
+NewVersionAvailableBox=Windows on Raspberry %ver% is available! Would you like to download it now?
+DownloadBtn=Download
+CloseBtn=Close
+
 [AboutWindow]
 WindowTitle=About
 AppVersionLabel=Version
@@ -12,6 +19,7 @@ LicensesPage=Licenses
 
 [LoggerWindow]
 WindowTitle=Logs
+CopyToClipboardBtn=Copy
 
 [LicenseAgreementWindow]
 WindowTitle=License agreement
@@ -23,7 +31,6 @@ AnErrorOccurred=An error occurred! Please check the logs.
 TaskOngoing=An operation is currently in progress.%n%Are you sure you want to force close the application?
 
 [MainWindow]
-WindowTitle=Windows on Raspberry
 WelcomePage=Welcome
 SelectDiskPage=Select device
 SelectImagePage=Select image
@@ -31,7 +38,7 @@ SelectDriversPage=Select drivers
 SelectUEFIPage=UEFI firmware
 ConfigurationPage=Configuration
 FinishPage=Install
-WelcomeLabel=Welcome to Windows on Raspberry Imager!
+WelcomeLabel=Welcome to the Windows on Raspberry imager!
 WelcomeMsgTextBox=WoR (Windows on Raspberry) is a tool that can install Windows on ARM (full desktop version, not IoT) on your SD card for use in a Raspberry Pi 3 B/B+ .
 SelectLangLabel=Select your language:
 NextPageBtn=Next
@@ -39,14 +46,14 @@ BackPageBtn=Back
 NextPageBtn.Install=Install
 NextPageBtn.Finish=Finish
 StatusBar.Idle=Idle
-StatusBar.LoadingDisks=Loading drives...
-StatusBar.MountingISO=Mounting ISO image...
+StatusBar.LoadingDisks=Loading the list of disks...
+StatusBar.MountingISO=Mounting the ISO image...
 StatusBar.UnmountingISO=Unmounting the ISO image...
-StatusBar.ExtractingDrvToTemp=Extracting drivers archive to the temporary folder...
-StatusBar.DownloadingReqFiles=Downloading required files...
+StatusBar.ExtractingDrvToTemp=Extracting the drivers archive to the temporary folder...
+StatusBar.DownloadingReqFiles=Downloading the required files...
 StatusBar.FormattingDisk=Formatting the device...
 StatusBar.ApplyingGPTImage=Applying the GPT image...
-StatusBar.CreatingPartitions=Creating partitions...
+StatusBar.CreatingPartitions=Creating the partitions...
 StatusBar.ApplyingWIMImage=Applying the WIM image...
 StatusBar.CopyingBootFiles=Copying the boot files...
 StatusBar.CreatingBCD=Creating the BCD...
@@ -70,14 +77,14 @@ SelectImgInfoBox.SelectedImageInvalid=The selected file is not a valid Windows i
 SelectImgInfoBox.SelectedImageUnsupported=The selected image file is not supported!
 
 [SelectDriversPage]
-SelectDriversLabel=Select drivers
+SelectDriversLabel=Select the drivers
 DriversNoteTextBox=Note: the drivers must be archived using the ZIP file format.
 NoDriversTextBox=You can get the latest working drivers from:
 SelectDrvInfoBox.OK=The drivers archive is OK!
 SelectDrvInfoBox.LicenseNotAccepted=You have not accepted one of the license agreements!
 
 [SelectUEFIPage]
-SelectUEFILabel=Select UEFI firmware
+SelectUEFILabel=Select the UEFI firmware
 UEFINoteTextBox=Note: the UEFI firmware must have the %2 file extension.
 GetUEFITextBox=You can get the latest Raspberry Pi UEFI firmware from:
 
@@ -108,9 +115,9 @@ LZXCompression.NO=NO
 InstallInfoBox=This process may take a long time depending on the device performance.
 InstallStatusLabel.GettingReady=Getting ready...
 InstallStatusLabel.FormattingDisk=Formatting the target device...
-InstallStatusLabel.CreatingPartitions=Creating partitions...
+InstallStatusLabel.CreatingPartitions=Creating the partitions...
 InstallStatusLabel.InstallingWindows=Installing Windows...
 InstallStatusLabel.InstallingBootFiles=Installing the boot files...
 InstallStatusLabel.InstallingDrivers=Installing the drivers...
-InstallStatusLabel.InstallFinished=The installation has been finished!
+InstallStatusLabel.InstallFinished=The installation has completed!
 InstallStatusLabel.InstallFailed=The installation has failed!

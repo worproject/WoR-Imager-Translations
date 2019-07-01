@@ -1,7 +1,14 @@
 ﻿[WoR lang file]
 Name=简体中文 (Simplified Chinese)
 Author=thchi12 , nyaruko
-IsComplete=1
+IsComplete=0
+
+[UpdateNotifierWindow]
+WindowTitle=Update
+NewVersionAvailableLabel=New version available
+NewVersionAvailableBox=Windows on Raspberry %ver% is available! Would you like to download it now?
+DownloadBtn=Download
+CloseBtn=Close
 
 [AboutWindow]
 WindowTitle=关于
@@ -12,6 +19,7 @@ LicensesPage=许可
 
 [LoggerWindow]
 WindowTitle=记录
+CopyToClipboardBtn=Copy
 
 [LicenseAgreementWindow]
 WindowTitle=许可协议
@@ -23,7 +31,6 @@ AnErrorOccurred=发生错误！ 请检查日志.
 TaskOngoing=目前正在进行安装.%n%您确定要强制关闭应用程序吗？
 
 [MainWindow]
-WindowTitle=Windows on Raspberry
 WelcomePage=欢迎
 SelectDiskPage=选择您的设备
 SelectImagePage=选择映像
@@ -31,7 +38,7 @@ SelectDriversPage=选择驱动程序
 SelectUEFIPage=UEFI 固件
 ConfigurationPage=配置
 FinishPage=安装
-WelcomeLabel=欢迎使用 Windows on Raspberry Imager!
+WelcomeLabel=欢迎使用 Windows on Raspberry imager!
 WelcomeMsgTextBox=WoR (Windows on Raspberry) 是一个可以帮助您在您的 SD 卡上安装 Windows 10 ARM (非 IoT 物联网版本，是带有桌面的完整版)的文件以用于你的树莓派 3B 或者是 3B+ 的工具。
 SelectLangLabel=选择语言:
 NextPageBtn=下一步

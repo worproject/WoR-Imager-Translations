@@ -3,6 +3,13 @@ Name=한국어 (Korean)
 Author=Raccooni
 IsComplete=0
 
+[UpdateNotifierWindow]
+WindowTitle=Update
+NewVersionAvailableLabel=New version available
+NewVersionAvailableBox=Windows on Raspberry %ver% is available! Would you like to download it now?
+DownloadBtn=Download
+CloseBtn=Close
+
 [AboutWindow]
 WindowTitle=About
 AppVersionLabel=Version
@@ -12,6 +19,7 @@ LicensesPage=Licenses
 
 [LoggerWindow]
 WindowTitle=로그
+CopyToClipboardBtn=Copy
 
 [LicenseAgreementWindow]
 WindowTitle=License agreement
@@ -23,7 +31,6 @@ AnErrorOccurred=오류가 발생했습니다! 로그를 확인해주세요!
 TaskOngoing=An operation is currently in progress.%n%Are you sure you want to force close the application?
 
 [MainWindow]
-WindowTitle=Windows on Raspberry
 WelcomePage=환영합니다!
 SelectDiskPage=장치 선택
 SelectImagePage=이미지 선택

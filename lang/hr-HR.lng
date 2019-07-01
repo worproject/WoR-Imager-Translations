@@ -3,6 +3,13 @@ Name=Hrvatski (Croatian)
 Author=Biggie
 IsComplete=0
 
+[UpdateNotifierWindow]
+WindowTitle=Update
+NewVersionAvailableLabel=New version available
+NewVersionAvailableBox=Windows on Raspberry %ver% is available! Would you like to download it now?
+DownloadBtn=Download
+CloseBtn=Close
+
 [AboutWindow]
 WindowTitle=About
 AppVersionLabel=Version
@@ -12,6 +19,7 @@ LicensesPage=Licenses
 
 [LoggerWindow]
 WindowTitle=Logovi
+CopyToClipboardBtn=Copy
 
 [LicenseAgreementWindow]
 WindowTitle=License agreement
@@ -23,7 +31,6 @@ AnErrorOccurred=Dogodila se pogreška! Molim da provjerite logove.
 TaskOngoing=An operation is currently in progress.%n%Are you sure you want to force close the application?
 
 [MainWindow]
-WindowTitle=Windows on Raspberry
 WelcomePage=Dobrodošli
 SelectDiskPage=Odaberite uređaj
 SelectImagePage=Odaberite sliku
@@ -31,7 +38,7 @@ SelectDriversPage=Upravljačke programe
 SelectUEFIPage=UEFI firmware
 ConfigurationPage=Konfiguracija
 FinishPage=Instalacija
-WelcomeLabel=Dobrodošli u Windows on Raspberry Imager!
+WelcomeLabel=Dobrodošli u Windows on Raspberry imager!
 WelcomeMsgTextBox=WoR (Windows on Raspberry) je alat koji može instalirati Windows on ARM (punu inačicu operativnog sustava, a ne IoT) na vašu SD karticu za korištenje u Raspberry Pi 3 B/B+.
 SelectLangLabel=Odaberite jezik:
 NextPageBtn=Sljedeći

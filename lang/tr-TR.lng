@@ -3,6 +3,13 @@ Name=Türkçe (Turkish)
 Author=pixelomer
 IsComplete=0
 
+[UpdateNotifierWindow]
+WindowTitle=Update
+NewVersionAvailableLabel=New version available
+NewVersionAvailableBox=Windows on Raspberry %ver% is available! Would you like to download it now?
+DownloadBtn=Download
+CloseBtn=Close
+
 [AboutWindow]
 WindowTitle=About
 AppVersionLabel=Version
@@ -12,6 +19,7 @@ LicensesPage=Licenses
 
 [LoggerWindow]
 WindowTitle=Logs
+CopyToClipboardBtn=Copy
 
 [LicenseAgreementWindow]
 WindowTitle=License agreement
@@ -23,7 +31,6 @@ AnErrorOccurred=An error occurred! Please check the logs.
 TaskOngoing=An operation is currently in progress.%n%Are you sure you want to force close the application?
 
 [MainWindow]
-WindowTitle=Windows on Raspberry
 WelcomePage=Merhaba
 SelectDiskPage=Cihaz seç
 SelectImagePage=Görüntü Seç

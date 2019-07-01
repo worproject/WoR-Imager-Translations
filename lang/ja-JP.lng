@@ -3,6 +3,13 @@ Name=日本語 (Japanese)
 Author=imai9999
 IsComplete=0
 
+[UpdateNotifierWindow]
+WindowTitle=Update
+NewVersionAvailableLabel=New version available
+NewVersionAvailableBox=Windows on Raspberry %ver% is available! Would you like to download it now?
+DownloadBtn=Download
+CloseBtn=Close
+
 [AboutWindow]
 WindowTitle=About
 AppVersionLabel=Version
@@ -12,6 +19,7 @@ LicensesPage=Licenses
 
 [LoggerWindow]
 WindowTitle=ログ
+CopyToClipboardBtn=Copy
 
 [LicenseAgreementWindow]
 WindowTitle=License agreement
@@ -23,7 +31,6 @@ AnErrorOccurred=エラーが発生しました! ログを確認してくださ�
 TaskOngoing=An operation is currently in progress.%n%Are you sure you want to force close the application?
 
 [MainWindow]
-WindowTitle=Windows on Raspberry
 WelcomePage=ようこそ
 SelectDiskPage=デバイス選択
 SelectImagePage=イメージの選択
@@ -31,7 +38,7 @@ SelectDriversPage=ドライバーの選択
 SelectUEFIPage=UEFI ファームウェア
 ConfigurationPage=設定
 FinishPage=インストール
-WelcomeLabel=Windows on Raspberry Imager にようこそ!
+WelcomeLabel=Windows on Raspberry imager にようこそ!
 WelcomeMsgTextBox=WoR (Windows on Raspberry) は、Raspberry Pi 3 B/B+ 用の ARM 用 Windows (IoT ではなく、完全なデスクトップ版) を SD カード上にインストールします。
 SelectLangLabel=言語を選択してください
 NextPageBtn=次へ

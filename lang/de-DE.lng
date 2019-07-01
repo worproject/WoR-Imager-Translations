@@ -1,7 +1,14 @@
 ﻿[WoR lang file]
 Name=Deutsch (German)
 Author=BastiJames333 , Schule04
-IsComplete=1
+IsComplete=0
+
+[UpdateNotifierWindow]
+WindowTitle=Update
+NewVersionAvailableLabel=New version available
+NewVersionAvailableBox=Windows on Raspberry %ver% is available! Would you like to download it now?
+DownloadBtn=Download
+CloseBtn=Close
 
 [AboutWindow]
 WindowTitle=Über
@@ -12,6 +19,7 @@ LicensesPage=Lizenz
 
 [LoggerWindow]
 WindowTitle=Logdatei
+CopyToClipboardBtn=Copy
 
 [LicenseAgreementWindow]
 WindowTitle=Lizenzabkommen
@@ -23,7 +31,6 @@ AnErrorOccurred=Ein Fehler ist aufgetreten! Prüfen Sie die Logs.
 TaskOngoing=Es wird gerade ein Vorgang ausgeführt.%n%Möchten Sie das Schließen der Anwendung wirklich erzwingen?
 
 [MainWindow]
-WindowTitle=Windows on Raspberry
 WelcomePage=Willkommen
 SelectDiskPage=Gerät wählen
 SelectImagePage=Imagedatei wählen
@@ -31,7 +38,7 @@ SelectDriversPage=Treiberpaket
 SelectUEFIPage=UEFI-Firmware
 ConfigurationPage=Konfiguration
 FinishPage=Installation
-WelcomeLabel=Willkommen zum Windows on Raspberry Imager!
+WelcomeLabel=Willkommen zum Windows on Raspberry imager!
 WelcomeMsgTextBox=WoR (Windows on Raspberry) ist ein Tool zum Instalieren von Windows on ARM (volle Desktop-Version, nicht IoT) auf Ihrer SD-Karte zum Gebrauch in einem Raspberry Pi 3 B/B+.
 SelectLangLabel=Sprache wählen:
 NextPageBtn=Weiter
