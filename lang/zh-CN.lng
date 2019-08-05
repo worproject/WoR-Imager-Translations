@@ -1,25 +1,25 @@
 ﻿[WoR lang file]
 Name=简体中文 (Simplified Chinese)
-Author=thchi12 , nyaruko
-IsComplete=0
+Author=thchi12 , nyaruko , Meaqua233
+IsComplete=1
 
 [UpdateNotifierWindow]
-WindowTitle=Update
-NewVersionAvailableLabel=New version available
-NewVersionAvailableBox=Windows on Raspberry %ver% is available! Would you like to download it now?
-DownloadBtn=Download
-CloseBtn=Close
+WindowTitle=更新
+NewVersionAvailableLabel=新版本可用
+NewVersionAvailableBox=新版本Windows on Raspberry %ver% 可用! 你想现在下载吗?
+DownloadBtn=下载
+CloseBtn=关闭
 
 [AboutWindow]
 WindowTitle=关于
 AppVersionLabel=版本
-CreditsPage=归功于
+CreditsPage=贡献
 ChangelogPage=更新日志
 LicensesPage=许可
 
 [LoggerWindow]
 WindowTitle=记录
-CopyToClipboardBtn=Copy
+CopyToClipboardBtn=复制
 
 [LicenseAgreementWindow]
 WindowTitle=许可协议
@@ -93,11 +93,11 @@ ConfigurationLabel=配置
 InstallOptionsGroup=安装选项
 PartSchemeLabel=分区表:
 ImgInstallLabel=安装映像为:
-GPTImgFlasherLabel=Flash GPT image with:
+GPTImgFlasherLabel=写入GPT映像:
 EnableLZXCheck=启用LZX压缩，可以减小占用空间。
-VerifyGPTImgCheck=Verify the disk after flashing the GPT image
+VerifyGPTImgCheck=写入GPT映像后验证磁盘
 BootOptionsGroup=启动选项
-WoROptionsGroup=Windows 选项 
+WoROptionsGroup=Windows 选项
 SaveConfigExitLabel=退出时保存这次所用配置。
 
 [SetupOverviewPage]
