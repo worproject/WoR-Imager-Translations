@@ -1,14 +1,14 @@
 ﻿[WoR lang file]
 Name=Deutsch (German)
-Author=BastiJames333 , Schule04
+Author=BastiJames333 , Schule04, NASS-eK
 IsComplete=0
 
 [UpdateNotifierWindow]
 WindowTitle=Update
-NewVersionAvailableLabel=New version available
-NewVersionAvailableBox=Windows on Raspberry %ver% is available! Would you like to download it now?
+NewVersionAvailableLabel=Neue Version verfügbar
+NewVersionAvailableBox=Windows on Raspberry %ver% ist verfügbar! Möchten Sie es jetzt herunterladen?
 DownloadBtn=Download
-CloseBtn=Close
+CloseBtn=Schließen
 
 [AboutWindow]
 WindowTitle=Über
@@ -19,7 +19,7 @@ LicensesPage=Lizenz
 
 [LoggerWindow]
 WindowTitle=Logdatei
-CopyToClipboardBtn=Copy
+CopyToClipboardBtn=Kopieren
 
 [LicenseAgreementWindow]
 WindowTitle=Lizenzabkommen
@@ -32,7 +32,7 @@ TaskOngoing=Es wird gerade ein Vorgang ausgeführt.%n%Möchten Sie das Schließe
 
 [MainWindow]
 WelcomePage=Willkommen
-SelectDiskPage=Gerät wählen
+SelectDiskPage=Datenträger wählen
 SelectImagePage=Imagedatei wählen
 SelectDriversPage=Treiberpaket
 SelectUEFIPage=UEFI-Firmware
@@ -51,7 +51,7 @@ StatusBar.MountingISO=ISO wird gemountet...
 StatusBar.UnmountingISO=ISO wird ausgeworfen...
 StatusBar.ExtractingDrvToTemp=Treiber werden in das temporäre Verzeichnis entpackt...
 StatusBar.DownloadingReqFiles=Erforderliche Dateien werden heruntergeladen...
-StatusBar.FormattingDisk=Gerät wird formatiert...
+StatusBar.FormattingDisk=Datenträger wird formatiert...
 StatusBar.ApplyingGPTImage=GPT-Image wird kopiert...
 StatusBar.CreatingPartitions=Partitionen werden erstellt...
 StatusBar.ApplyingWIMImage=WIM-Datei wird kopiert...
@@ -62,11 +62,11 @@ StatusBar.ConvertingEFI=Startpartition wird zur ESP konvertiert...
 StatusBar.InstallingDrivers=Treiber werden installiert...
 
 [SelectDiskPage]
-SelectDiskLabel=Wählen Sie das Gerät aus
-SelectDiskMsg=Achtung: Obwohl der neue USB-Treiber stabil ist, wird das Booten von einem USB-Gerät nicht empfohlen, da Windows keine Auslagerungsdatei darauf erstellen kann.
-DiskInfoBox.AtLeast8=Das Gerät muss mindestens 8GB Speicher haben!
-DiskInfoBox.Good=Das gewählte Gerät hat mindestens 8GB verfügbaren Speicher.
-DiskInfoBox.Enough=Das gewählte Gerät hat genug Speicher für eine gepackte Installation.
+SelectDiskLabel=Wählen Sie den Datenträger aus
+SelectDiskMsg=Achtung: Obwohl der neue USB-Treiber stabil ist, wird das Booten von einem USB-Datenträger nicht empfohlen, da Windows keine Auslagerungsdatei darauf erstellen kann.
+DiskInfoBox.AtLeast8=Der Datenträger muss mindestens 8GB Speicher haben!
+DiskInfoBox.Good=Der gewählte Datenträger hat mindestens 8GB verfügbaren Speicher.
+DiskInfoBox.Enough=Der gewählte Datenträger hat genug Speicher für eine gepackte Installation.
 
 [SelectImagePage]
 SelectImageLabel=Wählen Sie Ihre Windows on ARM-Imagedatei:
@@ -102,8 +102,8 @@ SaveConfigExitLabel=Diese Konfiguration beim Beenden speichern
 
 [SetupOverviewPage]
 InstallOverviewLabel=Installationsübersicht
-InstallWarnBox=Warnung! Alle Daten auf Ihrer Gerät werden gelöscht! Machen Sie eine Sicherung bevor es zu spät ist!
-TargetDeviceLabel=Zielgerät
+InstallWarnBox=Warnung! Alle Daten auf Ihrem Datenträger werden gelöscht! Machen Sie eine Sicherung bevor es zu spät ist!
+TargetDeviceLabel=Zieldatenträger
 OSLabel=Betriebssystem
 DriversPathLabel=Treiberpfad
 UEFIPathLabel=UEFI-Firmware-Pfad
@@ -114,9 +114,9 @@ LZXCompression.YES=JA
 LZXCompression.NO=NEIN
 
 [SetupProgressPage]
-InstallInfoBox=Dieser Prozess kann aufgrund der Geschwindigkeit der Gerät eine lange Zeit dauern.
+InstallInfoBox=Dieser Prozess kann aufgrund der Geschwindigkeit des Datenträgers eine lange Zeit dauern.
 InstallStatusLabel.GettingReady=Vorbereiten...
-InstallStatusLabel.FormattingDisk=Zielgerät wird formatiert...
+InstallStatusLabel.FormattingDisk=Zieldatenträger wird formatiert...
 InstallStatusLabel.CreatingPartitions=Partitionen werden erstellt...
 InstallStatusLabel.InstallingWindows=Windows wird installiert...
 InstallStatusLabel.InstallingBootFiles=Startdateien werden installiert...
