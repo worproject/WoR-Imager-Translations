@@ -1,7 +1,7 @@
 ﻿[WoR lang file]
 Name=Deutsch (German)
-Author=BastiJames333 , Schule04, NASS-eK
-IsComplete=0
+Author=BastiJames333 , Schule04 , NASS-eK
+IsComplete=1
 
 [UpdateNotifierWindow]
 WindowTitle=Update
