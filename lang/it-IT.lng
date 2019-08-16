@@ -79,14 +79,16 @@ SelectImgInfoBox.SelectedImageUnsupported=The selected image file is not support
 [SelectDriversPage]
 SelectDriversLabel=Seleziona driver
 DriversNoteTextBox=Nota: i driver devono essere compressi dentro un file zip.
-NoDriversTextBox=Puoi scaricare i driver funzionanti più recenti da:
+LocalDrvPkgRadioBtn=Use a package stored on your computer
+ServerDrvPkgRadioBtn=Use the latest package available on the server
 SelectDrvInfoBox.OK=L'archivio dei driver è OK!
 SelectDrvInfoBox.LicenseNotAccepted=You have not accepted one of the license agreements!
 
 [SelectUEFIPage]
 SelectUEFILabel=Seleziona firmware UEFI
 UEFINoteTextBox=Nota: Il firmware UEFI deve avere l'estensione %2 .
-GetUEFITextBox=Puoi scaricare il più recente firmware UEFI per Raspberry Pi da:
+LocalUEFIRadioBtn=Use a firmware stored on your computer
+ServerUEFIRadioBtn=Use the latest firmware available on the server
 
 [SetupConfigurationPage]
 ConfigurationLabel=Configurazione

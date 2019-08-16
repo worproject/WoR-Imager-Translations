@@ -1,7 +1,7 @@
 ﻿[WoR lang file]
 Name=简体中文 (Simplified Chinese)
 Author=thchi12 , nyaruko , Meaqua233
-IsComplete=1
+IsComplete=0
 
 [UpdateNotifierWindow]
 WindowTitle=更新
@@ -79,14 +79,16 @@ SelectImgInfoBox.SelectedImageUnsupported=不支持所选的映像文件！
 [SelectDriversPage]
 SelectDriversLabel=选择驱动程序
 DriversNoteTextBox=注意：您选择的驱动程序必须打包为 zip 格式。
-NoDriversTextBox=您可以从这里获得最新的可用驱动程序：
+LocalDrvPkgRadioBtn=Use a package stored on your computer
+ServerDrvPkgRadioBtn=Use the latest package available on the server
 SelectDrvInfoBox.OK=驱动程序可用！
 SelectDrvInfoBox.LicenseNotAccepted=您尚未接受其中一项许可协议!
 
 [SelectUEFIPage]
 SelectUEFILabel=选择 UEFI 固件
 UEFINoteTextBox=注意：您的 UEFI 固件必须是 %2 扩展名。
-GetUEFITextBox=您可以在这里获取最新的 UEFI 固件：
+LocalUEFIRadioBtn=Use a firmware stored on your computer
+ServerUEFIRadioBtn=Use the latest firmware available on the server
 
 [SetupConfigurationPage]
 ConfigurationLabel=配置

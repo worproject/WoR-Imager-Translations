@@ -79,14 +79,16 @@ SelectImgInfoBox.SelectedImageUnsupported=Imaginea selectată nu este suportată
 [SelectDriversPage]
 SelectDriversLabel=Selectați driverele
 DriversNoteTextBox=Notă: driverele trebuie arhivate folosind formatul de fișier ZIP.
-NoDriversTextBox=Puteți obține cele mai recente drivere de aici:
+LocalDrvPkgRadioBtn=Utilizați un pachet stocat pe computer
+ServerDrvPkgRadioBtn=Utilizați cel mai nou pachet disponibil pe server
 SelectDrvInfoBox.OK=Arhiva cu drivere este OK!
 SelectDrvInfoBox.LicenseNotAccepted=Ați refuzat unul dintre acordurile de licențiere!
 
 [SelectUEFIPage]
 SelectUEFILabel=Selectați firmware-ul UEFI
 UEFINoteTextBox=Notă: firmware-ul UEFI trebuie să aibă extensia %2 .
-GetUEFITextBox=Puteți obține cea mai recentă versiune de firmware UEFI pentru Raspberry Pi de aici:
+LocalUEFIRadioBtn=Utilizați un firmware stocat pe computer
+ServerUEFIRadioBtn=Utilizați cel mai nou firmware disponibil pe server
 
 [SetupConfigurationPage]
 ConfigurationLabel=Configurare

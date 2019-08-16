@@ -79,14 +79,16 @@ SelectImgInfoBox.SelectedImageUnsupported=The selected image file is not support
 [SelectDriversPage]
 SelectDriversLabel=Sürücüleri seçin
 DriversNoteTextBox=Not: Sürücüler ZIP dosya formatı ile arşivlenmiş olmalıdır.
-NoDriversTextBox=En güncel sürücüleri buradan alabilirsiniz:
+LocalDrvPkgRadioBtn=Use a package stored on your computer
+ServerDrvPkgRadioBtn=Use the latest package available on the server
 SelectDrvInfoBox.OK=The drivers archive is OK!
 SelectDrvInfoBox.LicenseNotAccepted=You have not accepted one of the license agreements!
 
 [SelectUEFIPage]
 SelectUEFILabel=UEFI yazılımını seçin
 UEFINoteTextBox=Not: UEFI yazılımı %2 dosya formatında olmalıdır.
-GetUEFITextBox=En güncel Raspberry Pi UEFI yazılımını buradan alabilirsiniz:
+LocalUEFIRadioBtn=Use a firmware stored on your computer
+ServerUEFIRadioBtn=Use the latest firmware available on the server
 
 [SetupConfigurationPage]
 ConfigurationLabel=Konfigurasyon

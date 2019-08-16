@@ -1,7 +1,7 @@
 ﻿[WoR lang file]
 Name=Deutsch (German)
 Author=BastiJames333 , Schule04 , NASS-eK
-IsComplete=1
+IsComplete=0
 
 [UpdateNotifierWindow]
 WindowTitle=Update
@@ -79,14 +79,16 @@ SelectImgInfoBox.SelectedImageUnsupported=Das ausgewählte Image wird nicht unte
 [SelectDriversPage]
 SelectDriversLabel=Treiber wählen
 DriversNoteTextBox=Hinweis: Die Treiber müssen im ZIP-Dateiformat archiviert sein.
-NoDriversTextBox=Sie können die neuesten funktionierenden Treiber hier erhalten:
+LocalDrvPkgRadioBtn=Use a package stored on your computer
+ServerDrvPkgRadioBtn=Use the latest package available on the server
 SelectDrvInfoBox.OK=Das Treiberarchiv ist OK!
 SelectDrvInfoBox.LicenseNotAccepted=Sie haben die Lizenzvereinbarung nicht akzeptiert!
 
 [SelectUEFIPage]
 SelectUEFILabel=UEFI-Firmware wählen
 UEFINoteTextBox=Hinweis: Die UEFI-Firmware muss als Dateiendung %2 haben.
-GetUEFITextBox=Sie können die neueste Raspberry Pi UEFI-Firmware hier erhalten:
+LocalUEFIRadioBtn=Use a firmware stored on your computer
+ServerUEFIRadioBtn=Use the latest firmware available on the server
 
 [SetupConfigurationPage]
 ConfigurationLabel=Konfiguration

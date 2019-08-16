@@ -79,14 +79,16 @@ SelectImgInfoBox.SelectedImageUnsupported=不支持所選的映像文件！
 [SelectDriversPage]
 SelectDriversLabel=選擇驅動程序
 DriversNoteTextBox=注意：您選擇的驅動程序必須打包為 zip 格式。
-NoDriversTextBox=您可以從這裡獲得最新的可用驅動程序：
+LocalDrvPkgRadioBtn=Use a package stored on your computer
+ServerDrvPkgRadioBtn=Use the latest package available on the server
 SelectDrvInfoBox.OK=驅動可用！
 SelectDrvInfoBox.LicenseNotAccepted=您尚未接受其中一項許可協議!
 
 [SelectUEFIPage]
 SelectUEFILabel=選擇 UEFI 固件
 UEFINoteTextBox=注意：您的 UEFI 固件必須是 %2 擴展名。
-GetUEFITextBox=您可以在這裡獲取最新的 UEFI 固件：
+LocalUEFIRadioBtn=Use a firmware stored on your computer
+ServerUEFIRadioBtn=Use the latest firmware available on the server
 
 [SetupConfigurationPage]
 ConfigurationLabel=配置

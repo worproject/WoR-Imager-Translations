@@ -79,14 +79,16 @@ SelectImgInfoBox.SelectedImageUnsupported=Le fichier sélectionné n'est pas sup
 [SelectDriversPage]
 SelectDriversLabel=Sélectionner les drivers
 DriversNoteTextBox=Note: Les drivers doivent être au format ZIP.
-NoDriversTextBox=Vous pouvez télécharger les derniers drivers ici:
+LocalDrvPkgRadioBtn=Use a package stored on your computer
+ServerDrvPkgRadioBtn=Use the latest package available on the server
 SelectDrvInfoBox.OK=L'archive est OK !
 SelectDrvInfoBox.LicenseNotAccepted=Vous n'avez pas accepté l'un des contrats de licence !
 
 [SelectUEFIPage]
 SelectUEFILabel=Sélectionner le firmware UEFI
 UEFINoteTextBox=Note: le firmware UEFI doit avoir cette extension de fichier: %2
-GetUEFITextBox=Vous pouvez télécharger le dernier firmware pour Raspbery Pi ici:
+LocalUEFIRadioBtn=Use a firmware stored on your computer
+ServerUEFIRadioBtn=Use the latest firmware available on the server
 
 [SetupConfigurationPage]
 ConfigurationLabel=Configuration

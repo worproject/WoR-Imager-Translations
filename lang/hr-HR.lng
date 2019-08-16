@@ -79,14 +79,16 @@ SelectImgInfoBox.SelectedImageUnsupported=The selected image file is not support
 [SelectDriversPage]
 SelectDriversLabel=Odaberite upravljačke programe
 DriversNoteTextBox=Napomena: upravljački programi moraju biti arhivirani koristeći ZIP format datoteke.
-NoDriversTextBox=Najnovije funkcionalne upravljačke programe možete dohvatiti sa:
+LocalDrvPkgRadioBtn=Use a package stored on your computer
+ServerDrvPkgRadioBtn=Use the latest package available on the server
 SelectDrvInfoBox.OK=Arhiva upravljačkih programa je OK!
 SelectDrvInfoBox.LicenseNotAccepted=You have not accepted one of the license agreements!
 
 [SelectUEFIPage]
 SelectUEFILabel=Odaberite UEFI firmware
 UEFINoteTextBox=Napomena: UEFI firmware mora imati %2 nastavak datoteke.
-GetUEFITextBox=Najnoviji Raspberry Pi UEFI firmware možete dohvatiti sa:
+LocalUEFIRadioBtn=Use a firmware stored on your computer
+ServerUEFIRadioBtn=Use the latest firmware available on the server
 
 [SetupConfigurationPage]
 ConfigurationLabel=Konfiguracija

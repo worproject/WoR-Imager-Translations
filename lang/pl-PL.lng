@@ -79,14 +79,16 @@ SelectImgInfoBox.SelectedImageUnsupported=Wybrany plik obrazu jest nie wspierany
 [SelectDriversPage]
 SelectDriversLabel=Wybierz sterowniki
 DriversNoteTextBox=Uwaga: sterowniki muszą być spakowane do pliku ZIP!
-NoDriversTextBox=Możesz pobrać najnowsze działające sterowniki z:
+LocalDrvPkgRadioBtn=Use a package stored on your computer
+ServerDrvPkgRadioBtn=Use the latest package available on the server
 SelectDrvInfoBox.OK=Archiwum ze sterownikami jest w porządku!
 SelectDrvInfoBox.LicenseNotAccepted=You have not accepted one of the license agreements!
 
 [SelectUEFIPage]
 SelectUEFILabel=Wybierz oprogramowanie UEFI
 UEFINoteTextBox=Uwaga: plik oprogramowania UEFI musi mieć rozszerzenie %2.
-GetUEFITextBox=Możesz pobrać najnowsze oprogramowanie UEFI z:
+LocalUEFIRadioBtn=Use a firmware stored on your computer
+ServerUEFIRadioBtn=Use the latest firmware available on the server
 
 [SetupConfigurationPage]
 ConfigurationLabel=Konfiguracja Instalacji

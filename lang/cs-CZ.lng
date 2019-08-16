@@ -79,14 +79,16 @@ SelectImgInfoBox.SelectedImageUnsupported=Vybraný obraz není podporovaný!
 [SelectDriversPage]
 SelectDriversLabel=Vyberte ovladače
 DriversNoteTextBox=Pozn.: Ovladače musí být archivované ve formátu ZIP.
-NoDriversTextBox=Nejnovější funkční ovladače můžete získat zde:
+LocalDrvPkgRadioBtn=Use a package stored on your computer
+ServerDrvPkgRadioBtn=Use the latest package available on the server
 SelectDrvInfoBox.OK=Archiv s ovladači je vpořádku!
 SelectDrvInfoBox.LicenseNotAccepted=Nepotvrdili jste licenční ujednání!
 
 [SelectUEFIPage]
 SelectUEFILabel=Vyberte UEFI firmware
 UEFINoteTextBox=Pozn.: UEFI firmware musí mít připonu %2.
-GetUEFITextBox=Poslední Raspberry Pi UEFI firmware můžete získat z:
+LocalUEFIRadioBtn=Use a firmware stored on your computer
+ServerUEFIRadioBtn=Use the latest firmware available on the server
 
 [SetupConfigurationPage]
 ConfigurationLabel=Konfigurace

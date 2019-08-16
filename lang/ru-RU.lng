@@ -79,14 +79,16 @@ SelectImgInfoBox.SelectedImageUnsupported=Выбранный образ не п�
 [SelectDriversPage]
 SelectDriversLabel=Выберите драйвера
 DriversNoteTextBox=Примечание: драйвера должен быть упакованы в ZIP формате.
-NoDriversTextBox=Вы можете получить последнюю версию рабочих драйверов здесь:
+LocalDrvPkgRadioBtn=Use a package stored on your computer
+ServerDrvPkgRadioBtn=Use the latest package available on the server
 SelectDrvInfoBox.OK=Архив драйверов подходит!
 SelectDrvInfoBox.LicenseNotAccepted=Вы не приняли одно из лицензионных соглашений!
 
 [SelectUEFIPage]
 SelectUEFILabel=Выберите UEFI прошивку
 UEFINoteTextBox=Примечание: UEFI прошивка должна иметь расширение файла %2
-GetUEFITextBox=Вы можете получить последнюю версию Raspberry Pi UEFI прошивки отсюда:
+LocalUEFIRadioBtn=Use a firmware stored on your computer
+ServerUEFIRadioBtn=Use the latest firmware available on the server
 
 [SetupConfigurationPage]
 ConfigurationLabel=Конфигурация

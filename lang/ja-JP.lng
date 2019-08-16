@@ -79,14 +79,16 @@ SelectImgInfoBox.SelectedImageUnsupported=The selected image file is not support
 [SelectDriversPage]
 SelectDriversLabel=ドライバーを選択してください
 DriversNoteTextBox=注意: ドライバーは、ZIP ファイル形式でアーカイブされている必要があります。
-NoDriversTextBox=最新のドライバーは、次から取得可能です:
+LocalDrvPkgRadioBtn=Use a package stored on your computer
+ServerDrvPkgRadioBtn=Use the latest package available on the server
 SelectDrvInfoBox.OK=ドライバーのアーカイブは正常です!
 SelectDrvInfoBox.LicenseNotAccepted=You have not accepted one of the license agreements!
 
 [SelectUEFIPage]
 SelectUEFILabel=Select UEFI ファームウェア
 UEFINoteTextBox=注意: UEFI ファームウェアの拡張子は、 %2 であることが必要です。
-GetUEFITextBox=最新の Raspberry Pi UEFI ファームウェアは、次から取得可能です:
+LocalUEFIRadioBtn=Use a firmware stored on your computer
+ServerUEFIRadioBtn=Use the latest firmware available on the server
 
 [SetupConfigurationPage]
 ConfigurationLabel=設定
