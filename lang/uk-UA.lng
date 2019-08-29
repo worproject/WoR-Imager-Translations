@@ -4,11 +4,11 @@ Author=Volodymyr Borodaykevych
 IsComplete=0
 
 [UpdateNotifierWindow]
-WindowTitle=Update
-NewVersionAvailableLabel=New version available
-NewVersionAvailableBox=Windows on Raspberry %ver% is available! Would you like to download it now?
-DownloadBtn=Download
-CloseBtn=Close
+WindowTitle=Оновлення
+NewVersionAvailableLabel=Доступна нова версія
+NewVersionAvailableBox=Windows on Raspberry %ver% є доступною! Хочете оновити її зараз?
+DownloadBtn=Завантажити
+CloseBtn=Закрити
 
 [AboutWindow]
 WindowTitle=Про програму
@@ -19,7 +19,7 @@ LicensesPage=Ліцензування
 
 [LoggerWindow]
 WindowTitle=Логи
-CopyToClipboardBtn=Copy
+CopyToClipboardBtn=Копіювати
 
 [LicenseAgreementWindow]
 WindowTitle=Ліцензійна угода
@@ -54,7 +54,7 @@ StatusBar.DownloadingReqFiles=Завантаження необхідних фа
 StatusBar.FormattingDisk=Форматування носія...
 StatusBar.ApplyingGPTImage=Застосування GPT образу...
 StatusBar.CreatingPartitions=Створення розділів...
-StatusBar.ApplyingWIMImage=Застосування WIM образу...
+StatusBar.ApplyingImage=Застосування образу...
 StatusBar.CopyingBootFiles=Копіювання завантажувальних файлів...
 StatusBar.CreatingBCD=Створення BCD...
 StatusBar.SettingTestMode=Налаштування тестового режиму і перевірка цифрового підпису драйверів...
@@ -71,6 +71,7 @@ DiskInfoBox.Enough=Вибраного носія вистачає, щоб вст
 [SelectImagePage]
 SelectImageLabel=Виберіть ваш Windows ARM образ
 WindowsEditionLabel=Windows edition:
+UpdateBinariesCheck=Update the boot files and the drivers package
 WorkingBuildsTextBox=Примітка: Windows 10 1803 новіші версії, як відомо, працюють.%n%В версії 1809 може неочікувано статися збій через деякі зміни в драйвері WppRecorder.sys, так що її варто уникати.
 SelectImgInfoBox.SelectedImageGood=Вибраний файл образу (версія: %1) підходить!
 SelectImgInfoBox.SelectedImageInvalid=Вибраний файл є недійсним образом Windows!
@@ -79,25 +80,25 @@ SelectImgInfoBox.SelectedImageUnsupported=Вибраний образ не пі�
 [SelectDriversPage]
 SelectDriversLabel=Виберіть драйвери
 DriversNoteTextBox=Примітка: драйвери мають бути запаковані в ZIP форматі.
-LocalDrvPkgRadioBtn=Use a package stored on your computer
-ServerDrvPkgRadioBtn=Use the latest package available on the server
+LocalDrvPkgRadioBtn=Використати інсталяційний пакет збережений на вашому комп'ютері
+ServerDrvPkgRadioBtn=Використати найновіший доступний пакет з серверу
 SelectDrvInfoBox.OK=Архів драйверів підходить!
 SelectDrvInfoBox.LicenseNotAccepted=Ви не прийняли одну з ліцензійних угод!
 
 [SelectUEFIPage]
 SelectUEFILabel=Виберіть UEFI прошивку
 UEFINoteTextBox=Примітка: UEFI прошивка має мати разширення файлу %2
-LocalUEFIRadioBtn=Use a firmware stored on your computer
-ServerUEFIRadioBtn=Use the latest firmware available on the server
+LocalUEFIRadioBtn=Використати прошивку збережену на вашому комп'ютері
+ServerUEFIRadioBtn=Використати найновішу доступну прошивку з серверу
 
 [SetupConfigurationPage]
 ConfigurationLabel=Конфігурація
 InstallOptionsGroup=Опції встановлення
 PartSchemeLabel=Схема розділів:
 ImgInstallLabel=Встановити образ через:
-GPTImgFlasherLabel=Flash GPT image with:
+GPTImgFlasherLabel=Записати GPT образ з:
 EnableLZXCheck=Увімкнути LZX стискання
-VerifyGPTImgCheck=Verify the disk after flashing the GPT image
+VerifyGPTImgCheck=Перевірити диск після запису GPT образу
 BootOptionsGroup=Опції запуску
 WoROptionsGroup=Налаштування WoR
 SaveConfigExitLabel=Зберегти цю конфігурацію при виході

@@ -1,14 +1,14 @@
 ﻿[WoR lang file]
 Name=简体中文 (Simplified Chinese)
 Author=thchi12 , nyaruko , Meaqua233
-IsComplete=0
+IsComplete=1
 
 [UpdateNotifierWindow]
 WindowTitle=更新
 NewVersionAvailableLabel=新版本可用
-NewVersionAvailableBox=新版本Windows on Raspberry %ver% 可用! 你想现在下载吗?
+NewVersionAvailableBox=新版本Windows on Raspberry %ver% 可用! 你要现在下载吗?
 DownloadBtn=下载
-CloseBtn=关闭
+CloseBtn=取消
 
 [AboutWindow]
 WindowTitle=关于
@@ -54,7 +54,7 @@ StatusBar.DownloadingReqFiles=正在下载所需文件...
 StatusBar.FormattingDisk=正在格式化您的设备...
 StatusBar.ApplyingGPTImage=正在应用 GPT 分区表...
 StatusBar.CreatingPartitions=正在创建分区...
-StatusBar.ApplyingWIMImage=正在应用 Windows 映像...
+StatusBar.ApplyingImage=正在应用 Windows 映像...
 StatusBar.CopyingBootFiles=正在复制引导文件...
 StatusBar.CreatingBCD=正在创建 BCD 存储...
 StatusBar.SettingTestMode=正在对 BCD 存储设置 testsigning 以及 nointegritychecks 选项...
@@ -71,6 +71,7 @@ DiskInfoBox.Enough=所选设备有足够的空间用于压缩安装。
 [SelectImagePage]
 SelectImageLabel=请选择您的 Windows 10 ARM 映像。
 WindowsEditionLabel=Windows版本:
+UpdateBinariesCheck=更新引导文件和驱动程序包
 WorkingBuildsTextBox=注意: 已知Windows 10 1803和更新版本可以使用.%n%由于WppRecorder.sys驱动程序中的某些更改，版本1809可能会意外崩溃，因此应该避免使用。
 SelectImgInfoBox.SelectedImageGood=所选择的版本(版本： %1) 可以安装。
 SelectImgInfoBox.SelectedImageInvalid=所选文件不是有效的Windows映像！
@@ -79,16 +80,16 @@ SelectImgInfoBox.SelectedImageUnsupported=不支持所选的映像文件！
 [SelectDriversPage]
 SelectDriversLabel=选择驱动程序
 DriversNoteTextBox=注意：您选择的驱动程序必须打包为 zip 格式。
-LocalDrvPkgRadioBtn=Use a package stored on your computer
-ServerDrvPkgRadioBtn=Use the latest package available on the server
+LocalDrvPkgRadioBtn=使用本地的驱动程序包
+ServerDrvPkgRadioBtn=使用服务器上提供的最新驱动程序包
 SelectDrvInfoBox.OK=驱动程序可用！
 SelectDrvInfoBox.LicenseNotAccepted=您尚未接受其中一项许可协议!
 
 [SelectUEFIPage]
 SelectUEFILabel=选择 UEFI 固件
 UEFINoteTextBox=注意：您的 UEFI 固件必须是 %2 扩展名。
-LocalUEFIRadioBtn=Use a firmware stored on your computer
-ServerUEFIRadioBtn=Use the latest firmware available on the server
+LocalUEFIRadioBtn=使用本地的固件
+ServerUEFIRadioBtn=使用服务器上提供的最新固件
 
 [SetupConfigurationPage]
 ConfigurationLabel=配置
