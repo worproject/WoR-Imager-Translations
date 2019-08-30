@@ -1,7 +1,7 @@
 ﻿[WoR lang file]
 Name=Українська (Ukrainian)
 Author=Volodymyr Borodaykevych
-IsComplete=0
+IsComplete=1
 
 [UpdateNotifierWindow]
 WindowTitle=Оновлення
@@ -71,7 +71,7 @@ DiskInfoBox.Enough=Вибраного носія вистачає, щоб вст
 [SelectImagePage]
 SelectImageLabel=Виберіть ваш Windows ARM образ
 WindowsEditionLabel=Windows edition:
-UpdateBinariesCheck=Update the boot files and the drivers package
+UpdateBinariesCheck=Оновити завантажувальні файли та пакет драйверів
 WorkingBuildsTextBox=Примітка: Windows 10 1803 новіші версії, як відомо, працюють.%n%В версії 1809 може неочікувано статися збій через деякі зміни в драйвері WppRecorder.sys, так що її варто уникати.
 SelectImgInfoBox.SelectedImageGood=Вибраний файл образу (версія: %1) підходить!
 SelectImgInfoBox.SelectedImageInvalid=Вибраний файл є недійсним образом Windows!
