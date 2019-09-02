@@ -1,7 +1,7 @@
 ﻿[WoR lang file]
 Name=简体中文 (Simplified Chinese)
 Author=thchi12 , nyaruko , Meaqua233
-IsComplete=1
+IsComplete=0
 
 [UpdateNotifierWindow]
 WindowTitle=更新
@@ -76,6 +76,7 @@ WorkingBuildsTextBox=注意: 已知Windows 10 1803和更新版本可以使用.%n
 SelectImgInfoBox.SelectedImageGood=所选择的版本(版本： %1) 可以安装。
 SelectImgInfoBox.SelectedImageInvalid=所选文件不是有效的Windows映像！
 SelectImgInfoBox.SelectedImageUnsupported=不支持所选的映像文件！
+MessageBox.NotEnoughSpace=There is not enough space on the disk to install this image!%n%Please choose a larger storage device or a compact image.
 
 [SelectDriversPage]
 SelectDriversLabel=选择驱动程序

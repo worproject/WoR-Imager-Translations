@@ -76,6 +76,7 @@ WorkingBuildsTextBox=注意: 已知Windows 10 1803和更新版本可以使用.%n
 SelectImgInfoBox.SelectedImageGood=所選擇的版本(版本： %1) 可以安裝。
 SelectImgInfoBox.SelectedImageInvalid=所選文件不是有效的Windows映像！
 SelectImgInfoBox.SelectedImageUnsupported=不支持所選的映像文件！
+MessageBox.NotEnoughSpace=There is not enough space on the disk to install this image!%n%Please choose a larger storage device or a compact image.
 
 [SelectDriversPage]
 SelectDriversLabel=選擇驅動程序

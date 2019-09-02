@@ -76,6 +76,7 @@ WorkingBuildsTextBox=Примечание: Windows 10 1803 и более нов�
 SelectImgInfoBox.SelectedImageGood=Выбранный файл образа (версия: %1) подходит!
 SelectImgInfoBox.SelectedImageInvalid=Выбранный файл не подходит в роли образа Windows!
 SelectImgInfoBox.SelectedImageUnsupported=Выбранный образ не поддерживается!
+MessageBox.NotEnoughSpace=There is not enough space on the disk to install this image!%n%Please choose a larger storage device or a compact image.
 
 [SelectDriversPage]
 SelectDriversLabel=Выберите драйвера

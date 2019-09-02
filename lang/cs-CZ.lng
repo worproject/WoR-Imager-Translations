@@ -76,6 +76,7 @@ WorkingBuildsTextBox=Poznámka: Windows 10 1803 a novější verze fungují.%n%V
 SelectImgInfoBox.SelectedImageGood=Vybraný soubor virtuálního obrazu (verze: %1) je v pořádku!
 SelectImgInfoBox.SelectedImageInvalid=Vybraný soubor není platný obraz Windows!
 SelectImgInfoBox.SelectedImageUnsupported=Vybraný obraz není podporovaný!
+MessageBox.NotEnoughSpace=There is not enough space on the disk to install this image!%n%Please choose a larger storage device or a compact image.
 
 [SelectDriversPage]
 SelectDriversLabel=Vyberte ovladače

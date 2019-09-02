@@ -76,6 +76,7 @@ WorkingBuildsTextBox=Note: Windows 10 1803 and newer versions are known to work.
 SelectImgInfoBox.SelectedImageGood=Odabrana datoteka slike (verzija: %1) je dobra!
 SelectImgInfoBox.SelectedImageInvalid=The selected file is not a valid Windows image!
 SelectImgInfoBox.SelectedImageUnsupported=The selected image file is not supported!
+MessageBox.NotEnoughSpace=There is not enough space on the disk to install this image!%n%Please choose a larger storage device or a compact image.
 
 [SelectDriversPage]
 SelectDriversLabel=Odaberite upravljačke programe

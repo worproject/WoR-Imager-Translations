@@ -76,6 +76,7 @@ WorkingBuildsTextBox=Notă: Windows 10 1803 și versiunile mai noi sunt cunoscut
 SelectImgInfoBox.SelectedImageGood=Imaginea selectată (versiunea: %1) este OK!
 SelectImgInfoBox.SelectedImageInvalid=Fișierul selectat nu este o imagine Windows validă!
 SelectImgInfoBox.SelectedImageUnsupported=Imaginea selectată nu este suportată!
+MessageBox.NotEnoughSpace=Nu există spațiu suficient pe disc pentru a instala imaginea!%n%Vă rugăm să alegeți un dispozitiv de stocare mai mare sau o imagine compactă.
 
 [SelectDriversPage]
 SelectDriversLabel=Selectați driverele

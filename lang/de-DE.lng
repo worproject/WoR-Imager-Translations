@@ -76,6 +76,7 @@ WorkingBuildsTextBox=Achtung: Es ist bekannt, dass Windows 10 1803 und neuere Ve
 SelectImgInfoBox.SelectedImageGood=Das ausgewählte Image (Version: %1) ist gut!
 SelectImgInfoBox.SelectedImageInvalid=Die ausgewählte Datei ist kein gültiges Windows-Abbild!
 SelectImgInfoBox.SelectedImageUnsupported=Das ausgewählte Image wird nicht unterstützt!
+MessageBox.NotEnoughSpace=There is not enough space on the disk to install this image!%n%Please choose a larger storage device or a compact image.
 
 [SelectDriversPage]
 SelectDriversLabel=Treiber wählen
