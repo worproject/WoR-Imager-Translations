@@ -5,26 +5,26 @@ IsComplete=0
 
 [UpdateNotifierWindow]
 WindowTitle=Update
-NewVersionAvailableLabel=New version available
-NewVersionAvailableBox=Windows on Raspberry %ver% is available! Would you like to download it now?
-DownloadBtn=Download
-CloseBtn=Close
+NewVersionAvailableLabel=새로운 버젼이 사용 가능합니다.
+NewVersionAvailableBox=Windows on Raspberry %ver% 이 사용 가능합니다! 지금 다운로드 하시겠습니까?
+DownloadBtn=다운로드
+CloseBtn=닫기
 
 [AboutWindow]
-WindowTitle=About
-AppVersionLabel=Version
-CreditsPage=Credits
-ChangelogPage=Changelog
-LicensesPage=Licenses
+WindowTitle=이 프로그램에 대하여
+AppVersionLabel=버젼
+CreditsPage=크레딧
+ChangelogPage=체인지로그
+LicensesPage=라이센스
 
 [LoggerWindow]
 WindowTitle=로그
-CopyToClipboardBtn=Copy
+CopyToClipboardBtn=복사
 
 [LicenseAgreementWindow]
-WindowTitle=License agreement
-AcceptBtn=Accept
-DeclineBtn=Decline
+WindowTitle=라이센스 동의
+AcceptBtn=동의
+DeclineBtn=거절
 
 [Messages]
 AnErrorOccurred=오류가 발생했습니다! 로그를 확인해주세요!
@@ -45,7 +45,7 @@ NextPageBtn=다음
 BackPageBtn=뒤로
 NextPageBtn.Install=설치
 NextPageBtn.Finish=마침
-StatusBar.Idle=Idle
+StatusBar.Idle=대기중
 StatusBar.LoadingDisks=드라이버를 불러 오는 중입니다...
 StatusBar.MountingISO=Windows 10 Arm ISO 이미지를 마운트 하고 있습니다...
 StatusBar.UnmountingISO=ISO 이미지를 언마운트 하고 있습니다...
