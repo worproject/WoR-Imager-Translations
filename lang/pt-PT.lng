@@ -1,4 +1,4 @@
-﻿[WoR lang file]
+[WoR lang file]
 Name=Português (Portuguese)
 Author=Miguel Couto
 IsComplete=1
@@ -75,6 +75,7 @@ WorkingBuildsTextBox=Nota: O Windows 10 1803 e as novas versões são conhecidos
 SelectImgInfoBox.SelectedImageGood=O ficheiro de imagem escolhido (versão: %1) é boa!
 SelectImgInfoBox.SelectedImageInvalid=O ficheiro escolhido não é uma imagem do Windows válida!
 SelectImgInfoBox.SelectedImageUnsupported=O ficheiro de imagem escolhido não é suportado!
+MessageBox.NotEnoughSpace=Não tem mais espaço em disco para instalar esta imagem!%n%Por favor, escolha um dispositivo com maior capacidade ou uma imagem compacta.
 
 [SelectDriversPage]
 SelectDriversLabel=Escolher o controlador
@@ -96,7 +97,7 @@ InstallOptionsGroup=Opções da instalação
 PartSchemeLabel=Esquema de partição:
 ImgInstallLabel=Imagem de instalação em:
 GPTImgFlasherLabel=Imagem flash GPT em:
-EnableLZXCheck=Enable LZX install compression
+EnableLZXCheck=Activar a instalação em compressão LZX
 VerifyGPTImgCheck=Verificar o disco depois de flashing a imagem GPT
 BootOptionsGroup=Opções de arranque
 WoROptionsGroup=Opções WoR
