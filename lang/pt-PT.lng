@@ -24,7 +24,7 @@ CopyToClipboardBtn=Copiar
 [LicenseAgreementWindow]
 WindowTitle=Aceitação da licença
 AcceptBtn=Aceitar
-DeclineBtn=Recusadr
+DeclineBtn=Recusar
 
 [Messages]
 AnErrorOccurred=Ocorreu um erro! Por favor, verifique os registos.
