@@ -1,7 +1,7 @@
 ﻿[WoR lang file]
 Name=Українська (Ukrainian)
 Author=Volodymyr Borodaykevych
-IsComplete=0
+IsComplete=1
 
 [UpdateNotifierWindow]
 WindowTitle=Оновлення
@@ -76,7 +76,7 @@ WorkingBuildsTextBox=Примітка: Windows 10 1803 новіші версії
 SelectImgInfoBox.SelectedImageGood=Вибраний файл образу (версія: %1) підходить!
 SelectImgInfoBox.SelectedImageInvalid=Вибраний файл є недійсним образом Windows!
 SelectImgInfoBox.SelectedImageUnsupported=Вибраний образ не підтримується!
-MessageBox.NotEnoughSpace=There is not enough space on the disk to install this image!%n%Please choose a larger storage device or a compact image.
+MessageBox.NotEnoughSpace=На вашому диску недостатньо місця щоб встатовити цей образ!%n%Будь ласка, виберіть пристрій з більшим розміром сховища або менший образ.
 
 [SelectDriversPage]
 SelectDriversLabel=Виберіть драйвери
