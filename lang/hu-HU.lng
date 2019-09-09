@@ -1,34 +1,34 @@
 ﻿[WoR lang file]
 Name=Magyar (Hungarian)
-Author=Googulator
-IsComplete=0
+Author=Janaboy , Googulator
+IsComplete=1
 
 [UpdateNotifierWindow]
-WindowTitle=Update
-NewVersionAvailableLabel=New version available
-NewVersionAvailableBox=Windows on Raspberry %ver% is available! Would you like to download it now?
-DownloadBtn=Download
-CloseBtn=Close
+WindowTitle=Frissítés
+NewVersionAvailableLabel=Új verzió érhető el
+NewVersionAvailableBox=Windows on Raspberry %ver% elérhető! Szeretnéd letölteni?
+DownloadBtn=Letöltés
+CloseBtn=Bezár
 
 [AboutWindow]
-WindowTitle=About
-AppVersionLabel=Version
-CreditsPage=Credits
-ChangelogPage=Changelog
-LicensesPage=Licenses
+WindowTitle=Programról
+AppVersionLabel=Verzió
+CreditsPage=Készítők
+ChangelogPage=Módosítások
+LicensesPage=Licencek
 
 [LoggerWindow]
 WindowTitle=Napló
-CopyToClipboardBtn=Copy
+CopyToClipboardBtn=Másol
 
 [LicenseAgreementWindow]
-WindowTitle=License agreement
-AcceptBtn=Accept
-DeclineBtn=Decline
+WindowTitle=Licenc
+AcceptBtn=Elfogad
+DeclineBtn=Elutasít
 
 [Messages]
 AnErrorOccurred=Hiba történt! Ellenőrizze a naplót.
-TaskOngoing=An operation is currently in progress.%n%Are you sure you want to force close the application?
+TaskOngoing=Folyamatban van egy művelet.%n%Biztos bezárja az alkalmazást?
 
 [MainWindow]
 WelcomePage=Üdvözöljük
@@ -38,7 +38,7 @@ SelectDriversPage=Illesztők választása
 SelectUEFIPage=UEFI firmware
 ConfigurationPage=Beállítás
 FinishPage=Telepítés
-WelcomeLabel=Üdvözuöljük a Windows on Raspberry telepítőben!
+WelcomeLabel=Üdvözöljük a Windows on Raspberry telepítőben!
 WelcomeMsgTextBox=A WoR (Windows on Raspberry) egy olyan eszköz, mellyel feltelepítheti a Windows ARM alapú verzióját (a teljes asztali kiadást, nem az IoT-t) egy Raspberry Pi 3 B/B+-ben használható SD kártyára.
 SelectLangLabel=Válasszon nyelvet:
 NextPageBtn=Tovább
@@ -63,43 +63,43 @@ StatusBar.InstallingDrivers=Illesztők telepítése...
 
 [SelectDiskPage]
 SelectDiskLabel=Válassza ki az eszközt
-SelectDiskMsg=Note: Even though the new USB driver is stable, booting from an USB device is not recommended since Windows can't create a paging file on it.
+SelectDiskMsg=Megjegyzés: Ugyan az új USB driver stabil, az USB eszközről való indítás nem ajánlott, mivel a Windows nem tud rajta lapozófájlt létrehozni.
 DiskInfoBox.AtLeast8=Az eszközt legalább 8GB szabad hely szükséges!
 DiskInfoBox.Good=A kijelölt meghajtón van elég szabad hely (8GB).
-DiskInfoBox.Enough=A kijelölt meghajtón val elegendő szabad hely a tömörített (LZX) telepítéshez.
+DiskInfoBox.Enough=A kijelölt meghajtón van elegendő szabad hely a tömörített (LZX) telepítéshez.
 
 [SelectImagePage]
 SelectImageLabel=Válassza ki a telepítendő Windows rendszerképet:
-WindowsEditionLabel=Windows edition:
-UpdateBinariesCheck=Update the boot files and the drivers package
-WorkingBuildsTextBox=Note: Windows 10 1803 and newer versions are known to work.%n%Version 1809 can crash unexpectedly due to some changes in the WppRecorder.sys driver, so it should be avoided.
+WindowsEditionLabel=Windows változat:
+UpdateBinariesCheck=Boot fájlok és driver csomag frissítése
+WorkingBuildsTextBox=Megjegyzés: Windows 10 1803 és újabb verziók működnek.%n%A 1809 verzió véletlenszerű lefagyhat a WppRecorder.sys driver módosításai miatt, ezért kerülendő.
 SelectImgInfoBox.SelectedImageGood=A kiválasztott rendszerkép (verzió: %1) megfelelő!
-SelectImgInfoBox.SelectedImageInvalid=The selected file is not a valid Windows image!
-SelectImgInfoBox.SelectedImageUnsupported=The selected image file is not supported!
-MessageBox.NotEnoughSpace=There is not enough space on the disk to install this image!%n%Please choose a larger storage device or a compact image.
+SelectImgInfoBox.SelectedImageInvalid=A kiválasztott fájl nem egy Windows kép fájl!
+SelectImgInfoBox.SelectedImageUnsupported=A kiválasztott fájl nem támogatott!
+MessageBox.NotEnoughSpace=Nincs elég hely a kép fájl telepítéséhez!%n%Válasszon nagyobb tárolót vagy tömörítse be a kép fájlt.
 
 [SelectDriversPage]
 SelectDriversLabel=Válassza ki az illesztőket
 DriversNoteTextBox=Megjegyzés: Az illesztőknek ZIP archívumba kell csomagolni.
-LocalDrvPkgRadioBtn=Use a package stored on your computer
-ServerDrvPkgRadioBtn=Use the latest package available on the server
+LocalDrvPkgRadioBtn=Használjon egy csomagot a számítógépről
+ServerDrvPkgRadioBtn=Használja a legfrissebb csomagot a szerverről
 SelectDrvInfoBox.OK=Az illesztőcsomag megfelelő!
-SelectDrvInfoBox.LicenseNotAccepted=You have not accepted one of the license agreements!
+SelectDrvInfoBox.LicenseNotAccepted=Nem fogadta el a licenc szerződést!
 
 [SelectUEFIPage]
 SelectUEFILabel=Válassza ki az UEFI firmware-t
 UEFINoteTextBox=Megjegyzés: az UEFI firmware egy %2 kiterjesztésű fájl.
-LocalUEFIRadioBtn=Use a firmware stored on your computer
-ServerUEFIRadioBtn=Use the latest firmware available on the server
+LocalUEFIRadioBtn=Használjon egy UEFI firmware-t a számítógépről
+ServerUEFIRadioBtn=Használja a legfrissebb UEFI firmware-t a szerverről
 
 [SetupConfigurationPage]
 ConfigurationLabel=Beállítás
 InstallOptionsGroup=Telepítési lehetőségek
 PartSchemeLabel=Partícionálás típusa:
 ImgInstallLabel=Telepítés eszköze:
-GPTImgFlasherLabel=Flash GPT image with:
+GPTImgFlasherLabel=GPT írása:
 EnableLZXCheck=LZX-tömörített rendszer telepítése
-VerifyGPTImgCheck=Verify the disk after flashing the GPT image
+VerifyGPTImgCheck=Lemez GPT írásának ellenőrzése
 BootOptionsGroup=Boot beállítások
 WoROptionsGroup=WoR beállításai
 SaveConfigExitLabel=Beállítások elmentése kilépéskor
