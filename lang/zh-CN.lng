@@ -1,7 +1,7 @@
 ﻿[WoR lang file]
 Name=简体中文 (Simplified Chinese)
 Author=thchi12 , nyaruko , Meaqua233
-IsComplete=0
+IsComplete=1
 
 [UpdateNotifierWindow]
 WindowTitle=更新
@@ -28,12 +28,12 @@ DeclineBtn=拒绝
 
 [Messages]
 AnErrorOccurred=发生错误！ 请检查日志.
-TaskOngoing=目前正在进行安装.%n%您确定要强制关闭应用程序吗？
+TaskOngoing=目前正在进行安装.%n%您确定要关闭此程序吗？
 
 [MainWindow]
 WelcomePage=欢迎
 SelectDiskPage=选择您的设备
-SelectImagePage=选择映像
+SelectImagePage=选择镜像
 SelectDriversPage=选择驱动程序
 SelectUEFIPage=UEFI 固件
 ConfigurationPage=配置
@@ -47,14 +47,14 @@ NextPageBtn.Install=安装
 NextPageBtn.Finish=完成
 StatusBar.Idle=空闲
 StatusBar.LoadingDisks=正在加载磁盘信息...
-StatusBar.MountingISO=正在挂载光盘映像...
-StatusBar.UnmountingISO=正在卸载光盘映像...
-StatusBar.ExtractingDrvToTemp=正在解压驱动程序至临时文件夹...
+StatusBar.MountingISO=正在挂载光盘镜像...
+StatusBar.UnmountingISO=正在卸载光盘镜像...
+StatusBar.ExtractingDrvToTemp=正在解压驱动程序...
 StatusBar.DownloadingReqFiles=正在下载所需文件...
 StatusBar.FormattingDisk=正在格式化您的设备...
 StatusBar.ApplyingGPTImage=正在应用 GPT 分区表...
 StatusBar.CreatingPartitions=正在创建分区...
-StatusBar.ApplyingImage=正在应用 Windows 映像...
+StatusBar.ApplyingImage=正在应用 Windows 镜像...
 StatusBar.CopyingBootFiles=正在复制引导文件...
 StatusBar.CreatingBCD=正在创建 BCD 存储...
 StatusBar.SettingTestMode=正在对 BCD 存储设置 testsigning 以及 nointegritychecks 选项...
@@ -63,20 +63,20 @@ StatusBar.InstallingDrivers=正在安装驱动程序...
 
 [SelectDiskPage]
 SelectDiskLabel=选择您的设备
-SelectDiskMsg=注意: 即使新的USB驱动程序稳定，也不建议从USB设备启动，因为Windows无法在其上创建分页文件。
-DiskInfoBox.AtLeast8=您的设备至少需要 8GB！
+SelectDiskMsg=注意: 不建议在USB设备上安装，否则可能会出现一些问题。
+DiskInfoBox.AtLeast8=至少需要 8GB 可用空间用于安装！
 DiskInfoBox.Good=所选设备至少拥有 8GB 的可用空间。
-DiskInfoBox.Enough=所选设备有足够的空间用于压缩安装。
+DiskInfoBox.Enough=所选设备有足够的空间用于安装。
 
 [SelectImagePage]
-SelectImageLabel=请选择您的 Windows 10 ARM 映像。
+SelectImageLabel=请选择您的 Windows 10 ARM 镜像。
 WindowsEditionLabel=Windows版本:
 UpdateBinariesCheck=更新引导文件和驱动程序包
-WorkingBuildsTextBox=注意: 已知Windows 10 1803和更新版本可以使用.%n%由于WppRecorder.sys驱动程序中的某些更改，版本1809可能会意外崩溃，因此应该避免使用。
+WorkingBuildsTextBox=注意: 已知Windows 10 1803和最新版本可以使用.%n%请避免使用1809版本,否则可能会出现意外崩溃的问题。
 SelectImgInfoBox.SelectedImageGood=所选择的版本(版本： %1) 可以安装。
-SelectImgInfoBox.SelectedImageInvalid=所选文件不是有效的Windows映像！
-SelectImgInfoBox.SelectedImageUnsupported=不支持所选的映像文件！
-MessageBox.NotEnoughSpace=There is not enough space on the disk to install this image!%n%Please choose a larger storage device or a compact image.
+SelectImgInfoBox.SelectedImageInvalid=所选文件不是有效的Windows镜像！
+SelectImgInfoBox.SelectedImageUnsupported=不支持所选的镜像文件！
+MessageBox.NotEnoughSpace=磁盘上没有足够的空间来安装此镜像!%n%你选择更大存储设备或更小的镜像文件.
 
 [SelectDriversPage]
 SelectDriversLabel=选择驱动程序
@@ -96,23 +96,23 @@ ServerUEFIRadioBtn=使用服务器上提供的最新固件
 ConfigurationLabel=配置
 InstallOptionsGroup=安装选项
 PartSchemeLabel=分区表:
-ImgInstallLabel=安装映像为:
-GPTImgFlasherLabel=写入GPT映像:
+ImgInstallLabel=安装镜像为:
+GPTImgFlasherLabel=写入GPT镜像:
 EnableLZXCheck=启用LZX压缩，可以减小占用空间。
-VerifyGPTImgCheck=写入GPT映像后验证磁盘
+VerifyGPTImgCheck=写入GPT镜像后检查磁盘
 BootOptionsGroup=启动选项
 WoROptionsGroup=Windows 选项
 SaveConfigExitLabel=退出时保存这次所用配置。
 
 [SetupOverviewPage]
 InstallOverviewLabel=安装概览
-InstallWarnBox=警告！您的设备将会被擦除！请在确认安装前对您的设备数据进行备份！
+InstallWarnBox=警告！您的设备将会被清除！请在确认安装前对您的设备数据进行备份！
 TargetDeviceLabel=目标设备
 OSLabel=要安装的操作系统
 DriversPathLabel=驱动程序路径
 UEFIPathLabel=UEFI固件路径
 PartitionSchemeLabel=所使用的分区表
-ImageDeployerLabel=释放映像方式
+ImageDeployerLabel=释放镜像方式
 LZXCompressionLabel=是否启用 LZX 压缩
 LZXCompression.YES=是
 LZXCompression.NO=否
