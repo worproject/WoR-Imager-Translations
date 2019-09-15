@@ -1,14 +1,14 @@
 ﻿[WoR lang file]
 Name=Čeština (Czech)
-Author=martindrey , Nuparu00
-IsComplete=0
+Author=martindrey , Nuparu00 , lukajin
+IsComplete=1
 
 [UpdateNotifierWindow]
-WindowTitle=Update
-NewVersionAvailableLabel=New version available
-NewVersionAvailableBox=Windows on Raspberry %ver% is available! Would you like to download it now?
-DownloadBtn=Download
-CloseBtn=Close
+WindowTitle=Aktualizace
+NewVersionAvailableLabel=Je k dispozici nová verze
+NewVersionAvailableBox=Windows on Raspberry %ver% je k dispozici! Chcete jej stáhnout nyní?
+DownloadBtn=Stáhnout
+CloseBtn=Zavřít
 
 [AboutWindow]
 WindowTitle=O programu
@@ -19,7 +19,7 @@ LicensesPage=Licence
 
 [LoggerWindow]
 WindowTitle=Logy
-CopyToClipboardBtn=Copy
+CopyToClipboardBtn=Kopírovat
 
 [LicenseAgreementWindow]
 WindowTitle=Licenční ujednání
@@ -46,10 +46,10 @@ BackPageBtn=Zpět
 NextPageBtn.Install=Instalovat
 NextPageBtn.Finish=Dokončit
 StatusBar.Idle=Nečinný
-StatusBar.LoadingDisks=Načítání ovladačů...
+StatusBar.LoadingDisks=Načítání seznamu disků...
 StatusBar.MountingISO=Připojování ISO obrazu...
-StatusBar.UnmountingISO=Odpojování the ISO obrazu...
-StatusBar.ExtractingDrvToTemp=Extrahování archivu ovladačů do dočasné složky...
+StatusBar.UnmountingISO=Odpojování ISO obrazu...
+StatusBar.ExtractingDrvToTemp=Rozbalování archivu ovladačů do dočasné složky...
 StatusBar.DownloadingReqFiles=Stahování vyžadovaných souborů...
 StatusBar.FormattingDisk=Formátování zařízení...
 StatusBar.ApplyingGPTImage=Aplikace GPT obrazu...
@@ -58,7 +58,7 @@ StatusBar.ApplyingImage=Aplikace obrazu...
 StatusBar.CopyingBootFiles=Kopírování bootovacích souborů...
 StatusBar.CreatingBCD=Vytváření BCD...
 StatusBar.SettingTestMode=Nastavení testsigning a nointegritychecks na ON...
-StatusBar.ConvertingEFI=Konverze bootovacího oddílu do ESP...
+StatusBar.ConvertingEFI=Převod bootovacího oddílu na ESP...
 StatusBar.InstallingDrivers=Instalace ovladačů...
 
 [SelectDiskPage]
@@ -69,49 +69,49 @@ DiskInfoBox.Good=Vybrané zařízení má alespoň 8GB místa.
 DiskInfoBox.Enough=Vybrané zařízení nemá dostatek místa pro komprimovanou instalaci.
 
 [SelectImagePage]
-SelectImageLabel=Vyberte Váš Windows (ARM64) obraz
-WindowsEditionLabel=Windows edition:
-UpdateBinariesCheck=Update the boot files and the drivers package
+SelectImageLabel=Vyberte Váš obraz Windows (ARM64)
+WindowsEditionLabel=Edice Windows:
+UpdateBinariesCheck=Aktualizovat bootovací soubory a balíček ovladačů
 WorkingBuildsTextBox=Poznámka: Windows 10 1803 a novější verze fungují.%n%Verze 1809 může neočekávaně spadnout na základě změn v ovladači WppRecorder.sys, takže jsme vás na to chteli upozornit.
 SelectImgInfoBox.SelectedImageGood=Vybraný soubor virtuálního obrazu (verze: %1) je v pořádku!
 SelectImgInfoBox.SelectedImageInvalid=Vybraný soubor není platný obraz Windows!
 SelectImgInfoBox.SelectedImageUnsupported=Vybraný obraz není podporovaný!
-MessageBox.NotEnoughSpace=There is not enough space on the disk to install this image!%n%Please choose a larger storage device or a compact image.
+MessageBox.NotEnoughSpace=Na disku není dostatek místa pro instalaci tohoto obrazu!%n%Zvolte prosím větší úložné zařízení nebo kompaktní obraz.
 
 [SelectDriversPage]
 SelectDriversLabel=Vyberte ovladače
 DriversNoteTextBox=Pozn.: Ovladače musí být archivované ve formátu ZIP.
-LocalDrvPkgRadioBtn=Use a package stored on your computer
-ServerDrvPkgRadioBtn=Use the latest package available on the server
-SelectDrvInfoBox.OK=Archiv s ovladači je vpořádku!
+LocalDrvPkgRadioBtn=Použít balíček uložený v tomto počítači
+ServerDrvPkgRadioBtn=Použít poslední balíček dostupný na serveru
+SelectDrvInfoBox.OK=Archiv s ovladači je v pořádku!
 SelectDrvInfoBox.LicenseNotAccepted=Nepotvrdili jste licenční ujednání!
 
 [SelectUEFIPage]
 SelectUEFILabel=Vyberte UEFI firmware
 UEFINoteTextBox=Pozn.: UEFI firmware musí mít připonu %2.
-LocalUEFIRadioBtn=Use a firmware stored on your computer
-ServerUEFIRadioBtn=Use the latest firmware available on the server
+LocalUEFIRadioBtn=Použít firmware uložený v tomto počítači
+ServerUEFIRadioBtn=Použít poslední firmware dostupný na serveru
 
 [SetupConfigurationPage]
 ConfigurationLabel=Konfigurace
 InstallOptionsGroup=nastavení instalace
 PartSchemeLabel=Oddílování:
-ImgInstallLabel=Instalujte obraz s:
-GPTImgFlasherLabel=Flash GPT image with:
+ImgInstallLabel=Instalovat obraz s:
+GPTImgFlasherLabel=Zapsat obraz GPT s:
 EnableLZXCheck=Povolit LZX kompresi instalace
-VerifyGPTImgCheck=Verify the disk after flashing the GPT image
+VerifyGPTImgCheck=Zkontrolovat disk po zapsání obrazu GPT
 BootOptionsGroup=Nastavení bootování
 WoROptionsGroup=Nastavení WoR
 SaveConfigExitLabel=Při ukončení uložit tuto konfiguraci.
 
 [SetupOverviewPage]
 InstallOverviewLabel=Přehled instalace
-InstallWarnBox=Varování! Všechna data na Vaší zařízení budou vymazána! Máte poslední možnost vytvořit si zálohu!
-TargetDeviceLabel=Cilové zařízení
+InstallWarnBox=Varování! Všechna data na Vašem zařízení budou vymazána! Máte poslední možnost vytvořit si zálohu!
+TargetDeviceLabel=Cílové zařízení
 OSLabel=Operační systém
-DriversPathLabel=Cesta ovladačů
-UEFIPathLabel=Cesta UEFI firmware
-PartitionSchemeLabel=Oddílování
+DriversPathLabel=Cesta k ovladačům
+UEFIPathLabel=Cesta k UEFI firmwaru
+PartitionSchemeLabel=Schéma oddílů:
 ImageDeployerLabel=Metoda zavedení obrazu
 LZXCompressionLabel=LZX instalační komprese
 LZXCompression.YES=ANO
