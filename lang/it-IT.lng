@@ -4,31 +4,31 @@ Author=xicciodj , lorecast162
 IsComplete=0
 
 [UpdateNotifierWindow]
-WindowTitle=Update
-NewVersionAvailableLabel=New version available
-NewVersionAvailableBox=Windows on Raspberry %ver% is available! Would you like to download it now?
-DownloadBtn=Download
-CloseBtn=Close
+WindowTitle=Aggiornamento
+NewVersionAvailableLabel=Nuova versione disponibile
+NewVersionAvailableBox=Windows on Raspberry %ver% è disponibile! Vorresti scaricarlo adesso?
+DownloadBtn=Scarica
+CloseBtn=Chiudi
 
 [AboutWindow]
-WindowTitle=About
-AppVersionLabel=Version
-CreditsPage=Credits
-ChangelogPage=Changelog
-LicensesPage=Licenses
+WindowTitle=Informazioni
+AppVersionLabel=Versione
+CreditsPage=Crediti
+ChangelogPage=Registro dei cambiamenti
+LicensesPage=Licenze
 
 [LoggerWindow]
-WindowTitle=Logs
-CopyToClipboardBtn=Copy
+WindowTitle=Log
+CopyToClipboardBtn=Copia
 
 [LicenseAgreementWindow]
-WindowTitle=License agreement
-AcceptBtn=Accept
-DeclineBtn=Decline
+WindowTitle=Accordo di licenza
+AcceptBtn=Accetta
+DeclineBtn=Rifiuta
 
 [Messages]
 AnErrorOccurred=È stato riscontrato un errore! Controlla i log.
-TaskOngoing=An operation is currently in progress.%n%Are you sure you want to force close the application?
+TaskOngoing=Un operazione è attualmente in corso.%n%Sei sicuro di voler chiudere forzatamente l'applicazione?
 
 [MainWindow]
 WelcomePage=Benvenuto
@@ -63,34 +63,34 @@ StatusBar.InstallingDrivers=Installazione dei driver...
 
 [SelectDiskPage]
 SelectDiskLabel=Seleziona il dispositivo
-SelectDiskMsg=Note: Even though the new USB driver is stable, booting from an USB device is not recommended since Windows can't create a paging file on it.
+SelectDiskMsg=Nota: Anche se il nuovo driver USB è stabile, non è consigliato avviare da un dispositivo USB perché Windows non può crearvi un file paging.
 DiskInfoBox.AtLeast8=Il dispositivo deve avere almeno 8GB di spazio libero!
 DiskInfoBox.Good=Il dispositivo selezionato ha almeno 8GB di spazio libero.
 DiskInfoBox.Enough=Il disco selezionato ha abbastanza spazio per un'installazione compressa.
 
 [SelectImagePage]
 SelectImageLabel=Seleziona immagine Windows su ARM
-WindowsEditionLabel=Windows edition:
-UpdateBinariesCheck=Update the boot files and the drivers package
-WorkingBuildsTextBox=Note: Windows 10 1803 and newer versions are known to work.%n%Version 1809 can crash unexpectedly due to some changes in the WppRecorder.sys driver, so it should be avoided.
-SelectImgInfoBox.SelectedImageGood=L'immagine selezionata (version: %1) è OK!
-SelectImgInfoBox.SelectedImageInvalid=The selected file is not a valid Windows image!
-SelectImgInfoBox.SelectedImageUnsupported=The selected image file is not supported!
-MessageBox.NotEnoughSpace=There is not enough space on the disk to install this image!%n%Please choose a larger storage device or a compact image.
+WindowsEditionLabel=Edizione Windows:
+UpdateBinariesCheck=Aggiorna i file di boot ed il pacchetto dei driver.
+WorkingBuildsTextBox=Nota: Windows 10 1803 e versioni più recenti sono noti per funzionare.%n%La versione 1809 può bloccarsi inaspettatamente a causa di alcuni cambiamenti nel driver WppRecorder.sys, quindi dovrebbe essere evitata.
+SelectImgInfoBox.SelectedImageGood=L'immagine selezionata (version: %1) va bene!
+SelectImgInfoBox.SelectedImageInvalid=L'immagine selezionata non è un immagine Windows valida.
+SelectImgInfoBox.SelectedImageUnsupported=L'immagine selezionata non è supportata.
+MessageBox.NotEnoughSpace=Non c'è abbastanza spazio sul disco per installare questa immagine!%n%Per favore seleziona un dispositivo di archiviazione più capiente oppure un'immagine compatta.
 
 [SelectDriversPage]
 SelectDriversLabel=Seleziona driver
 DriversNoteTextBox=Nota: i driver devono essere compressi dentro un file zip.
-LocalDrvPkgRadioBtn=Use a package stored on your computer
-ServerDrvPkgRadioBtn=Use the latest package available on the server
-SelectDrvInfoBox.OK=L'archivio dei driver è OK!
-SelectDrvInfoBox.LicenseNotAccepted=You have not accepted one of the license agreements!
+LocalDrvPkgRadioBtn=Usa un pacchetto scaricato sul tuo computer
+ServerDrvPkgRadioBtn=Usa il pacchetto più recente
+SelectDrvInfoBox.OK=L'archivio dei driver va bene!
+SelectDrvInfoBox.LicenseNotAccepted=Non hai accettato uno degli accordi di licenza.
 
 [SelectUEFIPage]
 SelectUEFILabel=Seleziona firmware UEFI
 UEFINoteTextBox=Nota: Il firmware UEFI deve avere l'estensione %2 .
-LocalUEFIRadioBtn=Use a firmware stored on your computer
-ServerUEFIRadioBtn=Use the latest firmware available on the server
+LocalUEFIRadioBtn=Usa un firmware conservato sul tuo computer
+ServerUEFIRadioBtn=Usa il firmware più recente disponibile sul server
 
 [SetupConfigurationPage]
 ConfigurationLabel=Configurazione
@@ -99,7 +99,7 @@ PartSchemeLabel=Schema partizioni:
 ImgInstallLabel=Installa immagine con:
 GPTImgFlasherLabel=Flash GPT image with:
 EnableLZXCheck=Abilita la compressione d'installazione LZX
-VerifyGPTImgCheck=Verify the disk after flashing the GPT image
+VerifyGPTImgCheck=Verifica il disco dopo aver applicato l'immagine GPT
 BootOptionsGroup=Opzioni di boot
 WoROptionsGroup=Opzioni di WoR
 SaveConfigExitLabel=Salva questa configurazione all'uscita
@@ -108,7 +108,7 @@ SaveConfigExitLabel=Salva questa configurazione all'uscita
 InstallOverviewLabel=Panoramica installazione
 InstallWarnBox=Attenzione! Tutti i dati sul tuo dispositivo verranno cancellati! Fai un backup dei tuoi file prima che sia troppo tardi!
 TargetDeviceLabel=Dispositivo di destinazione
-OSLabel=Sistema operativo
+OSLabel=Sistema Operativo
 DriversPathLabel=Posizione driver
 UEFIPathLabel=Posizione firmware UEFI
 PartitionSchemeLabel=Schema partizioni
