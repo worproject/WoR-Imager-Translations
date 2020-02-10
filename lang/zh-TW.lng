@@ -1,14 +1,14 @@
-﻿[WoR lang file]
+[WoR lang file]
 Name=繁體中文 (Traditional Chinese)
 Author=ConashinChen
 IsComplete=0
 
 [UpdateNotifierWindow]
-WindowTitle=Update
-NewVersionAvailableLabel=New version available
-NewVersionAvailableBox=Windows on Raspberry %ver% is available! Would you like to download it now?
-DownloadBtn=Download
-CloseBtn=Close
+WindowTitle=更新
+NewVersionAvailableLabel=目前有新的版本
+NewVersionAvailableBox=有新版的Windows on Raspberry部署工具，您要下載更新嗎？
+DownloadBtn=下載
+CloseBtn=取消
 
 [AboutWindow]
 WindowTitle=關於
@@ -19,7 +19,7 @@ LicensesPage=來源
 
 [LoggerWindow]
 WindowTitle=紀錄
-CopyToClipboardBtn=Copy
+CopyToClipboardBtn=複製
 
 [LicenseAgreementWindow]
 WindowTitle=協議
@@ -65,44 +65,44 @@ StatusBar.InstallingDrivers=正在安裝驅動...
 SelectDiskLabel=選擇您的設備
 SelectDiskMsg=注意: 即使新的USB驅動程序穩定，也不建議從USB設備啟動，因為Windows無法在其上創建分頁文件。
 DiskInfoBox.AtLeast8=您的設備至少需要 8GB！
-DiskInfoBox.Good=所選設備至少擁有 8GB 的​​可用空間。
+DiskInfoBox.Good=所選設備至少擁有 8GB 的可用空間。
 DiskInfoBox.Enough=所選設備有足夠的空間用於壓縮安裝。
 
 [SelectImagePage]
 SelectImageLabel=請選擇您的 Windows 10 ARM 映像。
 WindowsEditionLabel=Windows版本:
-UpdateBinariesCheck=Update the boot files and the drivers package
+UpdateBinariesCheck=更新驅動程式及開機檔案
 WorkingBuildsTextBox=注意: 已知Windows 10 1803和更新版本可以使用.%n%由於WppRecorder.sys驅動程序中的某些更改，版本1809可能會意外崩潰，因此應該避免使用。
 SelectImgInfoBox.SelectedImageGood=所選擇的版本(版本： %1) 可以安裝。
 SelectImgInfoBox.SelectedImageInvalid=所選文件不是有效的Windows映像！
 SelectImgInfoBox.SelectedImageUnsupported=不支持所選的映像文件！
-MessageBox.NotEnoughSpace=There is not enough space on the disk to install this image!%n%Please choose a larger storage device or a compact image.
+MessageBox.NotEnoughSpace=您的儲存空間不足！%n%請使用其他儲存裝置。
 
 [SelectDriversPage]
 SelectDriversLabel=選擇驅動程序
 DriversNoteTextBox=注意：您選擇的驅動程序必須打包為 zip 格式。
-LocalDrvPkgRadioBtn=Use a package stored on your computer
-ServerDrvPkgRadioBtn=Use the latest package available on the server
+LocalDrvPkgRadioBtn=使用現有的驅動程式檔案
+ServerDrvPkgRadioBtn=使用伺服器上最新的驅動程式
 SelectDrvInfoBox.OK=驅動可用！
 SelectDrvInfoBox.LicenseNotAccepted=您尚未接受其中一項許可協議!
 
 [SelectUEFIPage]
 SelectUEFILabel=選擇 UEFI 固件
-UEFINoteTextBox=注意：您的 UEFI 固件必須是 %2 擴展名。
-LocalUEFIRadioBtn=Use a firmware stored on your computer
-ServerUEFIRadioBtn=Use the latest firmware available on the server
+UEFINoteTextBox=注意：您的 UEFI 固件必須是 %2 檔名。
+LocalUEFIRadioBtn=使用電腦上的開機固件
+ServerUEFIRadioBtn=使用伺服器上最新版的開機固件
 
 [SetupConfigurationPage]
 ConfigurationLabel=配置
 InstallOptionsGroup=安装選項
 PartSchemeLabel=分區表:
 ImgInstallLabel=安装映像為:
-GPTImgFlasherLabel=Flash GPT image with:
+GPTImgFlasherLabel=以此系統標籤進行GPT格式化:
 EnableLZXCheck=啟用LZX壓縮，可以減小占用空間。
-VerifyGPTImgCheck=Verify the disk after flashing the GPT image
+VerifyGPTImgCheck=完成時進行GPT格式確認
 BootOptionsGroup=啟動選項
 WoROptionsGroup=Windows選項
-SaveConfigExitLabel=退出時保存這次所用配置。
+SaveConfigExitLabel=退出時保存這次所用的設定。
 
 [SetupOverviewPage]
 InstallOverviewLabel=安装概覽
@@ -118,12 +118,12 @@ LZXCompression.YES=是
 LZXCompression.NO=否
 
 [SetupProgressPage]
-InstallInfoBox=此過程可能需要很長時間，具體取決於SD卡的性能。
+InstallInfoBox=此過程需要一段時間，取決於SD卡的性能。
 InstallStatusLabel.GettingReady=就緒
 InstallStatusLabel.FormattingDisk=正在格式化您的設備...
 InstallStatusLabel.CreatingPartitions=正在分割...
 InstallStatusLabel.InstallingWindows=正在安装 Windows...
-InstallStatusLabel.InstallingBootFiles=正在開機檔案...
+InstallStatusLabel.InstallingBootFiles=正在複製開機檔案...
 InstallStatusLabel.InstallingDrivers=正在安装驅動...
 InstallStatusLabel.InstallFinished=安裝完成！
 InstallStatusLabel.InstallFailed=安裝失敗！
