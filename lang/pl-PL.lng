@@ -1,42 +1,42 @@
 ﻿[WoR lang file]
 Name=Polski (Polish)
-Author=macmmm81 , Gotard
-IsComplete=0
+Author=macmmm81 , Gotard, Marcinoo97
+IsComplete=1
 
 [UpdateNotifyWindow]
-WindowTitle=Update
-NewVersionAvailableLabel=New version available
-NewVersionAvailableBox={appname} {0} is available! Would you like to download it now?
-DownloadBtn=Download
-CloseBtn=Close
+WindowTitle=Aktualizacja
+NewVersionAvailableLabel=Nowa Wersja jest dostępna.
+NewVersionAvailableBox={appname} {0} jest dostępna! Czy chciałbyś pobrać ją teraz?
+DownloadBtn=Pobierz
+CloseBtn=Zamknij
 
 [AboutWindow]
 WindowTitle=O Programie
 AppVersionLabel=Wersja
 CreditsPage=Uznanie
-ChangelogPage=Changelog
+ChangelogPage=Dziennik zmian
 LicensesPage=Informacje Licencyjne
 
 [LoggerWindow]
 WindowTitle=Dzienniki
-CopyToClipboardBtn=Copy
+CopyToClipboardBtn=Kopiuj
 
 [LicenseAgreementWindow]
-WindowTitle=License agreement
-AcceptBtn=Accept
-DeclineBtn=Decline
+WindowTitle=Umowa licencyjna
+AcceptBtn=Akceptuj
+DeclineBtn=Odrzuć
 
 [Messages]
 AnErrorOccurred=Wystąpił błąd! Proszę, sprawdź dziennik programu.
 TaskOngoing=Wybrana operacja jest ciągle wykonywana.{n}Czy naprawdę chcesz wymusić zamknięcie programu?
 
 [MainWindow]
-SendFeedbackBtn=Send feedback
+SendFeedbackBtn=Wyślij opinię
 NextPageBtn=Dalej
 BackPageBtn=Wstecz
 NextPageBtn.Install=Zainstaluj
 NextPageBtn.Finish=Zakończ
-StatusBar.Idle=Beczynny
+StatusBar.Idle=Bezczynny
 StatusBar.LoadingDisks=Ładowanie sterowników...
 StatusBar.MountingISO=Montowanie obrazu ISO...
 StatusBar.UnmountingISO=Odmontowywanie pliku ISO...
@@ -60,7 +60,7 @@ SelectLangLabel=Wybierz język:
 [SelectDevicePage]
 PageTitle=Wybór urządzenia
 SelectDiskLabel=Wybór urządzenia
-Device.ExperimentalSupport=Experimental
+Device.ExperimentalSupport=Eksperymentalne
 Device.SupportedModels=Supported models: {0}
 DiskInfoBox.AtLeast8=Urządzenie musi mieć co najmniej 8 GB wolnego miejsca!
 DiskInfoBox.Good=Wybrane urządzenie posiada co najmniej 8 GB wolnego miejsca.
@@ -70,28 +70,28 @@ DiskInfoBox.Enough=Wybrane urządzenie posiada wystarczająco dużo miejsca na s
 PageTitle=Wybór obrazu systemu
 SelectImageLabel=Wybierz obraz systemu Windows on ARM
 WindowsEditionLabel=Wersja Windows:
-WorkingBuildsTextBox=Note: Windows 10 1803 and newer versions are known to work.{n}Version 1809 can crash unexpectedly due to some changes in the WppRecorder.sys driver, so it should be avoided.
+WorkingBuildsTextBox=Note: Wersja Windows 10 1803 lub nowsze były testowane i działają.{n}Wersja 1809 może niespodziewanie się wyłaczać przez zmiany w WppRecorder.sys sterowniku, więc unikaj tej wersji.
 SelectImgInfoBox.SelectedImageGood=Wybrany obraz (w wersji: {0}) jest w porządku!
 SelectImgInfoBox.SelectedImageInvalid=Wybrany plik nie jest prawidłowym plikiem obrazu systemu Windows!
-SelectImgInfoBox.SelectedImageUnsupported=Wybrany plik obrazu jest nie wspierany!!
-MessageBox.NotEnoughSpace=There is not enough space on the disk to install this image!{n}Please choose a larger storage device or a compact image.
+SelectImgInfoBox.SelectedImageUnsupported=Wybrany plik obrazu jest nie wspierany!
+MessageBox.NotEnoughSpace=Na dysku nie ma wystarczająco miejsca by zainstalować ten obraz!{n}Prosze wybierz większy dysk lub użyj kompaktowego obrazu.
 
 [SelectDriversPage]
 PageTitle=Wybór sterowników
 SelectDriversLabel=Wybierz sterowniki
 DriversNoteTextBox=Uwaga: sterowniki muszą być spakowane do pliku ZIP!
-LocalDrvPkgRadioBtn=Use a package stored on your computer
-ServerDrvPkgRadioBtn=Use the latest package available on the server
+LocalDrvPkgRadioBtn=Użyj archiwum ze sterownikami znalezionego na komputerze
+ServerDrvPkgRadioBtn=Użyj najnowszego archiwum ze sterownikami z serwera
 SelectDrvInfoBox.OK=Archiwum ze sterownikami jest w porządku!
-SelectDrvInfoBox.LicenseNotAccepted=You have not accepted one of the license agreements!
+SelectDrvInfoBox.LicenseNotAccepted=Jedna z umów licencyjnych nie została zaakceptowana!
 
 [SelectUEFIPage]
 PageTitle=Wybór pliku UEFI
 SelectUEFILabel=Wybierz oprogramowanie UEFI
 UEFINoteTextBox=Uwaga: plik oprogramowania UEFI musi mieć rozszerzenie {0}.
-LocalUEFIRadioBtn=Use a firmware stored on your computer
-ServerUEFIRadioBtn=Use the latest firmware available on the server
-ServerUEFISourceLabel=Firmware source:
+LocalUEFIRadioBtn=Użyj oprogramowania znalezionego na komputerze
+ServerUEFIRadioBtn=Użyj najnowszego oprogramowania z serwera 
+ServerUEFISourceLabel=Źródło oprogramowania:
 
 [SetupConfigurationPage]
 PageTitle=Konfiguracja Instalacji
@@ -99,7 +99,7 @@ ConfigurationLabel=Konfiguracja Instalacji
 InstallOptionsGroup=Opcje instalacji
 PartSchemeLabel=Mapa Partycji:
 ImgInstallLabel=Zainstaluj obraz używając:
-MemoryLimitLabel=Memory limit:
+MemoryLimitLabel=Limit Pamięci:
 EnableLZXCheck=Aktywuj kompresję instalacji LZX
 BootOptionsGroup=Ustawienia rozruchu
 WoROptionsGroup=Ustawienia {appname}
@@ -110,7 +110,7 @@ PageTitle=Instalacja
 InstallOverviewLabel=Podsumowanie instalacji
 InstallWarnBox=Ostrzenie! Wszystkie dane na wybranym urządzeniu zostaną usunięte! Utwórz kopię zapasową wszystkich ważnych plików, zanim będzie za późno!
 TargetDeviceLabel=Urządzenie docelowe
-DeviceTypeLabel=Device type
+DeviceTypeLabel=Typ urządzenia
 OSLabel=System operacyjny
 DriversPathLabel=Ścieżka do sterowników
 UEFIPathLabel=Ścieżka do pliku oprogramowania UEFI
