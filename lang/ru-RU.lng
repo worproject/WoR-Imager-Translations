@@ -3,10 +3,10 @@ Name=Русский (Russian)
 Author=Andryshik345 , beeoss
 IsComplete=0
 
-[UpdateNotifierWindow]
+[UpdateNotifyWindow]
 WindowTitle=Update
 NewVersionAvailableLabel=New version available
-NewVersionAvailableBox=Windows on Raspberry %ver% is available! Would you like to download it now?
+NewVersionAvailableBox={appname} {0} is available! Would you like to download it now?
 DownloadBtn=Download
 CloseBtn=Close
 
@@ -28,19 +28,10 @@ DeclineBtn=Отклонить
 
 [Messages]
 AnErrorOccurred=Произошла ошибка! Пожалуйста, проверьте логи.
-TaskOngoing=В данный момент выполняется операция.%n%Вы уверены, что хотите принудительно закрыть приложение?
+TaskOngoing=В данный момент выполняется операция.{n}Вы уверены, что хотите принудительно закрыть приложение?
 
 [MainWindow]
-WelcomePage=Добро пожаловать!
-SelectDiskPage=Выберите носитель
-SelectImagePage=Выбор образа
-SelectDriversPage=Выбор драйверов
-SelectUEFIPage=UEFI прошивка
-ConfigurationPage=Конфигурация
-FinishPage=Установить
-WelcomeLabel=Добро пожаловать в Windows on Raspberry imager!
-WelcomeMsgTextBox=WoR (Windows on Raspberry) - это инструмент, который поможет установить Windows на ARM(полная версия, не IoT) на Вашу SD карту для использования на Raspberry Pi 3B/3B+.
-SelectLangLabel=Выберите ваш язык:
+SendFeedbackBtn=Send feedback
 NextPageBtn=Далее
 BackPageBtn=Назад
 NextPageBtn.Install=Установить
@@ -52,7 +43,6 @@ StatusBar.UnmountingISO=Размонтирование ISO образ...
 StatusBar.ExtractingDrvToTemp=Распаковка архива с драйверами во временную папку...
 StatusBar.DownloadingReqFiles=Загрузка необходимые файлы...
 StatusBar.FormattingDisk=Форматирование носителя...
-StatusBar.ApplyingGPTImage=Применение GPT образа...
 StatusBar.CreatingPartitions=Создание разделов...
 StatusBar.ApplyingImage=Применение образа...
 StatusBar.CopyingBootFiles=Копирование загрузочных файлов...
@@ -61,24 +51,33 @@ StatusBar.SettingTestMode=Настройка тестового режима и 
 StatusBar.ConvertingEFI=Преобразование загрузочного раздела в ESP...
 StatusBar.InstallingDrivers=Установка драйверов...
 
-[SelectDiskPage]
+[WelcomePage]
+PageTitle=Добро пожаловать!
+WelcomeLabel=Добро пожаловать в {appname}!
+WelcomeMsgTextBox={appname} - это инструмент, который поможет установить Windows на ARM(полная версия, не IoT) на Вашу SD карту для использования на Raspberry Pi.
+SelectLangLabel=Выберите ваш язык:
+
+[SelectDevicePage]
+PageTitle=Выберите носитель
 SelectDiskLabel=Выберите носитель
-SelectDiskMsg=Примечание: Даже если новый драйвер USB стабилен, загрузка с устройства USB не рекомендуется, поскольку Windows не может создать на нем файл подкачки.
+Device.ExperimentalSupport=Experimental
+Device.SupportedModels=Supported models: {0}
 DiskInfoBox.AtLeast8=Выбранный носитель должен иметь, хотя бы, 8 ГБ свободного места!
 DiskInfoBox.Good=Выбранный носитель подходит.
 DiskInfoBox.Enough=Выбранного носителя хватит, чтобы установить сжатый образ.
 
 [SelectImagePage]
+PageTitle=Выбор образа
 SelectImageLabel=Выберите ваш Windows ARM образ
 WindowsEditionLabel=Windows edition:
-UpdateBinariesCheck=Update the boot files and the drivers package
-WorkingBuildsTextBox=Примечание: Windows 10 1803 и более новые версии, как известно, работают.%n%В версии 1809 может неожиданно произойти сбой из-за некоторых изменений в драйвере WppRecorder.sys, так что ее следует избегать.
-SelectImgInfoBox.SelectedImageGood=Выбранный файл образа (версия: %1) подходит!
+WorkingBuildsTextBox=Примечание: Windows 10 1803 и более новые версии, как известно, работают.{n}В версии 1809 может неожиданно произойти сбой из-за некоторых изменений в драйвере WppRecorder.sys, так что ее следует избегать.
+SelectImgInfoBox.SelectedImageGood=Выбранный файл образа (версия: {0}) подходит!
 SelectImgInfoBox.SelectedImageInvalid=Выбранный файл не подходит в роли образа Windows!
 SelectImgInfoBox.SelectedImageUnsupported=Выбранный образ не поддерживается!
-MessageBox.NotEnoughSpace=There is not enough space on the disk to install this image!%n%Please choose a larger storage device or a compact image.
+MessageBox.NotEnoughSpace=There is not enough space on the disk to install this image!{n}Please choose a larger storage device or a compact image.
 
 [SelectDriversPage]
+PageTitle=Выбор драйверов
 SelectDriversLabel=Выберите драйвера
 DriversNoteTextBox=Примечание: драйвера должен быть упакованы в ZIP формате.
 LocalDrvPkgRadioBtn=Use a package stored on your computer
@@ -87,27 +86,31 @@ SelectDrvInfoBox.OK=Архив драйверов подходит!
 SelectDrvInfoBox.LicenseNotAccepted=Вы не приняли одно из лицензионных соглашений!
 
 [SelectUEFIPage]
+PageTitle=UEFI прошивка
 SelectUEFILabel=Выберите UEFI прошивку
-UEFINoteTextBox=Примечание: UEFI прошивка должна иметь расширение файла %2
+UEFINoteTextBox=Примечание: UEFI прошивка должна иметь расширение файла {0}
 LocalUEFIRadioBtn=Use a firmware stored on your computer
 ServerUEFIRadioBtn=Use the latest firmware available on the server
+ServerUEFISourceLabel=Firmware source:
 
 [SetupConfigurationPage]
+PageTitle=Конфигурация
 ConfigurationLabel=Конфигурация
 InstallOptionsGroup=Опции установки
 PartSchemeLabel=Схема разделов:
 ImgInstallLabel=Установить образ через:
-GPTImgFlasherLabel=Flash GPT image with:
+MemoryLimitLabel=Memory limit:
 EnableLZXCheck=Включить LZX сжатие
-VerifyGPTImgCheck=Verify the disk after flashing the GPT image
 BootOptionsGroup=Опции запуска
-WoROptionsGroup=Настройки WoR
+WoROptionsGroup=Настройки {appname}
 SaveConfigExitLabel=Сохранить эту конфигурацию при выходе
 
 [SetupOverviewPage]
+PageTitle=Установить
 InstallOverviewLabel=Обзор установки
 InstallWarnBox=ВНИМАНИЕ! Вся информация с вашего носителя будет удалена! Сделайте резервную копию ваших файлов, пока не стало слишком поздно!
 TargetDeviceLabel=Выбранный носитель
+DeviceTypeLabel=Device type
 OSLabel=Операционная система
 DriversPathLabel=Путь драйверов
 UEFIPathLabel=Путь UEFI прошивки
@@ -118,6 +121,7 @@ LZXCompression.YES=ДА
 LZXCompression.NO=НЕТ
 
 [SetupProgressPage]
+PageTitle=Установить
 InstallInfoBox=Этот процесс может занять длительное время, в зависимости от производительности носителя.
 InstallStatusLabel.GettingReady=Ожидайте... 
 InstallStatusLabel.FormattingDisk=Форматирование выбранного носителя...

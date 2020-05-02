@@ -1,12 +1,12 @@
 ﻿[WoR lang file]
 Name=Magyar (Hungarian)
 Author=Janaboy , Googulator
-IsComplete=1
+IsComplete=0
 
-[UpdateNotifierWindow]
+[UpdateNotifyWindow]
 WindowTitle=Frissítés
 NewVersionAvailableLabel=Új verzió érhető el
-NewVersionAvailableBox=Windows on Raspberry %ver% elérhető! Szeretnéd letölteni?
+NewVersionAvailableBox={appname} {0} elérhető! Szeretnéd letölteni?
 DownloadBtn=Letöltés
 CloseBtn=Bezár
 
@@ -28,19 +28,10 @@ DeclineBtn=Elutasít
 
 [Messages]
 AnErrorOccurred=Hiba történt! Ellenőrizze a naplót.
-TaskOngoing=Folyamatban van egy művelet.%n%Biztos bezárja az alkalmazást?
+TaskOngoing=Folyamatban van egy művelet.{n}Biztos bezárja az alkalmazást?
 
 [MainWindow]
-WelcomePage=Üdvözöljük
-SelectDiskPage=Válassza ki az eszközt
-SelectImagePage=Rendszerkép választása
-SelectDriversPage=Illesztők választása
-SelectUEFIPage=UEFI firmware
-ConfigurationPage=Beállítás
-FinishPage=Telepítés
-WelcomeLabel=Üdvözöljük a Windows on Raspberry telepítőben!
-WelcomeMsgTextBox=A WoR (Windows on Raspberry) egy olyan eszköz, mellyel feltelepítheti a Windows ARM alapú verzióját (a teljes asztali kiadást, nem az IoT-t) egy Raspberry Pi 3 B/B+-ben használható SD kártyára.
-SelectLangLabel=Válasszon nyelvet:
+SendFeedbackBtn=Send feedback
 NextPageBtn=Tovább
 BackPageBtn=Vissza
 NextPageBtn.Install=Telepítés
@@ -52,7 +43,6 @@ StatusBar.UnmountingISO=ISO képfájl leválasztása...
 StatusBar.ExtractingDrvToTemp=Illesztők kibontása ideiglenes mappába...
 StatusBar.DownloadingReqFiles=Szükséges fájlok letöltése...
 StatusBar.FormattingDisk=Az eszköz formázása...
-StatusBar.ApplyingGPTImage=GPT partíciós tábla felírása...
 StatusBar.CreatingPartitions=Partíciók létrehozása...
 StatusBar.ApplyingImage=Képfájl kibontása...
 StatusBar.CopyingBootFiles=Boot fájlok másolása...
@@ -61,24 +51,33 @@ StatusBar.SettingTestMode=Testsigning és nointegritychecks opciók bekapcsolás
 StatusBar.ConvertingEFI=Boot partíció beállítása ESP-ként...
 StatusBar.InstallingDrivers=Illesztők telepítése...
 
-[SelectDiskPage]
+[WelcomePage]
+PageTitle=Üdvözöljük
+WelcomeLabel=Üdvözöljük a {appname}!
+WelcomeMsgTextBox=A {appname} egy olyan eszköz, mellyel feltelepítheti a Windows ARM alapú verzióját (a teljes asztali kiadást, nem az IoT-t) egy Raspberry Pi-ben használható SD kártyára.
+SelectLangLabel=Válasszon nyelvet:
+
+[SelectDevicePage]
+PageTitle=Válassza ki az eszközt
 SelectDiskLabel=Válassza ki az eszközt
-SelectDiskMsg=Megjegyzés: Ugyan az új USB driver stabil, az USB eszközről való indítás nem ajánlott, mivel a Windows nem tud rajta lapozófájlt létrehozni.
-DiskInfoBox.AtLeast8=Az eszközt legalább 8GB szabad hely szükséges!
-DiskInfoBox.Good=A kijelölt meghajtón van elég szabad hely (8GB).
+Device.ExperimentalSupport=Experimental
+Device.SupportedModels=Supported models: {0}
+DiskInfoBox.AtLeast8=Az eszközt legalább 8 GB szabad hely szükséges!
+DiskInfoBox.Good=A kijelölt meghajtón van elég szabad hely (8 GB).
 DiskInfoBox.Enough=A kijelölt meghajtón van elegendő szabad hely a tömörített (LZX) telepítéshez.
 
 [SelectImagePage]
+PageTitle=Rendszerkép választása
 SelectImageLabel=Válassza ki a telepítendő Windows rendszerképet:
 WindowsEditionLabel=Windows változat:
-UpdateBinariesCheck=Boot fájlok és driver csomag frissítése
-WorkingBuildsTextBox=Megjegyzés: Windows 10 1803 és újabb verziók működnek.%n%A 1809 verzió véletlenszerű lefagyhat a WppRecorder.sys driver módosításai miatt, ezért kerülendő.
-SelectImgInfoBox.SelectedImageGood=A kiválasztott rendszerkép (verzió: %1) megfelelő!
+WorkingBuildsTextBox=Megjegyzés: Windows 10 1803 és újabb verziók működnek.{n}A 1809 verzió véletlenszerű lefagyhat a WppRecorder.sys driver módosításai miatt, ezért kerülendő.
+SelectImgInfoBox.SelectedImageGood=A kiválasztott rendszerkép (verzió: {0}) megfelelő!
 SelectImgInfoBox.SelectedImageInvalid=A kiválasztott fájl nem egy Windows kép fájl!
 SelectImgInfoBox.SelectedImageUnsupported=A kiválasztott fájl nem támogatott!
-MessageBox.NotEnoughSpace=Nincs elég hely a kép fájl telepítéséhez!%n%Válasszon nagyobb tárolót vagy tömörítse be a kép fájlt.
+MessageBox.NotEnoughSpace=Nincs elég hely a kép fájl telepítéséhez!{n}Válasszon nagyobb tárolót vagy tömörítse be a kép fájlt.
 
 [SelectDriversPage]
+PageTitle=Illesztők választása
 SelectDriversLabel=Válassza ki az illesztőket
 DriversNoteTextBox=Megjegyzés: Az illesztőknek ZIP archívumba kell csomagolni.
 LocalDrvPkgRadioBtn=Használjon egy csomagot a számítógépről
@@ -87,27 +86,31 @@ SelectDrvInfoBox.OK=Az illesztőcsomag megfelelő!
 SelectDrvInfoBox.LicenseNotAccepted=Nem fogadta el a licenc szerződést!
 
 [SelectUEFIPage]
+PageTitle=UEFI firmware
 SelectUEFILabel=Válassza ki az UEFI firmware-t
-UEFINoteTextBox=Megjegyzés: az UEFI firmware egy %2 kiterjesztésű fájl.
+UEFINoteTextBox=Megjegyzés: az UEFI firmware egy {0} kiterjesztésű fájl.
 LocalUEFIRadioBtn=Használjon egy UEFI firmware-t a számítógépről
 ServerUEFIRadioBtn=Használja a legfrissebb UEFI firmware-t a szerverről
+ServerUEFISourceLabel=Firmware source:
 
 [SetupConfigurationPage]
+PageTitle=Beállítás
 ConfigurationLabel=Beállítás
 InstallOptionsGroup=Telepítési lehetőségek
 PartSchemeLabel=Partícionálás típusa:
 ImgInstallLabel=Telepítés eszköze:
-GPTImgFlasherLabel=GPT írása:
+MemoryLimitLabel=Memory limit:
 EnableLZXCheck=LZX-tömörített rendszer telepítése
-VerifyGPTImgCheck=Lemez GPT írásának ellenőrzése
 BootOptionsGroup=Boot beállítások
-WoROptionsGroup=WoR beállításai
+WoROptionsGroup={appname} beállításai
 SaveConfigExitLabel=Beállítások elmentése kilépéskor
 
 [SetupOverviewPage]
+PageTitle=Telepítés
 InstallOverviewLabel=Telepítés áttekintése
 InstallWarnBox=Figyelem! Az eszközön lévő összes adat törölve lesz! Készítsen másolatot, mielőtt túl késő!
 TargetDeviceLabel=Célmeghajtó
+DeviceTypeLabel=Device type
 OSLabel=Operációs rendszer
 DriversPathLabel=Illesztőcsomag helye
 UEFIPathLabel=UEFI firmware helye
@@ -118,6 +121,7 @@ LZXCompression.YES=ENGEDÉLYEZVE
 LZXCompression.NO=LETILTVA
 
 [SetupProgressPage]
+PageTitle=Telepítés
 InstallInfoBox=Az eszközt teljesítményétől függően ez a folyamat hosszú ideig is eltarthat.
 InstallStatusLabel.GettingReady=Felkészülés...
 InstallStatusLabel.FormattingDisk=Célmeghajtó formázása...

@@ -3,10 +3,10 @@ Name=Română (Romanian)
 Author=Mario Bălănică
 IsComplete=1
 
-[UpdateNotifierWindow]
+[UpdateNotifyWindow]
 WindowTitle=Actualizare
 NewVersionAvailableLabel=O nouă versiune este disponibilă
-NewVersionAvailableBox=Windows on Raspberry %ver% a fost lansat! Doriți să-l descărcați acum?
+NewVersionAvailableBox={appname} {0} a fost lansat! Doriți să-l descărcați acum?
 DownloadBtn=Descarcă
 CloseBtn=Închide
 
@@ -28,19 +28,10 @@ DeclineBtn=Refuz
 
 [Messages]
 AnErrorOccurred=A apărut o eroare! Vă rugăm să verificați log-urile.
-TaskOngoing=O sarcină este în curs de desfășurare.%n%Sigur doriți să forțați închiderea aplicației?
+TaskOngoing=O sarcină este în curs de desfășurare.{n}Sigur doriți să forțați închiderea aplicației?
 
 [MainWindow]
-WelcomePage=Bun venit
-SelectDiskPage=Selectați dispozitivul
-SelectImagePage=Selectați imaginea
-SelectDriversPage=Selectați driverele
-SelectUEFIPage=Firmware UEFI
-ConfigurationPage=Configurare
-FinishPage=Instalare
-WelcomeLabel=Bun venit la Windows on Raspberry!
-WelcomeMsgTextBox=WoR (Windows on Raspberry) este o unealtă ce poate instala Windows on ARM (versiunea desktop, nu cea IoT) pe un card SD pentru utilizarea într-un Raspberry Pi 3 B/B+ .
-SelectLangLabel=Selectați limba:
+SendFeedbackBtn=Trimiteți feedback
 NextPageBtn=Următorul
 BackPageBtn=Înapoi
 NextPageBtn.Install=Instalați
@@ -52,7 +43,6 @@ StatusBar.UnmountingISO=Se demontează imaginea ISO...
 StatusBar.ExtractingDrvToTemp=Se extrage arhiva cu drivere către locația temporară...
 StatusBar.DownloadingReqFiles=Se descarcă fișierele necesare...
 StatusBar.FormattingDisk=Se formatează dispozitivul...
-StatusBar.ApplyingGPTImage=Se aplică imaginea GPT...
 StatusBar.CreatingPartitions=Se creează partițiile...
 StatusBar.ApplyingImage=Se aplică imaginea...
 StatusBar.CopyingBootFiles=Se copiază fișierele de boot...
@@ -61,24 +51,33 @@ StatusBar.SettingTestMode=Se activează modul de testare...
 StatusBar.ConvertingEFI=Se transformă partiția de boot în ESP...
 StatusBar.InstallingDrivers=Se instalează driverele...
 
-[SelectDiskPage]
+[WelcomePage]
+PageTitle=Bun venit
+WelcomeLabel=Bun venit la {appname}!
+WelcomeMsgTextBox={appname} este o unealtă ce poate instala Windows on ARM (versiunea desktop, nu cea IoT) pe un card SD pentru utilizarea într-un Raspberry Pi.
+SelectLangLabel=Selectați limba:
+
+[SelectDevicePage]
+PageTitle=Selectați dispozitivul
 SelectDiskLabel=Selectați dispozitivul
-SelectDiskMsg=Notă: Deși noul driver USB este stabil, instalarea pe un dispozitiv USB nu este recomandată deoarece Windows nu poate crea un fișier de paginare pe acesta.
-DiskInfoBox.AtLeast8=Dispozitivul trebuie să aibă cel puțin 8GB de spațiu liber!
-DiskInfoBox.Good=Dispozitivul selectat are cel puțin 8GB de spațiu liber.
+Device.ExperimentalSupport=Experimental
+Device.SupportedModels=Modele suportate: {0}
+DiskInfoBox.AtLeast8=Dispozitivul trebuie să aibă cel puțin 8 GB de spațiu liber!
+DiskInfoBox.Good=Dispozitivul selectat are cel puțin 8 GB de spațiu liber.
 DiskInfoBox.Enough=Dispozitivul selectat are spațiu suficient pentru o instalare compactă.
 
 [SelectImagePage]
+PageTitle=Selectați imaginea
 SelectImageLabel=Selectați imaginea Windows on ARM
 WindowsEditionLabel=Ediție Windows:
-UpdateBinariesCheck=Actualizează fișierele de boot și pachetul de drivere
-WorkingBuildsTextBox=Notă: Windows 10 1803 și versiunile mai noi sunt cunoscute ca fiind funcționale.%n%Versiunea 1809 se poate bloca în mod neașteptat din cauza unor modificări în driverul WppRecorder.sys, prin urmare ar trebui evitată.
-SelectImgInfoBox.SelectedImageGood=Imaginea selectată (versiunea: %1) este OK!
+WorkingBuildsTextBox=Notă: Windows 10 1803 și versiunile mai noi sunt cunoscute ca fiind funcționale.{n}Versiunea 1809 se poate bloca în mod neașteptat din cauza unor modificări în driverul WppRecorder.sys, prin urmare ar trebui evitată.
+SelectImgInfoBox.SelectedImageGood=Imaginea selectată (versiunea: {0}) este OK!
 SelectImgInfoBox.SelectedImageInvalid=Fișierul selectat nu este o imagine Windows validă!
 SelectImgInfoBox.SelectedImageUnsupported=Imaginea selectată nu este suportată!
-MessageBox.NotEnoughSpace=Nu există spațiu suficient pe disc pentru a instala imaginea!%n%Vă rugăm să alegeți un dispozitiv de stocare mai mare sau o imagine compactă.
+MessageBox.NotEnoughSpace=Nu există spațiu suficient pe disc pentru a instala imaginea!{n}Vă rugăm să alegeți un dispozitiv de stocare mai mare sau o imagine compactă.
 
 [SelectDriversPage]
+PageTitle=Selectați driverele
 SelectDriversLabel=Selectați driverele
 DriversNoteTextBox=Notă: driverele trebuie arhivate folosind formatul de fișier ZIP.
 LocalDrvPkgRadioBtn=Utilizați un pachet stocat pe computer
@@ -87,27 +86,31 @@ SelectDrvInfoBox.OK=Arhiva cu drivere este OK!
 SelectDrvInfoBox.LicenseNotAccepted=Ați refuzat unul dintre acordurile de licențiere!
 
 [SelectUEFIPage]
+PageTitle=Firmware UEFI
 SelectUEFILabel=Selectați firmware-ul UEFI
-UEFINoteTextBox=Notă: firmware-ul UEFI trebuie să aibă extensia %2 .
+UEFINoteTextBox=Notă: firmware-ul UEFI trebuie să aibă extensia {0} .
 LocalUEFIRadioBtn=Utilizați un firmware stocat pe computer
 ServerUEFIRadioBtn=Utilizați cel mai nou firmware disponibil pe server
+ServerUEFISourceLabel=Sursa firmware-ului:
 
 [SetupConfigurationPage]
+PageTitle=Configurare
 ConfigurationLabel=Configurare
 InstallOptionsGroup=Opțiuni de instalare
 PartSchemeLabel=Schema de partiționare:
 ImgInstallLabel=Instalare cu:
-GPTImgFlasherLabel=Aplică imaginea GPT cu:
+MemoryLimitLabel=Limită memorie:
 EnableLZXCheck=Activați compresia LZX a instalării
-VerifyGPTImgCheck=Verifică dispozitivul după aplicarea imaginii GPT
 BootOptionsGroup=Opțiuni de pornire
-WoROptionsGroup=Opțiuni WoR
+WoROptionsGroup=Opțiuni {appname}
 SaveConfigExitLabel=Salvați această configurație la închidere
 
 [SetupOverviewPage]
+PageTitle=Instalare
 InstallOverviewLabel=Informații despre instalare
 InstallWarnBox=Atenție! Toate datele de pe dispozitiv vor fi șterse! Faceți o copie de siguranță a fișierelor înainte de a fi prea târziu!
 TargetDeviceLabel=Dispozitiv țintă
+DeviceTypeLabel=Tip dispozitiv
 OSLabel=Sistem de operare
 DriversPathLabel=Locația către drivere
 UEFIPathLabel=Locația către UEFI firmware
@@ -118,6 +121,7 @@ LZXCompression.YES=DA
 LZXCompression.NO=NU
 
 [SetupProgressPage]
+PageTitle=Instalare
 InstallInfoBox=Acest proces poate dura mult timp, în funcție de performanțele dispozitivului.
 InstallStatusLabel.GettingReady=Se pregătește...
 InstallStatusLabel.FormattingDisk=Se formatează dispozitivul țintă...

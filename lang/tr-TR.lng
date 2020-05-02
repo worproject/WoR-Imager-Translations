@@ -3,10 +3,10 @@ Name=Türkçe (Turkish)
 Author=pixelomer
 IsComplete=0
 
-[UpdateNotifierWindow]
+[UpdateNotifyWindow]
 WindowTitle=Update
 NewVersionAvailableLabel=New version available
-NewVersionAvailableBox=Windows on Raspberry %ver% is available! Would you like to download it now?
+NewVersionAvailableBox={appname} {0} is available! Would you like to download it now?
 DownloadBtn=Download
 CloseBtn=Close
 
@@ -28,19 +28,10 @@ DeclineBtn=Decline
 
 [Messages]
 AnErrorOccurred=An error occurred! Please check the logs.
-TaskOngoing=An operation is currently in progress.%n%Are you sure you want to force close the application?
+TaskOngoing=An operation is currently in progress.{n}Are you sure you want to force close the application?
 
 [MainWindow]
-WelcomePage=Merhaba
-SelectDiskPage=Cihaz seç
-SelectImagePage=Görüntü Seç
-SelectDriversPage=Sürücüleri Seç
-SelectUEFIPage=UEFI Yazılımı
-ConfigurationPage=Konfigurasyon
-FinishPage=Yükle
-WelcomeLabel=WoR SD kart oluşturucusuna hoşgeldiniz!
-WelcomeMsgTextBox=WoR (Windows on Raspberry) Raspberry Pi 3B yada 3B+ ile kullanım için SD kartınıza Windows 10 (masaüstü versiyonudur, Windows 10 IoT değildir) kurmanızı sağlayan bir araçtır.
-SelectLangLabel=Dilinizi seçiniz:
+SendFeedbackBtn=Send feedback
 NextPageBtn=İleri
 BackPageBtn=Geri
 NextPageBtn.Install=Kur
@@ -52,7 +43,6 @@ StatusBar.UnmountingISO=ISO dosyasının bağlantısı kesiliyor...
 StatusBar.ExtractingDrvToTemp=Sürücü arşivi geçici klasöre çıkartılıyor...
 StatusBar.DownloadingReqFiles=Gerekli dosyalar indiriliyor...
 StatusBar.FormattingDisk=Cihaz biçimlendiriliyor...
-StatusBar.ApplyingGPTImage=GPT görüntüsü yazılıyor...
 StatusBar.CreatingPartitions=Bölüntüler yaratılıyor...
 StatusBar.ApplyingImage=Görüntüsü yazılıyor...
 StatusBar.CopyingBootFiles=Önyükleme dosyaları kopyalanıyor...
@@ -61,24 +51,33 @@ StatusBar.SettingTestMode=testsigning ve nointegritychecks değişkenleri ayarla
 StatusBar.ConvertingEFI=Önyükleme bölüntüsü EFI Sistem Bölümüne dönüştürülüyor...
 StatusBar.InstallingDrivers=Sürücüler kuruluyor...
 
-[SelectDiskPage]
+[WelcomePage]
+PageTitle=Merhaba
+WelcomeLabel={appname}'a Hoş Geldiniz!
+WelcomeMsgTextBox={appname} Raspberry Pi ile kullanım için SD kartınıza Windows 10 (masaüstü versiyonudur, Windows 10 IoT değildir) kurmanızı sağlayan bir araçtır.
+SelectLangLabel=Dilinizi seçiniz:
+
+[SelectDevicePage]
+PageTitle=Cihaz seç
 SelectDiskLabel=Cihaz seç
-SelectDiskMsg=Note: Even though the new USB driver is stable, booting from an USB device is not recommended since Windows can't create a paging file on it.
-DiskInfoBox.AtLeast8=Cihazda en az 8GB alan olmalıdır!
-DiskInfoBox.Good=Seçilen cihazda en az 8GB alan var.
+Device.ExperimentalSupport=Experimental
+Device.SupportedModels=Supported models: {0}
+DiskInfoBox.AtLeast8=Cihazda en az 8 GB alan olmalıdır!
+DiskInfoBox.Good=Seçilen cihazda en az 8 GB alan var.
 DiskInfoBox.Enough=The selected device has enough space for a compressed installation.
 
 [SelectImagePage]
+PageTitle=Görüntü Seç
 SelectImageLabel=Windows 10 ARM görüntünüzü seçin
 WindowsEditionLabel=Windows edition:
-UpdateBinariesCheck=Update the boot files and the drivers package
-WorkingBuildsTextBox=Note: Windows 10 1803 and newer versions are known to work.%n%Version 1809 can crash unexpectedly due to some changes in the WppRecorder.sys driver, so it should be avoided.
-SelectImgInfoBox.SelectedImageGood=Seçilen görüntü (versiyon: %1) uygun!
+WorkingBuildsTextBox=Note: Windows 10 1803 and newer versions are known to work.{n}Version 1809 can crash unexpectedly due to some changes in the WppRecorder.sys driver, so it should be avoided.
+SelectImgInfoBox.SelectedImageGood=Seçilen görüntü (versiyon: {0}) uygun!
 SelectImgInfoBox.SelectedImageInvalid=The selected file is not a valid Windows image!
 SelectImgInfoBox.SelectedImageUnsupported=The selected image file is not supported!
-MessageBox.NotEnoughSpace=There is not enough space on the disk to install this image!%n%Please choose a larger storage device or a compact image.
+MessageBox.NotEnoughSpace=There is not enough space on the disk to install this image!{n}Please choose a larger storage device or a compact image.
 
 [SelectDriversPage]
+PageTitle=Sürücüleri Seç
 SelectDriversLabel=Sürücüleri seçin
 DriversNoteTextBox=Not: Sürücüler ZIP dosya formatı ile arşivlenmiş olmalıdır.
 LocalDrvPkgRadioBtn=Use a package stored on your computer
@@ -87,27 +86,31 @@ SelectDrvInfoBox.OK=The drivers archive is OK!
 SelectDrvInfoBox.LicenseNotAccepted=You have not accepted one of the license agreements!
 
 [SelectUEFIPage]
+PageTitle=UEFI Yazılımı
 SelectUEFILabel=UEFI yazılımını seçin
-UEFINoteTextBox=Not: UEFI yazılımı %2 dosya formatında olmalıdır.
+UEFINoteTextBox=Not: UEFI yazılımı {0} dosya formatında olmalıdır.
 LocalUEFIRadioBtn=Use a firmware stored on your computer
 ServerUEFIRadioBtn=Use the latest firmware available on the server
+ServerUEFISourceLabel=Firmware source:
 
 [SetupConfigurationPage]
+PageTitle=Konfigurasyon
 ConfigurationLabel=Konfigurasyon
 InstallOptionsGroup=Kurulum seçenekleri
 PartSchemeLabel=Bölümleme tablosu:
 ImgInstallLabel=Install image with:
-GPTImgFlasherLabel=Flash GPT image with:
+MemoryLimitLabel=Memory limit:
 EnableLZXCheck=LZX kurulum sıkıştırmasını etkinleştir
-VerifyGPTImgCheck=Verify the disk after flashing the GPT image
 BootOptionsGroup=Önyükleme seçenekleri
-WoROptionsGroup=WoR seçenekleri
+WoROptionsGroup={appname} seçenekleri
 SaveConfigExitLabel=Bu konfigurasyonu kaydet ve çık
 
 [SetupOverviewPage]
+PageTitle=Yükle
 InstallOverviewLabel=Kurulum - Genel bakış
 InstallWarnBox=Uyarı! Cihazdaki tüm veriler silinecektir! Çok geç olmadan önemli dosyalarınızı yedekleyin!
 TargetDeviceLabel=Hedef cihaz
+DeviceTypeLabel=Device type
 OSLabel=İşletim sistemi
 DriversPathLabel=Sürücüler
 UEFIPathLabel=UEFI yazılımı
@@ -118,6 +121,7 @@ LZXCompression.YES=EVET
 LZXCompression.NO=HAYIR
 
 [SetupProgressPage]
+PageTitle=Yükle
 InstallInfoBox=This process may take a long time depending on the device performance.
 InstallStatusLabel.GettingReady=Hazırlanıyor...
 InstallStatusLabel.FormattingDisk=Hedef cihaz biçimlendiriliyor...

@@ -1,12 +1,12 @@
-[WoR lang file]
+﻿[WoR lang file]
 Name=繁體中文 (Traditional Chinese)
 Author=ConashinChen
 IsComplete=0
 
-[UpdateNotifierWindow]
+[UpdateNotifyWindow]
 WindowTitle=更新
 NewVersionAvailableLabel=目前有新的版本
-NewVersionAvailableBox=有新版的Windows on Raspberry部署工具，您要下載更新嗎？
+NewVersionAvailableBox=有新版的{appname}部署工具，您要下載更新嗎？
 DownloadBtn=下載
 CloseBtn=取消
 
@@ -28,19 +28,10 @@ DeclineBtn=拒绝
 
 [Messages]
 AnErrorOccurred=發生錯誤！請檢查記錄檔。
-TaskOngoing=目前正在進行安裝。%n%您確定要強制關閉應用程序嗎？
+TaskOngoing=目前正在進行安裝。{n}您確定要強制關閉應用程序嗎？
 
 [MainWindow]
-WelcomePage=歡迎
-SelectDiskPage=選擇您的設備
-SelectImagePage=選擇映像
-SelectDriversPage=選取驅動
-SelectUEFIPage=UEFI壓縮檔
-ConfigurationPage=配置
-FinishPage=安装
-WelcomeLabel=歡迎使用 Windows on Raspberry imager!
-WelcomeMsgTextBox=WoR (Windows on Raspberry) 是一個可以幫助您在您的 SD 卡上安裝 Windows 10 ARM (非 IoT 物聯網版本，是帶有桌面的完整版)的文件以用於你的樹莓派 3B 或者是 3B+ 的工具。
-SelectLangLabel=語言:
+SendFeedbackBtn=Send feedback
 NextPageBtn=下一步
 BackPageBtn=上一步
 NextPageBtn.Install=安装
@@ -52,7 +43,6 @@ StatusBar.UnmountingISO=正在卸载映像檔...
 StatusBar.ExtractingDrvToTemp=正在解壓驅動程序至臨時文件夾...
 StatusBar.DownloadingReqFiles=正在下载所需文件...
 StatusBar.FormattingDisk=正在格式化您的設備...
-StatusBar.ApplyingGPTImage=正在格式化您的設備...
 StatusBar.CreatingPartitions=正在創建分區...
 StatusBar.ApplyingImage=正在套用 Windows 映像...
 StatusBar.CopyingBootFiles=正在複製開機檔案...
@@ -61,24 +51,33 @@ StatusBar.SettingTestMode=正在對 BCD 設置 testsigning 以及 nointegrityche
 StatusBar.ConvertingEFI=正在將啟動分區轉換為 ESP 分區...
 StatusBar.InstallingDrivers=正在安裝驅動...
 
-[SelectDiskPage]
+[WelcomePage]
+PageTitle=歡迎
+WelcomeLabel=歡迎使用 {appname}!
+WelcomeMsgTextBox={appname} 是一個可以幫助您在您的 SD 卡上安裝 Windows 10 ARM (非 IoT 物聯網版本，是帶有桌面的完整版)的文件以用於你的樹莓派 的工具。
+SelectLangLabel=語言:
+
+[SelectDevicePage]
+PageTitle=選擇您的設備
 SelectDiskLabel=選擇您的設備
-SelectDiskMsg=注意: 即使新的USB驅動程序穩定，也不建議從USB設備啟動，因為Windows無法在其上創建分頁文件。
-DiskInfoBox.AtLeast8=您的設備至少需要 8GB！
-DiskInfoBox.Good=所選設備至少擁有 8GB 的可用空間。
+Device.ExperimentalSupport=Experimental
+Device.SupportedModels=Supported models: {0}
+DiskInfoBox.AtLeast8=您的設備至少需要 8 GB！
+DiskInfoBox.Good=所選設備至少擁有 8 GB 的可用空間。
 DiskInfoBox.Enough=所選設備有足夠的空間用於壓縮安裝。
 
 [SelectImagePage]
+PageTitle=選擇映像
 SelectImageLabel=請選擇您的 Windows 10 ARM 映像。
 WindowsEditionLabel=Windows版本:
-UpdateBinariesCheck=更新驅動程式及開機檔案
-WorkingBuildsTextBox=注意: 已知Windows 10 1803和更新版本可以使用.%n%由於WppRecorder.sys驅動程序中的某些更改，版本1809可能會意外崩潰，因此應該避免使用。
-SelectImgInfoBox.SelectedImageGood=所選擇的版本(版本： %1) 可以安裝。
+WorkingBuildsTextBox=注意: 已知Windows 10 1803和更新版本可以使用.{n}由於WppRecorder.sys驅動程序中的某些更改，版本1809可能會意外崩潰，因此應該避免使用。
+SelectImgInfoBox.SelectedImageGood=所選擇的版本(版本： {0}) 可以安裝。
 SelectImgInfoBox.SelectedImageInvalid=所選文件不是有效的Windows映像！
 SelectImgInfoBox.SelectedImageUnsupported=不支持所選的映像文件！
-MessageBox.NotEnoughSpace=您的儲存空間不足！%n%請使用其他儲存裝置。
+MessageBox.NotEnoughSpace=您的儲存空間不足！{n}請使用其他儲存裝置。
 
 [SelectDriversPage]
+PageTitle=選取驅動
 SelectDriversLabel=選擇驅動程序
 DriversNoteTextBox=注意：您選擇的驅動程序必須打包為 zip 格式。
 LocalDrvPkgRadioBtn=使用現有的驅動程式檔案
@@ -87,27 +86,30 @@ SelectDrvInfoBox.OK=驅動可用！
 SelectDrvInfoBox.LicenseNotAccepted=您尚未接受其中一項許可協議!
 
 [SelectUEFIPage]
+PageTitle=UEFI壓縮檔
 SelectUEFILabel=選擇 UEFI 固件
-UEFINoteTextBox=注意：您的 UEFI 固件必須是 %2 檔名。
+UEFINoteTextBox=注意：您的 UEFI 固件必須是 {0} 檔名。
 LocalUEFIRadioBtn=使用電腦上的開機固件
 ServerUEFIRadioBtn=使用伺服器上最新版的開機固件
 
 [SetupConfigurationPage]
+PageTitle=配置
 ConfigurationLabel=配置
 InstallOptionsGroup=安装選項
 PartSchemeLabel=分區表:
 ImgInstallLabel=安装映像為:
-GPTImgFlasherLabel=以此系統標籤進行GPT格式化:
+MemoryLimitLabel=Memory limit:
 EnableLZXCheck=啟用LZX壓縮，可以減小占用空間。
-VerifyGPTImgCheck=完成時進行GPT格式確認
 BootOptionsGroup=啟動選項
-WoROptionsGroup=Windows選項
+WoROptionsGroup={appname}選項
 SaveConfigExitLabel=退出時保存這次所用的設定。
 
 [SetupOverviewPage]
+PageTitle=安装
 InstallOverviewLabel=安装概覽
 InstallWarnBox=警告！您的設備將會被格式化！請在確認安裝前對您的硬體進行備份！
 TargetDeviceLabel=目標設備
+DeviceTypeLabel=Device type
 OSLabel=要安装的作業系统
 DriversPathLabel=驅動程序路徑
 UEFIPathLabel=UEFI固件路径
@@ -118,6 +120,7 @@ LZXCompression.YES=是
 LZXCompression.NO=否
 
 [SetupProgressPage]
+PageTitle=安装
 InstallInfoBox=此過程需要一段時間，取決於SD卡的性能。
 InstallStatusLabel.GettingReady=就緒
 InstallStatusLabel.FormattingDisk=正在格式化您的設備...

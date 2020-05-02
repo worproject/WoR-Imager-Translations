@@ -3,10 +3,10 @@ Name=Deutsch (German)
 Author=BastiJames333 , Schule04 , NASS-eK
 IsComplete=0
 
-[UpdateNotifierWindow]
+[UpdateNotifyWindow]
 WindowTitle=Update
 NewVersionAvailableLabel=Neue Version verfügbar
-NewVersionAvailableBox=Windows on Raspberry %ver% ist verfügbar! Möchten Sie es jetzt herunterladen?
+NewVersionAvailableBox={appname} {0} ist verfügbar! Möchten Sie es jetzt herunterladen?
 DownloadBtn=Download
 CloseBtn=Schließen
 
@@ -28,19 +28,10 @@ DeclineBtn=Ablehnen
 
 [Messages]
 AnErrorOccurred=Ein Fehler ist aufgetreten! Prüfen Sie die Logs.
-TaskOngoing=Es wird gerade ein Vorgang ausgeführt.%n%Möchten Sie das Schließen der Anwendung wirklich erzwingen?
+TaskOngoing=Es wird gerade ein Vorgang ausgeführt.{n}Möchten Sie das Schließen der Anwendung wirklich erzwingen?
 
 [MainWindow]
-WelcomePage=Willkommen
-SelectDiskPage=Datenträger wählen
-SelectImagePage=Imagedatei wählen
-SelectDriversPage=Treiberpaket
-SelectUEFIPage=UEFI-Firmware
-ConfigurationPage=Konfiguration
-FinishPage=Installation
-WelcomeLabel=Willkommen zum Windows on Raspberry imager!
-WelcomeMsgTextBox=WoR (Windows on Raspberry) ist ein Tool zum Instalieren von Windows on ARM (volle Desktop-Version, nicht IoT) auf Ihrer SD-Karte zum Gebrauch in einem Raspberry Pi 3 B/B+.
-SelectLangLabel=Sprache wählen:
+SendFeedbackBtn=Send feedback
 NextPageBtn=Weiter
 BackPageBtn=Zurück
 NextPageBtn.Install=Installieren
@@ -52,7 +43,6 @@ StatusBar.UnmountingISO=ISO wird ausgeworfen...
 StatusBar.ExtractingDrvToTemp=Treiber werden in das temporäre Verzeichnis entpackt...
 StatusBar.DownloadingReqFiles=Erforderliche Dateien werden heruntergeladen...
 StatusBar.FormattingDisk=Datenträger wird formatiert...
-StatusBar.ApplyingGPTImage=GPT-Image wird kopiert...
 StatusBar.CreatingPartitions=Partitionen werden erstellt...
 StatusBar.ApplyingImage=Die Datei wird kopiert...
 StatusBar.CopyingBootFiles=Startdateien werden kopiert...
@@ -61,24 +51,33 @@ StatusBar.SettingTestMode=Aktivieren von testsigning und nointegritychecks...
 StatusBar.ConvertingEFI=Startpartition wird zur ESP konvertiert...
 StatusBar.InstallingDrivers=Treiber werden installiert...
 
-[SelectDiskPage]
+[WelcomePage]
+PageTitle=Willkommen
+WelcomeLabel=Willkommen zum {appname}!
+WelcomeMsgTextBox={appname} ist ein Tool zum Instalieren von Windows on ARM (volle Desktop-Version, nicht IoT) auf Ihrer SD-Karte zum Gebrauch in einem Raspberry Pi.
+SelectLangLabel=Sprache wählen:
+
+[SelectDevicePage]
+PageTitle=Datenträger wählen
 SelectDiskLabel=Wählen Sie den Datenträger aus
-SelectDiskMsg=Achtung: Obwohl der neue USB-Treiber stabil ist, wird das Booten von einem USB-Datenträger nicht empfohlen, da Windows keine Auslagerungsdatei darauf erstellen kann.
-DiskInfoBox.AtLeast8=Der Datenträger muss mindestens 8GB Speicher haben!
-DiskInfoBox.Good=Der gewählte Datenträger hat mindestens 8GB verfügbaren Speicher.
+Device.ExperimentalSupport=Experimental
+Device.SupportedModels=Supported models: {0}
+DiskInfoBox.AtLeast8=Der Datenträger muss mindestens 8 GB Speicher haben!
+DiskInfoBox.Good=Der gewählte Datenträger hat mindestens 8 GB verfügbaren Speicher.
 DiskInfoBox.Enough=Der gewählte Datenträger hat genug Speicher für eine gepackte Installation.
 
 [SelectImagePage]
+PageTitle=Imagedatei wählen
 SelectImageLabel=Wählen Sie Ihre Windows on ARM-Imagedatei:
 WindowsEditionLabel=Windows Edition:
-UpdateBinariesCheck=Update the boot files and the drivers package
-WorkingBuildsTextBox=Achtung: Es ist bekannt, dass Windows 10 1803 und neuere Versionen funktionieren.%n%Die Version 1809 kann aufgrund einiger Änderungen des WppRecorder.sys-Treibers unerwartet abstürzen und sollte daher vermieden werden.
-SelectImgInfoBox.SelectedImageGood=Das ausgewählte Image (Version: %1) ist gut!
+WorkingBuildsTextBox=Achtung: Es ist bekannt, dass Windows 10 1803 und neuere Versionen funktionieren.{n}Die Version 1809 kann aufgrund einiger Änderungen des WppRecorder.sys-Treibers unerwartet abstürzen und sollte daher vermieden werden.
+SelectImgInfoBox.SelectedImageGood=Das ausgewählte Image (Version: {0}) ist gut!
 SelectImgInfoBox.SelectedImageInvalid=Die ausgewählte Datei ist kein gültiges Windows-Abbild!
 SelectImgInfoBox.SelectedImageUnsupported=Das ausgewählte Image wird nicht unterstützt!
-MessageBox.NotEnoughSpace=There is not enough space on the disk to install this image!%n%Please choose a larger storage device or a compact image.
+MessageBox.NotEnoughSpace=There is not enough space on the disk to install this image!{n}Please choose a larger storage device or a compact image.
 
 [SelectDriversPage]
+PageTitle=Treiberpaket
 SelectDriversLabel=Treiber wählen
 DriversNoteTextBox=Hinweis: Die Treiber müssen im ZIP-Dateiformat archiviert sein.
 LocalDrvPkgRadioBtn=Use a package stored on your computer
@@ -87,27 +86,31 @@ SelectDrvInfoBox.OK=Das Treiberarchiv ist OK!
 SelectDrvInfoBox.LicenseNotAccepted=Sie haben die Lizenzvereinbarung nicht akzeptiert!
 
 [SelectUEFIPage]
+PageTitle=UEFI-Firmware
 SelectUEFILabel=UEFI-Firmware wählen
-UEFINoteTextBox=Hinweis: Die UEFI-Firmware muss als Dateiendung %2 haben.
+UEFINoteTextBox=Hinweis: Die UEFI-Firmware muss als Dateiendung {0} haben.
 LocalUEFIRadioBtn=Use a firmware stored on your computer
 ServerUEFIRadioBtn=Use the latest firmware available on the server
+ServerUEFISourceLabel=Firmware source:
 
 [SetupConfigurationPage]
+PageTitle=Konfiguration
 ConfigurationLabel=Konfiguration
 InstallOptionsGroup=Installationsoptionen
 PartSchemeLabel=Partitionsschema:
 ImgInstallLabel=Installation mit:
-GPTImgFlasherLabel=Flash GPT image with:
+MemoryLimitLabel=Memory limit:
 EnableLZXCheck=LZX-Komprimierte Installation
-VerifyGPTImgCheck=Verify the disk after flashing the GPT image
 BootOptionsGroup=Startoptionen
-WoROptionsGroup=WoR-Optionen
+WoROptionsGroup={appname}-Optionen
 SaveConfigExitLabel=Diese Konfiguration beim Beenden speichern
 
 [SetupOverviewPage]
+PageTitle=Installation
 InstallOverviewLabel=Installationsübersicht
 InstallWarnBox=Warnung! Alle Daten auf Ihrem Datenträger werden gelöscht! Machen Sie eine Sicherung bevor es zu spät ist!
 TargetDeviceLabel=Zieldatenträger
+DeviceTypeLabel=Device type
 OSLabel=Betriebssystem
 DriversPathLabel=Treiberpfad
 UEFIPathLabel=UEFI-Firmware-Pfad
@@ -118,6 +121,7 @@ LZXCompression.YES=JA
 LZXCompression.NO=NEIN
 
 [SetupProgressPage]
+PageTitle=Installation
 InstallInfoBox=Dieser Prozess kann aufgrund der Geschwindigkeit des Datenträgers eine lange Zeit dauern.
 InstallStatusLabel.GettingReady=Vorbereiten...
 InstallStatusLabel.FormattingDisk=Zieldatenträger wird formatiert...
