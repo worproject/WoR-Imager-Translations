@@ -1,12 +1,12 @@
 ﻿[WoR lang file]
 Name=Polski (Polish)
-Author=macmmm81 , Gotard , Marcinoo97
-IsComplete=0
+Author=macmmm81 , Gotard , Marcinoo97, LUKI N (lukin123)
+IsComplete=1
 
 [UpdateNotifyWindow]
 WindowTitle=Aktualizacja
-NewVersionAvailableLabel=Nowa Wersja jest dostępna.
-NewVersionAvailableBox={appname} {0} jest dostępna! Czy chciałbyś pobrać ją teraz?
+NewVersionAvailableLabel=Nowa wersja jest dostępna.
+NewVersionAvailableBox={appname} wersja {0} jest dostępna! Czy chcesz pobrać ją teraz?
 DownloadBtn=Pobierz
 CloseBtn=Zamknij
 
@@ -15,7 +15,7 @@ WindowTitle=O Programie
 AppVersionLabel=Wersja
 CreditsPage=Uznanie
 ChangelogPage=Dziennik zmian
-LicensesPage=Informacje Licencyjne
+LicensesPage=Licencje
 
 [LoggerWindow]
 WindowTitle=Dzienniki
@@ -27,8 +27,8 @@ AcceptBtn=Akceptuj
 DeclineBtn=Odrzuć
 
 [Messages]
-AnErrorOccurred=Wystąpił błąd! Proszę, sprawdź dziennik programu.
-TaskOngoing=Wybrana operacja jest ciągle wykonywana.{n}Czy naprawdę chcesz wymusić zamknięcie programu?
+AnErrorOccurred=Wystąpił błąd! Sprawdź dziennik programu.
+TaskOngoing=Operacja w toku.{n}Czy chcesz wymusić zamknięcie programu?
 
 [MainWindow]
 SendFeedbackBtn=Wyślij opinię
@@ -37,10 +37,10 @@ BackPageBtn=Wstecz
 NextPageBtn.Install=Zainstaluj
 NextPageBtn.Finish=Zakończ
 StatusBar.Idle=Bezczynny
-StatusBar.LoadingDisks=Ładowanie sterowników...
+StatusBar.LoadingDisks=Wyszukiwanie dysków...
 StatusBar.MountingISO=Montowanie obrazu ISO...
 StatusBar.UnmountingISO=Odmontowywanie pliku ISO...
-StatusBar.VerifyingImage=Verifying the image...
+StatusBar.VerifyingImage=Weryfikacja obrazu...
 StatusBar.ExtractingDrvToTemp=Wypakowywanie sterowników do folderu tymczasowego... 
 StatusBar.DownloadingReqFiles=Pobieranie wymaganych plików...
 StatusBar.FormattingDisk=Formatowanie urządzenia...
@@ -61,17 +61,17 @@ SelectLangLabel=Wybierz język:
 [SelectDevicePage]
 PageTitle=Wybór urządzenia
 SelectDiskLabel=Wybór urządzenia
-Device.ExperimentalSupport=Eksperymentalne
+Device.ExperimentalSupport=Funkcje eksperymentalne
 Device.SupportedModels=Supported models: {0}
 DiskInfoBox.AtLeast8=Urządzenie musi mieć co najmniej 8 GB wolnego miejsca!
 DiskInfoBox.Good=Wybrane urządzenie posiada co najmniej 8 GB wolnego miejsca.
-DiskInfoBox.Enough=Wybrane urządzenie posiada wystarczająco dużo miejsca na skompresowaną instalację.
+DiskInfoBox.Enough=Wybrane urządzenie posiada wystarczająco miejsca na skompresowaną instalację.
 
 [SelectImagePage]
 PageTitle=Wybór obrazu systemu
 SelectImageLabel=Wybierz obraz systemu Windows on ARM
 WindowsEditionLabel=Wersja Windows:
-WorkingBuildsTextBox=Note: Wersja Windows 10 1803 lub nowsze były testowane i działają.{n}Wersja 1809 może niespodziewanie się wyłaczać przez zmiany w WppRecorder.sys sterowniku, więc unikaj tej wersji.
+WorkingBuildsTextBox=Note: Wersja Windows 10 1803 lub nowsze były testowane i działają.{n}Wersja 1809 może niespodziewanie się wyłaczać przez zmiany w sterowniku WppRecorder.sys, więc unikaj tej wersji.
 SelectImgInfoBox.SelectedImageGood=Wybrany obraz (w wersji: {0}) jest w porządku!
 SelectImgInfoBox.SelectedImageInvalid=Wybrany plik nie jest prawidłowym plikiem obrazu systemu Windows!
 SelectImgInfoBox.SelectedImageUnsupported=Wybrany plik obrazu jest nie wspierany!
@@ -101,7 +101,7 @@ InstallOptionsGroup=Opcje instalacji
 PartSchemeLabel=Mapa Partycji:
 ImgInstallLabel=Zainstaluj obraz używając:
 MemoryLimitLabel=Limit Pamięci:
-EnableLZXCheck=Aktywuj kompresję instalacji LZX
+EnableLZXCheck=Aktywuj kompresję LZX instalacji 
 BootOptionsGroup=Ustawienia rozruchu
 WoROptionsGroup=Ustawienia {appname}
 SaveConfigExitLabel=Zapisz tę konfigurację
@@ -109,7 +109,7 @@ SaveConfigExitLabel=Zapisz tę konfigurację
 [SetupOverviewPage]
 PageTitle=Instalacja
 InstallOverviewLabel=Podsumowanie instalacji
-InstallWarnBox=Ostrzenie! Wszystkie dane na wybranym urządzeniu zostaną usunięte! Utwórz kopię zapasową wszystkich ważnych plików, zanim będzie za późno!
+InstallWarnBox=Ostrzeżenie! Wszystkie dane na wybranym urządzeniu zostaną usunięte! Utwórz kopię zapasową wszystkich ważnych plików, zanim będzie za późno!
 TargetDeviceLabel=Urządzenie docelowe
 DeviceTypeLabel=Typ urządzenia
 OSLabel=System operacyjny
@@ -117,13 +117,13 @@ DriversPathLabel=Ścieżka do sterowników
 UEFIPathLabel=Ścieżka do pliku oprogramowania UEFI
 PartitionSchemeLabel=Mapa Partycji
 ImageDeployerLabel=Metoda instalacji obrazu
-LZXCompressionLabel=Kompresja instalacji LZX
+LZXCompressionLabel=Kompresja LZX instalacji 
 LZXCompression.YES=TAK
 LZXCompression.NO=NIE
 
 [SetupProgressPage]
 PageTitle=Instalacja
-InstallInfoBox=Ten proces może zająć trochę czasu, w zależności od prędkości twojej urządzenia.
+InstallInfoBox=Ten proces może zająć trochę czasu, w zależności od prędkości twojego urządzenia.
 InstallStatusLabel.GettingReady=Przygotowywanie...
 InstallStatusLabel.FormattingDisk=Formatowanie urządzenia docelowego...
 InstallStatusLabel.CreatingPartitions=Tworzenie partycji...
