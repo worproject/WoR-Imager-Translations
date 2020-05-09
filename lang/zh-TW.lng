@@ -1,12 +1,12 @@
 ﻿[WoR lang file]
-Name=繁體中文 (Traditional Chinese)
-Author=ConashinChen
+Name=繁體中文(台灣) (Traditional Chinese)
+Author=Gekoii, ConashinChen
 IsComplete=0
 
 [UpdateNotifyWindow]
 WindowTitle=更新
 NewVersionAvailableLabel=目前有新的版本
-NewVersionAvailableBox=有新版的{appname}部署工具，您要下載更新嗎？
+NewVersionAvailableBox={appname} {0}已經釋出，您要下載更新嗎？
 DownloadBtn=下載
 CloseBtn=取消
 
@@ -14,120 +14,121 @@ CloseBtn=取消
 WindowTitle=關於
 AppVersionLabel=版本
 CreditsPage=作者
-ChangelogPage=更新日志
-LicensesPage=來源
+ChangelogPage=更新紀錄
+LicensesPage=授權
 
 [LoggerWindow]
 WindowTitle=紀錄
 CopyToClipboardBtn=複製
 
 [LicenseAgreementWindow]
-WindowTitle=協議
+WindowTitle=授權協議
 AcceptBtn=接受
-DeclineBtn=拒绝
+DeclineBtn=拒絕
 
 [Messages]
 AnErrorOccurred=發生錯誤！請檢查記錄檔。
-TaskOngoing=目前正在進行安裝。{n}您確定要強制關閉應用程序嗎？
+TaskOngoing=另一個程序正在執行中。{n}確定要強制關閉應用程式？
 
 [MainWindow]
-SendFeedbackBtn=Send feedback
+SendFeedbackBtn=傳送回報訊息
 NextPageBtn=下一步
 BackPageBtn=上一步
 NextPageBtn.Install=安装
 NextPageBtn.Finish=完成
-StatusBar.Idle=空閒
-StatusBar.LoadingDisks=正在加載磁盤內容...
-StatusBar.MountingISO=正在掛接映像檔...
-StatusBar.UnmountingISO=正在卸载映像檔...
-StatusBar.VerifyingImage=Verifying the image...
-StatusBar.ExtractingDrvToTemp=正在解壓驅動程序至臨時文件夾...
-StatusBar.DownloadingReqFiles=正在下载所需文件...
-StatusBar.FormattingDisk=正在格式化您的設備...
-StatusBar.CreatingPartitions=正在創建分區...
-StatusBar.ApplyingImage=正在套用 Windows 映像...
+StatusBar.Idle=閒置
+StatusBar.LoadingDisks=正在取讀磁碟列表...
+StatusBar.MountingISO=正在加載映像檔...
+StatusBar.UnmountingISO=正在卸載映像檔...
+StatusBar.VerifyingImage=正在驗證映像檔...
+StatusBar.ExtractingDrvToTemp=正在解壓縮驅動程式至暫存資料夾...
+StatusBar.DownloadingReqFiles=正在下載所需文件...
+StatusBar.FormattingDisk=正在格式化磁碟...
+StatusBar.CreatingPartitions=正在建立磁碟分割...
+StatusBar.ApplyingImage=正在套用映像檔...
 StatusBar.CopyingBootFiles=正在複製開機檔案...
-StatusBar.CreatingBCD=正在製作BCD...
-StatusBar.SettingTestMode=正在對 BCD 設置 testsigning 以及 nointegritychecks 選項...
-StatusBar.ConvertingEFI=正在將啟動分區轉換為 ESP 分區...
-StatusBar.InstallingDrivers=正在安裝驅動...
+StatusBar.CreatingBCD=正在建立啟動組態資料庫...
+StatusBar.SettingTestMode=正在設定 testsigning 及 nointegritychecks 至開啟...
+StatusBar.ConvertingEFI=正在轉換啟動分區至EFI系統...
+StatusBar.InstallingDrivers=正在安裝驅動程式...
 
 [WelcomePage]
 PageTitle=歡迎
 WelcomeLabel=歡迎使用 {appname}!
-WelcomeMsgTextBox={appname} 是一個可以幫助您在您的 SD 卡上安裝 Windows 10 ARM (非 IoT 物聯網版本，是帶有桌面的完整版)的文件以用於你的樹莓派 的工具。
+WelcomeMsgTextBox={appname} 是一個可以將Windows on ARM*安裝至您的Raspberry Pi記憶卡的工具。(備註：完整版而非IoT版)
 SelectLangLabel=語言:
 
 [SelectDevicePage]
-PageTitle=選擇您的設備
-SelectDiskLabel=選擇您的設備
-Device.ExperimentalSupport=Experimental
-Device.SupportedModels=Supported models: {0}
-DiskInfoBox.AtLeast8=您的設備至少需要 8 GB！
-DiskInfoBox.Good=所選設備至少擁有 8 GB 的可用空間。
-DiskInfoBox.Enough=所選設備有足夠的空間用於壓縮安裝。
+PageTitle=裝置選擇
+SelectDiskLabel=選擇您的裝置
+Device.ExperimentalSupport=實驗性的
+Device.SupportedModels=支援型號: {0}
+DiskInfoBox.AtLeast8=所選的裝置必須擁有 8 GB 以上的可用空間！
+DiskInfoBox.Good=所選的裝置擁有 8 GB 以上的可用空間。
+DiskInfoBox.Enough=所選的裝置僅擁有足夠的空間進行壓縮版安裝。
 
 [SelectImagePage]
-PageTitle=選擇映像
-SelectImageLabel=請選擇您的 Windows 10 ARM 映像。
+PageTitle=選擇映像檔
+SelectImageLabel=請選擇您的 Windows on ARM 映像檔。
 WindowsEditionLabel=Windows版本:
-WorkingBuildsTextBox=注意: 已知Windows 10 1803和更新版本可以使用.{n}由於WppRecorder.sys驅動程序中的某些更改，版本1809可能會意外崩潰，因此應該避免使用。
-SelectImgInfoBox.SelectedImageGood=所選擇的版本(版本： {0}) 可以安裝。
-SelectImgInfoBox.SelectedImageInvalid=所選文件不是有效的Windows映像！
-SelectImgInfoBox.SelectedImageUnsupported=不支持所選的映像文件！
-MessageBox.NotEnoughSpace=您的儲存空間不足！{n}請使用其他儲存裝置。
+WorkingBuildsTextBox=備註：已知包含 Windows 10 1803 及之後的版本可以正常運作。{n}1809版因為部分WppRecorder.sys驅動程式更變而會發生預期外的錯誤，故應該避免此版本。
+SelectImgInfoBox.SelectedImageGood=所選的映像檔(版本： {0})符合安裝條件！
+SelectImgInfoBox.SelectedImageInvalid=所選的檔案不是有效的Windows映像檔！
+SelectImgInfoBox.SelectedImageUnsupported=不支援所選的檔案格式！
+MessageBox.NotEnoughSpace=所選裝置沒有足夠空間安裝所選映像檔{n}請改用較大的儲存裝置或較小的映像檔。
 
 [SelectDriversPage]
-PageTitle=選取驅動
-SelectDriversLabel=選擇驅動程序
-DriversNoteTextBox=注意：您選擇的驅動程序必須打包為 zip 格式。
-LocalDrvPkgRadioBtn=使用現有的驅動程式檔案
-ServerDrvPkgRadioBtn=使用伺服器上最新的驅動程式
-SelectDrvInfoBox.OK=驅動可用！
-SelectDrvInfoBox.LicenseNotAccepted=您尚未接受其中一項許可協議!
+PageTitle=選擇驅動程式
+SelectDriversLabel=選擇驅動程式
+DriversNoteTextBox=備註：驅動程式必須被壓縮為ZIP格式
+LocalDrvPkgRadioBtn=從磁碟安裝驅動程式
+ServerDrvPkgRadioBtn=從伺服器上下載最新驅動程式
+SelectDrvInfoBox.OK=所選驅動程式符合安裝條件！
+SelectDrvInfoBox.LicenseNotAccepted=您尚未同意所有的授權協議！
 
 [SelectUEFIPage]
-PageTitle=UEFI壓縮檔
-SelectUEFILabel=選擇 UEFI 固件
-UEFINoteTextBox=注意：您的 UEFI 固件必須是 {0} 檔名。
-LocalUEFIRadioBtn=使用電腦上的開機固件
-ServerUEFIRadioBtn=使用伺服器上最新版的開機固件
+PageTitle=UEFI韌體
+SelectUEFILabel=選擇UEFI韌體
+UEFINoteTextBox=備註：所選的UEFI韌體必須為 {0} 副檔名。
+LocalUEFIRadioBtn=從磁碟安裝韌體
+ServerUEFIRadioBtn=從伺服器上下載最新韌體
+ServerUEFISourceLabel=韌體來源：
 
 [SetupConfigurationPage]
-PageTitle=配置
-ConfigurationLabel=配置
-InstallOptionsGroup=安装選項
-PartSchemeLabel=分區表:
-ImgInstallLabel=安装映像為:
-MemoryLimitLabel=Memory limit:
-EnableLZXCheck=啟用LZX壓縮，可以減小占用空間。
-BootOptionsGroup=啟動選項
+PageTitle=設定
+ConfigurationLabel=設定
+InstallOptionsGroup=安裝選項
+PartSchemeLabel=分區列表:
+ImgInstallLabel=安裝映像檔:
+MemoryLimitLabel=記憶體限制:
+EnableLZXCheck=使用LZX壓縮版安裝
+BootOptionsGroup=開機選項
 WoROptionsGroup={appname}選項
-SaveConfigExitLabel=退出時保存這次所用的設定。
+SaveConfigExitLabel=離開時儲存設定
 
 [SetupOverviewPage]
-PageTitle=安装
-InstallOverviewLabel=安装概覽
-InstallWarnBox=警告！您的設備將會被格式化！請在確認安裝前對您的硬體進行備份！
-TargetDeviceLabel=目標設備
-DeviceTypeLabel=Device type
-OSLabel=要安装的作業系统
-DriversPathLabel=驅動程序路徑
-UEFIPathLabel=UEFI固件路径
-PartitionSchemeLabel=所使用的分割表
-ImageDeployerLabel=安裝方式
-LZXCompressionLabel=是否啟用 LZX 壓縮
+PageTitle=安裝
+InstallOverviewLabel=預覽安裝
+InstallWarnBox=注意！所有在此裝置上的資料都將被清除！請備份重要檔案！
+TargetDeviceLabel=目標裝置
+DeviceTypeLabel=裝置類型
+OSLabel=作業系統
+DriversPathLabel=驅動程式位置
+UEFIPathLabel=UEFI韌體位置
+PartitionSchemeLabel=磁碟分割表格式
+ImageDeployerLabel=映像檔部屬者
+LZXCompressionLabel=LZX壓縮版安裝
 LZXCompression.YES=是
 LZXCompression.NO=否
 
 [SetupProgressPage]
-PageTitle=安装
-InstallInfoBox=此過程需要一段時間，取決於SD卡的性能。
-InstallStatusLabel.GettingReady=就緒
-InstallStatusLabel.FormattingDisk=正在格式化您的設備...
-InstallStatusLabel.CreatingPartitions=正在分割...
-InstallStatusLabel.InstallingWindows=正在安装 Windows...
-InstallStatusLabel.InstallingBootFiles=正在複製開機檔案...
-InstallStatusLabel.InstallingDrivers=正在安装驅動...
-InstallStatusLabel.InstallFinished=安裝完成！
+PageTitle=安裝
+InstallInfoBox=安裝程序將會耗費一段時間，這取決於裝置的速度。
+InstallStatusLabel.GettingReady=正在準備就緒...
+InstallStatusLabel.FormattingDisk=正在格式化裝置...
+InstallStatusLabel.CreatingPartitions=正在建立磁碟分割...
+InstallStatusLabel.InstallingWindows=正在安裝Windows...
+InstallStatusLabel.InstallingBootFiles=正在安裝開機檔案...
+InstallStatusLabel.InstallingDrivers=正在安裝驅動程式...
+InstallStatusLabel.InstallFinished=安裝成功！
 InstallStatusLabel.InstallFailed=安裝失敗！
