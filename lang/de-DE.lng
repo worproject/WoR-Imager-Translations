@@ -1,6 +1,6 @@
 ﻿[WoR lang file]
 Name=Deutsch (German)
-Author=BastiJames333 , Schule04 , NASS-eK
+Author=EpicLPer , BastiJames333 , Schule04 , NASS-eK
 IsComplete=0
 
 [UpdateNotifyWindow]
@@ -26,9 +26,10 @@ WindowTitle=Lizenzabkommen
 AcceptBtn=Akzeptieren
 DeclineBtn=Ablehnen
 
-[Messages]
+[General]
 AnErrorOccurred=Ein Fehler ist aufgetreten! Prüfen Sie die Logs.
-TaskOngoing=Es wird gerade ein Vorgang ausgeführt.{n}Möchten Sie das Schließen der Anwendung wirklich erzwingen?
+MessageBox.CustomPackageWarn=Choosing an outdated or incompatible package may cause installation problems!{n}{n}It is recommended that you use the latest version available on the server instead.{n}{n}Continue anyway?
+SelectedPackageInvalid=The selected package is invalid or incompatible with your device.
 
 [MainWindow]
 SendFeedbackBtn=Feedback senden
@@ -41,16 +42,17 @@ StatusBar.LoadingDisks=Lade Treiber...
 StatusBar.MountingISO=ISO wird gemountet...
 StatusBar.UnmountingISO=ISO wird ausgeworfen...
 StatusBar.VerifyingImage=Abbild wird verifiziert...
-StatusBar.ExtractingDrvToTemp=Treiber werden in das temporäre Verzeichnis entpackt...
+StatusBar.ExtractingPackageToTemp=Das archiv werden in das temporäre Verzeichnis entpackt...
 StatusBar.DownloadingReqFiles=Erforderliche Dateien werden heruntergeladen...
 StatusBar.FormattingDisk=Datenträger wird formatiert...
 StatusBar.CreatingPartitions=Partitionen werden erstellt...
 StatusBar.ApplyingImage=Die Datei wird kopiert...
 StatusBar.CopyingBootFiles=Startdateien werden kopiert...
 StatusBar.CreatingBCD=BCD wird erstellt...
-StatusBar.SettingTestMode=Aktivieren von testsigning und nointegritychecks...
+StatusBar.ConfiguringBCD=Configuring the BCD...
 StatusBar.ConvertingEFI=Startpartition wird zur ESP konvertiert...
 StatusBar.InstallingDrivers=Treiber werden installiert...
+MessageBox.TaskOngoing=Es wird gerade ein Vorgang ausgeführt.{n}Möchten Sie das Schließen der Anwendung wirklich erzwingen?
 
 [WelcomePage]
 PageTitle=Willkommen
@@ -97,12 +99,18 @@ ServerUEFISourceLabel=Firmware Quelle:
 [SetupConfigurationPage]
 PageTitle=Konfiguration
 ConfigurationLabel=Konfiguration
+ConfigurationTabControl.MainTabPage=General
 InstallOptionsGroup=Installationsoptionen
 PartSchemeLabel=Partitionsschema:
 ImgInstallLabel=Installation mit:
-MemoryLimitLabel=Speicherlimit:
 EnableLZXCheck=LZX-Komprimierte Installation
 BootOptionsGroup=Startoptionen
+MessageBox.BootConfigEditorWarn=Modifying the default boot configuration may cause the device to malfunction or not boot at all.{n}{n}Continue anyway?
+ConfigurationTabControl.AdvancedTabPage=Advanced
+MessageBox.AdvancedTabPageWarn=Changing the default settings in the advanced menu may disable specific device features or prevent the system from booting.{n}{n}Are you sure you want to continue?
+WindowsBootOptionsGroup=Windows boot options
+MemoryLimitLabel=Speicherlimit:
+RecoveryEnabledCheck=Enable the Windows Recovery Environment
 WoROptionsGroup={appname}-Optionen
 SaveConfigExitLabel=Diese Konfiguration beim Beenden speichern
 

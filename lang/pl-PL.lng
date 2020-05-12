@@ -1,7 +1,7 @@
 ﻿[WoR lang file]
 Name=Polski (Polish)
-Author=macmmm81 , Gotard , Marcinoo97, LUKI N (lukin123)
-IsComplete=1
+Author=macmmm81 , Gotard , Marcinoo97 , LUKI N (lukin123)
+IsComplete=0
 
 [UpdateNotifyWindow]
 WindowTitle=Aktualizacja
@@ -26,9 +26,10 @@ WindowTitle=Umowa licencyjna
 AcceptBtn=Akceptuj
 DeclineBtn=Odrzuć
 
-[Messages]
+[General]
 AnErrorOccurred=Wystąpił błąd! Sprawdź dziennik programu.
-TaskOngoing=Operacja w toku.{n}Czy chcesz wymusić zamknięcie programu?
+MessageBox.CustomPackageWarn=Choosing an outdated or incompatible package may cause installation problems!{n}{n}It is recommended that you use the latest version available on the server instead.{n}{n}Continue anyway?
+SelectedPackageInvalid=The selected package is invalid or incompatible with your device.
 
 [MainWindow]
 SendFeedbackBtn=Wyślij opinię
@@ -41,16 +42,17 @@ StatusBar.LoadingDisks=Wyszukiwanie dysków...
 StatusBar.MountingISO=Montowanie obrazu ISO...
 StatusBar.UnmountingISO=Odmontowywanie pliku ISO...
 StatusBar.VerifyingImage=Weryfikacja obrazu...
-StatusBar.ExtractingDrvToTemp=Wypakowywanie sterowników do folderu tymczasowego... 
+StatusBar.ExtractingPackageToTemp=Wypakowywanie archiwum do folderu tymczasowego...
 StatusBar.DownloadingReqFiles=Pobieranie wymaganych plików...
 StatusBar.FormattingDisk=Formatowanie urządzenia...
 StatusBar.CreatingPartitions=Tworzenie partycji...
 StatusBar.ApplyingImage=Instalacja obrazu...
 StatusBar.CopyingBootFiles=Kopiowanie plików rozruchowych...
 StatusBar.CreatingBCD=Tworzenie BCD...
-StatusBar.SettingTestMode=Włączanie "testsigning" oraz "nointegritychecks"...
+StatusBar.ConfiguringBCD=Configuring the BCD...
 StatusBar.ConvertingEFI=Konwersja partycji rozruchowej na ESP...
 StatusBar.InstallingDrivers=Instalowanie sterowników...
+MessageBox.TaskOngoing=Operacja w toku.{n}Czy chcesz wymusić zamknięcie programu?
 
 [WelcomePage]
 PageTitle=Witaj!
@@ -97,12 +99,18 @@ ServerUEFISourceLabel=Źródło oprogramowania:
 [SetupConfigurationPage]
 PageTitle=Konfiguracja Instalacji
 ConfigurationLabel=Konfiguracja Instalacji
+ConfigurationTabControl.MainTabPage=General
 InstallOptionsGroup=Opcje instalacji
 PartSchemeLabel=Mapa Partycji:
 ImgInstallLabel=Zainstaluj obraz używając:
-MemoryLimitLabel=Limit Pamięci:
 EnableLZXCheck=Aktywuj kompresję LZX instalacji 
 BootOptionsGroup=Ustawienia rozruchu
+MessageBox.BootConfigEditorWarn=Modifying the default boot configuration may cause the device to malfunction or not boot at all.{n}{n}Continue anyway?
+ConfigurationTabControl.AdvancedTabPage=Advanced
+MessageBox.AdvancedTabPageWarn=Changing the default settings in the advanced menu may disable specific device features or prevent the system from booting.{n}{n}Are you sure you want to continue?
+WindowsBootOptionsGroup=Windows boot options
+MemoryLimitLabel=Limit Pamięci:
+RecoveryEnabledCheck=Enable the Windows Recovery Environment
 WoROptionsGroup=Ustawienia {appname}
 SaveConfigExitLabel=Zapisz tę konfigurację
 

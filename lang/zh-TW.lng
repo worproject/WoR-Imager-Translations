@@ -1,6 +1,6 @@
 ﻿[WoR lang file]
 Name=繁體中文(台灣) (Traditional Chinese)
-Author=Gekoii, ConashinChen
+Author=Gekoii , ConashinChen
 IsComplete=0
 
 [UpdateNotifyWindow]
@@ -26,9 +26,10 @@ WindowTitle=授權協議
 AcceptBtn=接受
 DeclineBtn=拒絕
 
-[Messages]
+[General]
 AnErrorOccurred=發生錯誤！請檢查記錄檔。
-TaskOngoing=另一個程序正在執行中。{n}確定要強制關閉應用程式？
+MessageBox.CustomPackageWarn=Choosing an outdated or incompatible package may cause installation problems!{n}{n}It is recommended that you use the latest version available on the server instead.{n}{n}Continue anyway?
+SelectedPackageInvalid=The selected package is invalid or incompatible with your device.
 
 [MainWindow]
 SendFeedbackBtn=傳送回報訊息
@@ -41,16 +42,17 @@ StatusBar.LoadingDisks=正在取讀磁碟列表...
 StatusBar.MountingISO=正在加載映像檔...
 StatusBar.UnmountingISO=正在卸載映像檔...
 StatusBar.VerifyingImage=正在驗證映像檔...
-StatusBar.ExtractingDrvToTemp=正在解壓縮驅動程式至暫存資料夾...
+StatusBar.ExtractingPackageToTemp=將檔案解壓縮到臨時文件夾...
 StatusBar.DownloadingReqFiles=正在下載所需文件...
 StatusBar.FormattingDisk=正在格式化磁碟...
 StatusBar.CreatingPartitions=正在建立磁碟分割...
 StatusBar.ApplyingImage=正在套用映像檔...
 StatusBar.CopyingBootFiles=正在複製開機檔案...
 StatusBar.CreatingBCD=正在建立啟動組態資料庫...
-StatusBar.SettingTestMode=正在設定 testsigning 及 nointegritychecks 至開啟...
+StatusBar.ConfiguringBCD=Configuring the BCD...
 StatusBar.ConvertingEFI=正在轉換啟動分區至EFI系統...
 StatusBar.InstallingDrivers=正在安裝驅動程式...
+MessageBox.TaskOngoing=另一個程序正在執行中。{n}確定要強制關閉應用程式？
 
 [WelcomePage]
 PageTitle=歡迎
@@ -97,12 +99,18 @@ ServerUEFISourceLabel=韌體來源：
 [SetupConfigurationPage]
 PageTitle=設定
 ConfigurationLabel=設定
+ConfigurationTabControl.MainTabPage=General
 InstallOptionsGroup=安裝選項
 PartSchemeLabel=分區列表:
 ImgInstallLabel=安裝映像檔:
-MemoryLimitLabel=記憶體限制:
 EnableLZXCheck=使用LZX壓縮版安裝
 BootOptionsGroup=開機選項
+MessageBox.BootConfigEditorWarn=Modifying the default boot configuration may cause the device to malfunction or not boot at all.{n}{n}Continue anyway?
+ConfigurationTabControl.AdvancedTabPage=Advanced
+MessageBox.AdvancedTabPageWarn=Changing the default settings in the advanced menu may disable specific device features or prevent the system from booting.{n}{n}Are you sure you want to continue?
+WindowsBootOptionsGroup=Windows boot options
+MemoryLimitLabel=記憶體限制:
+RecoveryEnabledCheck=Enable the Windows Recovery Environment
 WoROptionsGroup={appname}選項
 SaveConfigExitLabel=離開時儲存設定
 
