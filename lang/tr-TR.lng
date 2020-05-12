@@ -1,37 +1,37 @@
 ﻿[WoR lang file]
 Name=Türkçe (Turkish)
-Author=pixelomer
+Author=ysoyipek
 IsComplete=0
 
 [UpdateNotifyWindow]
-WindowTitle=Update
-NewVersionAvailableLabel=New version available
-NewVersionAvailableBox={appname} {0} is available! Would you like to download it now?
-DownloadBtn=Download
-CloseBtn=Close
+WindowTitle=Güncelle
+NewVersionAvailableLabel=Yeni sürüm mevcut
+NewVersionAvailableBox={appname} {0} kullanılabilir! Şimdi indirmek ister misiniz?
+DownloadBtn=İndir
+CloseBtn=Kapat
 
 [AboutWindow]
-WindowTitle=About
-AppVersionLabel=Version
-CreditsPage=Credits
-ChangelogPage=Changelog
-LicensesPage=Licenses
+WindowTitle=Hakkında
+AppVersionLabel=Versiyon
+CreditsPage=Destekçiler
+ChangelogPage=Değişiklikler
+LicensesPage=Lisanslar
 
 [LoggerWindow]
-WindowTitle=Logs
-CopyToClipboardBtn=Copy
+WindowTitle=Loglar
+CopyToClipboardBtn=Kopyala
 
 [LicenseAgreementWindow]
-WindowTitle=License agreement
-AcceptBtn=Accept
-DeclineBtn=Decline
+WindowTitle=Lisans anlaşması
+AcceptBtn=Kabul et
+DeclineBtn=Reddet
 
 [Messages]
-AnErrorOccurred=An error occurred! Please check the logs.
-TaskOngoing=An operation is currently in progress.{n}Are you sure you want to force close the application?
+AnErrorOccurred=Bir hata oluştu! Lütfen logları kontrol edin.
+TaskOngoing=Şu anda bir işlem devam ediyor.{n}Uygulamayı zorla kapatmak istediğinizden emin misiniz?
 
 [MainWindow]
-SendFeedbackBtn=Send feedback
+SendFeedbackBtn=Geribildirim gönder
 NextPageBtn=İleri
 BackPageBtn=Geri
 NextPageBtn.Install=Kur
@@ -40,7 +40,7 @@ StatusBar.Idle=Boşta
 StatusBar.LoadingDisks=Diskler yükleniyor...
 StatusBar.MountingISO=ISO dosyası bağlanıyor...
 StatusBar.UnmountingISO=ISO dosyasının bağlantısı kesiliyor...
-StatusBar.VerifyingImage=Verifying the image...
+StatusBar.VerifyingImage=İmaj dosyası kontrol ediliyor...
 StatusBar.ExtractingDrvToTemp=Sürücü arşivi geçici klasöre çıkartılıyor...
 StatusBar.DownloadingReqFiles=Gerekli dosyalar indiriliyor...
 StatusBar.FormattingDisk=Cihaz biçimlendiriliyor...
@@ -61,57 +61,57 @@ SelectLangLabel=Dilinizi seçiniz:
 [SelectDevicePage]
 PageTitle=Cihaz seç
 SelectDiskLabel=Cihaz seç
-Device.ExperimentalSupport=Experimental
-Device.SupportedModels=Supported models: {0}
+Device.ExperimentalSupport=Deneysel
+Device.SupportedModels=Desteklenen modeller: {0}
 DiskInfoBox.AtLeast8=Cihazda en az 8 GB alan olmalıdır!
 DiskInfoBox.Good=Seçilen cihazda en az 8 GB alan var.
-DiskInfoBox.Enough=The selected device has enough space for a compressed installation.
+DiskInfoBox.Enough=Seçilen cihaz sıkıştırılmış bir kurulum için yeterli alana sahiptir.
 
 [SelectImagePage]
 PageTitle=Görüntü Seç
 SelectImageLabel=Windows 10 ARM görüntünüzü seçin
-WindowsEditionLabel=Windows edition:
+WindowsEditionLabel=Windows versiyonu:
 WorkingBuildsTextBox=Note: Windows 10 1803 and newer versions are known to work.{n}Version 1809 can crash unexpectedly due to some changes in the WppRecorder.sys driver, so it should be avoided.
 SelectImgInfoBox.SelectedImageGood=Seçilen görüntü (versiyon: {0}) uygun!
-SelectImgInfoBox.SelectedImageInvalid=The selected file is not a valid Windows image!
-SelectImgInfoBox.SelectedImageUnsupported=The selected image file is not supported!
+SelectImgInfoBox.SelectedImageInvalid=Seçilen dosya geçerli bir Windows görüntüsü değil!
+SelectImgInfoBox.SelectedImageUnsupported=Seçilen görüntü dosyası desteklenmiyor!
 MessageBox.NotEnoughSpace=There is not enough space on the disk to install this image!{n}Please choose a larger storage device or a compact image.
 
 [SelectDriversPage]
 PageTitle=Sürücüleri Seç
 SelectDriversLabel=Sürücüleri seçin
 DriversNoteTextBox=Not: Sürücüler ZIP dosya formatı ile arşivlenmiş olmalıdır.
-LocalDrvPkgRadioBtn=Use a package stored on your computer
-ServerDrvPkgRadioBtn=Use the latest package available on the server
-SelectDrvInfoBox.OK=The drivers archive is OK!
-SelectDrvInfoBox.LicenseNotAccepted=You have not accepted one of the license agreements!
+LocalDrvPkgRadioBtn=Bilgisayarınızda depolanan bir paket kullanın
+ServerDrvPkgRadioBtn=Sunucuda bulunan en son paketi kullanın
+SelectDrvInfoBox.OK=Sürücü arşivi tamam!
+SelectDrvInfoBox.LicenseNotAccepted=Lisans sözleşmelerinden birini kabul etmediniz!
 
 [SelectUEFIPage]
 PageTitle=UEFI Yazılımı
 SelectUEFILabel=UEFI yazılımını seçin
 UEFINoteTextBox=Not: UEFI yazılımı {0} dosya formatında olmalıdır.
-LocalUEFIRadioBtn=Use a firmware stored on your computer
-ServerUEFIRadioBtn=Use the latest firmware available on the server
-ServerUEFISourceLabel=Firmware source:
+LocalUEFIRadioBtn=Bilgisayarınızda depolanan bir bellenim kullanın
+ServerUEFIRadioBtn=Sunucuda bulunan en son ürün yazılımını kullanın
+ServerUEFISourceLabel=Bellenim kaynağı:
 
 [SetupConfigurationPage]
-PageTitle=Konfigurasyon
-ConfigurationLabel=Konfigurasyon
+PageTitle=Konfigürasyon
+ConfigurationLabel=Konfigürasyon
 InstallOptionsGroup=Kurulum seçenekleri
 PartSchemeLabel=Bölümleme tablosu:
-ImgInstallLabel=Install image with:
-MemoryLimitLabel=Memory limit:
+ImgInstallLabel=Bu imajla yükle:
+MemoryLimitLabel=Hafıza limiti:
 EnableLZXCheck=LZX kurulum sıkıştırmasını etkinleştir
 BootOptionsGroup=Önyükleme seçenekleri
 WoROptionsGroup={appname} seçenekleri
-SaveConfigExitLabel=Bu konfigurasyonu kaydet ve çık
+SaveConfigExitLabel=Bu konfigürasyonu kaydet ve çık
 
 [SetupOverviewPage]
 PageTitle=Yükle
 InstallOverviewLabel=Kurulum - Genel bakış
 InstallWarnBox=Uyarı! Cihazdaki tüm veriler silinecektir! Çok geç olmadan önemli dosyalarınızı yedekleyin!
 TargetDeviceLabel=Hedef cihaz
-DeviceTypeLabel=Device type
+DeviceTypeLabel=Cihaz tipi
 OSLabel=İşletim sistemi
 DriversPathLabel=Sürücüler
 UEFIPathLabel=UEFI yazılımı
@@ -123,7 +123,7 @@ LZXCompression.NO=HAYIR
 
 [SetupProgressPage]
 PageTitle=Yükle
-InstallInfoBox=This process may take a long time depending on the device performance.
+InstallInfoBox=Bu işlem, cihaz performansına bağlı olarak uzun sürebilir.
 InstallStatusLabel.GettingReady=Hazırlanıyor...
 InstallStatusLabel.FormattingDisk=Hedef cihaz biçimlendiriliyor...
 InstallStatusLabel.CreatingPartitions=Bölüntüler oluşturuluyor...
@@ -131,4 +131,4 @@ InstallStatusLabel.InstallingWindows=Windows kuruluyor...
 InstallStatusLabel.InstallingBootFiles=Önyükleme dosyaları yaratılıyor...
 InstallStatusLabel.InstallingDrivers=Sürücüler kuruluyor...
 InstallStatusLabel.InstallFinished=Kurulum tamamlandı!
-InstallStatusLabel.InstallFailed=The installation has failed!
+InstallStatusLabel.InstallFailed=Yükleme başarısız!
