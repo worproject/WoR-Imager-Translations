@@ -1,35 +1,35 @@
 ﻿[WoR lang file]
 Name=日本語 (Japanese)
-Author=imai9999
+Author=imai9999, OSAKANATARO
 IsComplete=0
 
 [UpdateNotifyWindow]
-WindowTitle=Update
-NewVersionAvailableLabel=New version available
-NewVersionAvailableBox={appname} {0} is available! Would you like to download it now?
-DownloadBtn=Download
-CloseBtn=Close
+WindowTitle=アップデート
+NewVersionAvailableLabel=新しいバージョンがあります
+NewVersionAvailableBox={appname} {0} があります! いますぐダウンロードしますか?
+DownloadBtn=ダウンロード
+CloseBtn=閉じる
 
 [AboutWindow]
 WindowTitle=About
-AppVersionLabel=Version
+AppVersionLabel=バージョン
 CreditsPage=Credits
-ChangelogPage=Changelog
-LicensesPage=Licenses
+ChangelogPage=変更履歴
+LicensesPage=ライセンス
 
 [LoggerWindow]
 WindowTitle=ログ
-CopyToClipboardBtn=Copy
+CopyToClipboardBtn=コピー
 
 [LicenseAgreementWindow]
-WindowTitle=License agreement
-AcceptBtn=Accept
-DeclineBtn=Decline
+WindowTitle=ライセンス契約
+AcceptBtn=同意する
+DeclineBtn=同意しない
 
 [General]
 AnErrorOccurred=エラーが発生しました! ログを確認してください。
-MessageBox.CustomPackageWarn=Choosing an outdated or incompatible package may cause installation problems!{n}{n}It is recommended that you use the latest version available on the server instead.{n}{n}Continue anyway?
-SelectedPackageInvalid=The selected package is invalid or incompatible with your device.
+MessageBox.CustomPackageWarn=古すぎるか互換性のないパッケージはインストールに問題が生じます!{n}{n}サーバから最新版を入手することを推奨します.{n}{n}続けますか?
+SelectedPackageInvalid=選択したパッケージは無効かあなたのデバイスとの互換性がありません.
 
 [MainWindow]
 SendFeedbackBtn=Send feedback
@@ -41,7 +41,7 @@ StatusBar.Idle=停止中
 StatusBar.LoadingDisks=ドライバーの読込中...
 StatusBar.MountingISO=ISO イメージのマウント中...
 StatusBar.UnmountingISO=ISO イメージのアンマウント中...
-StatusBar.VerifyingImage=Verifying the image...
+StatusBar.VerifyingImage=イメージの確認中...
 StatusBar.ExtractingPackageToTemp=一時フォルダにアーカイブを抽出しています...
 StatusBar.DownloadingReqFiles=必要なファイルのダウンロード中...
 StatusBar.FormattingDisk=デバイスのフォーマット中...
@@ -49,10 +49,10 @@ StatusBar.CreatingPartitions=パーティションの作成中...
 StatusBar.ApplyingImage=イメージの適用中...
 StatusBar.CopyingBootFiles=ブートファイルのコピー中...
 StatusBar.CreatingBCD=BCD の作成中...
-StatusBar.ConfiguringBCD=Configuring the BCD...
+StatusBar.ConfiguringBCD=BCD の設定中...
 StatusBar.ConvertingEFI=ブートパーティションを ESP に変換中...
 StatusBar.InstallingDrivers=ドライバーをインストール中...
-MessageBox.TaskOngoing=An operation is currently in progress.{n}Are you sure you want to force close the application?
+MessageBox.TaskOngoing=現在操作が進行中です.{n}アプリケーションを強制終了してもいいですか?
 
 [WelcomePage]
 PageTitle=ようこそ
@@ -63,8 +63,8 @@ SelectLangLabel=言語を選択してください
 [SelectDevicePage]
 PageTitle=デバイス選択
 SelectDiskLabel=デバイス選択
-Device.ExperimentalSupport=Experimental
-Device.SupportedModels=Supported models: {0}
+Device.ExperimentalSupport=実験的
+Device.SupportedModels=サポートモデル: {0}
 DiskInfoBox.AtLeast8=選択したデバイスには、少なくとも 8 GB の空き容量が必要です!
 DiskInfoBox.Good=選択したデバイスには、少なくとも 8 GB の空き容量があります。
 DiskInfoBox.Enough=選択したデバイスには、圧縮インストールにじゅうぶんな空き容量があります。
@@ -72,45 +72,45 @@ DiskInfoBox.Enough=選択したデバイスには、圧縮インストールに�
 [SelectImagePage]
 PageTitle=イメージの選択
 SelectImageLabel=ARM 用 Windows のイメージを選択してください
-WindowsEditionLabel=Windows edition:
-WorkingBuildsTextBox=Note: Windows 10 1803 and newer versions are known to work.{n}Version 1809 can crash unexpectedly due to some changes in the WppRecorder.sys driver, so it should be avoided.
+WindowsEditionLabel=Windowsのエディション:
+WorkingBuildsTextBox=注意:Windows 10 1803以降のバージョンが動作します.{n}ただしバージョン 1809 はWppRecorder.sysドライバの変更により良くクラッシュするのでお薦めではありません.
 SelectImgInfoBox.SelectedImageGood=選択したイメージファイル (バージョン: {0}) は正常です!
-SelectImgInfoBox.SelectedImageInvalid=The selected file is not a valid Windows image!
-SelectImgInfoBox.SelectedImageUnsupported=The selected image file is not supported!
-MessageBox.NotEnoughSpace=There is not enough space on the disk to install this image!{n}Please choose a larger storage device or a compact image.
+SelectImgInfoBox.SelectedImageInvalid=選択したイメージファイルは正しいWindowsのイメージではありません!
+SelectImgInfoBox.SelectedImageUnsupported=選択したイメージファイルはサポートされていません!
+MessageBox.NotEnoughSpace=このイメージを使ってインストールするにはディスクのサイズが不足しています!{n}もっと大きなディスクを用意するか、小さなイメージファイルを使用してください.
 
 [SelectDriversPage]
 PageTitle=ドライバーの選択
 SelectDriversLabel=ドライバーを選択してください
 DriversNoteTextBox=注意: ドライバーは、ZIP ファイル形式でアーカイブされている必要があります。
-LocalDrvPkgRadioBtn=Use a package stored on your computer
-ServerDrvPkgRadioBtn=Use the latest package available on the server
+LocalDrvPkgRadioBtn=コンピュータ上に保存したパッケージを使う
+ServerDrvPkgRadioBtn=最新のパッケージをサーバからダウンロードして使う
 SelectDrvInfoBox.OK=ドライバーのアーカイブは正常です!
-SelectDrvInfoBox.LicenseNotAccepted=You have not accepted one of the license agreements!
+SelectDrvInfoBox.LicenseNotAccepted=あなたはライセンスに同意していません!
 
 [SelectUEFIPage]
 PageTitle=UEFI ファームウェア
 SelectUEFILabel=Select UEFI ファームウェア
 UEFINoteTextBox=注意: UEFI ファームウェアの拡張子は、 {0} であることが必要です。
-LocalUEFIRadioBtn=Use a firmware stored on your computer
-ServerUEFIRadioBtn=Use the latest firmware available on the server
-ServerUEFISourceLabel=Firmware source:
+LocalUEFIRadioBtn=コンピュータ上に保存したファームウェアを使う
+ServerUEFIRadioBtn=最新のファームウェアをサーバからダウンロードして使う
+ServerUEFISourceLabel=ファームウェア入手先:
 
 [SetupConfigurationPage]
 PageTitle=設定
 ConfigurationLabel=設定
-ConfigurationTabControl.MainTabPage=General
+ConfigurationTabControl.MainTabPage=基本設定
 InstallOptionsGroup=インストールオプション
 PartSchemeLabel=パーティション構成:
 ImgInstallLabel=イメージのインストール方法:
 EnableLZXCheck=LZX 圧縮でのインストールを有効にする
 BootOptionsGroup=ブートオプション
-MessageBox.BootConfigEditorWarn=Modifying the default boot configuration may cause the device to malfunction or not boot at all.{n}{n}Continue anyway?
-ConfigurationTabControl.AdvancedTabPage=Advanced
-MessageBox.AdvancedTabPageWarn=Changing the default settings in the advanced menu may disable specific device features or prevent the system from booting.{n}{n}Are you sure you want to continue?
-WindowsBootOptionsGroup=Windows boot options
-MemoryLimitLabel=Memory limit:
-RecoveryEnabledCheck=Enable the Windows Recovery Environment
+MessageBox.BootConfigEditorWarn=標準のブート設定から変更するとデバイスの故障や起動障害が発生する可能性があります.{n}{n}続けますか?
+ConfigurationTabControl.AdvancedTabPage=拡張設定
+MessageBox.AdvancedTabPageWarn=拡張設定の項目を標準から変更した場合、デバイスが使えなくなったり起動に失敗したりする可能性があります.{n}{n}本当に続けますか?
+WindowsBootOptionsGroup=Windows起動オプション
+MemoryLimitLabel=メモリ制限:
+RecoveryEnabledCheck=Windowsリカバリ環境を有効化
 WoROptionsGroup={appname} オプション
 SaveConfigExitLabel=終了時に、この設定を保存する
 
@@ -119,7 +119,7 @@ PageTitle=インストール
 InstallOverviewLabel=インストールの概要
 InstallWarnBox=警告! デバイス上のすべてのデータが削除されます! 手遅れになる前に、ファイルのバックアップを行ってください!
 TargetDeviceLabel=ターゲットデバイス
-DeviceTypeLabel=Device type
+DeviceTypeLabel=デバイスの種類
 OSLabel=オペレーティングシステム
 DriversPathLabel=ドライバーのパス
 UEFIPathLabel=UEFI ファームウェアのパス
