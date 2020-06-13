@@ -28,7 +28,7 @@ DeclineBtn=Rifiuta
 
 [General]
 AnErrorOccurred=È stato riscontrato un errore! Controlla i log.
-MessageBox.CustomPackageWarn=La scelta di un pacchetto datato o incompatible potrebbe causare problemi di installazione!{n}{n}Si raccomanda l'uso dell'ultima versione disponibile dal server.{n}{n}Procedere lo stesso?
+MessageBox.CustomPackageWarn=La scelta di un pacchetto datato o incompatibile potrebbe causare problemi di installazione!{n}{n}Si raccomanda l'uso dell'ultima versione disponibile dal server.{n}{n}Procedere lo stesso?
 SelectedPackageInvalid=Il pacchetto selezionato è invalido o incompatibile con il tuo dispositivo.
 
 [MainWindow]
