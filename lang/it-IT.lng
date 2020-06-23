@@ -1,7 +1,7 @@
 ﻿[WoR lang file]
 Name=Italiano (Italian)
-Author=xicciodj , lorecast162
-IsComplete=0
+Author=xicciodj , lorecast162 , nopesir
+IsComplete=1
 
 [UpdateNotifyWindow]
 WindowTitle=Aggiornamento
@@ -28,11 +28,11 @@ DeclineBtn=Rifiuta
 
 [General]
 AnErrorOccurred=È stato riscontrato un errore! Controlla i log.
-MessageBox.CustomPackageWarn=Choosing an outdated or incompatible package may cause installation problems!{n}{n}It is recommended that you use the latest version available on the server instead.{n}{n}Continue anyway?
-SelectedPackageInvalid=The selected package is invalid or incompatible with your device.
+MessageBox.CustomPackageWarn=La scelta di un pacchetto datato o incompatibile potrebbe causare problemi di installazione!{n}{n}Si raccomanda l'uso dell'ultima versione disponibile dal server.{n}{n}Procedere lo stesso?
+SelectedPackageInvalid=Il pacchetto selezionato è invalido o incompatibile con il tuo dispositivo.
 
 [MainWindow]
-SendFeedbackBtn=Send feedback
+SendFeedbackBtn=Invia un feedback
 NextPageBtn=Avanti
 BackPageBtn=Indietro
 NextPageBtn.Install=Installa
@@ -41,7 +41,7 @@ StatusBar.Idle=Inattivo
 StatusBar.LoadingDisks=Caricamento driver...
 StatusBar.MountingISO=Montaggio immagine ISO...
 StatusBar.UnmountingISO=Smontaggio del file ISO...
-StatusBar.VerifyingImage=Verifying the image...
+StatusBar.VerifyingImage=Verifica dell'immagine...
 StatusBar.ExtractingPackageToTemp=Estrazione dell'archivio sulla cartella temporanea...
 StatusBar.DownloadingReqFiles=Scaricamento dei file necessari...
 StatusBar.FormattingDisk=Formattazione del dispositivo...
@@ -49,10 +49,10 @@ StatusBar.CreatingPartitions=Creazione partizioni...
 StatusBar.ApplyingImage=Applicazione dell'immagine...
 StatusBar.CopyingBootFiles=Copia dei file di boot...
 StatusBar.CreatingBCD=Creazione del BCD...
-StatusBar.ConfiguringBCD=Configuring the BCD...
+StatusBar.ConfiguringBCD=Configurazione del BCD...
 StatusBar.ConvertingEFI=Conversione della partizione di boot a ESP...
 StatusBar.InstallingDrivers=Installazione dei driver...
-MessageBox.TaskOngoing=Un operazione è attualmente in corso.{n}Sei sicuro di voler chiudere forzatamente l'applicazione?
+MessageBox.TaskOngoing=Un'operazione è attualmente in corso.{n}Sei sicuro di voler chiudere forzatamente l'applicazione?
 
 [WelcomePage]
 PageTitle=Benvenuto
@@ -63,8 +63,8 @@ SelectLangLabel=Seleziona la tua lingua:
 [SelectDevicePage]
 PageTitle=Seleziona il dispositivo
 SelectDiskLabel=Seleziona il dispositivo
-Device.ExperimentalSupport=Experimental
-Device.SupportedModels=Supported models: {0}
+Device.ExperimentalSupport=Sperimentale
+Device.SupportedModels=Modelli supportati: {0}
 DiskInfoBox.AtLeast8=Il dispositivo deve avere almeno 8 GB di spazio libero!
 DiskInfoBox.Good=Il dispositivo selezionato ha almeno 8 GB di spazio libero.
 DiskInfoBox.Enough=Il disco selezionato ha abbastanza spazio per un'installazione compressa.
@@ -94,7 +94,7 @@ SelectUEFILabel=Seleziona firmware UEFI
 UEFINoteTextBox=Nota: Il firmware UEFI deve avere l'estensione {0} .
 LocalUEFIRadioBtn=Usa un firmware conservato sul tuo computer
 ServerUEFIRadioBtn=Usa il firmware più recente disponibile sul server
-ServerUEFISourceLabel=Firmware source:
+ServerUEFISourceLabel=Sorgente del firmware:
 
 [SetupConfigurationPage]
 PageTitle=Configurazione
@@ -105,12 +105,12 @@ PartSchemeLabel=Schema partizioni:
 ImgInstallLabel=Installa immagine con:
 EnableLZXCheck=Abilita la compressione d'installazione LZX
 BootOptionsGroup=Opzioni di boot
-MessageBox.BootConfigEditorWarn=Modifying the default boot configuration may cause the device to malfunction or not boot at all.{n}{n}Continue anyway?
-ConfigurationTabControl.AdvancedTabPage=Advanced
-MessageBox.AdvancedTabPageWarn=Changing the default settings in the advanced menu may disable specific device features or prevent the system from booting.{n}{n}Are you sure you want to continue?
-WindowsBootOptionsGroup=Windows boot options
-MemoryLimitLabel=Memory limit:
-RecoveryEnabledCheck=Enable the Windows Recovery Environment
+MessageBox.BootConfigEditorWarn=La modifica della configurazione boot di default potrebbe causare malfunzionamenti al dispositivo o il non avvio dello stesso.{n}{n}Continuare ugualmente?
+ConfigurationTabControl.AdvancedTabPage=Avanzate
+MessageBox.AdvancedTabPageWarn=La modifica delle impostazioni di default nel menu avanzato potrebbe disabilitare funzionalità specifiche o il non avvio del sistema.{n}{n}Sei sicuro di voler continuare?
+WindowsBootOptionsGroup=Opzioni di boot Windows
+MemoryLimitLabel=Limite memoria:
+RecoveryEnabledCheck=Abilita Windows Recovery Environment
 WoROptionsGroup=Opzioni di {appname}
 SaveConfigExitLabel=Salva questa configurazione all'uscita
 
@@ -119,7 +119,7 @@ PageTitle=Installa
 InstallOverviewLabel=Panoramica installazione
 InstallWarnBox=Attenzione! Tutti i dati sul tuo dispositivo verranno cancellati! Fai un backup dei tuoi file prima che sia troppo tardi!
 TargetDeviceLabel=Dispositivo di destinazione
-DeviceTypeLabel=Device type
+DeviceTypeLabel=Tipo dispositivo
 OSLabel=Sistema Operativo
 DriversPathLabel=Posizione driver
 UEFIPathLabel=Posizione firmware UEFI
