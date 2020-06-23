@@ -1,6 +1,6 @@
 ﻿[WoR lang file]
 Name=简体中文 (Simplified Chinese)
-Author=thchi12 , nyaruko , Meaqua233
+Author=thchi12 , nyaruko , Meaqua233 , CirnoTH
 IsComplete=0
 
 [UpdateNotifyWindow]
@@ -27,12 +27,12 @@ AcceptBtn=接受
 DeclineBtn=拒绝
 
 [General]
-AnErrorOccurred=发生错误！ 请检查日志.
-MessageBox.CustomPackageWarn=Choosing an outdated or incompatible package may cause installation problems!{n}{n}It is recommended that you use the latest version available on the server instead.{n}{n}Continue anyway?
-SelectedPackageInvalid=The selected package is invalid or incompatible with your device.
+AnErrorOccurred=发生错误! 请检查日志.
+MessageBox.CustomPackageWarn=选择过旧或不兼容的安装包可能会导致安装失败!{n}{n}建议你使用网络上提供的最新版本.{n}{n}是否继续?
+SelectedPackageInvalid=所选的安装包无效或与你的设备不兼容.
 
 [MainWindow]
-SendFeedbackBtn=Send feedback
+SendFeedbackBtn=发送反馈信息
 NextPageBtn=下一步
 BackPageBtn=上一步
 NextPageBtn.Install=安装
@@ -41,7 +41,7 @@ StatusBar.Idle=空闲
 StatusBar.LoadingDisks=正在加载磁盘信息...
 StatusBar.MountingISO=正在挂载光盘镜像...
 StatusBar.UnmountingISO=正在卸载光盘镜像...
-StatusBar.VerifyingImage=Verifying the image...
+StatusBar.VerifyingImage=正在验证镜像文件...
 StatusBar.ExtractingPackageToTemp=将档案解压缩到临时文件夹...
 StatusBar.DownloadingReqFiles=正在下载所需文件...
 StatusBar.FormattingDisk=正在格式化您的设备...
@@ -49,7 +49,7 @@ StatusBar.CreatingPartitions=正在创建分区...
 StatusBar.ApplyingImage=正在应用 Windows 镜像...
 StatusBar.CopyingBootFiles=正在复制引导文件...
 StatusBar.CreatingBCD=正在创建 BCD 存储...
-StatusBar.ConfiguringBCD=Configuring the BCD...
+StatusBar.ConfiguringBCD=正在配置 BCD...
 StatusBar.ConvertingEFI=正在将启动分区转换为 ESP 分区...
 StatusBar.InstallingDrivers=正在安装驱动程序...
 MessageBox.TaskOngoing=目前正在进行安装.{n}您确定要关闭此程序吗？
@@ -57,34 +57,34 @@ MessageBox.TaskOngoing=目前正在进行安装.{n}您确定要关闭此程序�
 [WelcomePage]
 PageTitle=欢迎
 WelcomeLabel=欢迎使用 {appname}!
-WelcomeMsgTextBox={appname} 是一个可以帮助您在您的 SD 卡上安装 Windows 10 ARM (非 IoT 物联网版本，是带有桌面的完整版)的文件以用于你的树莓派 的工具。
+WelcomeMsgTextBox={appname} 是一个可以帮助您在您的 SD 卡上安装 Windows 10 ARM (非 IoT 物联网版本，是带有桌面的完整版)的文件以用于你的树莓派的工具。
 SelectLangLabel=选择语言:
 
 [SelectDevicePage]
 PageTitle=选择您的设备
 SelectDiskLabel=选择您的设备
-Device.ExperimentalSupport=Experimental
-Device.SupportedModels=Supported models: {0}
+Device.ExperimentalSupport=实验性
+Device.SupportedModels=支持的设备: {0}
 DiskInfoBox.AtLeast8=至少需要 8 GB 可用空间用于安装！
-DiskInfoBox.Good=所选设备至少拥有 8 GB 的可用空间。
-DiskInfoBox.Enough=所选设备有足够的空间用于安装。
+DiskInfoBox.Good=所选的设备拥有 8 GB 的可用空间。
+DiskInfoBox.Enough=所选的设备具有足够的空间。
 
 [SelectImagePage]
 PageTitle=选择镜像
 SelectImageLabel=请选择您的 Windows 10 ARM 镜像。
 WindowsEditionLabel=Windows版本:
-WorkingBuildsTextBox=注意: 已知Windows 10 1803和最新版本可以使用.{n}请避免使用1809版本,否则可能会出现意外崩溃的问题。
+WorkingBuildsTextBox=注意: 建议使用 Windows 10 1803 或更新的版本.{n}不建议使用 1809 版本,否则可能会出现意外崩溃的问题。
 SelectImgInfoBox.SelectedImageGood=所选择的版本(版本： {0}) 可以安装。
-SelectImgInfoBox.SelectedImageInvalid=所选文件不是有效的Windows镜像！
+SelectImgInfoBox.SelectedImageInvalid=所选文件不是有效的 Windows 镜像！
 SelectImgInfoBox.SelectedImageUnsupported=不支持所选的镜像文件！
 MessageBox.NotEnoughSpace=磁盘上没有足够的空间来安装此镜像!{n}你选择更大存储设备或更小的镜像文件.
 
 [SelectDriversPage]
 PageTitle=选择驱动程序
 SelectDriversLabel=选择驱动程序
-DriversNoteTextBox=注意：您选择的驱动程序必须打包为 zip 格式。
+DriversNoteTextBox=注意：选择的驱动程序必须打包为 zip 格式。
 LocalDrvPkgRadioBtn=使用本地的驱动程序包
-ServerDrvPkgRadioBtn=使用服务器上提供的最新驱动程序包
+ServerDrvPkgRadioBtn=使用网络上提供的最新驱动程序包
 SelectDrvInfoBox.OK=驱动程序可用！
 SelectDrvInfoBox.LicenseNotAccepted=您尚未接受其中一项许可协议!
 
@@ -93,33 +93,33 @@ PageTitle=UEFI 固件
 SelectUEFILabel=选择 UEFI 固件
 UEFINoteTextBox=注意：您的 UEFI 固件必须是 {0} 扩展名。
 LocalUEFIRadioBtn=使用本地的固件
-ServerUEFIRadioBtn=使用服务器上提供的最新固件
-ServerUEFISourceLabel=Firmware source:
+ServerUEFIRadioBtn=使用网络上提供的最新固件
+ServerUEFISourceLabel=固件路径:
 
 [SetupConfigurationPage]
 PageTitle=配置
 ConfigurationLabel=配置
-ConfigurationTabControl.MainTabPage=General
+ConfigurationTabControl.MainTabPage=常规
 InstallOptionsGroup=安装选项
 PartSchemeLabel=分区表:
 ImgInstallLabel=安装镜像为:
-EnableLZXCheck=启用LZX压缩，可以减小占用空间。
+EnableLZXCheck=启用 LZX 压缩，可以减小占用空间。
 BootOptionsGroup=启动选项
-MessageBox.BootConfigEditorWarn=Modifying the default boot configuration may cause the device to malfunction or not boot at all.{n}{n}Continue anyway?
-ConfigurationTabControl.AdvancedTabPage=Advanced
-MessageBox.AdvancedTabPageWarn=Changing the default settings in the advanced menu may disable specific device features or prevent the system from booting.{n}{n}Are you sure you want to continue?
-WindowsBootOptionsGroup=Windows boot options
-MemoryLimitLabel=Memory limit:
-RecoveryEnabledCheck=Enable the Windows Recovery Environment
+MessageBox.BootConfigEditorWarn=修改默认启动配置可能会导致设备无法启动.{n}{n}是否继续?
+ConfigurationTabControl.AdvancedTabPage=高级
+MessageBox.AdvancedTabPageWarn=在高级设置菜单中更改默认设置可能会禁用部分设备功能或导致系统无法启动.{n}{n}你确定要继续吗?
+WindowsBootOptionsGroup=Windows 启动选项
+MemoryLimitLabel=内存限制:
+RecoveryEnabledCheck=启用 Windows 恢复环境
 WoROptionsGroup={appname} 选项
 SaveConfigExitLabel=退出时保存这次所用配置。
 
 [SetupOverviewPage]
 PageTitle=安装
 InstallOverviewLabel=安装概览
-InstallWarnBox=警告！您的设备将会被清除！请在确认安装前对您的设备数据进行备份！
+InstallWarnBox=警告，您的设备数据将会被清除！请提前对设备数据做好备份！
 TargetDeviceLabel=目标设备
-DeviceTypeLabel=Device type
+DeviceTypeLabel=设备类型
 OSLabel=要安装的操作系统
 DriversPathLabel=驱动程序路径
 UEFIPathLabel=UEFI固件路径
@@ -131,7 +131,7 @@ LZXCompression.NO=否
 
 [SetupProgressPage]
 PageTitle=安装
-InstallInfoBox=此过程可能需要很长时间，具体取决于SD卡的性能。
+InstallInfoBox=此过程可能需要很长时间，具体取决于你的SD卡性能。
 InstallStatusLabel.GettingReady=准备就绪
 InstallStatusLabel.FormattingDisk=正在格式化您的设备...
 InstallStatusLabel.CreatingPartitions=正在分区...
