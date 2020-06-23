@@ -1,7 +1,7 @@
 ﻿[WoR lang file]
 Name=Polski (Polish)
 Author=macmmm81 , Gotard , Marcinoo97 , LUKI N (lukin123)
-IsComplete=0
+IsComplete=1
 
 [UpdateNotifyWindow]
 WindowTitle=Aktualizacja
@@ -28,8 +28,8 @@ DeclineBtn=Odrzuć
 
 [General]
 AnErrorOccurred=Wystąpił błąd! Sprawdź dziennik programu.
-MessageBox.CustomPackageWarn=Choosing an outdated or incompatible package may cause installation problems!{n}{n}It is recommended that you use the latest version available on the server instead.{n}{n}Continue anyway?
-SelectedPackageInvalid=The selected package is invalid or incompatible with your device.
+MessageBox.CustomPackageWarn=Wybranie niekompatybilnego pliku może spowodować problemy podczas instalacji!{n}{n}Zalecane jest użycie najnowszej wersji z serwera.{n}{n}Kontynuować mimo wszystko?
+SelectedPackageInvalid=Wybrany plik jest niepoprawny lub niekompatybilny z twoim urządzeniem.
 
 [MainWindow]
 SendFeedbackBtn=Wyślij opinię
@@ -49,7 +49,7 @@ StatusBar.CreatingPartitions=Tworzenie partycji...
 StatusBar.ApplyingImage=Instalacja obrazu...
 StatusBar.CopyingBootFiles=Kopiowanie plików rozruchowych...
 StatusBar.CreatingBCD=Tworzenie BCD...
-StatusBar.ConfiguringBCD=Configuring the BCD...
+StatusBar.ConfiguringBCD=Konfiguracja BCD...
 StatusBar.ConvertingEFI=Konwersja partycji rozruchowej na ESP...
 StatusBar.InstallingDrivers=Instalowanie sterowników...
 MessageBox.TaskOngoing=Operacja w toku.{n}Czy chcesz wymusić zamknięcie programu?
@@ -64,7 +64,7 @@ SelectLangLabel=Wybierz język:
 PageTitle=Wybór urządzenia
 SelectDiskLabel=Wybór urządzenia
 Device.ExperimentalSupport=Funkcje eksperymentalne
-Device.SupportedModels=Supported models: {0}
+Device.SupportedModels=Obsługiwane modele: {0}
 DiskInfoBox.AtLeast8=Urządzenie musi mieć co najmniej 8 GB wolnego miejsca!
 DiskInfoBox.Good=Wybrane urządzenie posiada co najmniej 8 GB wolnego miejsca.
 DiskInfoBox.Enough=Wybrane urządzenie posiada wystarczająco miejsca na skompresowaną instalację.
@@ -99,18 +99,18 @@ ServerUEFISourceLabel=Źródło oprogramowania:
 [SetupConfigurationPage]
 PageTitle=Konfiguracja Instalacji
 ConfigurationLabel=Konfiguracja Instalacji
-ConfigurationTabControl.MainTabPage=General
+ConfigurationTabControl.MainTabPage=Ogólne
 InstallOptionsGroup=Opcje instalacji
 PartSchemeLabel=Mapa Partycji:
 ImgInstallLabel=Zainstaluj obraz używając:
 EnableLZXCheck=Aktywuj kompresję LZX instalacji 
 BootOptionsGroup=Ustawienia rozruchu
-MessageBox.BootConfigEditorWarn=Modifying the default boot configuration may cause the device to malfunction or not boot at all.{n}{n}Continue anyway?
-ConfigurationTabControl.AdvancedTabPage=Advanced
-MessageBox.AdvancedTabPageWarn=Changing the default settings in the advanced menu may disable specific device features or prevent the system from booting.{n}{n}Are you sure you want to continue?
-WindowsBootOptionsGroup=Windows boot options
+MessageBox.BootConfigEditorWarn=Modyfikacja domyślnej konfiguracji rozruchowej może spowodować niechciane zachowania lub błąd rozruchu..{n}{n}Kontynuować?
+ConfigurationTabControl.AdvancedTabPage=Zaawansowane
+MessageBox.AdvancedTabPageWarn=Zmianianie domyślnych ustawieć w zaawansowanych opcjach może wyłączyć wyłączyć określone funkcje urządzenia lub uniemożliwić uruchomienie systemu.{n}{n}Czy jesteś pewny że chcesz kontynuować?
+WindowsBootOptionsGroup=Opcje rozruchu Windowsa
 MemoryLimitLabel=Limit Pamięci:
-RecoveryEnabledCheck=Enable the Windows Recovery Environment
+RecoveryEnabledCheck=Włą○cz środowisko odzyskiwania Windowsa
 WoROptionsGroup=Ustawienia {appname}
 SaveConfigExitLabel=Zapisz tę konfigurację
 
