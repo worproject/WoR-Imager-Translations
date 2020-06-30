@@ -1,6 +1,6 @@
 ﻿[WoR lang file]
 Name=Türkçe (Turkish)
-Author=ysoyipek , pixelomer
+Author=ysoyipek , pixelomer , SWATcyp
 IsComplete=0
 
 [UpdateNotifyWindow]
@@ -28,8 +28,8 @@ DeclineBtn=Reddet
 
 [General]
 AnErrorOccurred=Bir hata oluştu! Lütfen logları kontrol edin.
-MessageBox.CustomPackageWarn=Choosing an outdated or incompatible package may cause installation problems!{n}{n}It is recommended that you use the latest version available on the server instead.{n}{n}Continue anyway?
-SelectedPackageInvalid=The selected package is invalid or incompatible with your device.
+MessageBox.CustomPackageWarn=Eski ya da uyumsuz paket seçmek kurulum sorunlarına yol açabilir!{n}{n}Sunucudaki en son sürümü kullanmanız önerilir.{n}{n}Yine de devam et?
+SelectedPackageInvalid=Seçilen paket geçersiz ya da cihazınızla uyumlu değil.
 
 [MainWindow]
 SendFeedbackBtn=Geribildirim gönder
@@ -49,7 +49,7 @@ StatusBar.CreatingPartitions=Bölüntüler yaratılıyor...
 StatusBar.ApplyingImage=Görüntüsü yazılıyor...
 StatusBar.CopyingBootFiles=Önyükleme dosyaları kopyalanıyor...
 StatusBar.CreatingBCD=BCD yaratılıyor...
-StatusBar.ConfiguringBCD=Configuring the BCD...
+StatusBar.ConfiguringBCD=BCD yapılandırılıyor...
 StatusBar.ConvertingEFI=Önyükleme bölüntüsü EFI Sistem Bölümüne dönüştürülüyor...
 StatusBar.InstallingDrivers=Sürücüler kuruluyor...
 MessageBox.TaskOngoing=Şu anda bir işlem devam ediyor.{n}Uygulamayı zorla kapatmak istediğinizden emin misiniz?
@@ -73,11 +73,11 @@ DiskInfoBox.Enough=Seçilen cihaz sıkıştırılmış bir kurulum için yeterli
 PageTitle=Görüntü Seç
 SelectImageLabel=Windows 10 ARM görüntünüzü seçin
 WindowsEditionLabel=Windows versiyonu:
-WorkingBuildsTextBox=Note: Windows 10 1803 and newer versions are known to work.{n}Version 1809 can crash unexpectedly due to some changes in the WppRecorder.sys driver, so it should be avoided.
+WorkingBuildsTextBox=Note: Windows 10 1803 ve daha yeni sürümlerin çalıştığı bilinmekte.{n}Version 1809, WppRecorder.sys sürücü dosyasının kullanılmasına bağlı olarak aniden çökebilir. Bu sebeple kullanılmaması önerilir.
 SelectImgInfoBox.SelectedImageGood=Seçilen görüntü (versiyon: {0}) uygun!
 SelectImgInfoBox.SelectedImageInvalid=Seçilen dosya geçerli bir Windows görüntüsü değil!
 SelectImgInfoBox.SelectedImageUnsupported=Seçilen görüntü dosyası desteklenmiyor!
-MessageBox.NotEnoughSpace=There is not enough space on the disk to install this image!{n}Please choose a larger storage device or a compact image.
+MessageBox.NotEnoughSpace=Diskte bu görüntüyü kullanmak için yeterli alan yok!{n}Lütfen daha büyük bir depolama aygıtı ya da daha kompakt bir görüntü seçiniz.
 
 [SelectDriversPage]
 PageTitle=Sürücüleri Seç
@@ -105,12 +105,12 @@ PartSchemeLabel=Bölümleme tablosu:
 ImgInstallLabel=Bu imajla yükle:
 EnableLZXCheck=LZX kurulum sıkıştırmasını etkinleştir
 BootOptionsGroup=Önyükleme seçenekleri
-MessageBox.BootConfigEditorWarn=Modifying the default boot configuration may cause the device to malfunction or not boot at all.{n}{n}Continue anyway?
+MessageBox.BootConfigEditorWarn=Varsayılan boot yapılandırmasını değiştirmek cihazın hata vermesine hatta hiç açılmamasına sebep olabilir.{n}{n}Yine de devam et?
 ConfigurationTabControl.AdvancedTabPage=Advanced
-MessageBox.AdvancedTabPageWarn=Changing the default settings in the advanced menu may disable specific device features or prevent the system from booting.{n}{n}Are you sure you want to continue?
-WindowsBootOptionsGroup=Windows boot options
+MessageBox.AdvancedTabPageWarn=Gelişmiş menüdeki varsayılan ayarların değiştirilmesi, cihaza özgü bazı özellikleri kapatabilir ya da sistemin açılmasına engel olabilir.{n}{n}Devam etmek istediğinize emin misiniz?
+WindowsBootOptionsGroup=Windows boot seçenekleri
 MemoryLimitLabel=Hafıza limiti:
-RecoveryEnabledCheck=Enable the Windows Recovery Environment
+RecoveryEnabledCheck=Windows Kurtarma Ortamını Aç
 WoROptionsGroup={appname} seçenekleri
 SaveConfigExitLabel=Bu konfigürasyonu kaydet ve çık
 

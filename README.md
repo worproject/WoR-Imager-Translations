@@ -30,10 +30,10 @@ Issues related to the WoR tool should be reported on the [dedicated bug tracker]
 | Português Brasileiro (Brazilian Portuguese) | pt-BR.lng | Complete | Rafael Fontenelle
 | Română (Romanian)                           | ro-RO.lng | Complete | Mario Bălănică
 | Slovenčina (Slovak)                         | sk-SK.lng | Complete | sebkopal
-| Türkçe (Turkish)                            | tr-TR.lng | Outdated | ysoyipek , pixelomer
+| Türkçe (Turkish)                            | tr-TR.lng | Outdated | ysoyipek , pixelomer , SWATcyp
 | Русский (Russian)                           | ru-RU.lng | Outdated | Andryshik345 , beeoss
 | Українська (Ukrainian)                      | uk-UA.lng | Outdated | Volodymyr Borodaykevych
 | 한국어 (Korean)                             | ko-KR.lng | Outdated | rlatn1234 , Raccooni
-| 日本語 (Japanese)                           | ja-JP.lng | Outdated | imai9999 , OSAKANATARO
+| 日本語 (Japanese)                           | ja-JP.lng | Complete | imai9999 , OSAKANATARO , Prime9999
 | 简体中文 (Simplified Chinese)               | zh-CN.lng | Outdated | thchi12 , nyaruko , Meaqua233 , CirnoTH
 | 繁體中文 (Traditional Chinese)              | zh-TW.lng | Outdated | Gekoii , ConashinChen
