@@ -1,19 +1,19 @@
 ﻿[WoR lang file]
 Name=日本語 (Japanese)
-Author=imai9999 , OSAKANATARO
-IsComplete=0
+Author=imai9999 , OSAKANATARO, Prime9999
+IsComplete=1
 
 [UpdateNotifyWindow]
 WindowTitle=アップデート
-NewVersionAvailableLabel=新しいバージョンがあります
-NewVersionAvailableBox={appname} {0} があります! いますぐダウンロードしますか?
+NewVersionAvailableLabel=新しいバージョンが利用可能です
+NewVersionAvailableBox={appname} {0} 利用可能です! いますぐダウンロードしますか?
 DownloadBtn=ダウンロード
 CloseBtn=閉じる
 
 [AboutWindow]
-WindowTitle=About
+WindowTitle=情報
 AppVersionLabel=バージョン
-CreditsPage=Credits
+CreditsPage=クレジット
 ChangelogPage=変更履歴
 LicensesPage=ライセンス
 
@@ -28,16 +28,16 @@ DeclineBtn=同意しない
 
 [General]
 AnErrorOccurred=エラーが発生しました! ログを確認してください。
-MessageBox.CustomPackageWarn=古すぎるか互換性のないパッケージはインストールに問題が生じます!{n}{n}サーバから最新版を入手することを推奨します.{n}{n}続けますか?
-SelectedPackageInvalid=選択したパッケージは無効かあなたのデバイスとの互換性がありません.
+MessageBox.CustomPackageWarn=古すぎるか互換性のないパッケージはインストールに問題が生じます!{n}{n}サーバーから最新版を入手することを推奨します。{n}{n}続けますか?
+SelectedPackageInvalid=選択したパッケージは無効かあなたのデバイスとの互換性がありません。
 
 [MainWindow]
-SendFeedbackBtn=Send feedback
+SendFeedbackBtn=フィードバックを送る
 NextPageBtn=次へ
 BackPageBtn=戻る
 NextPageBtn.Install=インストール
 NextPageBtn.Finish=完了
-StatusBar.Idle=停止中
+StatusBar.Idle=待機中
 StatusBar.LoadingDisks=ドライバーの読込中...
 StatusBar.MountingISO=ISO イメージのマウント中...
 StatusBar.UnmountingISO=ISO イメージのアンマウント中...
@@ -73,27 +73,27 @@ DiskInfoBox.Enough=選択したデバイスには、圧縮インストールに�
 PageTitle=イメージの選択
 SelectImageLabel=ARM 用 Windows のイメージを選択してください
 WindowsEditionLabel=Windowsのエディション:
-WorkingBuildsTextBox=注意:Windows 10 1803以降のバージョンが動作します.{n}ただしバージョン 1809 はWppRecorder.sysドライバの変更により良くクラッシュするのでお薦めではありません.
+WorkingBuildsTextBox=注意:Windows 10 1803以降のバージョンが動作します。{n}ただしバージョン 1809 は、WppRecorder.sys ドライバーの一部変更により予期せずクラッシュすることがあるため、避ける必要があります。
 SelectImgInfoBox.SelectedImageGood=選択したイメージファイル (バージョン: {0}) は正常です!
-SelectImgInfoBox.SelectedImageInvalid=選択したイメージファイルは正しいWindowsのイメージではありません!
+SelectImgInfoBox.SelectedImageInvalid=選択したイメージファイルは正しい Windows のイメージではありません!
 SelectImgInfoBox.SelectedImageUnsupported=選択したイメージファイルはサポートされていません!
-MessageBox.NotEnoughSpace=このイメージを使ってインストールするにはディスクのサイズが不足しています!{n}もっと大きなディスクを用意するか、小さなイメージファイルを使用してください.
+MessageBox.NotEnoughSpace=このイメージを使ってインストールするにはディスクのサイズが不足しています!{n}大きめの記憶装置やコンパクトなイメージを選択してください。
 
 [SelectDriversPage]
 PageTitle=ドライバーの選択
 SelectDriversLabel=ドライバーを選択してください
 DriversNoteTextBox=注意: ドライバーは、ZIP ファイル形式でアーカイブされている必要があります。
-LocalDrvPkgRadioBtn=コンピュータ上に保存したパッケージを使う
-ServerDrvPkgRadioBtn=最新のパッケージをサーバからダウンロードして使う
+LocalDrvPkgRadioBtn=コンピューター上に保存したパッケージを使用
+ServerDrvPkgRadioBtn=最新のパッケージをサーバーからダウンロードして使用
 SelectDrvInfoBox.OK=ドライバーのアーカイブは正常です!
-SelectDrvInfoBox.LicenseNotAccepted=あなたはライセンスに同意していません!
+SelectDrvInfoBox.LicenseNotAccepted=あなたは全てのライセンス契約に同意していません!
 
 [SelectUEFIPage]
-PageTitle=UEFI ファームウェア
+PageTitle=UEFI ファームウェアの選択
 SelectUEFILabel=Select UEFI ファームウェア
 UEFINoteTextBox=注意: UEFI ファームウェアの拡張子は、 {0} であることが必要です。
-LocalUEFIRadioBtn=コンピュータ上に保存したファームウェアを使う
-ServerUEFIRadioBtn=最新のファームウェアをサーバからダウンロードして使う
+LocalUEFIRadioBtn=コンピューター上に保存したファームウェアを使用
+ServerUEFIRadioBtn=最新のファームウェアをサーバーからダウンロードして使用
 ServerUEFISourceLabel=ファームウェア入手先:
 
 [SetupConfigurationPage]
@@ -103,11 +103,11 @@ ConfigurationTabControl.MainTabPage=基本設定
 InstallOptionsGroup=インストールオプション
 PartSchemeLabel=パーティション構成:
 ImgInstallLabel=イメージのインストール方法:
-EnableLZXCheck=LZX 圧縮でのインストールを有効にする
+EnableLZXCheck=LZX 圧縮によるインストールを有効にする
 BootOptionsGroup=ブートオプション
-MessageBox.BootConfigEditorWarn=標準のブート設定から変更するとデバイスの故障や起動障害が発生する可能性があります.{n}{n}続けますか?
+MessageBox.BootConfigEditorWarn=標準のブート設定から変更するとデバイスの故障や起動障害が発生する可能性があります。{n}{n}続けますか?
 ConfigurationTabControl.AdvancedTabPage=拡張設定
-MessageBox.AdvancedTabPageWarn=拡張設定の項目を標準から変更した場合、デバイスが使えなくなったり起動に失敗したりする可能性があります.{n}{n}本当に続けますか?
+MessageBox.AdvancedTabPageWarn=拡張設定の項目を標準から変更した場合、デバイスが使えなくなったり起動に失敗したりする可能性があります。{n}{n}本当に続けますか?
 WindowsBootOptionsGroup=Windows起動オプション
 MemoryLimitLabel=メモリ制限:
 RecoveryEnabledCheck=Windowsリカバリ環境を有効化
@@ -125,7 +125,7 @@ DriversPathLabel=ドライバーのパス
 UEFIPathLabel=UEFI ファームウェアのパス
 PartitionSchemeLabel=パーティション構成
 ImageDeployerLabel=イメージの適用方法
-LZXCompressionLabel=LZX 圧縮でのインストール
+LZXCompressionLabel=LZX 圧縮によるインストール
 LZXCompression.YES=はい
 LZXCompression.NO=いいえ
 
