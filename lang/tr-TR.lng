@@ -1,7 +1,7 @@
 ﻿[WoR lang file]
 Name=Türkçe (Turkish)
 Author=ysoyipek , pixelomer , SWATcyp
-IsComplete=0
+IsComplete=1
 
 [UpdateNotifyWindow]
 WindowTitle=Güncelle
@@ -99,14 +99,14 @@ ServerUEFISourceLabel=Bellenim kaynağı:
 [SetupConfigurationPage]
 PageTitle=Konfigürasyon
 ConfigurationLabel=Konfigürasyon
-ConfigurationTabControl.MainTabPage=General
+ConfigurationTabControl.MainTabPage=Genel
 InstallOptionsGroup=Kurulum seçenekleri
 PartSchemeLabel=Bölümleme tablosu:
 ImgInstallLabel=Bu imajla yükle:
 EnableLZXCheck=LZX kurulum sıkıştırmasını etkinleştir
 BootOptionsGroup=Önyükleme seçenekleri
 MessageBox.BootConfigEditorWarn=Varsayılan boot yapılandırmasını değiştirmek cihazın hata vermesine hatta hiç açılmamasına sebep olabilir.{n}{n}Yine de devam et?
-ConfigurationTabControl.AdvancedTabPage=Advanced
+ConfigurationTabControl.AdvancedTabPage=Gelişmiş
 MessageBox.AdvancedTabPageWarn=Gelişmiş menüdeki varsayılan ayarların değiştirilmesi, cihaza özgü bazı özellikleri kapatabilir ya da sistemin açılmasına engel olabilir.{n}{n}Devam etmek istediğinize emin misiniz?
 WindowsBootOptionsGroup=Windows boot seçenekleri
 MemoryLimitLabel=Hafıza limiti:
