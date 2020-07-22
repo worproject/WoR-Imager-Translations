@@ -29,7 +29,7 @@ DeclineBtn=Ablehnen
 [General]
 AnErrorOccurred=Ein Fehler ist aufgetreten! Prüfen Sie die Logs.
 MessageBox.CustomPackageWarn=Die Auswahl eines veralteten oder inkompatiblen Paketes kann Probleme bei der Installation verursachen!{n}{n}Es wird empfohlen, die neueste verfügbare Version auf dem Server zu verwenden.{n}{n}Dennoch fortfahren?
-SelectedPackageInvalid=Das ausgewählte Paket ist ungültig oder nicht mit Ihren Gerät kompatibel.
+SelectedPackageInvalid=Das ausgewählte Paket ist ungültig oder nicht mit Ihrem Gerät kompatibel.
 
 [MainWindow]
 SendFeedbackBtn=Feedback senden
@@ -107,7 +107,7 @@ EnableLZXCheck=LZX-komprimierte Installation
 BootOptionsGroup=Startoptionen
 MessageBox.BootConfigEditorWarn=Das Verändern der Standard-Boot-Konfiguration kann dazu führen, dass das Gerät nicht korrekt funktioniert oder überhaupt nicht bootet.{n}{n}Dennoch fortfahren?
 ConfigurationTabControl.AdvancedTabPage=Erweitert
-MessageBox.AdvancedTabPageWarn=Das verändern der Standard-Einstellungen im Menü >Erweitert< kann bestimmte Features des Geräts deaktivieren oder verhindern, dass das Gerät bootet.{n}{n}Möchten Sie sicher fortfahren?
+MessageBox.AdvancedTabPageWarn=Das Verändern der Standard-Einstellungen im Menü >Erweitert< kann bestimmte Features des Geräts deaktivieren oder verhindern, dass das Gerät bootet.{n}{n}Möchten Sie sicher fortfahren?
 WindowsBootOptionsGroup=Windows Boot Optionen
 MemoryLimitLabel=Speicherlimit:
 RecoveryEnabledCheck=Aktivieren der Windows Recovery Environment
@@ -131,7 +131,7 @@ LZXCompression.NO=NEIN
 
 [SetupProgressPage]
 PageTitle=Installation
-InstallInfoBox=Dieser Prozess kann aufgrund der Geschwindigkeit des Datenträgers eine lange Zeit dauern.
+InstallInfoBox=Dieser Prozess kann je nach Geschwindigkeit des Datenträgers eine lange Zeit dauern.
 InstallStatusLabel.GettingReady=Vorbereiten...
 InstallStatusLabel.FormattingDisk=Zieldatenträger wird formatiert...
 InstallStatusLabel.CreatingPartitions=Partitionen werden erstellt...
