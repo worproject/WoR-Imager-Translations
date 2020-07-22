@@ -1,6 +1,6 @@
 ﻿[WoR lang file]
 Name=Deutsch (German)
-Author=EpicLPer , BastiJames333 , Schule04 , NASS-eK
+Author=EpicLPer , BastiJames333 , Schule04 , NASS-eK , ulrichrobin
 IsComplete=0
 
 [UpdateNotifyWindow]
@@ -28,8 +28,8 @@ DeclineBtn=Ablehnen
 
 [General]
 AnErrorOccurred=Ein Fehler ist aufgetreten! Prüfen Sie die Logs.
-MessageBox.CustomPackageWarn=Choosing an outdated or incompatible package may cause installation problems!{n}{n}It is recommended that you use the latest version available on the server instead.{n}{n}Continue anyway?
-SelectedPackageInvalid=The selected package is invalid or incompatible with your device.
+MessageBox.CustomPackageWarn=Die Auswahl eines veralteten oder inkompatiblen Paketes kann Probleme bei der Installation verursachen!{n}{n}Es wird empfohlen, die neueste verfügbare Version auf dem Server zu verwenden.{n}{n}Dennoch fortfahren?
+SelectedPackageInvalid=Das ausgewählte Paket ist ungültig oder nicht mit Ihren Gerät kompatibel.
 
 [MainWindow]
 SendFeedbackBtn=Feedback senden
@@ -42,14 +42,14 @@ StatusBar.LoadingDisks=Lade Treiber...
 StatusBar.MountingISO=ISO wird gemountet...
 StatusBar.UnmountingISO=ISO wird ausgeworfen...
 StatusBar.VerifyingImage=Abbild wird verifiziert...
-StatusBar.ExtractingPackageToTemp=Das archiv werden in das temporäre Verzeichnis entpackt...
+StatusBar.ExtractingPackageToTemp=Das Archiv wird in das temporäre Verzeichnis entpackt...
 StatusBar.DownloadingReqFiles=Erforderliche Dateien werden heruntergeladen...
 StatusBar.FormattingDisk=Datenträger wird formatiert...
 StatusBar.CreatingPartitions=Partitionen werden erstellt...
 StatusBar.ApplyingImage=Die Datei wird kopiert...
 StatusBar.CopyingBootFiles=Startdateien werden kopiert...
 StatusBar.CreatingBCD=BCD wird erstellt...
-StatusBar.ConfiguringBCD=Configuring the BCD...
+StatusBar.ConfiguringBCD=BCD wird konfiguriert...
 StatusBar.ConvertingEFI=Startpartition wird zur ESP konvertiert...
 StatusBar.InstallingDrivers=Treiber werden installiert...
 MessageBox.TaskOngoing=Es wird gerade ein Vorgang ausgeführt.{n}Möchten Sie das Schließen der Anwendung wirklich erzwingen?
@@ -63,7 +63,7 @@ SelectLangLabel=Sprache wählen:
 [SelectDevicePage]
 PageTitle=Datenträger wählen
 SelectDiskLabel=Wählen Sie den Datenträger aus
-Device.ExperimentalSupport=Experimental
+Device.ExperimentalSupport=Experimentell
 Device.SupportedModels=Unterstützte Modelle: {0}
 DiskInfoBox.AtLeast8=Der Datenträger muss mindestens 8 GB Speicher haben!
 DiskInfoBox.Good=Der gewählte Datenträger hat mindestens 8 GB verfügbaren Speicher.
@@ -82,7 +82,7 @@ MessageBox.NotEnoughSpace=Nicht genügend Speicher auf dem Datenträger vorhande
 [SelectDriversPage]
 PageTitle=Treiberpaket
 SelectDriversLabel=Treiber wählen
-DriversNoteTextBox=Hinweis: Die Treiber müssen im ZIP-Dateiformat archiviert sein.
+DriversNoteTextBox=Hinweis: Die Treiber müssen im .zip-Dateiformat archiviert sein.
 LocalDrvPkgRadioBtn=Lokal gespeichertes Treiber-Paket verwenden
 ServerDrvPkgRadioBtn=Neustes Treiber-Paket vom Server herunterladen
 SelectDrvInfoBox.OK=Das Treiberarchiv ist OK!
@@ -99,18 +99,18 @@ ServerUEFISourceLabel=Firmware Quelle:
 [SetupConfigurationPage]
 PageTitle=Konfiguration
 ConfigurationLabel=Konfiguration
-ConfigurationTabControl.MainTabPage=General
+ConfigurationTabControl.MainTabPage=Allgemein
 InstallOptionsGroup=Installationsoptionen
 PartSchemeLabel=Partitionsschema:
 ImgInstallLabel=Installation mit:
-EnableLZXCheck=LZX-Komprimierte Installation
+EnableLZXCheck=LZX-komprimierte Installation
 BootOptionsGroup=Startoptionen
-MessageBox.BootConfigEditorWarn=Modifying the default boot configuration may cause the device to malfunction or not boot at all.{n}{n}Continue anyway?
-ConfigurationTabControl.AdvancedTabPage=Advanced
-MessageBox.AdvancedTabPageWarn=Changing the default settings in the advanced menu may disable specific device features or prevent the system from booting.{n}{n}Are you sure you want to continue?
-WindowsBootOptionsGroup=Windows boot options
+MessageBox.BootConfigEditorWarn=Das Verändern der Standard-Boot-Konfiguration kann dazu führen, dass das Gerät nicht korrekt funktioniert oder überhaupt nicht bootet.{n}{n}Dennoch fortfahren?
+ConfigurationTabControl.AdvancedTabPage=Erweitert
+MessageBox.AdvancedTabPageWarn=Das verändern der Standard-Einstellungen im Menü >Erweitert< kann bestimmte Features des Geräts deaktivieren oder verhindern, dass das Gerät bootet.{n}{n}Möchten Sie sicher fortfahren?
+WindowsBootOptionsGroup=Windows Boot Optionen
 MemoryLimitLabel=Speicherlimit:
-RecoveryEnabledCheck=Enable the Windows Recovery Environment
+RecoveryEnabledCheck=Aktivieren der Windows Recovery Environment
 WoROptionsGroup={appname}-Optionen
 SaveConfigExitLabel=Diese Konfiguration beim Beenden speichern
 
