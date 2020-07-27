@@ -1,0 +1,142 @@
+﻿[WoR lang file]
+Name=Nederlands (Dutch)
+Author=Finnie2006
+IsComplete=0
+
+[UpdateNotifyWindow]
+WindowTitle=Update
+NewVersionAvailableLabel=Nieuwe versie beschikbaar
+NewVersionAvailableBox={appname} {0} is bescikbaar! wil je het nu downloaden?
+DownloadBtn=Download
+CloseBtn=Sluiten
+
+[AboutWindow]
+WindowTitle=Over
+AppVersionLabel=Versie
+CreditsPage=Credits
+ChangelogPage=Changelog
+LicensesPage=Licenties
+
+[LoggerWindow]
+WindowTitle=Logboeken
+CopyToClipboardBtn=Kopiëren
+
+[LicenseAgreementWindow]
+WindowTitle=Licentieovereenkomst
+AcceptBtn=Aanvaarden
+DeclineBtn=Afwijzen
+
+[General]
+AnErrorOccurred=Er is een fout opgetreden! Controleer de logs.
+MessageBox.CustomPackageWarn=Het kiezen van een verouderd of incompatibel pakket kan installatieproblemen veroorzaken!{n}{n}Het wordt aanbevolen in plaats daarvan de nieuwste versie te gebruiken die beschikbaar is op de server.{n}{n}Toch doorgaan?
+SelectedPackageInvalid=Het geselecteerde pakket is ongeldig of niet compatibel met uw apparaat.
+
+[MainWindow]
+SendFeedbackBtn=Stuur feedback
+NextPageBtn=Volgende
+BackPageBtn=Vorige
+NextPageBtn.Install=Installeren 
+NextPageBtn.Finish=Klaae
+StatusBar.Idle=Inactief
+StatusBar.LoadingDisks=De lijst met schijven laden...
+StatusBar.MountingISO=Mounting the ISO image...
+StatusBar.UnmountingISO=Unmounting the ISO image...
+StatusBar.VerifyingImage=Het image verifiëren...
+StatusBar.ExtractingPackageToTemp=Het archief uitpakken in de tijdelijke map...
+StatusBar.DownloadingReqFiles=De vereiste bestanden downloaden...
+StatusBar.FormattingDisk=Het apparaat formatteren...
+StatusBar.CreatingPartitions=De partities maken...
+StatusBar.ApplyingImage=De image toepassen...
+StatusBar.CopyingBootFiles=De opstartbestanden kopiëren...
+StatusBar.CreatingBCD=Het creëren van de BCD...
+StatusBar.ConfiguringBCD=Het creëren van de BCD...
+StatusBar.ConvertingEFI=De opstartpartitie converteren naar ESP...
+StatusBar.InstallingDrivers=De stuurprogramma's installeren...
+MessageBox.TaskOngoing=Er wordt momenteel een bewerking uitgevoerd.{n}Weet u zeker dat u de toepassing geforceerd wilt sluiten?
+
+[WelcomePage]
+PageTitle=Welkom
+WelcomeLabel=Welkom bij {appname}!
+WelcomeMsgTextBox={appname} is een tool die Windows op ARM (volledige desktopversie, niet IoT) op uw SD-kaart kan installeren voor gebruik in een Raspberry Pi.
+SelectLangLabel=Selecteer je taal:
+
+[SelectDevicePage]
+PageTitle=Selecteer apparaat
+SelectDiskLabel=Selecteer het apparaat
+Device.ExperimentalSupport=Experimenteel
+Device.SupportedModels=Ondersteunde modellen: {0}
+DiskInfoBox.AtLeast8=Het apparaat moet minimaal 8 GB beschikbare ruimte hebben!
+DiskInfoBox.Good=Het geselecteerde apparaat heeft minimaal 8 GB beschikbare ruimte.
+DiskInfoBox.Enough=Het geselecteerde apparaat heeft voldoende ruimte voor een gecomprimeerde installatie.
+
+[SelectImagePage]
+PageTitle=Selecteer Schijfkopie Bestand
+SelectImageLabel=Selecteer je Windows on ARM Bestand
+WindowsEditionLabel=Windows editie:
+WorkingBuildsTextBox=Opmerking: het is bekend dat Windows 10 1803 en nieuwere versies werken.{n}Versie 1809 kan onverwachts crashen als gevolg van enkele wijzigingen in het WppRecorder.sys-stuurprogramma, dus het moet worden vermeden.
+SelectImgInfoBox.SelectedImageGood=Het geselecteerde bestand (versie: {0}) is goed!
+SelectImgInfoBox.SelectedImageInvalid=Het geselecteerde bestand is geen geldig Windows-Bestand!
+SelectImgInfoBox.SelectedImageUnsupported=Het geselecteerde sbestand wordt niet ondersteund!
+MessageBox.NotEnoughSpace=Er is niet genoeg ruimte op de schijf om deze afbeelding te installeren!{n}Kies een groter opslagapparaat of een compacte Instalatie.
+
+[SelectDriversPage]
+PageTitle=Selecteer stuurprogramma`s
+SelectDriversLabel=Selecteer de stuurprogramma`s
+DriversNoteTextBox=Note: De stuurprogramma's moeten worden gearchiveerd met het ZIP-bestandsformaat.
+LocalDrvPkgRadioBtn=Gebruik een pakket dat op uw computer is opgeslagen
+ServerDrvPkgRadioBtn=Gebruik het nieuwste pakket dat beschikbaar is op de server
+SelectDrvInfoBox.OK=Het Drivers archief is Oke!
+SelectDrvInfoBox.LicenseNotAccepted=U heeft een van de licentieovereenkomsten niet geaccepteerd!
+
+[SelectUEFIPage]
+PageTitle=UEFI firmware
+SelectUEFILabel=Selecteer de UEFI firmware
+UEFINoteTextBox=Note: de UEFI-firmware moet de bestandsextensie {0} hebben.
+LocalUEFIRadioBtn=Gebruik een firmware die op uw computer is opgeslagen
+ServerUEFIRadioBtn=Gebruik de nieuwste firmware die beschikbaar is op de server
+ServerUEFISourceLabel=Firmware Bron:
+
+[SetupConfigurationPage]
+PageTitle=Configuratie
+ConfigurationLabel=Configuratie
+ConfigurationTabControl.MainTabPage=Algemeen
+InstallOptionsGroup=Installeer opties
+PartSchemeLabel=Partitieschema:
+ImgInstallLabel=Installeer Bestand met:
+EnableLZXCheck=Schakel LZX-installatiecompressie in
+BootOptionsGroup=Opstart opties
+MessageBox.BootConfigEditorWarn=Als u de standaard opstartconfiguratie wijzigt, kan het apparaat defect raken of helemaal niet opstarten.{n}{n}Toch doorgaan?
+ConfigurationTabControl.AdvancedTabPage=Geavanceerd
+MessageBox.AdvancedTabPageWarn=Als u de standaardinstellingen in het geavanceerde menu wijzigt, worden bepaalde apparaatfuncties mogelijk uitgeschakeld of wordt voorkomen dat het systeem opstart.{n}{n}Weet je zeker dat je wilt doorgaan?
+WindowsBootOptionsGroup=Windows Opstart opties
+MemoryLimitLabel=Geheugenlimiet:
+RecoveryEnabledCheck=Schakel de Windows Herstelomgeving in
+WoROptionsGroup={appname} opties
+SaveConfigExitLabel=Bewaar deze configuratie bij het afsluiten
+
+[SetupOverviewPage]
+PageTitle=Installeren
+InstallOverviewLabel=Installatie Overzicht
+InstallWarnBox=Waarschuwing! Alle gegevens op uw apparaat worden verwijderd! Maak een back-up van uw bestanden voordat het te laat is!
+TargetDeviceLabel=Doelapparaat
+DeviceTypeLabel=Soort apparaat
+OSLabel=Besturingssysteem
+DriversPathLabel=Stuurprogramma pad
+UEFIPathLabel=UEFI-firmwarepad
+PartitionSchemeLabel=Partitieschema
+ImageDeployerLabel=Bestand implementatie
+LZXCompressionLabel=LZX installeer compressie
+LZXCompression.YES=Ja
+LZXCompression.NO=Nee
+
+[SetupProgressPage]
+PageTitle=Installeren
+InstallInfoBox=Dit proces kan lang duren, afhankelijk van de apparaatprestaties.
+InstallStatusLabel.GettingReady=Klaar maken...
+InstallStatusLabel.FormattingDisk=Het doelapparaat formatteren...
+InstallStatusLabel.CreatingPartitions=De partities maken...
+InstallStatusLabel.InstallingWindows=Windows installeren...
+InstallStatusLabel.InstallingBootFiles=De opstartbestanden installeren...
+InstallStatusLabel.InstallingDrivers=Installing the drivers...
+InstallStatusLabel.InstallFinished=De installatie is voltooid!
+InstallStatusLabel.InstallFailed=De installatie is mislukt!
