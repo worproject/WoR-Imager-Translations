@@ -1,0 +1,142 @@
+[WoR lang file]
+Name=Svenska (Swedish)
+Author=Daniel Lundh
+IsComplete=0
+
+[UpdateNotifyWindow]
+WindowTitle=Uppdatering
+NewVersionAvailableLabel=Ny version tillgänglig
+NewVersionAvailableBox={appname} {0} är tillgänglig! Vill du ladda ner den nu?
+DownloadBtn=Ladda ner
+CloseBtn=Stäng
+
+[AboutWindow]
+WindowTitle=Om
+AppVersionLabel=Version
+CreditsPage=Medverkande
+ChangelogPage=Changelog
+LicensesPage=Licenser
+
+[LoggerWindow]
+WindowTitle=Loggdata
+CopyToClipboardBtn=Kopiera
+
+[LicenseAgreementWindow]
+WindowTitle=Användarlicens
+AcceptBtn=Acceptera
+DeclineBtn=Avböj
+
+[General]
+AnErrorOccurred=Ett fel inträffade! Inspektera loggfilerna.
+MessageBox.CustomPackageWarn=Ett gammalt eller inkompatibelt paket kan orsaka installationsproblem!{n}{n}Det är rekommenderat att använda den senaste versionen från servern istället.{n}{n}Fortsätt ändå?
+SelectedPackageInvalid=Det valda paketet är trasigt eller inkompatibelt med din enhet.
+
+[MainWindow]
+SendFeedbackBtn=Återkoppla
+NextPageBtn=Nästa
+BackPageBtn=Tillbaka
+NextPageBtn.Install=Installera
+NextPageBtn.Finish=Färdigställ
+StatusBar.Idle=Vänta
+StatusBar.LoadingDisks=Laddar disklista...
+StatusBar.MountingISO=Monterar ISO-avbildningen...
+StatusBar.UnmountingISO=Avmonterar ISO-avbildningen...
+StatusBar.VerifyingImage=Verifierar avbildningen...
+StatusBar.ExtractingPackageToTemp=Extraherar arkivet till det temporära biblioteket...
+StatusBar.DownloadingReqFiles=Laddar ner filer som krävs...
+StatusBar.FormattingDisk=Formatterar enheten...
+StatusBar.CreatingPartitions=Skapar partitionerna...
+StatusBar.ApplyingImage=Datat kopieras...
+StatusBar.CopyingBootFiles=Copierar startfiler...
+StatusBar.CreatingBCD=Skapar BCD...
+StatusBar.ConfiguringBCD=Konfigurerar BCD...
+StatusBar.ConvertingEFI=Konverterar startpartitionen till ESP...
+StatusBar.InstallingDrivers=Installerar drivrutiner...
+MessageBox.TaskOngoing=En operation pågår.{n}Vill du verkligen tvinga applikation att avslutas?
+
+[WelcomePage]
+PageTitle=Välkommen
+WelcomeLabel=Välkommen till {appname}!
+WelcomeMsgTextBox={appname} är ett verktyg som kan installera Windows på ARM (full desktopversion, inte IoT) på ett SD-kort för användning med en Raspberry Pi.
+SelectLangLabel=Språkval:
+
+[SelectDevicePage]
+PageTitle=Välj enhet
+SelectDiskLabel=Välj enheten
+Device.ExperimentalSupport=Experimentell
+Device.SupportedModels=Modeller som stöds: {0}
+DiskInfoBox.AtLeast8=Enheten måste ha minst 8 GB tillgängligt utrymme!
+DiskInfoBox.Good=Den valda enheten har åtminstone 8GB tillgängligt utrymme.
+DiskInfoBox.Enough=Den valda enheten har utrymme nog för en komprimerad installation.
+
+[SelectImagePage]
+PageTitle=Välj avbildning
+SelectImageLabel=Välj din Windows på ARM-avbildning
+WindowsEditionLabel=Windowsutgåva:
+WorkingBuildsTextBox=Note: Windows 10 1803 eller nyare versioner fungerar.{n}Version 1809 kan krascha beroende på förändringar i WppRecorder.sys-drivrutinen, undvik den versionen.
+SelectImgInfoBox.SelectedImageGood=Den valda avbildningsfilen (version: {0}) ser bra ut!
+SelectImgInfoBox.SelectedImageInvalid=Den valda filen är inte en valid Windowsavbildning!
+SelectImgInfoBox.SelectedImageUnsupported=Den valda avbildningsfilen stöds inte!
+MessageBox.NotEnoughSpace=Det finns inte nog med utrymme på disken för att installera den här avbildningen!{n}Välj en större lagringsenhet eller en komprimerad avbildning.
+
+[SelectDriversPage]
+PageTitle=Drivrutinsval
+SelectDriversLabel=Välj drivrutiner
+DriversNoteTextBox=Obs: drivrutinerna måste vara paketerade i ZIP-filformat.
+LocalDrvPkgRadioBtn=Använd drivrutinspaket som finns på din dator
+ServerDrvPkgRadioBtn=Använd det nyaste drivrutinspaketet från servern
+SelectDrvInfoBox.OK=Drivrutinspaketet är OK!
+SelectDrvInfoBox.LicenseNotAccepted=Du har inte accepterat användarlicensen!
+
+[SelectUEFIPage]
+PageTitle=UEFI firmware
+SelectUEFILabel=Välj UEFI firmware
+UEFINoteTextBox=Notera: UEFI firmware måste ha filändelsen {0}.
+LocalUEFIRadioBtn=Använd firmware som finns på din dator
+ServerUEFIRadioBtn=Använd den nyaste firmwaren som finns på servern
+ServerUEFISourceLabel=Firmwarekälla:
+
+[SetupConfigurationPage]
+PageTitle=Konfiguration
+ConfigurationLabel=Konfiguration
+ConfigurationTabControl.MainTabPage=Allmänt
+InstallOptionsGroup=Installationsval
+PartSchemeLabel=Partitionsschema:
+ImgInstallLabel=Installera avbildning med:
+EnableLZXCheck=Installera LZX-kompression
+BootOptionsGroup=Uppstartsval
+MessageBox.BootConfigEditorWarn=Om du modifierar uppstartskonfigurationen kan enheten sluta fungera eller kanske inte starta alls.{n}{n}Fortsätt ändå?
+ConfigurationTabControl.AdvancedTabPage=Avancerat
+MessageBox.AdvancedTabPageWarn=Om du ändrar de förvalda inställningarna under avancerat kan få enhet att sluta fungera eller hindraa den från att starta.{n}{n}Är du säker på att du vill fortsätta?
+WindowsBootOptionsGroup=Windows uppstartsval
+MemoryLimitLabel=Minnesbegränsning:
+RecoveryEnabledCheck=Aktivera Windows Recovery-miljön
+WoROptionsGroup={appname} val
+SaveConfigExitLabel=Spara konfigurationen vid avslut
+
+[SetupOverviewPage]
+PageTitle=Installation
+InstallOverviewLabel=Installationsöversikt
+InstallWarnBox=Varning! All data på din enhet kommer raderas! Gör en backup av dina filer innan det är för sent!
+TargetDeviceLabel=Målenhet
+DeviceTypeLabel=Enhetstyp
+OSLabel=Operativsystem
+DriversPathLabel=Drivrutinssökväg
+UEFIPathLabel=UEFI firmware-sökväg
+PartitionSchemeLabel=Partitionsschema
+ImageDeployerLabel=Avbildningsskrivare
+LZXCompressionLabel=LZX-kompression
+LZXCompression.YES=JA
+LZXCompression.NO=NEJ
+
+[SetupProgressPage]
+PageTitle=Installation
+InstallInfoBox=Det här kan ta lång tid beroende på enhetens prestanda.
+InstallStatusLabel.GettingReady=Förbereder...
+InstallStatusLabel.FormattingDisk=Formatterar målenheten...
+InstallStatusLabel.CreatingPartitions=Skapar partitionerna...
+InstallStatusLabel.InstallingWindows=Installerar Windows...
+InstallStatusLabel.InstallingBootFiles=Installerar uppstartsfiler...
+InstallStatusLabel.InstallingDrivers=Installerar driverrutiner...
+InstallStatusLabel.InstallFinished=Installationen är färdig!
+InstallStatusLabel.InstallFailed=Installationen fungerade inte!
