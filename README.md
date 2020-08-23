@@ -35,7 +35,7 @@ Issues related to the WoR tool should be reported on the [dedicated bug tracker]
 | Türkçe (Turkish)                            | tr-TR.lng | Outdated | ysoyipek , pixelomer , SWATcyp
 | Русский (Russian)                           | ru-RU.lng | Outdated | Andryshik345 , beeoss
 | Українська (Ukrainian)                      | uk-UA.lng | Outdated | Volodymyr Borodaykevych
-| 한국어 (Korean)                             | ko-KR.lng | Outdated | rlatn1234 , Raccooni
+| 한국어 (Korean)                             | ko-KR.lng | Complete | rlatn1234
 | 日本語 (Japanese)                           | ja-JP.lng | Complete | imai9999 , OSAKANATARO , Prime9999
 | 简体中文 (Simplified Chinese)               | zh-CN.lng | Outdated | thchi12 , nyaruko , Meaqua233 , CirnoTH
 | 繁體中文 (Traditional Chinese)              | zh-TW.lng | Outdated | Gekoii , ConashinChen
