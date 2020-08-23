@@ -1,0 +1,142 @@
+[WoR lang file]
+Name=Srpski (Serbian)
+Author=Luka Matovic
+IsComplete=1
+
+[UpdateNotifyWindow]
+WindowTitle=Azuriranje
+NewVersionAvailableLabel=Nova verzija je dostupna
+NewVersionAvailableBox={appname} {0} je dostupna! Da li želite da preuzmete sada?
+DownloadBtn=Preuzmi
+CloseBtn=Zatvori
+
+[AboutWindow]
+WindowTitle=O
+AppVersionLabel=Verzija
+CreditsPage=Zahvlanica
+ChangelogPage=Dnevnik promena
+LicensesPage=Licence
+
+[LoggerWindow]
+WindowTitle=Dnevnici
+CopyToClipboardBtn=Kopiraj
+
+[LicenseAgreementWindow]
+WindowTitle=Saglasnost sa licencom
+AcceptBtn=Prihvati
+DeclineBtn=Odbij
+
+[General]
+AnErrorOccurred=Dogodila se greska! Molim proverite dnevnike.
+MessageBox.CustomPackageWarn=Biranje neazurnog ili nepodrzanog paketa moze prouzrokovati probleme pri instalaciji!{n}{n}Preporucuje se da koristite poslednju verziju koja je na serveru.{n}{n}Ipak nastaviti?
+SelectedPackageInvalid=Odabrani paket nije validan ili nije podrzan sa vasim uredjajem.
+
+[MainWindow]
+SendFeedbackBtn=Posalji povratne podatke
+NextPageBtn=Dalje
+BackPageBtn=Nazad
+NextPageBtn.Install=Instaliraj
+NextPageBtn.Finish=Zavrsi
+StatusBar.Idle=Neaktivan
+StatusBar.LoadingDisks=Ucitavanje liste diskova...
+StatusBar.MountingISO=Montiranje ISO datoteke...
+StatusBar.UnmountingISO=Demontiranje ISO datoteke...
+StatusBar.VerifyingImage=Proveravanje datoteke...
+StatusBar.ExtractingPackageToTemp=Raspakivanje arhive u privremeni folder...
+StatusBar.DownloadingReqFiles=Preuzimanje neophodnih fajlova...
+StatusBar.FormattingDisk=Formatizovanje uredjaja...
+StatusBar.CreatingPartitions=Kreiranje particija...
+StatusBar.ApplyingImage=Primenjivanje datoteke...
+StatusBar.CopyingBootFiles=Kopiranje boot fajlova...
+StatusBar.CreatingBCD=Kreiranje BCD-a...
+StatusBar.ConfiguringBCD=Konfigurisanje BCD-a...
+StatusBar.ConvertingEFI=Konvertovanje boot particije u ESP...
+StatusBar.InstallingDrivers=Instaliranje drajvera...
+MessageBox.TaskOngoing=Operacija je trenutno u toku.{n}Da li ste sigurni da zelite nasilno zatvoriti aplikaciju?
+
+[WelcomePage]
+PageTitle=Dobrodosli
+WelcomeLabel=Dobrodosli u {appname}!
+WelcomeMsgTextBox={appname} je alatka koja moze da instalira Windows na ARM (punu desktop verziju, ne IoT) na Vasu SD karticu za koriscenje na Raspberry Pi.
+SelectLangLabel=Izaberite svoj jezik:
+
+[SelectDevicePage]
+PageTitle=Izaberite uredjaj
+SelectDiskLabel=Izaberite uredjaj
+Device.ExperimentalSupport=Eksperimentalno
+Device.SupportedModels=Podrzani modeli: {0}
+DiskInfoBox.AtLeast8=Uredjaj mora imati najmanje 8 GB dostupnog prostora!
+DiskInfoBox.Good=Izabrani uredjaj ima bar 8 GB.
+DiskInfoBox.Enough=Izabrani uredjaj ima dovoljno prostora za kompresovanu instalaciju.
+
+[SelectImagePage]
+PageTitle=Odaberite datoteku
+SelectImageLabel=Selektujte svoju Windows on ARM datoteku
+WindowsEditionLabel=Windows edicija:
+WorkingBuildsTextBox=Note: Windows 10 1803 i novije verzije sigurno funkcionisu.{n}Verzija 1809  se moze neocekivano prekinuti usled nekih promena u WppRecorder.sys drajveru, pa je treba izbegavati.
+SelectImgInfoBox.SelectedImageGood=Odabrana datoteka (version: {0}) je ispravna!
+SelectImgInfoBox.SelectedImageInvalid=Odabrani fajl nije validna Windows datoteka!
+SelectImgInfoBox.SelectedImageUnsupported=Odabrana datoteka nije podrzana!
+MessageBox.NotEnoughSpace=Nema dovoljno prostora na disku da se instalira ova datoteka!{n}Molim odaberite vece skladiste ili kompaktnu datoteku.
+
+[SelectDriversPage]
+PageTitle=Izaberite drajvere
+SelectDriversLabel=Izaberite drajvere
+DriversNoteTextBox=Primetiti: drajveri moraju biti arhivirani koriscenjem ZIP formatom datoteke.
+LocalDrvPkgRadioBtn=Koristi paket uskladisten na vasem racunaru
+ServerDrvPkgRadioBtn=Koristi posednji dostupan paket na serveru
+SelectDrvInfoBox.OK=Arhiva drajvera je OK!
+SelectDrvInfoBox.LicenseNotAccepted=Nise prihvatili jednu od licencnih saglasnosti!
+
+[SelectUEFIPage]
+PageTitle=UEFI firmware
+SelectUEFILabel=Izaberite UEFI firmware
+UEFINoteTextBox=Note: UEFI firmware mora imati {0} fajl ekstenziju.
+LocalUEFIRadioBtn=Koristi firmware uskladisten na vasem racunaru
+ServerUEFIRadioBtn=Koristi poslednji firmware dostupan na serveru
+ServerUEFISourceLabel=Poreklo firmware-a:
+
+[SetupConfigurationPage]
+PageTitle=Konfiguracija
+ConfigurationLabel=Konfiguracija
+ConfigurationTabControl.MainTabPage=Osnovno
+InstallOptionsGroup=Opcije instalacije
+PartSchemeLabel=Sema particija:
+ImgInstallLabel=Instaliraj datoteku sa:
+EnableLZXCheck=Omoguci LZX kompresiju instalacije
+BootOptionsGroup=Boot opcije
+MessageBox.BootConfigEditorWarn=Menjanje uobicajene boot konfiguracije moze uzrokovati da uredjaj ne radi ispravno ili da se ne boot-uje uopste.{n}{n}Ipak nastaviti?
+ConfigurationTabControl.AdvancedTabPage=Napredno
+MessageBox.AdvancedTabPageWarn=Menjanje uobicajenih postavki u naprednom meniju moze onemoguciti odredjene karakteristike ili spreciti sistem da se boot-uje.{n}{n}Da li ste sigurni da zelite da nastavie?
+WindowsBootOptionsGroup=Windows boot opcije
+MemoryLimitLabel=Ogranicenje memorije:
+RecoveryEnabledCheck=Omoguci Windows Recovery Environment
+WoROptionsGroup={appname} opcije
+SaveConfigExitLabel=Sacuvaj ovu konfiguraciju na izlasku
+
+[SetupOverviewPage]
+PageTitle=Instaliraj
+InstallOverviewLabel=Pregled instalacije
+InstallWarnBox=Upozorenje! Svi podaci na uredjaju ce biti obrisani! Napravite rezervnu kopiju fajlova pre nego sto bude kasno!
+TargetDeviceLabel=Odredisni uredjaj
+DeviceTypeLabel=Vrsta uredjaja
+OSLabel=Operativni sistem
+DriversPathLabel=Putanja drajvera
+UEFIPathLabel=Putanja UEFI firmware-a
+PartitionSchemeLabel=Sema particija
+ImageDeployerLabel=Primenjivac datoteka
+LZXCompressionLabel=LZX kompresija instalacije
+LZXCompression.YES=DA
+LZXCompression.NO=NE
+
+[SetupProgressPage]
+PageTitle=Instaliraj
+InstallInfoBox=Ovaj proces moze jako dugo trajati, zavisi od performansa uredjaja.
+InstallStatusLabel.GettingReady=Pripema...
+InstallStatusLabel.FormattingDisk=Formatizovanje odredisnog uredjaja...
+InstallStatusLabel.CreatingPartitions=Kreiranje particija...
+InstallStatusLabel.InstallingWindows=Instaliranje Windows-a...
+InstallStatusLabel.InstallingBootFiles=Instaliranje boot fajlova...
+InstallStatusLabel.InstallingDrivers=Instaliranje drajvera...
+InstallStatusLabel.InstallFinished=Instalacija je zavrsena!
+InstallStatusLabel.InstallFailed=Instalacija nije uspela!
