@@ -1,6 +1,6 @@
 ﻿[WoR lang file]
 Name=한국어 (Korean)
-Author=rlatn1234 , Raccooni
+Author=rlatn1234
 IsComplete=0
 
 [UpdateNotifyWindow]
@@ -28,11 +28,11 @@ DeclineBtn=거절
 
 [General]
 AnErrorOccurred=오류가 발생했습니다! 로그를 확인해주세요!
-MessageBox.CustomPackageWarn=Choosing an outdated or incompatible package may cause installation problems!{n}{n}It is recommended that you use the latest version available on the server instead.{n}{n}Continue anyway?
-SelectedPackageInvalid=The selected package is invalid or incompatible with your device.
+MessageBox.CustomPackageWarn=오래되거나 호환되지 않는 패키지를 선택하는것은 설치문제를 일으킬수 있습니다!{n}{n}서버에서 사용가능한 최신버젼을 사용하는것을 권장합니다.{n}{n}계속하시겠습니까?
+SelectedPackageInvalid=선택한 패키지는 잘못되었거나 당신의 기기와 호환되지 않습니다.    
 
 [MainWindow]
-SendFeedbackBtn=Send feedback
+SendFeedbackBtn=피드백 보내기
 NextPageBtn=다음
 BackPageBtn=뒤로
 NextPageBtn.Install=설치
@@ -41,7 +41,7 @@ StatusBar.Idle=대기중
 StatusBar.LoadingDisks=드라이버를 불러 오는 중입니다...
 StatusBar.MountingISO=Windows 10 ARM ISO 이미지를 마운트 하고 있습니다...
 StatusBar.UnmountingISO=ISO 이미지를 언마운트 하고 있습니다...
-StatusBar.VerifyingImage=Verifying the image...
+StatusBar.VerifyingImage=이미지 검증하는중...
 StatusBar.ExtractingPackageToTemp=임시 폴더로 아카이브 추출...
 StatusBar.DownloadingReqFiles=필요한 파일을 다운로드하는 중입니다...
 StatusBar.FormattingDisk=장치를 포멧중입니다...
@@ -49,7 +49,7 @@ StatusBar.CreatingPartitions=파티션을 만드는 중입니다...
 StatusBar.ApplyingImage=이미지 파일을 적용하는 중입니다...
 StatusBar.CopyingBootFiles=부트 파일을 복사하는 중입니다...
 StatusBar.CreatingBCD=BCD를 만들고 있습니다...
-StatusBar.ConfiguringBCD=Configuring the BCD...
+StatusBar.ConfiguringBCD=BCD 설정중...
 StatusBar.ConvertingEFI=부트 파티션 to ESP 변환 중입니다...
 StatusBar.InstallingDrivers=드라이버를 설치 중 입니다...
 MessageBox.TaskOngoing=작업이 진행중입니다.{n}정말 이 프로그램을 종료하시겠습니까?
@@ -63,8 +63,8 @@ SelectLangLabel=언어를 선택:
 [SelectDevicePage]
 PageTitle=장치 선택
 SelectDiskLabel=장치 선택
-Device.ExperimentalSupport=Experimental
-Device.SupportedModels=Supported models: {0}
+Device.ExperimentalSupport=실험적 기능
+Device.SupportedModels=지원 모델: {0}
 DiskInfoBox.AtLeast8=적어도 USB에 8 GB 이상의 사용가능한 공간이 있어야 합니다.
 DiskInfoBox.Good=선택한 장치에는 8 GB 이상의 사용가능한 공간이 있습니다.
 DiskInfoBox.Enough=선택한 장치에 압축 설치를 위한 충분한 공간이 있습니다.
@@ -72,12 +72,12 @@ DiskInfoBox.Enough=선택한 장치에 압축 설치를 위한 충분한 공간�
 [SelectImagePage]
 PageTitle=이미지 선택
 SelectImageLabel=Windows on ARM 이미지를 선택해주세요!
-WindowsEditionLabel=Windows edition:
-WorkingBuildsTextBox=Note: 윈도우 10 1803 이나 최신버젼들은 작동되는것이 확인되었습니다.{n}1809버젼은 WppRecorder.sys의 몇몇 변경점때문에 갑작스럽게 충돌할수 있습니다.
+WindowsEditionLabel=윈도우 에디션:
+WorkingBuildsTextBox=메모: 윈도우 10 1803 이나 최신버젼들은 작동되는것이 확인되었습니다.{n}1809버젼은 WppRecorder.sys의 몇몇 변경점때문에 갑작스럽게 충돌할수 있습니다.
 SelectImgInfoBox.SelectedImageGood=선택한 이미지인 (version: {0}) (으)로 빌드가 가능합니다!
 SelectImgInfoBox.SelectedImageInvalid=선택한 이미지는 올바른 윈도우 이미지가 아닙니다!
 SelectImgInfoBox.SelectedImageUnsupported=선택한 이미지는 지원되지 않습니다!
-MessageBox.NotEnoughSpace=There is not enough space on the disk to install this image!{n}Please choose a larger storage device or a compact image.
+MessageBox.NotEnoughSpace=선택한 디스크에 이 이미지를 설치하기위한 공간이 부족합니다!{n}더 큰 저장장치를 선택하거나 작은 이미지를 선택해주세요!
 
 [SelectDriversPage]
 PageTitle=드라이버 선택
@@ -94,23 +94,23 @@ SelectUEFILabel=UEFI Firmware을 선택해주세요!
 UEFINoteTextBox=노트: UEFI Firmware의 파일 확장명은 {0}이어야 합니다.
 LocalUEFIRadioBtn=컴퓨터에 저장된 UEFI 펌웨어 파일 사용하기
 ServerUEFIRadioBtn=서버에 저장된 UEFI 펌웨어 파일 사용하기
-ServerUEFISourceLabel=Firmware source:
+ServerUEFISourceLabel=펌웨어 소스:
 
 [SetupConfigurationPage]
 PageTitle=환경 설정(변수)
 ConfigurationLabel=환경 설정(변수)
-ConfigurationTabControl.MainTabPage=General
+ConfigurationTabControl.MainTabPage=일반
 InstallOptionsGroup=사용자 변경 설치
 PartSchemeLabel=파티션 방식:
 ImgInstallLabel=이미지 설치 방식:
 EnableLZXCheck=LZX 압축 방식으로 설치
 BootOptionsGroup=부트 옵션
-MessageBox.BootConfigEditorWarn=Modifying the default boot configuration may cause the device to malfunction or not boot at all.{n}{n}Continue anyway?
-ConfigurationTabControl.AdvancedTabPage=Advanced
-MessageBox.AdvancedTabPageWarn=Changing the default settings in the advanced menu may disable specific device features or prevent the system from booting.{n}{n}Are you sure you want to continue?
-WindowsBootOptionsGroup=Windows boot options
-MemoryLimitLabel=Memory limit:
-RecoveryEnabledCheck=Enable the Windows Recovery Environment
+MessageBox.BootConfigEditorWarn=기본 부트설정을 수정하는것은 부팅오류나 미작동을 일으킬수 있습니다.{n}{n}계속하시겠습니까?  
+ConfigurationTabControl.AdvancedTabPage=고급
+MessageBox.AdvancedTabPageWarn=고급 옵션에서 기본설정을 수정하는것은 특정 기능을 비활성화 하거나 시스템의 부팅을 막을수 있습니다.{n}{n}그래도 계속하시겠습니까?
+WindowsBootOptionsGroup=윈도우 부트 옵션 
+MemoryLimitLabel=메모리 제한:
+RecoveryEnabledCheck=윈도우 복구환경 활성화
 WoROptionsGroup={appname} 옵션
 SaveConfigExitLabel=종료할 때 지금 설정한 세팅을 저장
 
@@ -119,7 +119,7 @@ PageTitle=설치
 InstallOverviewLabel=설치 과정
 InstallWarnBox=경고! 장치에 있는 모든 정보가 삭제됩니다! 늦기전에 백업을 하시기 바랍니다!
 TargetDeviceLabel=선택한 장치
-DeviceTypeLabel=Device type
+DeviceTypeLabel=장치 종류
 OSLabel=운영 체제
 DriversPathLabel=드라이버 경로
 UEFIPathLabel=UEFI 펌웨어 경로
@@ -135,7 +135,7 @@ InstallInfoBox=이 프로세스는 장치 성능에 따라 시간이 오래 걸�
 InstallStatusLabel.GettingReady=잠시만 기다려주세요...
 InstallStatusLabel.FormattingDisk=선택한 장치를 포멧중입니다...
 InstallStatusLabel.CreatingPartitions=파티션을 만드는중입니다...
-InstallStatusLabel.InstallingWindows=Windows을 설치중입니다...
+InstallStatusLabel.InstallingWindows=Windows를 설치중입니다...
 InstallStatusLabel.InstallingBootFiles=부트 파일을 설치중입니다...
 InstallStatusLabel.InstallingDrivers=드라이버를 설치 중 입니다...
 InstallStatusLabel.InstallFinished=설치가 완료 되었습니다!
