@@ -18,7 +18,7 @@ Issues related to the WoR tool should be reported on the [dedicated bug tracker]
 | Language                                    | Filename  | Status   | Contributors 
 | ------------------------------------------- | --------- | -------- | --------------
 | Čeština (Czech)                             | cs-CZ.lng | Outdated | martindrey , Nuparu00 , lukajin
-| Deutsch (German)                            | de-DE.lng | Outdated | EpicLPer , BastiJames333 , Schule04 , NASS-eK , ulrichrobin
+| Deutsch (German)                            | de-DE.lng | Complete | EpicLPer , BastiJames333 , Schule04 , NASS-eK , ulrichrobin
 | English                                     | en-US.lng | Complete | Mario Bălănică
 | Español (Spanish)                           | es-ES.lng | Outdated | Ivan Ruiz (ivigamergames) 
 | Français (French)                           | fr-FR.lng | Outdated | Garfi69
