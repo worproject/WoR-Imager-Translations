@@ -28,8 +28,8 @@ DeclineBtn=拒絕
 
 [General]
 AnErrorOccurred=發生錯誤！請檢查記錄檔。
-MessageBox.CustomPackageWarn=Choosing an outdated or incompatible package may cause installation problems!{n}{n}It is recommended that you use the latest version available on the server instead.{n}{n}Continue anyway?
-SelectedPackageInvalid=The selected package is invalid or incompatible with your device.
+MessageBox.CustomPackageWarn=使用過舊或不兼容的安裝包將可能導致安裝過程出現問題！{n}{n}建議您使用伺服器上可用的最新版本。{n}{n}您仍要繼續嗎?
+SelectedPackageInvalid=您所選擇的安裝包無效或不兼容於您的設備。
 
 [MainWindow]
 SendFeedbackBtn=傳送回報訊息
@@ -49,7 +49,7 @@ StatusBar.CreatingPartitions=正在建立磁碟分割...
 StatusBar.ApplyingImage=正在套用映像檔...
 StatusBar.CopyingBootFiles=正在複製開機檔案...
 StatusBar.CreatingBCD=正在建立啟動組態資料庫...
-StatusBar.ConfiguringBCD=Configuring the BCD...
+StatusBar.ConfiguringBCD=正在進行BCD數字編碼...
 StatusBar.ConvertingEFI=正在轉換啟動分區至EFI系統...
 StatusBar.InstallingDrivers=正在安裝驅動程式...
 MessageBox.TaskOngoing=另一個程序正在執行中。{n}確定要強制關閉應用程式？
@@ -99,18 +99,18 @@ ServerUEFISourceLabel=韌體來源：
 [SetupConfigurationPage]
 PageTitle=設定
 ConfigurationLabel=設定
-ConfigurationTabControl.MainTabPage=General
+ConfigurationTabControl.MainTabPage=一般
 InstallOptionsGroup=安裝選項
 PartSchemeLabel=分區列表:
 ImgInstallLabel=安裝映像檔:
 EnableLZXCheck=使用LZX壓縮版安裝
 BootOptionsGroup=開機選項
-MessageBox.BootConfigEditorWarn=Modifying the default boot configuration may cause the device to malfunction or not boot at all.{n}{n}Continue anyway?
-ConfigurationTabControl.AdvancedTabPage=Advanced
-MessageBox.AdvancedTabPageWarn=Changing the default settings in the advanced menu may disable specific device features or prevent the system from booting.{n}{n}Are you sure you want to continue?
-WindowsBootOptionsGroup=Windows boot options
+MessageBox.BootConfigEditorWarn=修改默認的啟動設置將可能導致您的設備發生故障或無法啟動。{n}{n}您仍要繼續嗎?
+ConfigurationTabControl.AdvancedTabPage=進階
+MessageBox.AdvancedTabPageWarn=修改進階選項中的默認啟動設置將可能使特定設備無法使用或無法啟動系統。{n}{n}您確定要繼續嗎?
+WindowsBootOptionsGroup=Windows啟動選項
 MemoryLimitLabel=記憶體限制:
-RecoveryEnabledCheck=Enable the Windows Recovery Environment
+RecoveryEnabledCheck=啟用Windows修復環境（WinRE）
 WoROptionsGroup={appname}選項
 SaveConfigExitLabel=離開時儲存設定
 
