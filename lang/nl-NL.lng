@@ -78,6 +78,7 @@ MessageBox.DiskCompressedInstall.Heading=Het geselecteerde apparaat heeft voldoe
 MessageBox.DiskCompressedInstall.Message=De systeemprestaties kunnen enigszins afnemen als gevolg van compressie.
 Message.LoadingDisks=De lijst met schijven laden...
 MessageBox.NewBootloaderRequiredWarn=Als je wilt opstarten {0} vanaf een USB-station of gebruik het GPT-partitieschema, de bootloader moet worden bijgewerkt naar de nieuwste versie. {n} {n} Bezoek de volgende link voor meer informatie: {1}
+
 [SelectImagePage]
 PageTitle=Selecteer Schijfkopie Bestand
 SelectImageLabel=Selecteer je Windows on ARM Bestand
