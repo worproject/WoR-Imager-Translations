@@ -28,27 +28,27 @@ DeclineBtn=Avböj
 [General]
 MessageBox.CustomPackageWarn=Ett gammalt eller inkompatibelt paket kan orsaka installationsproblem!{n}{n}Det är rekommenderat att använda den senaste versionen från servern istället.{n}{n}Fortsätt ändå?
 MessageBox.SelectedPackageInvalid.Heading=Det valda paketet är trasigt eller inkompatibelt med din enhet.
-MessageBox.SelectedPackageInvalid.Message=Please select a package built for {0}.
+MessageBox.SelectedPackageInvalid.Message=Välj en avbildning för {0}.
 Message.ExtractingPackageToTemp=Extraherar arkivet till det temporära biblioteket...
 Message.DownloadingReqFiles=Laddar ner filer som krävs...
-Label.StorageDrive=Storage drive
+Label.StorageDrive=Lagringsenhet 
 Label.DeviceType=Enhetstyp
-FilePathTextPlaceholder=Click on the "{0}" button or drag and drop the file here.
-ServerPackageInfoLabel=This is the recommended option. It can be used offline too, as long as the package has been previously downloaded.
+FilePathTextPlaceholder=Klicka på "{0}" knappen eller dra och släpp filen här.
+ServerPackageInfoLabel=Detta är ett rekomenderat val. Den kan användas i offline med, så länge som paketet har laddats ner i förväg.
 
 [MessageBox]
 Button.OK=OK
-Button.Cancel=Cancel
-Button.Abort=Abort
-Button.Retry=Retry
-Button.Ignore=Ignore
-Button.Yes=Yes
-Button.No=No
-CheckBox.DoNotShowAgain=Don't show this again
+Button.Cancel=Ångra
+Button.Abort=Avbryt
+Button.Retry=Försök igen
+Button.Ignore=Ignorera
+Button.Yes=Ja
+Button.No=Nej
+CheckBox.DoNotShowAgain=Visa inte detta igen
 
 [MessageBox.Common]
-Heading.SomethingWentWrong=Something went wrong...
-Heading.Warning=Warning!
+Heading.SomethingWentWrong=Något gick fel...
+Heading.Warning=Varning!
 
 [MainWindow]
 SendFeedbackBtn=Återkoppla
@@ -62,36 +62,36 @@ MessageBox.TaskOngoing.Message=En operation pågår.
 [WelcomePage]
 PageTitle=Välkommen
 WelcomeLabel=Välkommen till {appname}!
-WelcomeMsgTextBox=This wizard will help you easily install the full desktop version of Windows 10 on your Raspberry Pi computer.{n}{n}Click on the {0} button to continue.
+WelcomeMsgTextBox=Det här programet kommer att hjälpa dig att lätt installera en full skrivbords version av Windows 10 på din Raspberry Pi computer.{n}{n}Klicka på {0} för att fortsätta.
 SelectLangLabel=Språkval:
 
 [SelectDevicePage]
 PageTitle=Välj enhet
 SelectDeviceLabel=Välj enheten
-DisksListCombo.TextEmptyList=No drives have been found. Click on the {0} button to reload the list.
-DisksListCombo.TextNoItemSelected=Click here to select a drive from the list.
-StorageDriveWarningLabel=Warning! Selecting the wrong drive may lead to unwanted data loss.
+DisksListCombo.TextEmptyList=Inga enheter har hittats. Klicka på {0} knappen för att ladda listan igen.
+DisksListCombo.TextNoItemSelected=Klicka här för att välja en enhet från listan.
+StorageDriveWarningLabel=Warning! Val av fel enhet kan leda till oönskad förlust av data.
 Device.ExperimentalSupport=Experimentell
 Device.SupportedModels=Modeller som stöds: {0}
 MessageBox.DiskAtLeast=Enheten måste ha minst {0} GB tillgängligt utrymme!
 MessageBox.DiskCompressedInstall.Heading=Den valda enheten har utrymme nog för en komprimerad installation.
-MessageBox.DiskCompressedInstall.Message=System performance may be slightly reduced due to compression.
+MessageBox.DiskCompressedInstall.Message=Systemets prestada kan bli något sämre pga kompresion.
 Message.LoadingDisks=Laddar disklista...
-MessageBox.NewBootloaderRequiredWarn=If you want to boot your {0} from an USB drive or use the GPT partitioning scheme, the bootloader must be updated to the latest version.{n}{n}Please visit the following link for more details: {1}
+MessageBox.NewBootloaderRequiredWarn=Om du vill boota din {0} från en USB enhet eller använda GPT partitionerings schema, bootloadern måste vara uppdaterad till senaste versionen.{n}{n}Besök följande länk för mer information: {1}
 
 [SelectImagePage]
 PageTitle=Välj avbildning
 SelectImageLabel=Välj din Windows på ARM-avbildning
-ImageFileLabel=Image file
+ImageFileLabel=Avbildning fil
 WindowsEditionLabel=Windowsutgåva
-WorkingBuildsTextBox.MinBuild=Your device supports Windows 10 {0} build {1} or newer.
-WorkingBuildsTextBox.AllBuilds=Your device supports all the available builds of Windows 10 {0}.
-WorkingBuildsTextBox.GetImage=If you don't have an image yet, you can find details on how to download one on the project website.
-SelectImageIndexCombo.TextEmptyList=Please select an image first.
-MessageBox.SelectedImageInvalid=Den valda filen är inte en valid Windowsavbildning!
+WorkingBuildsTextBox.MinBuild=Din enhet stödjer Windows 10 {0} version {1} eller nyare.
+WorkingBuildsTextBox.AllBuilds=Din enhet stödjer alla tillgängliga versioner av Windows 10 {0}.
+WorkingBuildsTextBox.GetImage=Om du inte har en avbild än, kan du hitta information om hur du laddar ner en på projektets webbplats.
+SelectImageIndexCombo.TextEmptyList=Välj en avbild först.
+MessageBox.SelectedImageInvalid=Den valda filen är inte en giltig Windowsavbildning!
 MessageBox.SelectedImageUnsupported=Den valda avbildningsfilen stöds inte!
-MessageBox.SelectedImageErrorInfo.AllBuilds=Please select a compatible Windows 10 {0} image.
-MessageBox.SelectedImageErrorInfo.MinBuild=Please select a compatible Windows 10 {0} build {1} or newer image.
+MessageBox.SelectedImageErrorInfo.AllBuilds=Välj en kompatibel Windows 10 {0} avbildning.
+MessageBox.SelectedImageErrorInfo.MinBuild=Välj en kompatibel Windows 10 Windows 10 {0} version {1} eller nyare.
 MessageBox.NotEnoughSpace.Heading=Det finns inte nog med utrymme på disken för att installera den här avbildningen!
 MessageBox.NotEnoughSpace.Message=Välj en större lagringsenhet eller en komprimerad avbildning.
 Message.MountingISO=Monterar ISO-avbildningen...
@@ -105,7 +105,7 @@ DriversNoteTextBox=Obs: drivrutinerna måste vara paketerade i {0}-filformat.
 LocalDrvPkgRadioBtn=Använd drivrutinspaket som finns på din dator
 ServerDrvPkgRadioBtn=Använd det nyaste drivrutinspaketet från servern
 MessageBox.LicenseNotAccepted.Heading=Du har inte accepterat användarlicensen!
-MessageBox.LicenseNotAccepted.Message=All licenses must be accepted to use this drivers package.
+MessageBox.LicenseNotAccepted.Message=Alla licensvilkår måste godkännas för att använda detta drivrutinspaket.
 
 [SelectUEFIPage]
 PageTitle=UEFI firmware
@@ -128,10 +128,10 @@ ConfigurationTabControl.AdvancedTabPage=Avancerat
 MessageBox.AdvancedTabPageWarn=Om du ändrar de förvalda inställningarna under avancerat kan få enhet att sluta fungera eller hindraa den från att starta.{n}{n}Är du säker på att du vill fortsätta?
 WindowsBootOptionsGroup=Windows uppstartsval
 MemoryLimitLabel=Minnesbegränsning:
-RecoveryEnabledCheck=Aktivera Windows Recovery-miljön
+RecoveryEnabledCheck=Aktivera Windows återställnings-miljön
 WoROptionsGroup={appname} val
 SaveConfigOnExitCheck=Spara konfigurationen vid avslut
-SaveConfigOnExitCheckInfoLabel=Note: options that are disabled (and those in the {0} menu) will not be saved.
+SaveConfigOnExitCheckInfoLabel=Observera: val som har inaktiverats (och de i {0} meny) kommer inte att sparas.
 
 [SetupOverviewPage]
 PageTitle=Installation
@@ -149,7 +149,7 @@ LZXCompression.NO=NEJ
 [SetupProgressPage]
 PageTitle=Installation
 InstallInfoBox=Det här kan ta lång tid beroende på enhetens prestanda.
-TryAgainBtn=Try again
+TryAgainBtn=Försök igen
 InstallStatusLabel.GettingReady=Förbereder...
 InstallStatusLabel.FormattingDisk=Formatterar målenheten...
 InstallStatusLabel.CreatingPartitions=Skapar partitionerna...
