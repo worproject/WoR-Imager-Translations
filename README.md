@@ -31,7 +31,7 @@ Issues related to the WoR tool should be reported on the [dedicated bug tracker]
 | Hrvatski (Croatian)                         | hr-HR.lng | Outdated | Biggie 
 | Italiano (Italian)                          | it-IT.lng | Outdated | xicciodj , lorecast162 , nopesir
 | Magyar (Hungarian)                          | hu-HU.lng | Outdated | Janaboy , Googulator 
-| Nederlands (Dutch)                          | nl-NL.lng | Outdated | Finnie2006
+| Nederlands (Dutch)                          | nl-NL.lng | Complete | Finnie2006
 | Polski (Polish)                             | pl-PL.lng | Outdated | macmmm81 , Gotard , Marcinoo97 , LUKI N (lukin123)
 | Português (Portuguese)                      | pt-PT.lng | Outdated | Miguel Couto
 | Português Brasileiro (Brazilian Portuguese) | pt-BR.lng | Outdated | Rafael Fontenelle
