@@ -33,22 +33,22 @@ Message.ExtractingPackageToTemp=Het archief uitpakken in de tijdelijke map...
 Message.DownloadingReqFiles=De vereiste bestanden downloaden...
 Label.StorageDrive=Storage drive
 Label.DeviceType=Soort apparaat
-FilePathTextPlaceholder=Click on the "{0}" button or drag and drop the file here.
-ServerPackageInfoLabel=This is the recommended option. It can be used offline too, as long as the package has been previously downloaded.
+FilePathTextPlaceholder=Klik op de knop "{0}" of sleep het bestand hierheen.
+ServerPackageInfoLabel=Dit is de aanbevolen optie. Het kan ook offline worden gebruikt, zolang het pakket maar eerder is gedownload.
 
 [MessageBox]
 Button.OK=OK
-Button.Cancel=Cancel
-Button.Abort=Abort
-Button.Retry=Retry
-Button.Ignore=Ignore
-Button.Yes=Yes
-Button.No=No
-CheckBox.DoNotShowAgain=Don't show this again
+Button.Cancel=Annuleren
+Button.Abort=Afbreken
+Button.Retry=Opnieuw Proberen
+Button.Ignore=Negeren
+Button.Yes=Ja
+Button.No=Nee
+CheckBox.DoNotShowAgain=laat dit niet meer zien
 
 [MessageBox.Common]
-Heading.SomethingWentWrong=Something went wrong...
-Heading.Warning=Warning!
+Heading.SomethingWentWrong=Er is iets fout gegaan...
+Heading.Warning=Waarschuwing!
 
 [MainWindow]
 SendFeedbackBtn=Stuur feedback
@@ -62,36 +62,35 @@ MessageBox.TaskOngoing.Message=Er wordt momenteel een bewerking uitgevoerd.
 [WelcomePage]
 PageTitle=Welkom
 WelcomeLabel=Welkom bij {appname}!
-WelcomeMsgTextBox=This wizard will help you easily install the full desktop version of Windows 10 on your Raspberry Pi computer.{n}{n}Click on the {0} button to continue.
+WelcomeMsgTextBox=Met deze wizard kunt u eenvoudig de volledige desktopversie van Windows 10 op uw Raspberry Pi-computer installeren.{n}{n}klip op de {0} Knop om verder te gaan.
 SelectLangLabel=Selecteer je taal:
 
 [SelectDevicePage]
 PageTitle=Selecteer apparaat
 SelectDeviceLabel=Selecteer het apparaat
-DisksListCombo.TextEmptyList=No drives have been found. Click on the {0} button to reload the list.
-DisksListCombo.TextNoItemSelected=Click here to select a drive from the list.
-StorageDriveWarningLabel=Warning! Selecting the wrong drive may lead to unwanted data loss.
+DisksListCombo.TextEmptyList=Er zijn geen schijven gevonden. Klik op de {0} knop om de lijst opnieuw te laden.
+DisksListCombo.TextNoItemSelected=Klik hier om een ​​station uit de lijst te selecteren.
+StorageDriveWarningLabel=Waarschuwing! Als u het verkeerde station selecteert, kan dit leiden tot ongewenst gegevensverlies.
 Device.ExperimentalSupport=Experimenteel
 Device.SupportedModels=Ondersteunde modellen: {0}
 MessageBox.DiskAtLeast=Het apparaat moet minimaal {0} GB beschikbare ruimte hebben!
 MessageBox.DiskCompressedInstall.Heading=Het geselecteerde apparaat heeft voldoende ruimte voor een gecomprimeerde installatie.
-MessageBox.DiskCompressedInstall.Message=System performance may be slightly reduced due to compression.
+MessageBox.DiskCompressedInstall.Message=De systeemprestaties kunnen enigszins afnemen als gevolg van compressie.
 Message.LoadingDisks=De lijst met schijven laden...
-MessageBox.NewBootloaderRequiredWarn=If you want to boot your {0} from an USB drive or use the GPT partitioning scheme, the bootloader must be updated to the latest version.{n}{n}Please visit the following link for more details: {1}
-
+MessageBox.NewBootloaderRequiredWarn=Als je wilt opstarten {0} vanaf een USB-station of gebruik het GPT-partitieschema, de bootloader moet worden bijgewerkt naar de nieuwste versie. {n} {n} Bezoek de volgende link voor meer informatie: {1}
 [SelectImagePage]
 PageTitle=Selecteer Schijfkopie Bestand
 SelectImageLabel=Selecteer je Windows on ARM Bestand
 ImageFileLabel=Image file
 WindowsEditionLabel=Windows editie
-WorkingBuildsTextBox.MinBuild=Your device supports Windows 10 {0} build {1} or newer.
-WorkingBuildsTextBox.AllBuilds=Your device supports all the available builds of Windows 10 {0}.
-WorkingBuildsTextBox.GetImage=If you don't have an image yet, you can find details on how to download one on the project website.
-SelectImageIndexCombo.TextEmptyList=Please select an image first.
+WorkingBuildsTextBox.MinBuild=Uw apparaat ondersteunt Windows 10 {0} build {1} of nieuwer.
+WorkingBuildsTextBox.AllBuilds=Uw apparaat ondersteunt alle beschikbare builds van Windows 10 {0}.
+WorkingBuildsTextBox.GetImage=Als je nog geen afbeelding hebt, Op de projectwebsite vindt u informatie over hoe u er een kunt downloaden.
+SelectImageIndexCombo.TextEmptyList=Selecteer eerst een ISO.
 MessageBox.SelectedImageInvalid=Het geselecteerde bestand is geen geldig Windows-Bestand!
 MessageBox.SelectedImageUnsupported=Het geselecteerde sbestand wordt niet ondersteund!
-MessageBox.SelectedImageErrorInfo.AllBuilds=Please select a compatible Windows 10 {0} image.
-MessageBox.SelectedImageErrorInfo.MinBuild=Please select a compatible Windows 10 {0} build {1} or newer image.
+MessageBox.SelectedImageErrorInfo.AllBuilds=Selecteer een compatibele Windows 10 {0} -afbeelding.
+MessageBox.SelectedImageErrorInfo.MinBuild=Selecteer een compatibele Windows 10 {0} build {1} of nieuwere Installatie.
 MessageBox.NotEnoughSpace.Heading=Er is niet genoeg ruimte op de schijf om deze afbeelding te installeren!
 MessageBox.NotEnoughSpace.Message=Kies een groter opslagapparaat of een compacte Instalatie.
 Message.MountingISO=Monteren van ISO-Bestand...
@@ -105,7 +104,7 @@ DriversNoteTextBox=Note: De stuurprogramma's moeten worden gearchiveerd met het 
 LocalDrvPkgRadioBtn=Gebruik een pakket dat op uw computer is opgeslagen
 ServerDrvPkgRadioBtn=Gebruik het nieuwste pakket dat beschikbaar is op de server
 MessageBox.LicenseNotAccepted.Heading=U heeft een van de licentieovereenkomsten niet geaccepteerd!
-MessageBox.LicenseNotAccepted.Message=All licenses must be accepted to use this drivers package.
+MessageBox.LicenseNotAccepted.Message=Alle licenties moeten worden geaccepteerd om dit stuurprogrammapakket te gebruiken.
 
 [SelectUEFIPage]
 PageTitle=UEFI firmware
@@ -131,7 +130,7 @@ MemoryLimitLabel=Geheugenlimiet:
 RecoveryEnabledCheck=Schakel de Windows Herstelomgeving in
 WoROptionsGroup={appname} opties
 SaveConfigOnExitCheck=Bewaar deze configuratie bij het afsluiten
-SaveConfigOnExitCheckInfoLabel=Note: options that are disabled (and those in the {0} menu) will not be saved.
+SaveConfigOnExitCheckInfoLabel=Opmerking: opties die zijn uitgeschakeld (en die in het menu {0}) worden niet opgeslagen.
 
 [SetupOverviewPage]
 PageTitle=Installeren
