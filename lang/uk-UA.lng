@@ -1,6 +1,5 @@
 ﻿[WoR lang file]
 Name=Українська (Ukrainian)
-Author=Volodymyr Borodaykevych
 IsComplete=0
 
 [UpdateNotifyWindow]
@@ -27,9 +26,29 @@ AcceptBtn=Погодитися
 DeclineBtn=Відхилити
 
 [General]
-AnErrorOccurred=Виникла помилка! Будь ласка, перевірте логи.
 MessageBox.CustomPackageWarn=Choosing an outdated or incompatible package may cause installation problems!{n}{n}It is recommended that you use the latest version available on the server instead.{n}{n}Continue anyway?
-SelectedPackageInvalid=The selected package is invalid or incompatible with your device.
+MessageBox.SelectedPackageInvalid.Heading=The selected package is invalid or incompatible with your device.
+MessageBox.SelectedPackageInvalid.Message=Please select a package built for {0}.
+Message.ExtractingPackageToTemp=Розпакування архіву у тимчасову папку...
+Message.DownloadingReqFiles=Завантаження необхідних файлів...
+Label.StorageDrive=Storage drive
+Label.DeviceType=Device type
+FilePathTextPlaceholder=Click on the "{0}" button or drag and drop the file here.
+ServerPackageInfoLabel=This is the recommended option. It can be used offline too, as long as the package has been previously downloaded.
+
+[MessageBox]
+Button.OK=OK
+Button.Cancel=Cancel
+Button.Abort=Abort
+Button.Retry=Retry
+Button.Ignore=Ignore
+Button.Yes=Yes
+Button.No=No
+CheckBox.DoNotShowAgain=Don't show this again
+
+[MessageBox.Common]
+Heading.SomethingWentWrong=Something went wrong...
+Heading.Warning=Warning!
 
 [MainWindow]
 SendFeedbackBtn=Send feedback
@@ -37,56 +56,56 @@ NextPageBtn=Далі
 BackPageBtn=Назад
 NextPageBtn.Install=Встановити
 NextPageBtn.Finish=Закінчити
-StatusBar.Idle=Очікування
-StatusBar.LoadingDisks=Завантаження драйверів...
-StatusBar.MountingISO=Монтування ISO образу...
-StatusBar.UnmountingISO=Відмонтовування ISO образу...
-StatusBar.VerifyingImage=Verifying the image...
-StatusBar.ExtractingPackageToTemp=Розпакування архіву у тимчасову папку...
-StatusBar.DownloadingReqFiles=Завантаження необхідних файлів...
-StatusBar.FormattingDisk=Форматування носія...
-StatusBar.CreatingPartitions=Створення розділів...
-StatusBar.ApplyingImage=Застосування образу...
-StatusBar.CopyingBootFiles=Копіювання завантажувальних файлів...
-StatusBar.CreatingBCD=Створення BCD...
-StatusBar.ConfiguringBCD=Configuring the BCD...
-StatusBar.ConvertingEFI=Перетворення завантажувального разділу в ESP...
-StatusBar.InstallingDrivers=Втановлення драйверів...
-MessageBox.TaskOngoing=В даний момент виконується операція.{n}Ви впевнені, шо хочете примусово закрити додаток?
+MessageBox.TaskOngoing.Heading=Ви впевнені, шо хочете примусово закрити додаток?
+MessageBox.TaskOngoing.Message=В даний момент виконується операція.
 
 [WelcomePage]
 PageTitle=Ласкаво просимо!
 WelcomeLabel=Ласкаво просимо в {appname}!
-WelcomeMsgTextBox={appname} - це інструмент, який допоможе встановити Windows на ARM(повна версія, не IoT) на Вашу SD карту для використання на Raspberry Pi.
+WelcomeMsgTextBox=This wizard will help you easily install the full desktop version of Windows 10 on your Raspberry Pi computer.{n}{n}Click on the {0} button to continue.
 SelectLangLabel=Виберіть вашу мову:
 
 [SelectDevicePage]
 PageTitle=Виберіть носій
-SelectDiskLabel=Виберіть носій
+SelectDeviceLabel=Виберіть носій
+DisksListCombo.TextEmptyList=No drives have been found. Click on the {0} button to reload the list.
+DisksListCombo.TextNoItemSelected=Click here to select a drive from the list.
+StorageDriveWarningLabel=Warning! Selecting the wrong drive may lead to unwanted data loss.
 Device.ExperimentalSupport=Experimental
 Device.SupportedModels=Supported models: {0}
-DiskInfoBox.AtLeast8=Вибраний носій мусить мати, хоча б, 8 ГБ вільного місця!
-DiskInfoBox.Good=Вибраний носій підходить.
-DiskInfoBox.Enough=Вибраного носія вистачає, щоб встрановити стиснутий образ.
+MessageBox.DiskAtLeast=Вибраний носій мусить мати, хоча б, {0} ГБ вільного місця!
+MessageBox.DiskCompressedInstall.Heading=Вибраного носія вистачає, щоб встрановити стиснутий образ.
+MessageBox.DiskCompressedInstall.Message=System performance may be slightly reduced due to compression.
+Message.LoadingDisks=Завантаження драйверів...
+MessageBox.NewBootloaderRequiredWarn=If you want to boot your {0} from an USB drive or use the GPT partitioning scheme, the bootloader must be updated to the latest version.{n}{n}Please visit the following link for more details: {1}
 
 [SelectImagePage]
 PageTitle=Вибір образу
 SelectImageLabel=Виберіть ваш Windows ARM образ
-WindowsEditionLabel=Windows edition:
-WorkingBuildsTextBox=Примітка: Windows 10 1803 новіші версії, як відомо, працюють.{n}В версії 1809 може неочікувано статися збій через деякі зміни в драйвері WppRecorder.sys, так що її варто уникати.
-SelectImgInfoBox.SelectedImageGood=Вибраний файл образу (версія: {0}) підходить!
-SelectImgInfoBox.SelectedImageInvalid=Вибраний файл є недійсним образом Windows!
-SelectImgInfoBox.SelectedImageUnsupported=Вибраний образ не підтримується!
-MessageBox.NotEnoughSpace=На вашому диску недостатньо місця щоб встатовити цей образ!{n}Будь ласка, виберіть пристрій з більшим розміром сховища або менший образ.
+ImageFileLabel=Image file
+WindowsEditionLabel=Windows edition
+WorkingBuildsTextBox.MinBuild=Your device supports Windows 10 {0} build {1} or newer.
+WorkingBuildsTextBox.AllBuilds=Your device supports all the available builds of Windows 10 {0}.
+WorkingBuildsTextBox.GetImage=If you don't have an image yet, you can find details on how to download one on the project website.
+SelectImageIndexCombo.TextEmptyList=Please select an image first.
+MessageBox.SelectedImageInvalid=Вибраний файл є недійсним образом Windows!
+MessageBox.SelectedImageUnsupported=Вибраний образ не підтримується!
+MessageBox.SelectedImageErrorInfo.AllBuilds=Please select a compatible Windows 10 {0} image.
+MessageBox.SelectedImageErrorInfo.MinBuild=Please select a compatible Windows 10 {0} build {1} or newer image.
+MessageBox.NotEnoughSpace.Heading=На вашому диску недостатньо місця щоб встатовити цей образ!
+MessageBox.NotEnoughSpace.Message=Будь ласка, виберіть пристрій з більшим розміром сховища або менший образ.
+Message.MountingISO=Монтування ISO образу...
+Message.UnmountingISO=Відмонтовування ISO образу...
+Message.VerifyingImage=Verifying the image...
 
 [SelectDriversPage]
 PageTitle=Вибір драйверів
 SelectDriversLabel=Виберіть драйвери
-DriversNoteTextBox=Примітка: драйвери мають бути запаковані в ZIP форматі.
+DriversNoteTextBox=Примітка: драйвери мають бути запаковані в {0} форматі.
 LocalDrvPkgRadioBtn=Використати інсталяційний пакет збережений на вашому комп'ютері
 ServerDrvPkgRadioBtn=Використати найновіший доступний пакет з серверу
-SelectDrvInfoBox.OK=Архів драйверів підходить!
-SelectDrvInfoBox.LicenseNotAccepted=Ви не прийняли одну з ліцензійних угод!
+MessageBox.LicenseNotAccepted.Heading=Ви не прийняли одну з ліцензійних угод!
+MessageBox.LicenseNotAccepted.Message=All licenses must be accepted to use this drivers package.
 
 [SelectUEFIPage]
 PageTitle=UEFI прошивка
@@ -94,7 +113,6 @@ SelectUEFILabel=Виберіть UEFI прошивку
 UEFINoteTextBox=Примітка: UEFI прошивка має мати разширення файлу {0}
 LocalUEFIRadioBtn=Використати прошивку збережену на вашому комп'ютері
 ServerUEFIRadioBtn=Використати найновішу доступну прошивку з серверу
-ServerUEFISourceLabel=Firmware source:
 
 [SetupConfigurationPage]
 PageTitle=Конфігурація
@@ -112,14 +130,13 @@ WindowsBootOptionsGroup=Windows boot options
 MemoryLimitLabel=Memory limit:
 RecoveryEnabledCheck=Enable the Windows Recovery Environment
 WoROptionsGroup=Налаштування {appname}
-SaveConfigExitLabel=Зберегти цю конфігурацію при виході
+SaveConfigOnExitCheck=Зберегти цю конфігурацію при виході
+SaveConfigOnExitCheckInfoLabel=Note: options that are disabled (and those in the {0} menu) will not be saved.
 
 [SetupOverviewPage]
 PageTitle=Втановити
 InstallOverviewLabel=Огляд встановлення
 InstallWarnBox=УВАГА! Вся інформація з вашого носія буде видалена! Зробіть резервну копію ваших файлів, поки не стало надто пізно!
-TargetDeviceLabel=Вибраний носій
-DeviceTypeLabel=Device type
 OSLabel=Операційна система
 DriversPathLabel=Шлях драйверів
 UEFIPathLabel=Шлях UEFI прошивки
@@ -132,6 +149,7 @@ LZXCompression.NO=НІ
 [SetupProgressPage]
 PageTitle=Втановити
 InstallInfoBox=Цей процес може тривати багато часу, в залежності від швидкодії носія.
+TryAgainBtn=Try again
 InstallStatusLabel.GettingReady=Очікуйте...
 InstallStatusLabel.FormattingDisk=Форматування вибраного носія...
 InstallStatusLabel.CreatingPartitions=Створення розділів...

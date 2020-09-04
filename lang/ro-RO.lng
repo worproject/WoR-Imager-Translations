@@ -1,6 +1,5 @@
 ﻿[WoR lang file]
 Name=Română (Romanian)
-Author=Mario Bălănică
 IsComplete=1
 
 [UpdateNotifyWindow]
@@ -27,9 +26,29 @@ AcceptBtn=Accept
 DeclineBtn=Refuz
 
 [General]
-AnErrorOccurred=A apărut o eroare! Vă rugăm să verificați log-urile.
 MessageBox.CustomPackageWarn=Selectarea unui pachet învechit sau incompatibil poate cauza probleme de instalare!{n}{n}Este recomandat să utilizați cea mai recentă versiune disponibilă pe server în schimb.{n}{n}Continuați oricum?
-SelectedPackageInvalid=Pachetul selectat este invalid sau incompatibil cu dispozitivul dvs.
+MessageBox.SelectedPackageInvalid.Heading=Pachetul selectat este invalid sau incompatibil cu dispozitivul dvs.
+MessageBox.SelectedPackageInvalid.Message=Vă rugăm să selectați un pachet creat pentru {0}.
+Message.ExtractingPackageToTemp=Se extrage arhiva către locația temporară...
+Message.DownloadingReqFiles=Se descarcă fișierele necesare...
+Label.StorageDrive=Unitate de stocare
+Label.DeviceType=Tipul dispozitivului
+FilePathTextPlaceholder=Apăsați pe butonul "{0}" sau trageți și plasați fișierul aici.
+ServerPackageInfoLabel=Aceasta este opțiunea recomandată. Poate fi utilizată și fără o conexiune la internet, atât timp cât pachetul a fost descărcat anterior.
+
+[MessageBox]
+Button.OK=OK
+Button.Cancel=Anulează
+Button.Abort=Întrerupe
+Button.Retry=Reîncearcă
+Button.Ignore=Ignoră
+Button.Yes=Da
+Button.No=Nu
+CheckBox.DoNotShowAgain=Nu afișa acest mesaj din nou
+
+[MessageBox.Common]
+Heading.SomethingWentWrong=Ceva n-a mers bine...
+Heading.Warning=Atenție!
 
 [MainWindow]
 SendFeedbackBtn=Trimiteți feedback
@@ -37,56 +56,56 @@ NextPageBtn=Următorul
 BackPageBtn=Înapoi
 NextPageBtn.Install=Instalați
 NextPageBtn.Finish=Finalizare
-StatusBar.Idle=Inactiv
-StatusBar.LoadingDisks=Se încarcă lista cu dispozitive...
-StatusBar.MountingISO=Se montează imaginea ISO...
-StatusBar.UnmountingISO=Se demontează imaginea ISO...
-StatusBar.VerifyingImage=Se verifică imaginea...
-StatusBar.ExtractingPackageToTemp=Se extrage arhiva către locația temporară...
-StatusBar.DownloadingReqFiles=Se descarcă fișierele necesare...
-StatusBar.FormattingDisk=Se formatează dispozitivul...
-StatusBar.CreatingPartitions=Se creează partițiile...
-StatusBar.ApplyingImage=Se aplică imaginea...
-StatusBar.CopyingBootFiles=Se copiază fișierele de boot...
-StatusBar.CreatingBCD=Se creează configurația de boot...
-StatusBar.ConfiguringBCD=Se configurează opțiunile de pornire...
-StatusBar.ConvertingEFI=Se transformă partiția de boot în ESP...
-StatusBar.InstallingDrivers=Se instalează driverele...
-MessageBox.TaskOngoing=O sarcină este în curs de desfășurare.{n}Sigur doriți să forțați închiderea aplicației?
+MessageBox.TaskOngoing.Heading=Sigur doriți să forțați închiderea aplicației?
+MessageBox.TaskOngoing.Message=O sarcină este în curs de desfășurare.
 
 [WelcomePage]
 PageTitle=Bun venit
 WelcomeLabel=Bun venit la {appname}!
-WelcomeMsgTextBox={appname} este o unealtă ce poate instala Windows on ARM (versiunea desktop, nu cea IoT) pe un card SD pentru utilizarea într-un Raspberry Pi.
+WelcomeMsgTextBox=Acest vrăjitor vă va ajuta să instalați cu ușurință versiunea desktop completă a Windows 10 pe computerul dvs. Raspberry Pi.{n}{n}Apăsați pe butonul {0} pentru a continua.
 SelectLangLabel=Selectați limba:
 
 [SelectDevicePage]
 PageTitle=Selectați dispozitivul
-SelectDiskLabel=Selectați dispozitivul
+SelectDeviceLabel=Selectați dispozitivul
+DisksListCombo.TextEmptyList=Nu s-au găsit unități de stocare. Apăsați pe butonul {0} pentru a reîncărca lista.
+DisksListCombo.TextNoItemSelected=Apăsați aici pentru a selecta un dispozitiv din listă.
+StorageDriveWarningLabel=Atenție! Selectarea unei unități greșite poate duce la pierderea nedorită a datelor.
 Device.ExperimentalSupport=Experimental
 Device.SupportedModels=Modele suportate: {0}
-DiskInfoBox.AtLeast8=Dispozitivul trebuie să aibă cel puțin 8 GB de spațiu liber!
-DiskInfoBox.Good=Dispozitivul selectat are cel puțin 8 GB de spațiu liber.
-DiskInfoBox.Enough=Dispozitivul selectat are spațiu suficient pentru o instalare compactă.
+MessageBox.DiskAtLeast=Dispozitivul trebuie să aibă cel puțin {0} GB de spațiu liber!
+MessageBox.DiskCompressedInstall.Heading=Dispozitivul selectat are spațiu suficient pentru o instalare compactă.
+MessageBox.DiskCompressedInstall.Message=Performanța sistemului poate fi ușor redusă din cauza compresiei.
+Message.LoadingDisks=Se încarcă lista cu dispozitive...
+MessageBox.NewBootloaderRequiredWarn=Dacă doriți să porniți dispozitivul {0} de pe o unitate USB sau să utilizați schema de partiționare GPT, bootloader-ul trebuie actualizat la cea mai recentă versiune.{n}{n}Vă rugăm să vizitați următorul link pentru mai multe detalii: {1}
 
 [SelectImagePage]
 PageTitle=Selectați imaginea
 SelectImageLabel=Selectați imaginea Windows on ARM
-WindowsEditionLabel=Ediție Windows:
-WorkingBuildsTextBox=Notă: Windows 10 1803 și versiunile mai noi sunt cunoscute ca fiind funcționale.{n}Versiunea 1809 se poate bloca în mod neașteptat din cauza unor modificări în driverul WppRecorder.sys, prin urmare ar trebui evitată.
-SelectImgInfoBox.SelectedImageGood=Imaginea selectată (versiunea: {0}) este OK!
-SelectImgInfoBox.SelectedImageInvalid=Fișierul selectat nu este o imagine Windows validă!
-SelectImgInfoBox.SelectedImageUnsupported=Imaginea selectată nu este suportată!
-MessageBox.NotEnoughSpace=Nu există spațiu suficient pe disc pentru a instala imaginea!{n}Vă rugăm să alegeți un dispozitiv de stocare mai mare sau o imagine compactă.
+ImageFileLabel=Fișier imagine
+WindowsEditionLabel=Ediție Windows
+WorkingBuildsTextBox.MinBuild=Dispozitivul dvs. suportă Windows 10 {0} compilarea {1} sau mai nouă.
+WorkingBuildsTextBox.AllBuilds=Dispozitivul dvs. suportă toate versiunile disponibile de Windows 10 {0}.
+WorkingBuildsTextBox.GetImage=Dacă nu aveți încă o imagine, puteți găsi detalii despre obținerea uneia pe site-ul web al proiectului.
+SelectImageIndexCombo.TextEmptyList=Vă rugăm să selectați o imagine mai întâi.
+MessageBox.SelectedImageInvalid=Fișierul selectat nu este o imagine Windows validă!
+MessageBox.SelectedImageUnsupported=Imaginea selectată nu este suportată!
+MessageBox.SelectedImageErrorInfo.AllBuilds=Vă rugăm să selectați o imagine Windows 10 {0} compatibilă.
+MessageBox.SelectedImageErrorInfo.MinBuild=Vă rugăm să selectați o imagine Windows 10 {0} compilarea {1} sau mai nouă.
+MessageBox.NotEnoughSpace.Heading=Nu există spațiu suficient pe disc pentru a instala imaginea!
+MessageBox.NotEnoughSpace.Message=Vă rugăm să alegeți un dispozitiv de stocare mai mare sau o imagine compactă.
+Message.MountingISO=Se montează imaginea ISO...
+Message.UnmountingISO=Se demontează imaginea ISO...
+Message.VerifyingImage=Se verifică imaginea...
 
 [SelectDriversPage]
 PageTitle=Selectați driverele
 SelectDriversLabel=Selectați driverele
-DriversNoteTextBox=Notă: driverele trebuie arhivate folosind formatul de fișier ZIP.
+DriversNoteTextBox=Notă: driverele trebuie arhivate folosind formatul de fișier {0}.
 LocalDrvPkgRadioBtn=Utilizați un pachet stocat pe computer
 ServerDrvPkgRadioBtn=Utilizați cel mai nou pachet disponibil pe server
-SelectDrvInfoBox.OK=Arhiva cu drivere este OK!
-SelectDrvInfoBox.LicenseNotAccepted=Ați refuzat unul dintre acordurile de licențiere!
+MessageBox.LicenseNotAccepted.Heading=Ați refuzat unul dintre acordurile de licențiere!
+MessageBox.LicenseNotAccepted.Message=Toate licențele trebuie acceptate pentru a utiliza acest pachet de drivere.
 
 [SelectUEFIPage]
 PageTitle=Firmware UEFI
@@ -94,7 +113,6 @@ SelectUEFILabel=Selectați firmware-ul UEFI
 UEFINoteTextBox=Notă: firmware-ul UEFI trebuie să aibă extensia {0} .
 LocalUEFIRadioBtn=Utilizați un firmware stocat pe computer
 ServerUEFIRadioBtn=Utilizați cel mai nou firmware disponibil pe server
-ServerUEFISourceLabel=Sursa firmware-ului:
 
 [SetupConfigurationPage]
 PageTitle=Configurare
@@ -112,14 +130,13 @@ WindowsBootOptionsGroup=Opțiuni de pornire Windows
 MemoryLimitLabel=Limită memorie:
 RecoveryEnabledCheck=Activați mediul de recuperare Windows
 WoROptionsGroup=Opțiuni {appname}
-SaveConfigExitLabel=Salvați această configurație la închidere
+SaveConfigOnExitCheck=Salvați această configurație la închidere
+SaveConfigOnExitCheckInfoLabel=Notă: opțiunile dezactivate (și cele din meniul {0}) nu vor fi salvate.
 
 [SetupOverviewPage]
 PageTitle=Instalare
 InstallOverviewLabel=Informații despre instalare
 InstallWarnBox=Atenție! Toate datele de pe dispozitiv vor fi șterse! Faceți o copie de siguranță a fișierelor înainte de a fi prea târziu!
-TargetDeviceLabel=Dispozitiv țintă
-DeviceTypeLabel=Tip dispozitiv
 OSLabel=Sistem de operare
 DriversPathLabel=Locația către drivere
 UEFIPathLabel=Locația către UEFI firmware
@@ -132,6 +149,7 @@ LZXCompression.NO=NU
 [SetupProgressPage]
 PageTitle=Instalare
 InstallInfoBox=Acest proces poate dura mult timp, în funcție de performanțele dispozitivului.
+TryAgainBtn=Încercați din nou
 InstallStatusLabel.GettingReady=Se pregătește...
 InstallStatusLabel.FormattingDisk=Se formatează dispozitivul țintă...
 InstallStatusLabel.CreatingPartitions=Se creează partițiile...

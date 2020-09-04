@@ -1,7 +1,6 @@
 ﻿[WoR lang file]
 Name=日本語 (Japanese)
-Author=imai9999 , OSAKANATARO , Prime9999
-IsComplete=1
+IsComplete=0
 
 [UpdateNotifyWindow]
 WindowTitle=アップデート
@@ -27,9 +26,29 @@ AcceptBtn=同意する
 DeclineBtn=同意しない
 
 [General]
-AnErrorOccurred=エラーが発生しました! ログを確認してください。
 MessageBox.CustomPackageWarn=古すぎるか互換性のないパッケージはインストールに問題が生じます!{n}{n}サーバーから最新版を入手することを推奨します。{n}{n}続けますか?
-SelectedPackageInvalid=選択したパッケージは無効かあなたのデバイスとの互換性がありません。
+MessageBox.SelectedPackageInvalid.Heading=選択したパッケージは無効かあなたのデバイスとの互換性がありません。
+MessageBox.SelectedPackageInvalid.Message=Please select a package built for {0}.
+Message.ExtractingPackageToTemp=一時フォルダにアーカイブを抽出しています...
+Message.DownloadingReqFiles=必要なファイルのダウンロード中...
+Label.StorageDrive=Storage drive
+Label.DeviceType=デバイスの種類
+FilePathTextPlaceholder=Click on the "{0}" button or drag and drop the file here.
+ServerPackageInfoLabel=This is the recommended option. It can be used offline too, as long as the package has been previously downloaded.
+
+[MessageBox]
+Button.OK=OK
+Button.Cancel=Cancel
+Button.Abort=Abort
+Button.Retry=Retry
+Button.Ignore=Ignore
+Button.Yes=Yes
+Button.No=No
+CheckBox.DoNotShowAgain=Don't show this again
+
+[MessageBox.Common]
+Heading.SomethingWentWrong=Something went wrong...
+Heading.Warning=Warning!
 
 [MainWindow]
 SendFeedbackBtn=フィードバックを送る
@@ -37,56 +56,56 @@ NextPageBtn=次へ
 BackPageBtn=戻る
 NextPageBtn.Install=インストール
 NextPageBtn.Finish=完了
-StatusBar.Idle=待機中
-StatusBar.LoadingDisks=ドライバーの読込中...
-StatusBar.MountingISO=ISO イメージのマウント中...
-StatusBar.UnmountingISO=ISO イメージのアンマウント中...
-StatusBar.VerifyingImage=イメージの確認中...
-StatusBar.ExtractingPackageToTemp=一時フォルダにアーカイブを抽出しています...
-StatusBar.DownloadingReqFiles=必要なファイルのダウンロード中...
-StatusBar.FormattingDisk=デバイスのフォーマット中...
-StatusBar.CreatingPartitions=パーティションの作成中...
-StatusBar.ApplyingImage=イメージの適用中...
-StatusBar.CopyingBootFiles=ブートファイルのコピー中...
-StatusBar.CreatingBCD=BCD の作成中...
-StatusBar.ConfiguringBCD=BCD の設定中...
-StatusBar.ConvertingEFI=ブートパーティションを ESP に変換中...
-StatusBar.InstallingDrivers=ドライバーをインストール中...
-MessageBox.TaskOngoing=現在操作が進行中です.{n}アプリケーションを強制終了してもいいですか?
+MessageBox.TaskOngoing.Heading=アプリケーションを強制終了してもいいですか?
+MessageBox.TaskOngoing.Message=現在操作が進行中です.
 
 [WelcomePage]
 PageTitle=ようこそ
 WelcomeLabel={appname} にようこそ!
-WelcomeMsgTextBox={appname} は、Raspberry Pi 用の ARM 用 Windows (IoT ではなく、完全なデスクトップ版) を SD カード上にインストールします。
+WelcomeMsgTextBox=This wizard will help you easily install the full desktop version of Windows 10 on your Raspberry Pi computer.{n}{n}Click on the {0} button to continue.
 SelectLangLabel=言語を選択してください
 
 [SelectDevicePage]
 PageTitle=デバイス選択
-SelectDiskLabel=デバイス選択
+SelectDeviceLabel=デバイス選択
+DisksListCombo.TextEmptyList=No drives have been found. Click on the {0} button to reload the list.
+DisksListCombo.TextNoItemSelected=Click here to select a drive from the list.
+StorageDriveWarningLabel=Warning! Selecting the wrong drive may lead to unwanted data loss.
 Device.ExperimentalSupport=実験的
 Device.SupportedModels=サポートモデル: {0}
-DiskInfoBox.AtLeast8=選択したデバイスには、少なくとも 8 GB の空き容量が必要です!
-DiskInfoBox.Good=選択したデバイスには、少なくとも 8 GB の空き容量があります。
-DiskInfoBox.Enough=選択したデバイスには、圧縮インストールにじゅうぶんな空き容量があります。
+MessageBox.DiskAtLeast=選択したデバイスには、少なくとも {0} GB の空き容量が必要です!
+MessageBox.DiskCompressedInstall.Heading=選択したデバイスには、圧縮インストールにじゅうぶんな空き容量があります。
+MessageBox.DiskCompressedInstall.Message=System performance may be slightly reduced due to compression.
+Message.LoadingDisks=ドライバーの読込中...
+MessageBox.NewBootloaderRequiredWarn=If you want to boot your {0} from an USB drive or use the GPT partitioning scheme, the bootloader must be updated to the latest version.{n}{n}Please visit the following link for more details: {1}
 
 [SelectImagePage]
 PageTitle=イメージの選択
 SelectImageLabel=ARM 用 Windows のイメージを選択してください
-WindowsEditionLabel=Windowsのエディション:
-WorkingBuildsTextBox=注意:Windows 10 1803以降のバージョンが動作します。{n}ただしバージョン 1809 は、WppRecorder.sys ドライバーの一部変更により予期せずクラッシュすることがあるため、避ける必要があります。
-SelectImgInfoBox.SelectedImageGood=選択したイメージファイル (バージョン: {0}) は正常です!
-SelectImgInfoBox.SelectedImageInvalid=選択したイメージファイルは正しい Windows のイメージではありません!
-SelectImgInfoBox.SelectedImageUnsupported=選択したイメージファイルはサポートされていません!
-MessageBox.NotEnoughSpace=このイメージを使ってインストールするにはディスクのサイズが不足しています!{n}大きめの記憶装置やコンパクトなイメージを選択してください。
+ImageFileLabel=Image file
+WindowsEditionLabel=Windowsのエディション
+WorkingBuildsTextBox.MinBuild=Your device supports Windows 10 {0} build {1} or newer.
+WorkingBuildsTextBox.AllBuilds=Your device supports all the available builds of Windows 10 {0}.
+WorkingBuildsTextBox.GetImage=If you don't have an image yet, you can find details on how to download one on the project website.
+SelectImageIndexCombo.TextEmptyList=Please select an image first.
+MessageBox.SelectedImageInvalid=選択したイメージファイルは正しい Windows のイメージではありません!
+MessageBox.SelectedImageUnsupported=選択したイメージファイルはサポートされていません!
+MessageBox.SelectedImageErrorInfo.AllBuilds=Please select a compatible Windows 10 {0} image.
+MessageBox.SelectedImageErrorInfo.MinBuild=Please select a compatible Windows 10 {0} build {1} or newer image.
+MessageBox.NotEnoughSpace.Heading=このイメージを使ってインストールするにはディスクのサイズが不足しています!
+MessageBox.NotEnoughSpace.Message=大きめの記憶装置やコンパクトなイメージを選択してください。
+Message.MountingISO=ISO イメージのマウント中...
+Message.UnmountingISO=ISO イメージのアンマウント中...
+Message.VerifyingImage=イメージの確認中...
 
 [SelectDriversPage]
 PageTitle=ドライバーの選択
 SelectDriversLabel=ドライバーを選択してください
-DriversNoteTextBox=注意: ドライバーは、ZIP ファイル形式でアーカイブされている必要があります。
+DriversNoteTextBox=注意: ドライバーは、{0} ファイル形式でアーカイブされている必要があります。
 LocalDrvPkgRadioBtn=コンピューター上に保存したパッケージを使用
 ServerDrvPkgRadioBtn=最新のパッケージをサーバーからダウンロードして使用
-SelectDrvInfoBox.OK=ドライバーのアーカイブは正常です!
-SelectDrvInfoBox.LicenseNotAccepted=あなたは全てのライセンス契約に同意していません!
+MessageBox.LicenseNotAccepted.Heading=あなたは全てのライセンス契約に同意していません!
+MessageBox.LicenseNotAccepted.Message=All licenses must be accepted to use this drivers package.
 
 [SelectUEFIPage]
 PageTitle=UEFI ファームウェアの選択
@@ -94,7 +113,6 @@ SelectUEFILabel=Select UEFI ファームウェア
 UEFINoteTextBox=注意: UEFI ファームウェアの拡張子は、 {0} であることが必要です。
 LocalUEFIRadioBtn=コンピューター上に保存したファームウェアを使用
 ServerUEFIRadioBtn=最新のファームウェアをサーバーからダウンロードして使用
-ServerUEFISourceLabel=ファームウェア入手先:
 
 [SetupConfigurationPage]
 PageTitle=設定
@@ -112,14 +130,13 @@ WindowsBootOptionsGroup=Windows起動オプション
 MemoryLimitLabel=メモリ制限:
 RecoveryEnabledCheck=Windowsリカバリ環境を有効化
 WoROptionsGroup={appname} オプション
-SaveConfigExitLabel=終了時に、この設定を保存する
+SaveConfigOnExitCheck=終了時に、この設定を保存する
+SaveConfigOnExitCheckInfoLabel=Note: options that are disabled (and those in the {0} menu) will not be saved.
 
 [SetupOverviewPage]
 PageTitle=インストール
 InstallOverviewLabel=インストールの概要
 InstallWarnBox=警告! デバイス上のすべてのデータが削除されます! 手遅れになる前に、ファイルのバックアップを行ってください!
-TargetDeviceLabel=ターゲットデバイス
-DeviceTypeLabel=デバイスの種類
 OSLabel=オペレーティングシステム
 DriversPathLabel=ドライバーのパス
 UEFIPathLabel=UEFI ファームウェアのパス
@@ -132,6 +149,7 @@ LZXCompression.NO=いいえ
 [SetupProgressPage]
 PageTitle=インストール
 InstallInfoBox=この処理は、デバイスのパフォーマンスにより長時間かかることがあります。
+TryAgainBtn=Try again
 InstallStatusLabel.GettingReady=準備中...
 InstallStatusLabel.FormattingDisk=ターゲットデバイスのフォーマット中...
 InstallStatusLabel.CreatingPartitions=パーティションの作成中...

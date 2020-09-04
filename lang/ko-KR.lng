@@ -1,6 +1,5 @@
 ﻿[WoR lang file]
 Name=한국어 (Korean)
-Author=rlatn1234
 IsComplete=0
 
 [UpdateNotifyWindow]
@@ -27,9 +26,29 @@ AcceptBtn=동의
 DeclineBtn=거절
 
 [General]
-AnErrorOccurred=오류가 발생했습니다! 로그를 확인해주세요!
 MessageBox.CustomPackageWarn=오래되거나 호환되지 않는 패키지를 선택하는것은 설치문제를 일으킬수 있습니다!{n}{n}서버에서 사용가능한 최신버젼을 사용하는것을 권장합니다.{n}{n}계속하시겠습니까?
-SelectedPackageInvalid=선택한 패키지는 잘못되었거나 당신의 기기와 호환되지 않습니다.    
+MessageBox.SelectedPackageInvalid.Heading=선택한 패키지는 잘못되었거나 당신의 기기와 호환되지 않습니다.
+MessageBox.SelectedPackageInvalid.Message=Please select a package built for {0}.
+Message.ExtractingPackageToTemp=임시 폴더로 아카이브 추출...
+Message.DownloadingReqFiles=필요한 파일을 다운로드하는 중입니다...
+Label.StorageDrive=Storage drive
+Label.DeviceType=장치 종류
+FilePathTextPlaceholder=Click on the "{0}" button or drag and drop the file here.
+ServerPackageInfoLabel=This is the recommended option. It can be used offline too, as long as the package has been previously downloaded.
+
+[MessageBox]
+Button.OK=OK
+Button.Cancel=Cancel
+Button.Abort=Abort
+Button.Retry=Retry
+Button.Ignore=Ignore
+Button.Yes=Yes
+Button.No=No
+CheckBox.DoNotShowAgain=Don't show this again
+
+[MessageBox.Common]
+Heading.SomethingWentWrong=Something went wrong...
+Heading.Warning=Warning!
 
 [MainWindow]
 SendFeedbackBtn=피드백 보내기
@@ -37,56 +56,56 @@ NextPageBtn=다음
 BackPageBtn=뒤로
 NextPageBtn.Install=설치
 NextPageBtn.Finish=마침
-StatusBar.Idle=대기중
-StatusBar.LoadingDisks=드라이버를 불러 오는 중입니다...
-StatusBar.MountingISO=Windows 10 ARM ISO 이미지를 마운트 하고 있습니다...
-StatusBar.UnmountingISO=ISO 이미지를 언마운트 하고 있습니다...
-StatusBar.VerifyingImage=이미지 검증하는중...
-StatusBar.ExtractingPackageToTemp=임시 폴더로 아카이브 추출...
-StatusBar.DownloadingReqFiles=필요한 파일을 다운로드하는 중입니다...
-StatusBar.FormattingDisk=장치를 포멧중입니다...
-StatusBar.CreatingPartitions=파티션을 만드는 중입니다...
-StatusBar.ApplyingImage=이미지 파일을 적용하는 중입니다...
-StatusBar.CopyingBootFiles=부트 파일을 복사하는 중입니다...
-StatusBar.CreatingBCD=BCD를 만들고 있습니다...
-StatusBar.ConfiguringBCD=BCD 설정중...
-StatusBar.ConvertingEFI=부트 파티션 to ESP 변환 중입니다...
-StatusBar.InstallingDrivers=드라이버를 설치 중 입니다...
-MessageBox.TaskOngoing=작업이 진행중입니다.{n}정말 이 프로그램을 종료하시겠습니까?
+MessageBox.TaskOngoing.Heading=정말 이 프로그램을 종료하시겠습니까?
+MessageBox.TaskOngoing.Message=작업이 진행중입니다.
 
 [WelcomePage]
 PageTitle=환영합니다!
 WelcomeLabel={appname}에 오신 것을 환영합니다!
-WelcomeMsgTextBox={appname}은 Raspberry Pi 에 사용할 수 있도록 SD카드의 ARM(IoT가 아닌 전체 데스크탑 버전)의 Windows를 설치할 수 있는 도구입니다!
+WelcomeMsgTextBox=This wizard will help you easily install the full desktop version of Windows 10 on your Raspberry Pi computer.{n}{n}Click on the {0} button to continue.
 SelectLangLabel=언어를 선택:
 
 [SelectDevicePage]
 PageTitle=장치 선택
-SelectDiskLabel=장치 선택
+SelectDeviceLabel=장치 선택
+DisksListCombo.TextEmptyList=No drives have been found. Click on the {0} button to reload the list.
+DisksListCombo.TextNoItemSelected=Click here to select a drive from the list.
+StorageDriveWarningLabel=Warning! Selecting the wrong drive may lead to unwanted data loss.
 Device.ExperimentalSupport=실험적 기능
 Device.SupportedModels=지원 모델: {0}
-DiskInfoBox.AtLeast8=적어도 USB에 8 GB 이상의 사용가능한 공간이 있어야 합니다.
-DiskInfoBox.Good=선택한 장치에는 8 GB 이상의 사용가능한 공간이 있습니다.
-DiskInfoBox.Enough=선택한 장치에 압축 설치를 위한 충분한 공간이 있습니다.
+MessageBox.DiskAtLeast=적어도 USB에 {0} GB 이상의 사용가능한 공간이 있어야 합니다.
+MessageBox.DiskCompressedInstall.Heading=선택한 장치에 압축 설치를 위한 충분한 공간이 있습니다.
+MessageBox.DiskCompressedInstall.Message=System performance may be slightly reduced due to compression.
+Message.LoadingDisks=드라이버를 불러 오는 중입니다...
+MessageBox.NewBootloaderRequiredWarn=If you want to boot your {0} from an USB drive or use the GPT partitioning scheme, the bootloader must be updated to the latest version.{n}{n}Please visit the following link for more details: {1}
 
 [SelectImagePage]
 PageTitle=이미지 선택
 SelectImageLabel=Windows on ARM 이미지를 선택해주세요!
-WindowsEditionLabel=윈도우 에디션:
-WorkingBuildsTextBox=메모: 윈도우 10 1803 이나 최신버젼들은 작동되는것이 확인되었습니다.{n}1809버젼은 WppRecorder.sys의 몇몇 변경점때문에 갑작스럽게 충돌할수 있습니다.
-SelectImgInfoBox.SelectedImageGood=선택한 이미지인 (version: {0}) (으)로 빌드가 가능합니다!
-SelectImgInfoBox.SelectedImageInvalid=선택한 이미지는 올바른 윈도우 이미지가 아닙니다!
-SelectImgInfoBox.SelectedImageUnsupported=선택한 이미지는 지원되지 않습니다!
-MessageBox.NotEnoughSpace=선택한 디스크에 이 이미지를 설치하기위한 공간이 부족합니다!{n}더 큰 저장장치를 선택하거나 작은 이미지를 선택해주세요!
+ImageFileLabel=Image file
+WindowsEditionLabel=윈도우 에디션
+WorkingBuildsTextBox.MinBuild=Your device supports Windows 10 {0} build {1} or newer.
+WorkingBuildsTextBox.AllBuilds=Your device supports all the available builds of Windows 10 {0}.
+WorkingBuildsTextBox.GetImage=If you don't have an image yet, you can find details on how to download one on the project website.
+SelectImageIndexCombo.TextEmptyList=Please select an image first.
+MessageBox.SelectedImageInvalid=선택한 이미지는 올바른 윈도우 이미지가 아닙니다!
+MessageBox.SelectedImageUnsupported=선택한 이미지는 지원되지 않습니다!
+MessageBox.SelectedImageErrorInfo.AllBuilds=Please select a compatible Windows 10 {0} image.
+MessageBox.SelectedImageErrorInfo.MinBuild=Please select a compatible Windows 10 {0} build {1} or newer image.
+MessageBox.NotEnoughSpace.Heading=선택한 디스크에 이 이미지를 설치하기위한 공간이 부족합니다!
+MessageBox.NotEnoughSpace.Message=더 큰 저장장치를 선택하거나 작은 이미지를 선택해주세요!
+Message.MountingISO=Windows 10 ARM ISO 이미지를 마운트 하고 있습니다...
+Message.UnmountingISO=ISO 이미지를 언마운트 하고 있습니다...
+Message.VerifyingImage=이미지 검증하는중...
 
 [SelectDriversPage]
 PageTitle=드라이버 선택
 SelectDriversLabel=드라이버를 선택 해주세요!
-DriversNoteTextBox=노트: 드라이버 파일은 ZIP(압축 파일)로 되어있어야합니다.
+DriversNoteTextBox=노트: 드라이버 파일은 {0}(압축 파일)로 되어있어야합니다.
 LocalDrvPkgRadioBtn=컴퓨터에 저장된 드라이버 패키지 사용하기
 ServerDrvPkgRadioBtn=서버에서 사용가능한 드라이버 패키지 사용하기
-SelectDrvInfoBox.OK=드라이버 아카이브는 정상입니다!
-SelectDrvInfoBox.LicenseNotAccepted=라이센스에 동의하지 않았습니다!
+MessageBox.LicenseNotAccepted.Heading=라이센스에 동의하지 않았습니다!
+MessageBox.LicenseNotAccepted.Message=All licenses must be accepted to use this drivers package.
 
 [SelectUEFIPage]
 PageTitle=UEFI Firmware 선택
@@ -94,7 +113,6 @@ SelectUEFILabel=UEFI Firmware을 선택해주세요!
 UEFINoteTextBox=노트: UEFI Firmware의 파일 확장명은 {0}이어야 합니다.
 LocalUEFIRadioBtn=컴퓨터에 저장된 UEFI 펌웨어 파일 사용하기
 ServerUEFIRadioBtn=서버에 저장된 UEFI 펌웨어 파일 사용하기
-ServerUEFISourceLabel=펌웨어 소스:
 
 [SetupConfigurationPage]
 PageTitle=환경 설정(변수)
@@ -105,21 +123,20 @@ PartSchemeLabel=파티션 방식:
 ImgInstallLabel=이미지 설치 방식:
 EnableLZXCheck=LZX 압축 방식으로 설치
 BootOptionsGroup=부트 옵션
-MessageBox.BootConfigEditorWarn=기본 부트설정을 수정하는것은 부팅오류나 미작동을 일으킬수 있습니다.{n}{n}계속하시겠습니까?  
+MessageBox.BootConfigEditorWarn=기본 부트설정을 수정하는것은 부팅오류나 미작동을 일으킬수 있습니다.{n}{n}계속하시겠습니까?
 ConfigurationTabControl.AdvancedTabPage=고급
 MessageBox.AdvancedTabPageWarn=고급 옵션에서 기본설정을 수정하는것은 특정 기능을 비활성화 하거나 시스템의 부팅을 막을수 있습니다.{n}{n}그래도 계속하시겠습니까?
 WindowsBootOptionsGroup=윈도우 부트 옵션 
 MemoryLimitLabel=메모리 제한:
 RecoveryEnabledCheck=윈도우 복구환경 활성화
 WoROptionsGroup={appname} 옵션
-SaveConfigExitLabel=종료할 때 지금 설정한 세팅을 저장
+SaveConfigOnExitCheck=종료할 때 지금 설정한 세팅을 저장
+SaveConfigOnExitCheckInfoLabel=Note: options that are disabled (and those in the {0} menu) will not be saved.
 
 [SetupOverviewPage]
 PageTitle=설치
 InstallOverviewLabel=설치 과정
 InstallWarnBox=경고! 장치에 있는 모든 정보가 삭제됩니다! 늦기전에 백업을 하시기 바랍니다!
-TargetDeviceLabel=선택한 장치
-DeviceTypeLabel=장치 종류
 OSLabel=운영 체제
 DriversPathLabel=드라이버 경로
 UEFIPathLabel=UEFI 펌웨어 경로
@@ -132,6 +149,7 @@ LZXCompression.NO=아니요
 [SetupProgressPage]
 PageTitle=설치
 InstallInfoBox=이 프로세스는 장치 성능에 따라 시간이 오래 걸릴 수 있습니다.
+TryAgainBtn=Try again
 InstallStatusLabel.GettingReady=잠시만 기다려주세요...
 InstallStatusLabel.FormattingDisk=선택한 장치를 포멧중입니다...
 InstallStatusLabel.CreatingPartitions=파티션을 만드는중입니다...

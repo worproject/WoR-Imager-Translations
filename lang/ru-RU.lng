@@ -1,6 +1,5 @@
 ﻿[WoR lang file]
 Name=Русский (Russian)
-Author=Andryshik345 , beeoss
 IsComplete=0
 
 [UpdateNotifyWindow]
@@ -27,9 +26,29 @@ AcceptBtn=Принять
 DeclineBtn=Отклонить
 
 [General]
-AnErrorOccurred=Произошла ошибка! Пожалуйста, проверьте логи.
 MessageBox.CustomPackageWarn=Choosing an outdated or incompatible package may cause installation problems!{n}{n}It is recommended that you use the latest version available on the server instead.{n}{n}Continue anyway?
-SelectedPackageInvalid=The selected package is invalid or incompatible with your device.
+MessageBox.SelectedPackageInvalid.Heading=The selected package is invalid or incompatible with your device.
+MessageBox.SelectedPackageInvalid.Message=Please select a package built for {0}.
+Message.ExtractingPackageToTemp=Распаковка архива во временную папку...
+Message.DownloadingReqFiles=Загрузка необходимые файлы...
+Label.StorageDrive=Storage drive
+Label.DeviceType=Device type
+FilePathTextPlaceholder=Click on the "{0}" button or drag and drop the file here.
+ServerPackageInfoLabel=This is the recommended option. It can be used offline too, as long as the package has been previously downloaded.
+
+[MessageBox]
+Button.OK=OK
+Button.Cancel=Cancel
+Button.Abort=Abort
+Button.Retry=Retry
+Button.Ignore=Ignore
+Button.Yes=Yes
+Button.No=No
+CheckBox.DoNotShowAgain=Don't show this again
+
+[MessageBox.Common]
+Heading.SomethingWentWrong=Something went wrong...
+Heading.Warning=Warning!
 
 [MainWindow]
 SendFeedbackBtn=Send feedback
@@ -37,56 +56,56 @@ NextPageBtn=Далее
 BackPageBtn=Назад
 NextPageBtn.Install=Установить
 NextPageBtn.Finish=Завершить
-StatusBar.Idle=Ожидание
-StatusBar.LoadingDisks=Загрузка драйверов...
-StatusBar.MountingISO=Монтирование ISO образа...
-StatusBar.UnmountingISO=Размонтирование ISO образ...
-StatusBar.VerifyingImage=Verifying the image...
-StatusBar.ExtractingPackageToTemp=Распаковка архива во временную папку...
-StatusBar.DownloadingReqFiles=Загрузка необходимые файлы...
-StatusBar.FormattingDisk=Форматирование носителя...
-StatusBar.CreatingPartitions=Создание разделов...
-StatusBar.ApplyingImage=Применение образа...
-StatusBar.CopyingBootFiles=Копирование загрузочных файлов...
-StatusBar.CreatingBCD=Создание BCD...
-StatusBar.ConfiguringBCD=Configuring the BCD...
-StatusBar.ConvertingEFI=Преобразование загрузочного раздела в ESP...
-StatusBar.InstallingDrivers=Установка драйверов...
-MessageBox.TaskOngoing=В данный момент выполняется операция.{n}Вы уверены, что хотите принудительно закрыть приложение?
+MessageBox.TaskOngoing.Heading=Вы уверены, что хотите принудительно закрыть приложение?
+MessageBox.TaskOngoing.Message=В данный момент выполняется операция.
 
 [WelcomePage]
 PageTitle=Добро пожаловать!
 WelcomeLabel=Добро пожаловать в {appname}!
-WelcomeMsgTextBox={appname} - это инструмент, который поможет установить Windows на ARM(полная версия, не IoT) на Вашу SD карту для использования на Raspberry Pi.
+WelcomeMsgTextBox=This wizard will help you easily install the full desktop version of Windows 10 on your Raspberry Pi computer.{n}{n}Click on the {0} button to continue.
 SelectLangLabel=Выберите ваш язык:
 
 [SelectDevicePage]
 PageTitle=Выберите носитель
-SelectDiskLabel=Выберите носитель
+SelectDeviceLabel=Выберите носитель
+DisksListCombo.TextEmptyList=No drives have been found. Click on the {0} button to reload the list.
+DisksListCombo.TextNoItemSelected=Click here to select a drive from the list.
+StorageDriveWarningLabel=Warning! Selecting the wrong drive may lead to unwanted data loss.
 Device.ExperimentalSupport=Experimental
 Device.SupportedModels=Supported models: {0}
-DiskInfoBox.AtLeast8=Выбранный носитель должен иметь, хотя бы, 8 ГБ свободного места!
-DiskInfoBox.Good=Выбранный носитель подходит.
-DiskInfoBox.Enough=Выбранного носителя хватит, чтобы установить сжатый образ.
+MessageBox.DiskAtLeast=Выбранный носитель должен иметь, хотя бы, {0} ГБ свободного места!
+MessageBox.DiskCompressedInstall.Heading=Выбранного носителя хватит, чтобы установить сжатый образ.
+MessageBox.DiskCompressedInstall.Message=System performance may be slightly reduced due to compression.
+Message.LoadingDisks=Загрузка драйверов...
+MessageBox.NewBootloaderRequiredWarn=If you want to boot your {0} from an USB drive or use the GPT partitioning scheme, the bootloader must be updated to the latest version.{n}{n}Please visit the following link for more details: {1}
 
 [SelectImagePage]
 PageTitle=Выбор образа
 SelectImageLabel=Выберите ваш Windows ARM образ
-WindowsEditionLabel=Windows edition:
-WorkingBuildsTextBox=Примечание: Windows 10 1803 и более новые версии, как известно, работают.{n}В версии 1809 может неожиданно произойти сбой из-за некоторых изменений в драйвере WppRecorder.sys, так что ее следует избегать.
-SelectImgInfoBox.SelectedImageGood=Выбранный файл образа (версия: {0}) подходит!
-SelectImgInfoBox.SelectedImageInvalid=Выбранный файл не подходит в роли образа Windows!
-SelectImgInfoBox.SelectedImageUnsupported=Выбранный образ не поддерживается!
-MessageBox.NotEnoughSpace=There is not enough space on the disk to install this image!{n}Please choose a larger storage device or a compact image.
+ImageFileLabel=Image file
+WindowsEditionLabel=Windows edition
+WorkingBuildsTextBox.MinBuild=Your device supports Windows 10 {0} build {1} or newer.
+WorkingBuildsTextBox.AllBuilds=Your device supports all the available builds of Windows 10 {0}.
+WorkingBuildsTextBox.GetImage=If you don't have an image yet, you can find details on how to download one on the project website.
+SelectImageIndexCombo.TextEmptyList=Please select an image first.
+MessageBox.SelectedImageInvalid=Выбранный файл не подходит в роли образа Windows!
+MessageBox.SelectedImageUnsupported=Выбранный образ не поддерживается!
+MessageBox.SelectedImageErrorInfo.AllBuilds=Please select a compatible Windows 10 {0} image.
+MessageBox.SelectedImageErrorInfo.MinBuild=Please select a compatible Windows 10 {0} build {1} or newer image.
+MessageBox.NotEnoughSpace.Heading=There is not enough space on the disk to install this image!
+MessageBox.NotEnoughSpace.Message=Please choose a larger storage device or a compact image.
+Message.MountingISO=Монтирование ISO образа...
+Message.UnmountingISO=Размонтирование ISO образ...
+Message.VerifyingImage=Verifying the image...
 
 [SelectDriversPage]
 PageTitle=Выбор драйверов
 SelectDriversLabel=Выберите драйвера
-DriversNoteTextBox=Примечание: драйвера должен быть упакованы в ZIP формате.
+DriversNoteTextBox=Примечание: драйвера должен быть упакованы в {0} формате.
 LocalDrvPkgRadioBtn=Use a package stored on your computer
 ServerDrvPkgRadioBtn=Use the latest package available on the server
-SelectDrvInfoBox.OK=Архив драйверов подходит!
-SelectDrvInfoBox.LicenseNotAccepted=Вы не приняли одно из лицензионных соглашений!
+MessageBox.LicenseNotAccepted.Heading=Вы не приняли одно из лицензионных соглашений!
+MessageBox.LicenseNotAccepted.Message=All licenses must be accepted to use this drivers package.
 
 [SelectUEFIPage]
 PageTitle=UEFI прошивка
@@ -94,7 +113,6 @@ SelectUEFILabel=Выберите UEFI прошивку
 UEFINoteTextBox=Примечание: UEFI прошивка должна иметь расширение файла {0}
 LocalUEFIRadioBtn=Use a firmware stored on your computer
 ServerUEFIRadioBtn=Use the latest firmware available on the server
-ServerUEFISourceLabel=Firmware source:
 
 [SetupConfigurationPage]
 PageTitle=Конфигурация
@@ -112,14 +130,13 @@ WindowsBootOptionsGroup=Windows boot options
 MemoryLimitLabel=Memory limit:
 RecoveryEnabledCheck=Enable the Windows Recovery Environment
 WoROptionsGroup=Настройки {appname}
-SaveConfigExitLabel=Сохранить эту конфигурацию при выходе
+SaveConfigOnExitCheck=Сохранить эту конфигурацию при выходе
+SaveConfigOnExitCheckInfoLabel=Note: options that are disabled (and those in the {0} menu) will not be saved.
 
 [SetupOverviewPage]
 PageTitle=Установить
 InstallOverviewLabel=Обзор установки
 InstallWarnBox=ВНИМАНИЕ! Вся информация с вашего носителя будет удалена! Сделайте резервную копию ваших файлов, пока не стало слишком поздно!
-TargetDeviceLabel=Выбранный носитель
-DeviceTypeLabel=Device type
 OSLabel=Операционная система
 DriversPathLabel=Путь драйверов
 UEFIPathLabel=Путь UEFI прошивки
@@ -132,6 +149,7 @@ LZXCompression.NO=НЕТ
 [SetupProgressPage]
 PageTitle=Установить
 InstallInfoBox=Этот процесс может занять длительное время, в зависимости от производительности носителя.
+TryAgainBtn=Try again
 InstallStatusLabel.GettingReady=Ожидайте... 
 InstallStatusLabel.FormattingDisk=Форматирование выбранного носителя...
 InstallStatusLabel.CreatingPartitions=Создание разделов... 

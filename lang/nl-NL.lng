@@ -1,6 +1,5 @@
 ﻿[WoR lang file]
 Name=Nederlands (Dutch)
-Author=Finnie2006
 IsComplete=0
 
 [UpdateNotifyWindow]
@@ -27,9 +26,29 @@ AcceptBtn=Aanvaarden
 DeclineBtn=Afwijzen
 
 [General]
-AnErrorOccurred=Er is een fout opgetreden! Controleer de logs.
 MessageBox.CustomPackageWarn=Het kiezen van een verouderd of incompatibel pakket kan installatieproblemen veroorzaken!{n}{n}Het wordt aanbevolen in plaats daarvan de nieuwste versie te gebruiken die beschikbaar is op de server.{n}{n}Toch doorgaan?
-SelectedPackageInvalid=Het geselecteerde pakket is ongeldig of niet compatibel met uw apparaat.
+MessageBox.SelectedPackageInvalid.Heading=Het geselecteerde pakket is ongeldig of niet compatibel met uw apparaat.
+MessageBox.SelectedPackageInvalid.Message=Please select a package built for {0}.
+Message.ExtractingPackageToTemp=Het archief uitpakken in de tijdelijke map...
+Message.DownloadingReqFiles=De vereiste bestanden downloaden...
+Label.StorageDrive=Storage drive
+Label.DeviceType=Soort apparaat
+FilePathTextPlaceholder=Click on the "{0}" button or drag and drop the file here.
+ServerPackageInfoLabel=This is the recommended option. It can be used offline too, as long as the package has been previously downloaded.
+
+[MessageBox]
+Button.OK=OK
+Button.Cancel=Cancel
+Button.Abort=Abort
+Button.Retry=Retry
+Button.Ignore=Ignore
+Button.Yes=Yes
+Button.No=No
+CheckBox.DoNotShowAgain=Don't show this again
+
+[MessageBox.Common]
+Heading.SomethingWentWrong=Something went wrong...
+Heading.Warning=Warning!
 
 [MainWindow]
 SendFeedbackBtn=Stuur feedback
@@ -37,56 +56,56 @@ NextPageBtn=Volgende
 BackPageBtn=Vorige
 NextPageBtn.Install=Installeren 
 NextPageBtn.Finish=Klaae
-StatusBar.Idle=Inactief
-StatusBar.LoadingDisks=De lijst met schijven laden...
-StatusBar.MountingISO=Mounting the ISO image...
-StatusBar.UnmountingISO=Unmounting the ISO image...
-StatusBar.VerifyingImage=Het image verifiëren...
-StatusBar.ExtractingPackageToTemp=Het archief uitpakken in de tijdelijke map...
-StatusBar.DownloadingReqFiles=De vereiste bestanden downloaden...
-StatusBar.FormattingDisk=Het apparaat formatteren...
-StatusBar.CreatingPartitions=De partities maken...
-StatusBar.ApplyingImage=De image toepassen...
-StatusBar.CopyingBootFiles=De opstartbestanden kopiëren...
-StatusBar.CreatingBCD=Het creëren van de BCD...
-StatusBar.ConfiguringBCD=Het creëren van de BCD...
-StatusBar.ConvertingEFI=De opstartpartitie converteren naar ESP...
-StatusBar.InstallingDrivers=De stuurprogramma's installeren...
-MessageBox.TaskOngoing=Er wordt momenteel een bewerking uitgevoerd.{n}Weet u zeker dat u de toepassing geforceerd wilt sluiten?
+MessageBox.TaskOngoing.Heading=Weet u zeker dat u de toepassing geforceerd wilt sluiten?
+MessageBox.TaskOngoing.Message=Er wordt momenteel een bewerking uitgevoerd.
 
 [WelcomePage]
 PageTitle=Welkom
 WelcomeLabel=Welkom bij {appname}!
-WelcomeMsgTextBox={appname} is een tool die Windows op ARM (volledige desktopversie, niet IoT) op uw SD-kaart kan installeren voor gebruik in een Raspberry Pi.
+WelcomeMsgTextBox=This wizard will help you easily install the full desktop version of Windows 10 on your Raspberry Pi computer.{n}{n}Click on the {0} button to continue.
 SelectLangLabel=Selecteer je taal:
 
 [SelectDevicePage]
 PageTitle=Selecteer apparaat
-SelectDiskLabel=Selecteer het apparaat
+SelectDeviceLabel=Selecteer het apparaat
+DisksListCombo.TextEmptyList=No drives have been found. Click on the {0} button to reload the list.
+DisksListCombo.TextNoItemSelected=Click here to select a drive from the list.
+StorageDriveWarningLabel=Warning! Selecting the wrong drive may lead to unwanted data loss.
 Device.ExperimentalSupport=Experimenteel
 Device.SupportedModels=Ondersteunde modellen: {0}
-DiskInfoBox.AtLeast8=Het apparaat moet minimaal 8 GB beschikbare ruimte hebben!
-DiskInfoBox.Good=Het geselecteerde apparaat heeft minimaal 8 GB beschikbare ruimte.
-DiskInfoBox.Enough=Het geselecteerde apparaat heeft voldoende ruimte voor een gecomprimeerde installatie.
+MessageBox.DiskAtLeast=Het apparaat moet minimaal {0} GB beschikbare ruimte hebben!
+MessageBox.DiskCompressedInstall.Heading=Het geselecteerde apparaat heeft voldoende ruimte voor een gecomprimeerde installatie.
+MessageBox.DiskCompressedInstall.Message=System performance may be slightly reduced due to compression.
+Message.LoadingDisks=De lijst met schijven laden...
+MessageBox.NewBootloaderRequiredWarn=If you want to boot your {0} from an USB drive or use the GPT partitioning scheme, the bootloader must be updated to the latest version.{n}{n}Please visit the following link for more details: {1}
 
 [SelectImagePage]
 PageTitle=Selecteer Schijfkopie Bestand
 SelectImageLabel=Selecteer je Windows on ARM Bestand
-WindowsEditionLabel=Windows editie:
-WorkingBuildsTextBox=Opmerking: het is bekend dat Windows 10 1803 en nieuwere versies werken.{n}Versie 1809 kan onverwachts crashen als gevolg van enkele wijzigingen in het WppRecorder.sys-stuurprogramma, dus het moet worden vermeden.
-SelectImgInfoBox.SelectedImageGood=Het geselecteerde bestand (versie: {0}) is goed!
-SelectImgInfoBox.SelectedImageInvalid=Het geselecteerde bestand is geen geldig Windows-Bestand!
-SelectImgInfoBox.SelectedImageUnsupported=Het geselecteerde sbestand wordt niet ondersteund!
-MessageBox.NotEnoughSpace=Er is niet genoeg ruimte op de schijf om deze afbeelding te installeren!{n}Kies een groter opslagapparaat of een compacte Instalatie.
+ImageFileLabel=Image file
+WindowsEditionLabel=Windows editie
+WorkingBuildsTextBox.MinBuild=Your device supports Windows 10 {0} build {1} or newer.
+WorkingBuildsTextBox.AllBuilds=Your device supports all the available builds of Windows 10 {0}.
+WorkingBuildsTextBox.GetImage=If you don't have an image yet, you can find details on how to download one on the project website.
+SelectImageIndexCombo.TextEmptyList=Please select an image first.
+MessageBox.SelectedImageInvalid=Het geselecteerde bestand is geen geldig Windows-Bestand!
+MessageBox.SelectedImageUnsupported=Het geselecteerde sbestand wordt niet ondersteund!
+MessageBox.SelectedImageErrorInfo.AllBuilds=Please select a compatible Windows 10 {0} image.
+MessageBox.SelectedImageErrorInfo.MinBuild=Please select a compatible Windows 10 {0} build {1} or newer image.
+MessageBox.NotEnoughSpace.Heading=Er is niet genoeg ruimte op de schijf om deze afbeelding te installeren!
+MessageBox.NotEnoughSpace.Message=Kies een groter opslagapparaat of een compacte Instalatie.
+Message.MountingISO=Monteren van ISO-Bestand...
+Message.UnmountingISO=Het ISO-Bestand ontkoppelen...
+Message.VerifyingImage=Het image verifiëren...
 
 [SelectDriversPage]
 PageTitle=Selecteer stuurprogramma`s
 SelectDriversLabel=Selecteer de stuurprogramma`s
-DriversNoteTextBox=Note: De stuurprogramma's moeten worden gearchiveerd met het ZIP-bestandsformaat.
+DriversNoteTextBox=Note: De stuurprogramma's moeten worden gearchiveerd met het {0}-bestandsformaat.
 LocalDrvPkgRadioBtn=Gebruik een pakket dat op uw computer is opgeslagen
 ServerDrvPkgRadioBtn=Gebruik het nieuwste pakket dat beschikbaar is op de server
-SelectDrvInfoBox.OK=Het Drivers archief is Oke!
-SelectDrvInfoBox.LicenseNotAccepted=U heeft een van de licentieovereenkomsten niet geaccepteerd!
+MessageBox.LicenseNotAccepted.Heading=U heeft een van de licentieovereenkomsten niet geaccepteerd!
+MessageBox.LicenseNotAccepted.Message=All licenses must be accepted to use this drivers package.
 
 [SelectUEFIPage]
 PageTitle=UEFI firmware
@@ -94,7 +113,6 @@ SelectUEFILabel=Selecteer de UEFI firmware
 UEFINoteTextBox=Note: de UEFI-firmware moet de bestandsextensie {0} hebben.
 LocalUEFIRadioBtn=Gebruik een firmware die op uw computer is opgeslagen
 ServerUEFIRadioBtn=Gebruik de nieuwste firmware die beschikbaar is op de server
-ServerUEFISourceLabel=Firmware Bron:
 
 [SetupConfigurationPage]
 PageTitle=Configuratie
@@ -112,14 +130,13 @@ WindowsBootOptionsGroup=Windows Opstart opties
 MemoryLimitLabel=Geheugenlimiet:
 RecoveryEnabledCheck=Schakel de Windows Herstelomgeving in
 WoROptionsGroup={appname} opties
-SaveConfigExitLabel=Bewaar deze configuratie bij het afsluiten
+SaveConfigOnExitCheck=Bewaar deze configuratie bij het afsluiten
+SaveConfigOnExitCheckInfoLabel=Note: options that are disabled (and those in the {0} menu) will not be saved.
 
 [SetupOverviewPage]
 PageTitle=Installeren
 InstallOverviewLabel=Installatie Overzicht
 InstallWarnBox=Waarschuwing! Alle gegevens op uw apparaat worden verwijderd! Maak een back-up van uw bestanden voordat het te laat is!
-TargetDeviceLabel=Doelapparaat
-DeviceTypeLabel=Soort apparaat
 OSLabel=Besturingssysteem
 DriversPathLabel=Stuurprogramma pad
 UEFIPathLabel=UEFI-firmwarepad
@@ -132,6 +149,7 @@ LZXCompression.NO=Nee
 [SetupProgressPage]
 PageTitle=Installeren
 InstallInfoBox=Dit proces kan lang duren, afhankelijk van de apparaatprestaties.
+TryAgainBtn=Try again
 InstallStatusLabel.GettingReady=Klaar maken...
 InstallStatusLabel.FormattingDisk=Het doelapparaat formatteren...
 InstallStatusLabel.CreatingPartitions=De partities maken...

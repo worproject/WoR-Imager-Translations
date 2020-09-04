@@ -1,7 +1,6 @@
 ﻿[WoR lang file]
 Name=Italiano (Italian)
-Author=xicciodj , lorecast162 , nopesir
-IsComplete=1
+IsComplete=0
 
 [UpdateNotifyWindow]
 WindowTitle=Aggiornamento
@@ -27,9 +26,29 @@ AcceptBtn=Accetta
 DeclineBtn=Rifiuta
 
 [General]
-AnErrorOccurred=È stato riscontrato un errore! Controlla i log.
 MessageBox.CustomPackageWarn=La scelta di un pacchetto datato o incompatibile potrebbe causare problemi di installazione!{n}{n}Si raccomanda l'uso dell'ultima versione disponibile dal server.{n}{n}Procedere lo stesso?
-SelectedPackageInvalid=Il pacchetto selezionato è invalido o incompatibile con il tuo dispositivo.
+MessageBox.SelectedPackageInvalid.Heading=Il pacchetto selezionato è invalido o incompatibile con il tuo dispositivo.
+MessageBox.SelectedPackageInvalid.Message=Please select a package built for {0}.
+Message.ExtractingPackageToTemp=Estrazione dell'archivio sulla cartella temporanea...
+Message.DownloadingReqFiles=Scaricamento dei file necessari...
+Label.StorageDrive=Storage drive
+Label.DeviceType=Tipo dispositivo
+FilePathTextPlaceholder=Click on the "{0}" button or drag and drop the file here.
+ServerPackageInfoLabel=This is the recommended option. It can be used offline too, as long as the package has been previously downloaded.
+
+[MessageBox]
+Button.OK=OK
+Button.Cancel=Cancel
+Button.Abort=Abort
+Button.Retry=Retry
+Button.Ignore=Ignore
+Button.Yes=Yes
+Button.No=No
+CheckBox.DoNotShowAgain=Don't show this again
+
+[MessageBox.Common]
+Heading.SomethingWentWrong=Something went wrong...
+Heading.Warning=Warning!
 
 [MainWindow]
 SendFeedbackBtn=Invia un feedback
@@ -37,56 +56,56 @@ NextPageBtn=Avanti
 BackPageBtn=Indietro
 NextPageBtn.Install=Installa
 NextPageBtn.Finish=Finito
-StatusBar.Idle=Inattivo
-StatusBar.LoadingDisks=Caricamento driver...
-StatusBar.MountingISO=Montaggio immagine ISO...
-StatusBar.UnmountingISO=Smontaggio del file ISO...
-StatusBar.VerifyingImage=Verifica dell'immagine...
-StatusBar.ExtractingPackageToTemp=Estrazione dell'archivio sulla cartella temporanea...
-StatusBar.DownloadingReqFiles=Scaricamento dei file necessari...
-StatusBar.FormattingDisk=Formattazione del dispositivo...
-StatusBar.CreatingPartitions=Creazione partizioni...
-StatusBar.ApplyingImage=Applicazione dell'immagine...
-StatusBar.CopyingBootFiles=Copia dei file di boot...
-StatusBar.CreatingBCD=Creazione del BCD...
-StatusBar.ConfiguringBCD=Configurazione del BCD...
-StatusBar.ConvertingEFI=Conversione della partizione di boot a ESP...
-StatusBar.InstallingDrivers=Installazione dei driver...
-MessageBox.TaskOngoing=Un'operazione è attualmente in corso.{n}Sei sicuro di voler chiudere forzatamente l'applicazione?
+MessageBox.TaskOngoing.Heading=Sei sicuro di voler chiudere forzatamente l'applicazione?
+MessageBox.TaskOngoing.Message=Un'operazione è attualmente in corso.
 
 [WelcomePage]
 PageTitle=Benvenuto
 WelcomeLabel=Benvenuto su {appname}!
-WelcomeMsgTextBox={appname} è uno strumento che può installare Windows su ARM (versione desktop completa, non IoT) sulla tua scheda SD per l'uso su un Raspberry Pi.
+WelcomeMsgTextBox=This wizard will help you easily install the full desktop version of Windows 10 on your Raspberry Pi computer.{n}{n}Click on the {0} button to continue.
 SelectLangLabel=Seleziona la tua lingua:
 
 [SelectDevicePage]
 PageTitle=Seleziona il dispositivo
-SelectDiskLabel=Seleziona il dispositivo
+SelectDeviceLabel=Seleziona il dispositivo
+DisksListCombo.TextEmptyList=No drives have been found. Click on the {0} button to reload the list.
+DisksListCombo.TextNoItemSelected=Click here to select a drive from the list.
+StorageDriveWarningLabel=Warning! Selecting the wrong drive may lead to unwanted data loss.
 Device.ExperimentalSupport=Sperimentale
 Device.SupportedModels=Modelli supportati: {0}
-DiskInfoBox.AtLeast8=Il dispositivo deve avere almeno 8 GB di spazio libero!
-DiskInfoBox.Good=Il dispositivo selezionato ha almeno 8 GB di spazio libero.
-DiskInfoBox.Enough=Il disco selezionato ha abbastanza spazio per un'installazione compressa.
+MessageBox.DiskAtLeast=Il dispositivo deve avere almeno {0} GB di spazio libero!
+MessageBox.DiskCompressedInstall.Heading=Il disco selezionato ha abbastanza spazio per un'installazione compressa.
+MessageBox.DiskCompressedInstall.Message=System performance may be slightly reduced due to compression.
+Message.LoadingDisks=Caricamento driver...
+MessageBox.NewBootloaderRequiredWarn=If you want to boot your {0} from an USB drive or use the GPT partitioning scheme, the bootloader must be updated to the latest version.{n}{n}Please visit the following link for more details: {1}
 
 [SelectImagePage]
 PageTitle=Seleziona immagine
 SelectImageLabel=Seleziona immagine Windows su ARM
-WindowsEditionLabel=Edizione Windows:
-WorkingBuildsTextBox=Nota: Windows 10 1803 e versioni più recenti sono noti per funzionare.{n}La versione 1809 può bloccarsi inaspettatamente a causa di alcuni cambiamenti nel driver WppRecorder.sys, quindi dovrebbe essere evitata.
-SelectImgInfoBox.SelectedImageGood=L'immagine selezionata (version: {0}) va bene!
-SelectImgInfoBox.SelectedImageInvalid=L'immagine selezionata non è un immagine Windows valida.
-SelectImgInfoBox.SelectedImageUnsupported=L'immagine selezionata non è supportata.
-MessageBox.NotEnoughSpace=Non c'è abbastanza spazio sul disco per installare questa immagine!{n}Per favore seleziona un dispositivo di archiviazione più capiente oppure un'immagine compatta.
+ImageFileLabel=Image file
+WindowsEditionLabel=Edizione Windows
+WorkingBuildsTextBox.MinBuild=Your device supports Windows 10 {0} build {1} or newer.
+WorkingBuildsTextBox.AllBuilds=Your device supports all the available builds of Windows 10 {0}.
+WorkingBuildsTextBox.GetImage=If you don't have an image yet, you can find details on how to download one on the project website.
+SelectImageIndexCombo.TextEmptyList=Please select an image first.
+MessageBox.SelectedImageInvalid=L'immagine selezionata non è un immagine Windows valida.
+MessageBox.SelectedImageUnsupported=L'immagine selezionata non è supportata.
+MessageBox.SelectedImageErrorInfo.AllBuilds=Please select a compatible Windows 10 {0} image.
+MessageBox.SelectedImageErrorInfo.MinBuild=Please select a compatible Windows 10 {0} build {1} or newer image.
+MessageBox.NotEnoughSpace.Heading=Non c'è abbastanza spazio sul disco per installare questa immagine!
+MessageBox.NotEnoughSpace.Message=Per favore seleziona un dispositivo di archiviazione più capiente oppure un'immagine compatta.
+Message.MountingISO=Montaggio immagine ISO...
+Message.UnmountingISO=Smontaggio del file ISO...
+Message.VerifyingImage=Verifica dell'immagine...
 
 [SelectDriversPage]
 PageTitle=Seleziona driver
 SelectDriversLabel=Seleziona driver
-DriversNoteTextBox=Nota: i driver devono essere compressi dentro un file zip.
+DriversNoteTextBox=Nota: i driver devono essere compressi dentro un file {0}.
 LocalDrvPkgRadioBtn=Usa un pacchetto scaricato sul tuo computer
 ServerDrvPkgRadioBtn=Usa il pacchetto più recente
-SelectDrvInfoBox.OK=L'archivio dei driver va bene!
-SelectDrvInfoBox.LicenseNotAccepted=Non hai accettato uno degli accordi di licenza.
+MessageBox.LicenseNotAccepted.Heading=Non hai accettato uno degli accordi di licenza.
+MessageBox.LicenseNotAccepted.Message=All licenses must be accepted to use this drivers package.
 
 [SelectUEFIPage]
 PageTitle=Firmware UEFI
@@ -94,7 +113,6 @@ SelectUEFILabel=Seleziona firmware UEFI
 UEFINoteTextBox=Nota: Il firmware UEFI deve avere l'estensione {0} .
 LocalUEFIRadioBtn=Usa un firmware conservato sul tuo computer
 ServerUEFIRadioBtn=Usa il firmware più recente disponibile sul server
-ServerUEFISourceLabel=Sorgente del firmware:
 
 [SetupConfigurationPage]
 PageTitle=Configurazione
@@ -112,14 +130,13 @@ WindowsBootOptionsGroup=Opzioni di boot Windows
 MemoryLimitLabel=Limite memoria:
 RecoveryEnabledCheck=Abilita Windows Recovery Environment
 WoROptionsGroup=Opzioni di {appname}
-SaveConfigExitLabel=Salva questa configurazione all'uscita
+SaveConfigOnExitCheck=Salva questa configurazione all'uscita
+SaveConfigOnExitCheckInfoLabel=Note: options that are disabled (and those in the {0} menu) will not be saved.
 
 [SetupOverviewPage]
 PageTitle=Installa
 InstallOverviewLabel=Panoramica installazione
 InstallWarnBox=Attenzione! Tutti i dati sul tuo dispositivo verranno cancellati! Fai un backup dei tuoi file prima che sia troppo tardi!
-TargetDeviceLabel=Dispositivo di destinazione
-DeviceTypeLabel=Tipo dispositivo
 OSLabel=Sistema Operativo
 DriversPathLabel=Posizione driver
 UEFIPathLabel=Posizione firmware UEFI
@@ -132,6 +149,7 @@ LZXCompression.NO=NO
 [SetupProgressPage]
 PageTitle=Installa
 InstallInfoBox=Questo processo può durare molto tempo a seconda della performance del tuo dispositivo.
+TryAgainBtn=Try again
 InstallStatusLabel.GettingReady=Preparazione...
 InstallStatusLabel.FormattingDisk=Formattazione del dispositivo di destinazione...
 InstallStatusLabel.CreatingPartitions=Creazione delle partizioni...

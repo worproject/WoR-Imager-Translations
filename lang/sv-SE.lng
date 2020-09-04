@@ -1,6 +1,5 @@
-[WoR lang file]
+﻿[WoR lang file]
 Name=Svenska (Swedish)
-Author=Daniel Lundh
 IsComplete=0
 
 [UpdateNotifyWindow]
@@ -14,7 +13,7 @@ CloseBtn=Stäng
 WindowTitle=Om
 AppVersionLabel=Version
 CreditsPage=Medverkande
-ChangelogPage=Changelog
+ChangelogPage=Ändringslogg
 LicensesPage=Licenser
 
 [LoggerWindow]
@@ -27,66 +26,86 @@ AcceptBtn=Acceptera
 DeclineBtn=Avböj
 
 [General]
-AnErrorOccurred=Ett fel inträffade! Inspektera loggfilerna.
 MessageBox.CustomPackageWarn=Ett gammalt eller inkompatibelt paket kan orsaka installationsproblem!{n}{n}Det är rekommenderat att använda den senaste versionen från servern istället.{n}{n}Fortsätt ändå?
-SelectedPackageInvalid=Det valda paketet är trasigt eller inkompatibelt med din enhet.
+MessageBox.SelectedPackageInvalid.Heading=Det valda paketet är trasigt eller inkompatibelt med din enhet.
+MessageBox.SelectedPackageInvalid.Message=Please select a package built for {0}.
+Message.ExtractingPackageToTemp=Extraherar arkivet till det temporära biblioteket...
+Message.DownloadingReqFiles=Laddar ner filer som krävs...
+Label.StorageDrive=Storage drive
+Label.DeviceType=Enhetstyp
+FilePathTextPlaceholder=Click on the "{0}" button or drag and drop the file here.
+ServerPackageInfoLabel=This is the recommended option. It can be used offline too, as long as the package has been previously downloaded.
+
+[MessageBox]
+Button.OK=OK
+Button.Cancel=Cancel
+Button.Abort=Abort
+Button.Retry=Retry
+Button.Ignore=Ignore
+Button.Yes=Yes
+Button.No=No
+CheckBox.DoNotShowAgain=Don't show this again
+
+[MessageBox.Common]
+Heading.SomethingWentWrong=Something went wrong...
+Heading.Warning=Warning!
 
 [MainWindow]
 SendFeedbackBtn=Återkoppla
 NextPageBtn=Nästa
 BackPageBtn=Tillbaka
 NextPageBtn.Install=Installera
-NextPageBtn.Finish=Färdigställ
-StatusBar.Idle=Vänta
-StatusBar.LoadingDisks=Laddar disklista...
-StatusBar.MountingISO=Monterar ISO-avbildningen...
-StatusBar.UnmountingISO=Avmonterar ISO-avbildningen...
-StatusBar.VerifyingImage=Verifierar avbildningen...
-StatusBar.ExtractingPackageToTemp=Extraherar arkivet till det temporära biblioteket...
-StatusBar.DownloadingReqFiles=Laddar ner filer som krävs...
-StatusBar.FormattingDisk=Formatterar enheten...
-StatusBar.CreatingPartitions=Skapar partitionerna...
-StatusBar.ApplyingImage=Datat kopieras...
-StatusBar.CopyingBootFiles=Copierar startfiler...
-StatusBar.CreatingBCD=Skapar BCD...
-StatusBar.ConfiguringBCD=Konfigurerar BCD...
-StatusBar.ConvertingEFI=Konverterar startpartitionen till ESP...
-StatusBar.InstallingDrivers=Installerar drivrutiner...
-MessageBox.TaskOngoing=En operation pågår.{n}Vill du verkligen tvinga applikation att avslutas?
+NextPageBtn.Finish=Slutför
+MessageBox.TaskOngoing.Heading=Vill du verkligen tvinga applikation att avslutas?
+MessageBox.TaskOngoing.Message=En operation pågår.
 
 [WelcomePage]
 PageTitle=Välkommen
 WelcomeLabel=Välkommen till {appname}!
-WelcomeMsgTextBox={appname} är ett verktyg som kan installera Windows på ARM (full desktopversion, inte IoT) på ett SD-kort för användning med en Raspberry Pi.
+WelcomeMsgTextBox=This wizard will help you easily install the full desktop version of Windows 10 on your Raspberry Pi computer.{n}{n}Click on the {0} button to continue.
 SelectLangLabel=Språkval:
 
 [SelectDevicePage]
 PageTitle=Välj enhet
-SelectDiskLabel=Välj enheten
+SelectDeviceLabel=Välj enheten
+DisksListCombo.TextEmptyList=No drives have been found. Click on the {0} button to reload the list.
+DisksListCombo.TextNoItemSelected=Click here to select a drive from the list.
+StorageDriveWarningLabel=Warning! Selecting the wrong drive may lead to unwanted data loss.
 Device.ExperimentalSupport=Experimentell
 Device.SupportedModels=Modeller som stöds: {0}
-DiskInfoBox.AtLeast8=Enheten måste ha minst 8 GB tillgängligt utrymme!
-DiskInfoBox.Good=Den valda enheten har åtminstone 8GB tillgängligt utrymme.
-DiskInfoBox.Enough=Den valda enheten har utrymme nog för en komprimerad installation.
+MessageBox.DiskAtLeast=Enheten måste ha minst {0} GB tillgängligt utrymme!
+MessageBox.DiskCompressedInstall.Heading=Den valda enheten har utrymme nog för en komprimerad installation.
+MessageBox.DiskCompressedInstall.Message=System performance may be slightly reduced due to compression.
+Message.LoadingDisks=Laddar disklista...
+MessageBox.NewBootloaderRequiredWarn=If you want to boot your {0} from an USB drive or use the GPT partitioning scheme, the bootloader must be updated to the latest version.{n}{n}Please visit the following link for more details: {1}
 
 [SelectImagePage]
 PageTitle=Välj avbildning
 SelectImageLabel=Välj din Windows på ARM-avbildning
-WindowsEditionLabel=Windowsutgåva:
-WorkingBuildsTextBox=Note: Windows 10 1803 eller nyare versioner fungerar.{n}Version 1809 kan krascha beroende på förändringar i WppRecorder.sys-drivrutinen, undvik den versionen.
-SelectImgInfoBox.SelectedImageGood=Den valda avbildningsfilen (version: {0}) ser bra ut!
-SelectImgInfoBox.SelectedImageInvalid=Den valda filen är inte en valid Windowsavbildning!
-SelectImgInfoBox.SelectedImageUnsupported=Den valda avbildningsfilen stöds inte!
-MessageBox.NotEnoughSpace=Det finns inte nog med utrymme på disken för att installera den här avbildningen!{n}Välj en större lagringsenhet eller en komprimerad avbildning.
+ImageFileLabel=Image file
+WindowsEditionLabel=Windowsutgåva
+WorkingBuildsTextBox.MinBuild=Your device supports Windows 10 {0} build {1} or newer.
+WorkingBuildsTextBox.AllBuilds=Your device supports all the available builds of Windows 10 {0}.
+WorkingBuildsTextBox.GetImage=If you don't have an image yet, you can find details on how to download one on the project website.
+SelectImageIndexCombo.TextEmptyList=Please select an image first.
+MessageBox.SelectedImageInvalid=Den valda filen är inte en valid Windowsavbildning!
+MessageBox.SelectedImageUnsupported=Den valda avbildningsfilen stöds inte!
+MessageBox.SelectedImageErrorInfo.AllBuilds=Please select a compatible Windows 10 {0} image.
+MessageBox.SelectedImageErrorInfo.MinBuild=Please select a compatible Windows 10 {0} build {1} or newer image.
+MessageBox.NotEnoughSpace.Heading=Det finns inte nog med utrymme på disken för att installera den här avbildningen!
+MessageBox.NotEnoughSpace.Message=Välj en större lagringsenhet eller en komprimerad avbildning.
+Message.MountingISO=Monterar ISO-avbildningen...
+Message.UnmountingISO=Avmonterar ISO-avbildningen...
+Message.VerifyingImage=Verifierar avbildningen...
 
 [SelectDriversPage]
 PageTitle=Drivrutinsval
 SelectDriversLabel=Välj drivrutiner
-DriversNoteTextBox=Obs: drivrutinerna måste vara paketerade i ZIP-filformat.
+DriversNoteTextBox=Obs: drivrutinerna måste vara paketerade i {0}-filformat.
 LocalDrvPkgRadioBtn=Använd drivrutinspaket som finns på din dator
 ServerDrvPkgRadioBtn=Använd det nyaste drivrutinspaketet från servern
-SelectDrvInfoBox.OK=Drivrutinspaketet är OK!
-SelectDrvInfoBox.LicenseNotAccepted=Du har inte accepterat användarlicensen!
+MessageBox.LicenseNotAccepted.Heading=Du har inte accepterat användarlicensen!
+MessageBox.LicenseNotAccepted.Message=All licenses must be accepted to use this drivers package.
 
 [SelectUEFIPage]
 PageTitle=UEFI firmware
@@ -94,7 +113,6 @@ SelectUEFILabel=Välj UEFI firmware
 UEFINoteTextBox=Notera: UEFI firmware måste ha filändelsen {0}.
 LocalUEFIRadioBtn=Använd firmware som finns på din dator
 ServerUEFIRadioBtn=Använd den nyaste firmwaren som finns på servern
-ServerUEFISourceLabel=Firmwarekälla:
 
 [SetupConfigurationPage]
 PageTitle=Konfiguration
@@ -112,14 +130,13 @@ WindowsBootOptionsGroup=Windows uppstartsval
 MemoryLimitLabel=Minnesbegränsning:
 RecoveryEnabledCheck=Aktivera Windows Recovery-miljön
 WoROptionsGroup={appname} val
-SaveConfigExitLabel=Spara konfigurationen vid avslut
+SaveConfigOnExitCheck=Spara konfigurationen vid avslut
+SaveConfigOnExitCheckInfoLabel=Note: options that are disabled (and those in the {0} menu) will not be saved.
 
 [SetupOverviewPage]
 PageTitle=Installation
 InstallOverviewLabel=Installationsöversikt
 InstallWarnBox=Varning! All data på din enhet kommer raderas! Gör en backup av dina filer innan det är för sent!
-TargetDeviceLabel=Målenhet
-DeviceTypeLabel=Enhetstyp
 OSLabel=Operativsystem
 DriversPathLabel=Drivrutinssökväg
 UEFIPathLabel=UEFI firmware-sökväg
@@ -132,6 +149,7 @@ LZXCompression.NO=NEJ
 [SetupProgressPage]
 PageTitle=Installation
 InstallInfoBox=Det här kan ta lång tid beroende på enhetens prestanda.
+TryAgainBtn=Try again
 InstallStatusLabel.GettingReady=Förbereder...
 InstallStatusLabel.FormattingDisk=Formatterar målenheten...
 InstallStatusLabel.CreatingPartitions=Skapar partitionerna...

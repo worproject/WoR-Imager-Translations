@@ -1,7 +1,6 @@
 ﻿[WoR lang file]
 Name=Türkçe (Turkish)
-Author=ysoyipek , pixelomer , SWATcyp
-IsComplete=1
+IsComplete=0
 
 [UpdateNotifyWindow]
 WindowTitle=Güncelle
@@ -27,9 +26,29 @@ AcceptBtn=Kabul et
 DeclineBtn=Reddet
 
 [General]
-AnErrorOccurred=Bir hata oluştu! Lütfen logları kontrol edin.
 MessageBox.CustomPackageWarn=Eski ya da uyumsuz paket seçmek kurulum sorunlarına yol açabilir!{n}{n}Sunucudaki en son sürümü kullanmanız önerilir.{n}{n}Yine de devam et?
-SelectedPackageInvalid=Seçilen paket geçersiz ya da cihazınızla uyumlu değil.
+MessageBox.SelectedPackageInvalid.Heading=Seçilen paket geçersiz ya da cihazınızla uyumlu değil.
+MessageBox.SelectedPackageInvalid.Message=Please select a package built for {0}.
+Message.ExtractingPackageToTemp=Arşivi geçici klasöre çıkartılıyor...
+Message.DownloadingReqFiles=Gerekli dosyalar indiriliyor...
+Label.StorageDrive=Storage drive
+Label.DeviceType=Cihaz tipi
+FilePathTextPlaceholder=Click on the "{0}" button or drag and drop the file here.
+ServerPackageInfoLabel=This is the recommended option. It can be used offline too, as long as the package has been previously downloaded.
+
+[MessageBox]
+Button.OK=OK
+Button.Cancel=Cancel
+Button.Abort=Abort
+Button.Retry=Retry
+Button.Ignore=Ignore
+Button.Yes=Yes
+Button.No=No
+CheckBox.DoNotShowAgain=Don't show this again
+
+[MessageBox.Common]
+Heading.SomethingWentWrong=Something went wrong...
+Heading.Warning=Warning!
 
 [MainWindow]
 SendFeedbackBtn=Geribildirim gönder
@@ -37,56 +56,56 @@ NextPageBtn=İleri
 BackPageBtn=Geri
 NextPageBtn.Install=Kur
 NextPageBtn.Finish=Bitir
-StatusBar.Idle=Boşta
-StatusBar.LoadingDisks=Diskler yükleniyor...
-StatusBar.MountingISO=ISO dosyası bağlanıyor...
-StatusBar.UnmountingISO=ISO dosyasının bağlantısı kesiliyor...
-StatusBar.VerifyingImage=İmaj dosyası kontrol ediliyor...
-StatusBar.ExtractingPackageToTemp=Arşivi geçici klasöre çıkartılıyor...
-StatusBar.DownloadingReqFiles=Gerekli dosyalar indiriliyor...
-StatusBar.FormattingDisk=Cihaz biçimlendiriliyor...
-StatusBar.CreatingPartitions=Bölüntüler yaratılıyor...
-StatusBar.ApplyingImage=Görüntüsü yazılıyor...
-StatusBar.CopyingBootFiles=Önyükleme dosyaları kopyalanıyor...
-StatusBar.CreatingBCD=BCD yaratılıyor...
-StatusBar.ConfiguringBCD=BCD yapılandırılıyor...
-StatusBar.ConvertingEFI=Önyükleme bölüntüsü EFI Sistem Bölümüne dönüştürülüyor...
-StatusBar.InstallingDrivers=Sürücüler kuruluyor...
-MessageBox.TaskOngoing=Şu anda bir işlem devam ediyor.{n}Uygulamayı zorla kapatmak istediğinizden emin misiniz?
+MessageBox.TaskOngoing.Heading=Uygulamayı zorla kapatmak istediğinizden emin misiniz?
+MessageBox.TaskOngoing.Message=Şu anda bir işlem devam ediyor.
 
 [WelcomePage]
 PageTitle=Merhaba
 WelcomeLabel={appname}'a Hoş Geldiniz!
-WelcomeMsgTextBox={appname} Raspberry Pi ile kullanım için SD kartınıza Windows 10 (masaüstü versiyonudur, Windows 10 IoT değildir) kurmanızı sağlayan bir araçtır.
+WelcomeMsgTextBox=This wizard will help you easily install the full desktop version of Windows 10 on your Raspberry Pi computer.{n}{n}Click on the {0} button to continue.
 SelectLangLabel=Dilinizi seçiniz:
 
 [SelectDevicePage]
 PageTitle=Cihaz seç
-SelectDiskLabel=Cihaz seç
+SelectDeviceLabel=Cihaz seç
+DisksListCombo.TextEmptyList=No drives have been found. Click on the {0} button to reload the list.
+DisksListCombo.TextNoItemSelected=Click here to select a drive from the list.
+StorageDriveWarningLabel=Warning! Selecting the wrong drive may lead to unwanted data loss.
 Device.ExperimentalSupport=Deneysel
 Device.SupportedModels=Desteklenen modeller: {0}
-DiskInfoBox.AtLeast8=Cihazda en az 8 GB alan olmalıdır!
-DiskInfoBox.Good=Seçilen cihazda en az 8 GB alan var.
-DiskInfoBox.Enough=Seçilen cihaz sıkıştırılmış bir kurulum için yeterli alana sahiptir.
+MessageBox.DiskAtLeast=Cihazda en az {0} GB alan olmalıdır!
+MessageBox.DiskCompressedInstall.Heading=Seçilen cihaz sıkıştırılmış bir kurulum için yeterli alana sahiptir.
+MessageBox.DiskCompressedInstall.Message=System performance may be slightly reduced due to compression.
+Message.LoadingDisks=Diskler yükleniyor...
+MessageBox.NewBootloaderRequiredWarn=If you want to boot your {0} from an USB drive or use the GPT partitioning scheme, the bootloader must be updated to the latest version.{n}{n}Please visit the following link for more details: {1}
 
 [SelectImagePage]
 PageTitle=Görüntü Seç
 SelectImageLabel=Windows 10 ARM görüntünüzü seçin
-WindowsEditionLabel=Windows versiyonu:
-WorkingBuildsTextBox=Note: Windows 10 1803 ve daha yeni sürümlerin çalıştığı bilinmekte.{n}Version 1809, WppRecorder.sys sürücü dosyasının kullanılmasına bağlı olarak aniden çökebilir. Bu sebeple kullanılmaması önerilir.
-SelectImgInfoBox.SelectedImageGood=Seçilen görüntü (versiyon: {0}) uygun!
-SelectImgInfoBox.SelectedImageInvalid=Seçilen dosya geçerli bir Windows görüntüsü değil!
-SelectImgInfoBox.SelectedImageUnsupported=Seçilen görüntü dosyası desteklenmiyor!
-MessageBox.NotEnoughSpace=Diskte bu görüntüyü kullanmak için yeterli alan yok!{n}Lütfen daha büyük bir depolama aygıtı ya da daha kompakt bir görüntü seçiniz.
+ImageFileLabel=Image file
+WindowsEditionLabel=Windows versiyonu
+WorkingBuildsTextBox.MinBuild=Your device supports Windows 10 {0} build {1} or newer.
+WorkingBuildsTextBox.AllBuilds=Your device supports all the available builds of Windows 10 {0}.
+WorkingBuildsTextBox.GetImage=If you don't have an image yet, you can find details on how to download one on the project website.
+SelectImageIndexCombo.TextEmptyList=Please select an image first.
+MessageBox.SelectedImageInvalid=Seçilen dosya geçerli bir Windows görüntüsü değil!
+MessageBox.SelectedImageUnsupported=Seçilen görüntü dosyası desteklenmiyor!
+MessageBox.SelectedImageErrorInfo.AllBuilds=Please select a compatible Windows 10 {0} image.
+MessageBox.SelectedImageErrorInfo.MinBuild=Please select a compatible Windows 10 {0} build {1} or newer image.
+MessageBox.NotEnoughSpace.Heading=Diskte bu görüntüyü kullanmak için yeterli alan yok!
+MessageBox.NotEnoughSpace.Message=Lütfen daha büyük bir depolama aygıtı ya da daha kompakt bir görüntü seçiniz.
+Message.MountingISO=ISO dosyası bağlanıyor...
+Message.UnmountingISO=ISO dosyasının bağlantısı kesiliyor...
+Message.VerifyingImage=İmaj dosyası kontrol ediliyor...
 
 [SelectDriversPage]
 PageTitle=Sürücüleri Seç
 SelectDriversLabel=Sürücüleri seçin
-DriversNoteTextBox=Not: Sürücüler ZIP dosya formatı ile arşivlenmiş olmalıdır.
+DriversNoteTextBox=Not: Sürücüler {0} dosya formatı ile arşivlenmiş olmalıdır.
 LocalDrvPkgRadioBtn=Bilgisayarınızda depolanan bir paket kullanın
 ServerDrvPkgRadioBtn=Sunucuda bulunan en son paketi kullanın
-SelectDrvInfoBox.OK=Sürücü arşivi tamam!
-SelectDrvInfoBox.LicenseNotAccepted=Lisans sözleşmelerinden birini kabul etmediniz!
+MessageBox.LicenseNotAccepted.Heading=Lisans sözleşmelerinden birini kabul etmediniz!
+MessageBox.LicenseNotAccepted.Message=All licenses must be accepted to use this drivers package.
 
 [SelectUEFIPage]
 PageTitle=UEFI Yazılımı
@@ -94,7 +113,6 @@ SelectUEFILabel=UEFI yazılımını seçin
 UEFINoteTextBox=Not: UEFI yazılımı {0} dosya formatında olmalıdır.
 LocalUEFIRadioBtn=Bilgisayarınızda depolanan bir bellenim kullanın
 ServerUEFIRadioBtn=Sunucuda bulunan en son ürün yazılımını kullanın
-ServerUEFISourceLabel=Bellenim kaynağı:
 
 [SetupConfigurationPage]
 PageTitle=Konfigürasyon
@@ -112,14 +130,13 @@ WindowsBootOptionsGroup=Windows boot seçenekleri
 MemoryLimitLabel=Hafıza limiti:
 RecoveryEnabledCheck=Windows Kurtarma Ortamını Aç
 WoROptionsGroup={appname} seçenekleri
-SaveConfigExitLabel=Bu konfigürasyonu kaydet ve çık
+SaveConfigOnExitCheck=Bu konfigürasyonu kaydet ve çık
+SaveConfigOnExitCheckInfoLabel=Note: options that are disabled (and those in the {0} menu) will not be saved.
 
 [SetupOverviewPage]
 PageTitle=Yükle
 InstallOverviewLabel=Kurulum - Genel bakış
 InstallWarnBox=Uyarı! Cihazdaki tüm veriler silinecektir! Çok geç olmadan önemli dosyalarınızı yedekleyin!
-TargetDeviceLabel=Hedef cihaz
-DeviceTypeLabel=Cihaz tipi
 OSLabel=İşletim sistemi
 DriversPathLabel=Sürücüler
 UEFIPathLabel=UEFI yazılımı
@@ -132,6 +149,7 @@ LZXCompression.NO=HAYIR
 [SetupProgressPage]
 PageTitle=Yükle
 InstallInfoBox=Bu işlem, cihaz performansına bağlı olarak uzun sürebilir.
+TryAgainBtn=Try again
 InstallStatusLabel.GettingReady=Hazırlanıyor...
 InstallStatusLabel.FormattingDisk=Hedef cihaz biçimlendiriliyor...
 InstallStatusLabel.CreatingPartitions=Bölüntüler oluşturuluyor...

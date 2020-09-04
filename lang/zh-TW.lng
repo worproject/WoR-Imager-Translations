@@ -1,6 +1,5 @@
 ﻿[WoR lang file]
 Name=繁體中文(台灣) (Traditional Chinese)
-Author=Gekoii , ConashinChen
 IsComplete=0
 
 [UpdateNotifyWindow]
@@ -27,9 +26,29 @@ AcceptBtn=接受
 DeclineBtn=拒絕
 
 [General]
-AnErrorOccurred=發生錯誤！請檢查記錄檔。
 MessageBox.CustomPackageWarn=使用過舊或不兼容的安裝包將可能導致安裝過程出現問題！{n}{n}建議您使用伺服器上可用的最新版本。{n}{n}您仍要繼續嗎?
-SelectedPackageInvalid=您所選擇的安裝包無效或不兼容於您的設備。
+MessageBox.SelectedPackageInvalid.Heading=您所選擇的安裝包無效或不兼容於您的設備。
+MessageBox.SelectedPackageInvalid.Message=Please select a package built for {0}.
+Message.ExtractingPackageToTemp=將檔案解壓縮到臨時文件夾...
+Message.DownloadingReqFiles=正在下載所需文件...
+Label.StorageDrive=Storage drive
+Label.DeviceType=裝置類型
+FilePathTextPlaceholder=Click on the "{0}" button or drag and drop the file here.
+ServerPackageInfoLabel=This is the recommended option. It can be used offline too, as long as the package has been previously downloaded.
+
+[MessageBox]
+Button.OK=OK
+Button.Cancel=Cancel
+Button.Abort=Abort
+Button.Retry=Retry
+Button.Ignore=Ignore
+Button.Yes=Yes
+Button.No=No
+CheckBox.DoNotShowAgain=Don't show this again
+
+[MessageBox.Common]
+Heading.SomethingWentWrong=Something went wrong...
+Heading.Warning=Warning!
 
 [MainWindow]
 SendFeedbackBtn=傳送回報訊息
@@ -37,56 +56,56 @@ NextPageBtn=下一步
 BackPageBtn=上一步
 NextPageBtn.Install=安装
 NextPageBtn.Finish=完成
-StatusBar.Idle=閒置
-StatusBar.LoadingDisks=正在取讀磁碟列表...
-StatusBar.MountingISO=正在加載映像檔...
-StatusBar.UnmountingISO=正在卸載映像檔...
-StatusBar.VerifyingImage=正在驗證映像檔...
-StatusBar.ExtractingPackageToTemp=將檔案解壓縮到臨時文件夾...
-StatusBar.DownloadingReqFiles=正在下載所需文件...
-StatusBar.FormattingDisk=正在格式化磁碟...
-StatusBar.CreatingPartitions=正在建立磁碟分割...
-StatusBar.ApplyingImage=正在套用映像檔...
-StatusBar.CopyingBootFiles=正在複製開機檔案...
-StatusBar.CreatingBCD=正在建立啟動組態資料庫...
-StatusBar.ConfiguringBCD=正在進行BCD數字編碼...
-StatusBar.ConvertingEFI=正在轉換啟動分區至EFI系統...
-StatusBar.InstallingDrivers=正在安裝驅動程式...
-MessageBox.TaskOngoing=另一個程序正在執行中。{n}確定要強制關閉應用程式？
+MessageBox.TaskOngoing.Heading=確定要強制關閉應用程式？
+MessageBox.TaskOngoing.Message=另一個程序正在執行中。
 
 [WelcomePage]
 PageTitle=歡迎
 WelcomeLabel=歡迎使用 {appname}!
-WelcomeMsgTextBox={appname} 是一個可以將Windows on ARM*安裝至您的Raspberry Pi記憶卡的工具。(備註：完整版而非IoT版)
+WelcomeMsgTextBox=This wizard will help you easily install the full desktop version of Windows 10 on your Raspberry Pi computer.{n}{n}Click on the {0} button to continue.
 SelectLangLabel=語言:
 
 [SelectDevicePage]
 PageTitle=裝置選擇
-SelectDiskLabel=選擇您的裝置
+SelectDeviceLabel=選擇您的裝置
+DisksListCombo.TextEmptyList=No drives have been found. Click on the {0} button to reload the list.
+DisksListCombo.TextNoItemSelected=Click here to select a drive from the list.
+StorageDriveWarningLabel=Warning! Selecting the wrong drive may lead to unwanted data loss.
 Device.ExperimentalSupport=實驗性的
 Device.SupportedModels=支援型號: {0}
-DiskInfoBox.AtLeast8=所選的裝置必須擁有 8 GB 以上的可用空間！
-DiskInfoBox.Good=所選的裝置擁有 8 GB 以上的可用空間。
-DiskInfoBox.Enough=所選的裝置僅擁有足夠的空間進行壓縮版安裝。
+MessageBox.DiskAtLeast=所選的裝置必須擁有 {0} GB 以上的可用空間！
+MessageBox.DiskCompressedInstall.Heading=所選的裝置僅擁有足夠的空間進行壓縮版安裝。
+MessageBox.DiskCompressedInstall.Message=System performance may be slightly reduced due to compression.
+Message.LoadingDisks=正在取讀磁碟列表...
+MessageBox.NewBootloaderRequiredWarn=If you want to boot your {0} from an USB drive or use the GPT partitioning scheme, the bootloader must be updated to the latest version.{n}{n}Please visit the following link for more details: {1}
 
 [SelectImagePage]
 PageTitle=選擇映像檔
 SelectImageLabel=請選擇您的 Windows on ARM 映像檔。
-WindowsEditionLabel=Windows版本:
-WorkingBuildsTextBox=備註：已知包含 Windows 10 1803 及之後的版本可以正常運作。{n}1809版因為部分WppRecorder.sys驅動程式更變而會發生預期外的錯誤，故應該避免此版本。
-SelectImgInfoBox.SelectedImageGood=所選的映像檔(版本： {0})符合安裝條件！
-SelectImgInfoBox.SelectedImageInvalid=所選的檔案不是有效的Windows映像檔！
-SelectImgInfoBox.SelectedImageUnsupported=不支援所選的檔案格式！
-MessageBox.NotEnoughSpace=所選裝置沒有足夠空間安裝所選映像檔{n}請改用較大的儲存裝置或較小的映像檔。
+ImageFileLabel=Image file
+WindowsEditionLabel=Windows版本
+WorkingBuildsTextBox.MinBuild=Your device supports Windows 10 {0} build {1} or newer.
+WorkingBuildsTextBox.AllBuilds=Your device supports all the available builds of Windows 10 {0}.
+WorkingBuildsTextBox.GetImage=If you don't have an image yet, you can find details on how to download one on the project website.
+SelectImageIndexCombo.TextEmptyList=Please select an image first.
+MessageBox.SelectedImageInvalid=所選的檔案不是有效的Windows映像檔！
+MessageBox.SelectedImageUnsupported=不支援所選的檔案格式！
+MessageBox.SelectedImageErrorInfo.AllBuilds=Please select a compatible Windows 10 {0} image.
+MessageBox.SelectedImageErrorInfo.MinBuild=Please select a compatible Windows 10 {0} build {1} or newer image.
+MessageBox.NotEnoughSpace.Heading=所選裝置沒有足夠空間安裝所選映像檔
+MessageBox.NotEnoughSpace.Message=請改用較大的儲存裝置或較小的映像檔。
+Message.MountingISO=正在加載映像檔...
+Message.UnmountingISO=正在卸載映像檔...
+Message.VerifyingImage=正在驗證映像檔...
 
 [SelectDriversPage]
 PageTitle=選擇驅動程式
 SelectDriversLabel=選擇驅動程式
-DriversNoteTextBox=備註：驅動程式必須被壓縮為ZIP格式
+DriversNoteTextBox=備註：驅動程式必須被壓縮為{0}格式
 LocalDrvPkgRadioBtn=從磁碟安裝驅動程式
 ServerDrvPkgRadioBtn=從伺服器上下載最新驅動程式
-SelectDrvInfoBox.OK=所選驅動程式符合安裝條件！
-SelectDrvInfoBox.LicenseNotAccepted=您尚未同意所有的授權協議！
+MessageBox.LicenseNotAccepted.Heading=您尚未同意所有的授權協議！
+MessageBox.LicenseNotAccepted.Message=All licenses must be accepted to use this drivers package.
 
 [SelectUEFIPage]
 PageTitle=UEFI韌體
@@ -94,7 +113,6 @@ SelectUEFILabel=選擇UEFI韌體
 UEFINoteTextBox=備註：所選的UEFI韌體必須為 {0} 副檔名。
 LocalUEFIRadioBtn=從磁碟安裝韌體
 ServerUEFIRadioBtn=從伺服器上下載最新韌體
-ServerUEFISourceLabel=韌體來源：
 
 [SetupConfigurationPage]
 PageTitle=設定
@@ -112,14 +130,13 @@ WindowsBootOptionsGroup=Windows啟動選項
 MemoryLimitLabel=記憶體限制:
 RecoveryEnabledCheck=啟用Windows修復環境（WinRE）
 WoROptionsGroup={appname}選項
-SaveConfigExitLabel=離開時儲存設定
+SaveConfigOnExitCheck=離開時儲存設定
+SaveConfigOnExitCheckInfoLabel=Note: options that are disabled (and those in the {0} menu) will not be saved.
 
 [SetupOverviewPage]
 PageTitle=安裝
 InstallOverviewLabel=預覽安裝
 InstallWarnBox=注意！所有在此裝置上的資料都將被清除！請備份重要檔案！
-TargetDeviceLabel=目標裝置
-DeviceTypeLabel=裝置類型
 OSLabel=作業系統
 DriversPathLabel=驅動程式位置
 UEFIPathLabel=UEFI韌體位置
@@ -132,6 +149,7 @@ LZXCompression.NO=否
 [SetupProgressPage]
 PageTitle=安裝
 InstallInfoBox=安裝程序將會耗費一段時間，這取決於裝置的速度。
+TryAgainBtn=Try again
 InstallStatusLabel.GettingReady=正在準備就緒...
 InstallStatusLabel.FormattingDisk=正在格式化裝置...
 InstallStatusLabel.CreatingPartitions=正在建立磁碟分割...

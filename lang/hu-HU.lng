@@ -1,6 +1,5 @@
 ﻿[WoR lang file]
 Name=Magyar (Hungarian)
-Author=Janaboy , Googulator
 IsComplete=0
 
 [UpdateNotifyWindow]
@@ -27,9 +26,29 @@ AcceptBtn=Elfogad
 DeclineBtn=Elutasít
 
 [General]
-AnErrorOccurred=Hiba történt! Ellenőrizze a naplót.
 MessageBox.CustomPackageWarn=Choosing an outdated or incompatible package may cause installation problems!{n}{n}It is recommended that you use the latest version available on the server instead.{n}{n}Continue anyway?
-SelectedPackageInvalid=The selected package is invalid or incompatible with your device.
+MessageBox.SelectedPackageInvalid.Heading=The selected package is invalid or incompatible with your device.
+MessageBox.SelectedPackageInvalid.Message=Please select a package built for {0}.
+Message.ExtractingPackageToTemp=Az archívum kibontása ideiglenes mappába...
+Message.DownloadingReqFiles=Szükséges fájlok letöltése...
+Label.StorageDrive=Storage drive
+Label.DeviceType=Device type
+FilePathTextPlaceholder=Click on the "{0}" button or drag and drop the file here.
+ServerPackageInfoLabel=This is the recommended option. It can be used offline too, as long as the package has been previously downloaded.
+
+[MessageBox]
+Button.OK=OK
+Button.Cancel=Cancel
+Button.Abort=Abort
+Button.Retry=Retry
+Button.Ignore=Ignore
+Button.Yes=Yes
+Button.No=No
+CheckBox.DoNotShowAgain=Don't show this again
+
+[MessageBox.Common]
+Heading.SomethingWentWrong=Something went wrong...
+Heading.Warning=Warning!
 
 [MainWindow]
 SendFeedbackBtn=Send feedback
@@ -37,56 +56,56 @@ NextPageBtn=Tovább
 BackPageBtn=Vissza
 NextPageBtn.Install=Telepítés
 NextPageBtn.Finish=Befejezés
-StatusBar.Idle=Kész
-StatusBar.LoadingDisks=Illesztők betöltése...
-StatusBar.MountingISO=ISO képfájl csatolása...
-StatusBar.UnmountingISO=ISO képfájl leválasztása...
-StatusBar.VerifyingImage=Verifying the image...
-StatusBar.ExtractingPackageToTemp=Az archívum kibontása ideiglenes mappába...
-StatusBar.DownloadingReqFiles=Szükséges fájlok letöltése...
-StatusBar.FormattingDisk=Az eszköz formázása...
-StatusBar.CreatingPartitions=Partíciók létrehozása...
-StatusBar.ApplyingImage=Képfájl kibontása...
-StatusBar.CopyingBootFiles=Boot fájlok másolása...
-StatusBar.CreatingBCD=BCD létrehozása...
-StatusBar.ConfiguringBCD=Configuring the BCD...
-StatusBar.ConvertingEFI=Boot partíció beállítása ESP-ként...
-StatusBar.InstallingDrivers=Illesztők telepítése...
-MessageBox.TaskOngoing=Folyamatban van egy művelet.{n}Biztos bezárja az alkalmazást?
+MessageBox.TaskOngoing.Heading=Biztos bezárja az alkalmazást?
+MessageBox.TaskOngoing.Message=Folyamatban van egy művelet.
 
 [WelcomePage]
 PageTitle=Üdvözöljük
 WelcomeLabel=Üdvözöljük a {appname}!
-WelcomeMsgTextBox=A {appname} egy olyan eszköz, mellyel feltelepítheti a Windows ARM alapú verzióját (a teljes asztali kiadást, nem az IoT-t) egy Raspberry Pi-ben használható SD kártyára.
+WelcomeMsgTextBox=This wizard will help you easily install the full desktop version of Windows 10 on your Raspberry Pi computer.{n}{n}Click on the {0} button to continue.
 SelectLangLabel=Válasszon nyelvet:
 
 [SelectDevicePage]
 PageTitle=Válassza ki az eszközt
-SelectDiskLabel=Válassza ki az eszközt
+SelectDeviceLabel=Válassza ki az eszközt
+DisksListCombo.TextEmptyList=No drives have been found. Click on the {0} button to reload the list.
+DisksListCombo.TextNoItemSelected=Click here to select a drive from the list.
+StorageDriveWarningLabel=Warning! Selecting the wrong drive may lead to unwanted data loss.
 Device.ExperimentalSupport=Experimental
 Device.SupportedModels=Supported models: {0}
-DiskInfoBox.AtLeast8=Az eszközt legalább 8 GB szabad hely szükséges!
-DiskInfoBox.Good=A kijelölt meghajtón van elég szabad hely (8 GB).
-DiskInfoBox.Enough=A kijelölt meghajtón van elegendő szabad hely a tömörített (LZX) telepítéshez.
+MessageBox.DiskAtLeast=Az eszközt legalább {0} GB szabad hely szükséges!
+MessageBox.DiskCompressedInstall.Heading=A kijelölt meghajtón van elegendő szabad hely a tömörített (LZX) telepítéshez.
+MessageBox.DiskCompressedInstall.Message=System performance may be slightly reduced due to compression.
+Message.LoadingDisks=Illesztők betöltése...
+MessageBox.NewBootloaderRequiredWarn=If you want to boot your {0} from an USB drive or use the GPT partitioning scheme, the bootloader must be updated to the latest version.{n}{n}Please visit the following link for more details: {1}
 
 [SelectImagePage]
 PageTitle=Rendszerkép választása
-SelectImageLabel=Válassza ki a telepítendő Windows rendszerképet:
-WindowsEditionLabel=Windows változat:
-WorkingBuildsTextBox=Megjegyzés: Windows 10 1803 és újabb verziók működnek.{n}A 1809 verzió véletlenszerű lefagyhat a WppRecorder.sys driver módosításai miatt, ezért kerülendő.
-SelectImgInfoBox.SelectedImageGood=A kiválasztott rendszerkép (verzió: {0}) megfelelő!
-SelectImgInfoBox.SelectedImageInvalid=A kiválasztott fájl nem egy Windows kép fájl!
-SelectImgInfoBox.SelectedImageUnsupported=A kiválasztott fájl nem támogatott!
-MessageBox.NotEnoughSpace=Nincs elég hely a kép fájl telepítéséhez!{n}Válasszon nagyobb tárolót vagy tömörítse be a kép fájlt.
+SelectImageLabel=Válassza ki a telepítendő Windows rendszerképet
+ImageFileLabel=Image file
+WindowsEditionLabel=Windows változat
+WorkingBuildsTextBox.MinBuild=Your device supports Windows 10 {0} build {1} or newer.
+WorkingBuildsTextBox.AllBuilds=Your device supports all the available builds of Windows 10 {0}.
+WorkingBuildsTextBox.GetImage=If you don't have an image yet, you can find details on how to download one on the project website.
+SelectImageIndexCombo.TextEmptyList=Please select an image first.
+MessageBox.SelectedImageInvalid=A kiválasztott fájl nem egy Windows kép fájl!
+MessageBox.SelectedImageUnsupported=A kiválasztott fájl nem támogatott!
+MessageBox.SelectedImageErrorInfo.AllBuilds=Please select a compatible Windows 10 {0} image.
+MessageBox.SelectedImageErrorInfo.MinBuild=Please select a compatible Windows 10 {0} build {1} or newer image.
+MessageBox.NotEnoughSpace.Heading=Nincs elég hely a kép fájl telepítéséhez!
+MessageBox.NotEnoughSpace.Message=Válasszon nagyobb tárolót vagy tömörítse be a kép fájlt.
+Message.MountingISO=ISO képfájl csatolása...
+Message.UnmountingISO=ISO képfájl leválasztása...
+Message.VerifyingImage=Verifying the image...
 
 [SelectDriversPage]
 PageTitle=Illesztők választása
 SelectDriversLabel=Válassza ki az illesztőket
-DriversNoteTextBox=Megjegyzés: Az illesztőknek ZIP archívumba kell csomagolni.
+DriversNoteTextBox=Megjegyzés: Az illesztőknek {0} archívumba kell csomagolni.
 LocalDrvPkgRadioBtn=Használjon egy csomagot a számítógépről
 ServerDrvPkgRadioBtn=Használja a legfrissebb csomagot a szerverről
-SelectDrvInfoBox.OK=Az illesztőcsomag megfelelő!
-SelectDrvInfoBox.LicenseNotAccepted=Nem fogadta el a licenc szerződést!
+MessageBox.LicenseNotAccepted.Heading=Nem fogadta el a licenc szerződést!
+MessageBox.LicenseNotAccepted.Message=All licenses must be accepted to use this drivers package.
 
 [SelectUEFIPage]
 PageTitle=UEFI firmware
@@ -94,7 +113,6 @@ SelectUEFILabel=Válassza ki az UEFI firmware-t
 UEFINoteTextBox=Megjegyzés: az UEFI firmware egy {0} kiterjesztésű fájl.
 LocalUEFIRadioBtn=Használjon egy UEFI firmware-t a számítógépről
 ServerUEFIRadioBtn=Használja a legfrissebb UEFI firmware-t a szerverről
-ServerUEFISourceLabel=Firmware source:
 
 [SetupConfigurationPage]
 PageTitle=Beállítás
@@ -112,14 +130,13 @@ WindowsBootOptionsGroup=Windows boot options
 MemoryLimitLabel=Memory limit:
 RecoveryEnabledCheck=Enable the Windows Recovery Environment
 WoROptionsGroup={appname} beállításai
-SaveConfigExitLabel=Beállítások elmentése kilépéskor
+SaveConfigOnExitCheck=Beállítások elmentése kilépéskor
+SaveConfigOnExitCheckInfoLabel=Note: options that are disabled (and those in the {0} menu) will not be saved.
 
 [SetupOverviewPage]
 PageTitle=Telepítés
 InstallOverviewLabel=Telepítés áttekintése
 InstallWarnBox=Figyelem! Az eszközön lévő összes adat törölve lesz! Készítsen másolatot, mielőtt túl késő!
-TargetDeviceLabel=Célmeghajtó
-DeviceTypeLabel=Device type
 OSLabel=Operációs rendszer
 DriversPathLabel=Illesztőcsomag helye
 UEFIPathLabel=UEFI firmware helye
@@ -132,6 +149,7 @@ LZXCompression.NO=LETILTVA
 [SetupProgressPage]
 PageTitle=Telepítés
 InstallInfoBox=Az eszközt teljesítményétől függően ez a folyamat hosszú ideig is eltarthat.
+TryAgainBtn=Try again
 InstallStatusLabel.GettingReady=Felkészülés...
 InstallStatusLabel.FormattingDisk=Célmeghajtó formázása...
 InstallStatusLabel.CreatingPartitions=Partíciók létrehozása...

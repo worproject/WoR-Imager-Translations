@@ -1,6 +1,5 @@
 ﻿[WoR lang file]
 Name=简体中文 (Simplified Chinese)
-Author=thchi12 , nyaruko , Meaqua233 , CirnoTH
 IsComplete=0
 
 [UpdateNotifyWindow]
@@ -27,9 +26,29 @@ AcceptBtn=接受
 DeclineBtn=拒绝
 
 [General]
-AnErrorOccurred=发生错误! 请检查日志.
 MessageBox.CustomPackageWarn=选择过旧或不兼容的安装包可能会导致安装失败!{n}{n}建议你使用网络上提供的最新版本.{n}{n}是否继续?
-SelectedPackageInvalid=所选的安装包无效或与你的设备不兼容.
+MessageBox.SelectedPackageInvalid.Heading=所选的安装包无效或与你的设备不兼容.
+MessageBox.SelectedPackageInvalid.Message=Please select a package built for {0}.
+Message.ExtractingPackageToTemp=将档案解压缩到临时文件夹...
+Message.DownloadingReqFiles=正在下载所需文件...
+Label.StorageDrive=Storage drive
+Label.DeviceType=设备类型
+FilePathTextPlaceholder=Click on the "{0}" button or drag and drop the file here.
+ServerPackageInfoLabel=This is the recommended option. It can be used offline too, as long as the package has been previously downloaded.
+
+[MessageBox]
+Button.OK=OK
+Button.Cancel=Cancel
+Button.Abort=Abort
+Button.Retry=Retry
+Button.Ignore=Ignore
+Button.Yes=Yes
+Button.No=No
+CheckBox.DoNotShowAgain=Don't show this again
+
+[MessageBox.Common]
+Heading.SomethingWentWrong=Something went wrong...
+Heading.Warning=Warning!
 
 [MainWindow]
 SendFeedbackBtn=发送反馈信息
@@ -37,56 +56,56 @@ NextPageBtn=下一步
 BackPageBtn=上一步
 NextPageBtn.Install=安装
 NextPageBtn.Finish=完成
-StatusBar.Idle=空闲
-StatusBar.LoadingDisks=正在加载磁盘信息...
-StatusBar.MountingISO=正在挂载光盘镜像...
-StatusBar.UnmountingISO=正在卸载光盘镜像...
-StatusBar.VerifyingImage=正在验证镜像文件...
-StatusBar.ExtractingPackageToTemp=将档案解压缩到临时文件夹...
-StatusBar.DownloadingReqFiles=正在下载所需文件...
-StatusBar.FormattingDisk=正在格式化您的设备...
-StatusBar.CreatingPartitions=正在创建分区...
-StatusBar.ApplyingImage=正在应用 Windows 镜像...
-StatusBar.CopyingBootFiles=正在复制引导文件...
-StatusBar.CreatingBCD=正在创建 BCD 存储...
-StatusBar.ConfiguringBCD=正在配置 BCD...
-StatusBar.ConvertingEFI=正在将启动分区转换为 ESP 分区...
-StatusBar.InstallingDrivers=正在安装驱动程序...
-MessageBox.TaskOngoing=目前正在进行安装.{n}您确定要关闭此程序吗？
+MessageBox.TaskOngoing.Heading=您确定要关闭此程序吗？
+MessageBox.TaskOngoing.Message=目前正在进行安装.
 
 [WelcomePage]
 PageTitle=欢迎
 WelcomeLabel=欢迎使用 {appname}!
-WelcomeMsgTextBox={appname} 是一个可以帮助您在您的 SD 卡上安装 Windows 10 ARM (非 IoT 物联网版本，是带有桌面的完整版)的文件以用于你的树莓派的工具。
+WelcomeMsgTextBox=This wizard will help you easily install the full desktop version of Windows 10 on your Raspberry Pi computer.{n}{n}Click on the {0} button to continue.
 SelectLangLabel=选择语言:
 
 [SelectDevicePage]
 PageTitle=选择您的设备
-SelectDiskLabel=选择您的设备
+SelectDeviceLabel=选择您的设备
+DisksListCombo.TextEmptyList=No drives have been found. Click on the {0} button to reload the list.
+DisksListCombo.TextNoItemSelected=Click here to select a drive from the list.
+StorageDriveWarningLabel=Warning! Selecting the wrong drive may lead to unwanted data loss.
 Device.ExperimentalSupport=实验性
 Device.SupportedModels=支持的设备: {0}
-DiskInfoBox.AtLeast8=至少需要 8 GB 可用空间用于安装！
-DiskInfoBox.Good=所选的设备拥有 8 GB 的可用空间。
-DiskInfoBox.Enough=所选的设备具有足够的空间。
+MessageBox.DiskAtLeast=至少需要 {0} GB 可用空间用于安装！
+MessageBox.DiskCompressedInstall.Heading=所选的设备具有足够的空间。
+MessageBox.DiskCompressedInstall.Message=System performance may be slightly reduced due to compression.
+Message.LoadingDisks=正在加载磁盘信息...
+MessageBox.NewBootloaderRequiredWarn=If you want to boot your {0} from an USB drive or use the GPT partitioning scheme, the bootloader must be updated to the latest version.{n}{n}Please visit the following link for more details: {1}
 
 [SelectImagePage]
 PageTitle=选择镜像
 SelectImageLabel=请选择您的 Windows 10 ARM 镜像。
-WindowsEditionLabel=Windows版本:
-WorkingBuildsTextBox=注意: 建议使用 Windows 10 1803 或更新的版本.{n}不建议使用 1809 版本,否则可能会出现意外崩溃的问题。
-SelectImgInfoBox.SelectedImageGood=所选择的版本(版本： {0}) 可以安装。
-SelectImgInfoBox.SelectedImageInvalid=所选文件不是有效的 Windows 镜像！
-SelectImgInfoBox.SelectedImageUnsupported=不支持所选的镜像文件！
-MessageBox.NotEnoughSpace=磁盘上没有足够的空间来安装此镜像!{n}你选择更大存储设备或更小的镜像文件.
+ImageFileLabel=Image file
+WindowsEditionLabel=Windows版本
+WorkingBuildsTextBox.MinBuild=Your device supports Windows 10 {0} build {1} or newer.
+WorkingBuildsTextBox.AllBuilds=Your device supports all the available builds of Windows 10 {0}.
+WorkingBuildsTextBox.GetImage=If you don't have an image yet, you can find details on how to download one on the project website.
+SelectImageIndexCombo.TextEmptyList=Please select an image first.
+MessageBox.SelectedImageInvalid=所选文件不是有效的 Windows 镜像！
+MessageBox.SelectedImageUnsupported=不支持所选的镜像文件！
+MessageBox.SelectedImageErrorInfo.AllBuilds=Please select a compatible Windows 10 {0} image.
+MessageBox.SelectedImageErrorInfo.MinBuild=Please select a compatible Windows 10 {0} build {1} or newer image.
+MessageBox.NotEnoughSpace.Heading=磁盘上没有足够的空间来安装此镜像!
+MessageBox.NotEnoughSpace.Message=你选择更大存储设备或更小的镜像文件.
+Message.MountingISO=正在挂载光盘镜像...
+Message.UnmountingISO=正在卸载光盘镜像...
+Message.VerifyingImage=正在验证镜像文件...
 
 [SelectDriversPage]
 PageTitle=选择驱动程序
 SelectDriversLabel=选择驱动程序
-DriversNoteTextBox=注意：选择的驱动程序必须打包为 zip 格式。
+DriversNoteTextBox=注意：选择的驱动程序必须打包为 {0} 格式。
 LocalDrvPkgRadioBtn=使用本地的驱动程序包
 ServerDrvPkgRadioBtn=使用网络上提供的最新驱动程序包
-SelectDrvInfoBox.OK=驱动程序可用！
-SelectDrvInfoBox.LicenseNotAccepted=您尚未接受其中一项许可协议!
+MessageBox.LicenseNotAccepted.Heading=您尚未接受其中一项许可协议!
+MessageBox.LicenseNotAccepted.Message=All licenses must be accepted to use this drivers package.
 
 [SelectUEFIPage]
 PageTitle=UEFI 固件
@@ -94,7 +113,6 @@ SelectUEFILabel=选择 UEFI 固件
 UEFINoteTextBox=注意：您的 UEFI 固件必须是 {0} 扩展名。
 LocalUEFIRadioBtn=使用本地的固件
 ServerUEFIRadioBtn=使用网络上提供的最新固件
-ServerUEFISourceLabel=固件路径:
 
 [SetupConfigurationPage]
 PageTitle=配置
@@ -112,14 +130,13 @@ WindowsBootOptionsGroup=Windows 启动选项
 MemoryLimitLabel=内存限制:
 RecoveryEnabledCheck=启用 Windows 恢复环境
 WoROptionsGroup={appname} 选项
-SaveConfigExitLabel=退出时保存这次所用配置。
+SaveConfigOnExitCheck=退出时保存这次所用配置。
+SaveConfigOnExitCheckInfoLabel=Note: options that are disabled (and those in the {0} menu) will not be saved.
 
 [SetupOverviewPage]
 PageTitle=安装
 InstallOverviewLabel=安装概览
 InstallWarnBox=警告，您的设备数据将会被清除！请提前对设备数据做好备份！
-TargetDeviceLabel=目标设备
-DeviceTypeLabel=设备类型
 OSLabel=要安装的操作系统
 DriversPathLabel=驱动程序路径
 UEFIPathLabel=UEFI固件路径
@@ -132,6 +149,7 @@ LZXCompression.NO=否
 [SetupProgressPage]
 PageTitle=安装
 InstallInfoBox=此过程可能需要很长时间，具体取决于你的SD卡性能。
+TryAgainBtn=Try again
 InstallStatusLabel.GettingReady=准备就绪
 InstallStatusLabel.FormattingDisk=正在格式化您的设备...
 InstallStatusLabel.CreatingPartitions=正在分区...

@@ -1,7 +1,6 @@
-[WoR lang file]
+﻿[WoR lang file]
 Name=Srpski (Serbian)
-Author=Luka Matovic
-IsComplete=1
+IsComplete=0
 
 [UpdateNotifyWindow]
 WindowTitle=Azuriranje
@@ -27,9 +26,29 @@ AcceptBtn=Prihvati
 DeclineBtn=Odbij
 
 [General]
-AnErrorOccurred=Dogodila se greska! Molim proverite dnevnike.
 MessageBox.CustomPackageWarn=Biranje neazurnog ili nepodrzanog paketa moze prouzrokovati probleme pri instalaciji!{n}{n}Preporucuje se da koristite poslednju verziju koja je na serveru.{n}{n}Ipak nastaviti?
-SelectedPackageInvalid=Odabrani paket nije validan ili nije podrzan sa vasim uredjajem.
+MessageBox.SelectedPackageInvalid.Heading=Odabrani paket nije validan ili nije podrzan sa vasim uredjajem.
+MessageBox.SelectedPackageInvalid.Message=Please select a package built for {0}.
+Message.ExtractingPackageToTemp=Extracting the archive to the temporary folder...
+Message.DownloadingReqFiles=Preuzimanje neophodnih fajlova...
+Label.StorageDrive=Storage drive
+Label.DeviceType=Vrsta uredjaja
+FilePathTextPlaceholder=Click on the "{0}" button or drag and drop the file here.
+ServerPackageInfoLabel=This is the recommended option. It can be used offline too, as long as the package has been previously downloaded.
+
+[MessageBox]
+Button.OK=OK
+Button.Cancel=Cancel
+Button.Abort=Abort
+Button.Retry=Retry
+Button.Ignore=Ignore
+Button.Yes=Yes
+Button.No=No
+CheckBox.DoNotShowAgain=Don't show this again
+
+[MessageBox.Common]
+Heading.SomethingWentWrong=Something went wrong...
+Heading.Warning=Warning!
 
 [MainWindow]
 SendFeedbackBtn=Posalji povratne podatke
@@ -37,56 +56,56 @@ NextPageBtn=Dalje
 BackPageBtn=Nazad
 NextPageBtn.Install=Instaliraj
 NextPageBtn.Finish=Zavrsi
-StatusBar.Idle=Neaktivan
-StatusBar.LoadingDisks=Ucitavanje liste diskova...
-StatusBar.MountingISO=Montiranje ISO datoteke...
-StatusBar.UnmountingISO=Demontiranje ISO datoteke...
-StatusBar.VerifyingImage=Proveravanje datoteke...
-StatusBar.ExtractingPackageToTemp=Raspakivanje arhive u privremeni folder...
-StatusBar.DownloadingReqFiles=Preuzimanje neophodnih fajlova...
-StatusBar.FormattingDisk=Formatizovanje uredjaja...
-StatusBar.CreatingPartitions=Kreiranje particija...
-StatusBar.ApplyingImage=Primenjivanje datoteke...
-StatusBar.CopyingBootFiles=Kopiranje boot fajlova...
-StatusBar.CreatingBCD=Kreiranje BCD-a...
-StatusBar.ConfiguringBCD=Konfigurisanje BCD-a...
-StatusBar.ConvertingEFI=Konvertovanje boot particije u ESP...
-StatusBar.InstallingDrivers=Instaliranje drajvera...
-MessageBox.TaskOngoing=Operacija je trenutno u toku.{n}Da li ste sigurni da zelite nasilno zatvoriti aplikaciju?
+MessageBox.TaskOngoing.Heading=Da li ste sigurni da zelite nasilno zatvoriti aplikaciju?
+MessageBox.TaskOngoing.Message=Operacija je trenutno u toku.
 
 [WelcomePage]
 PageTitle=Dobrodosli
 WelcomeLabel=Dobrodosli u {appname}!
-WelcomeMsgTextBox={appname} je alatka koja moze da instalira Windows na ARM (punu desktop verziju, ne IoT) na Vasu SD karticu za koriscenje na Raspberry Pi.
+WelcomeMsgTextBox=This wizard will help you easily install the full desktop version of Windows 10 on your Raspberry Pi computer.{n}{n}Click on the {0} button to continue.
 SelectLangLabel=Izaberite svoj jezik:
 
 [SelectDevicePage]
 PageTitle=Izaberite uredjaj
-SelectDiskLabel=Izaberite uredjaj
+SelectDeviceLabel=Izaberite uredjaj
+DisksListCombo.TextEmptyList=No drives have been found. Click on the {0} button to reload the list.
+DisksListCombo.TextNoItemSelected=Click here to select a drive from the list.
+StorageDriveWarningLabel=Warning! Selecting the wrong drive may lead to unwanted data loss.
 Device.ExperimentalSupport=Eksperimentalno
 Device.SupportedModels=Podrzani modeli: {0}
-DiskInfoBox.AtLeast8=Uredjaj mora imati najmanje 8 GB dostupnog prostora!
-DiskInfoBox.Good=Izabrani uredjaj ima bar 8 GB.
-DiskInfoBox.Enough=Izabrani uredjaj ima dovoljno prostora za kompresovanu instalaciju.
+MessageBox.DiskAtLeast=Uredjaj mora imati najmanje {0} GB dostupnog prostora!
+MessageBox.DiskCompressedInstall.Heading=Izabrani uredjaj ima dovoljno prostora za kompresovanu instalaciju.
+MessageBox.DiskCompressedInstall.Message=System performance may be slightly reduced due to compression.
+Message.LoadingDisks=Ucitavanje liste diskova...
+MessageBox.NewBootloaderRequiredWarn=If you want to boot your {0} from an USB drive or use the GPT partitioning scheme, the bootloader must be updated to the latest version.{n}{n}Please visit the following link for more details: {1}
 
 [SelectImagePage]
 PageTitle=Odaberite datoteku
 SelectImageLabel=Selektujte svoju Windows on ARM datoteku
-WindowsEditionLabel=Windows edicija:
-WorkingBuildsTextBox=Note: Windows 10 1803 i novije verzije sigurno funkcionisu.{n}Verzija 1809  se moze neocekivano prekinuti usled nekih promena u WppRecorder.sys drajveru, pa je treba izbegavati.
-SelectImgInfoBox.SelectedImageGood=Odabrana datoteka (version: {0}) je ispravna!
-SelectImgInfoBox.SelectedImageInvalid=Odabrani fajl nije validna Windows datoteka!
-SelectImgInfoBox.SelectedImageUnsupported=Odabrana datoteka nije podrzana!
-MessageBox.NotEnoughSpace=Nema dovoljno prostora na disku da se instalira ova datoteka!{n}Molim odaberite vece skladiste ili kompaktnu datoteku.
+ImageFileLabel=Image file
+WindowsEditionLabel=Windows edicija
+WorkingBuildsTextBox.MinBuild=Your device supports Windows 10 {0} build {1} or newer.
+WorkingBuildsTextBox.AllBuilds=Your device supports all the available builds of Windows 10 {0}.
+WorkingBuildsTextBox.GetImage=If you don't have an image yet, you can find details on how to download one on the project website.
+SelectImageIndexCombo.TextEmptyList=Please select an image first.
+MessageBox.SelectedImageInvalid=Odabrani fajl nije validna Windows datoteka!
+MessageBox.SelectedImageUnsupported=Odabrana datoteka nije podrzana!
+MessageBox.SelectedImageErrorInfo.AllBuilds=Please select a compatible Windows 10 {0} image.
+MessageBox.SelectedImageErrorInfo.MinBuild=Please select a compatible Windows 10 {0} build {1} or newer image.
+MessageBox.NotEnoughSpace.Heading=Nema dovoljno prostora na disku da se instalira ova datoteka!
+MessageBox.NotEnoughSpace.Message=Molim odaberite vece skladiste ili kompaktnu datoteku.
+Message.MountingISO=Montiranje ISO datoteke...
+Message.UnmountingISO=Demontiranje ISO datoteke...
+Message.VerifyingImage=Proveravanje datoteke...
 
 [SelectDriversPage]
 PageTitle=Izaberite drajvere
 SelectDriversLabel=Izaberite drajvere
-DriversNoteTextBox=Primetiti: drajveri moraju biti arhivirani koriscenjem ZIP formatom datoteke.
+DriversNoteTextBox=Primetiti: drajveri moraju biti arhivirani koriscenjem {0} formatom datoteke.
 LocalDrvPkgRadioBtn=Koristi paket uskladisten na vasem racunaru
 ServerDrvPkgRadioBtn=Koristi posednji dostupan paket na serveru
-SelectDrvInfoBox.OK=Arhiva drajvera je OK!
-SelectDrvInfoBox.LicenseNotAccepted=Nise prihvatili jednu od licencnih saglasnosti!
+MessageBox.LicenseNotAccepted.Heading=Nise prihvatili jednu od licencnih saglasnosti!
+MessageBox.LicenseNotAccepted.Message=All licenses must be accepted to use this drivers package.
 
 [SelectUEFIPage]
 PageTitle=UEFI firmware
@@ -94,7 +113,6 @@ SelectUEFILabel=Izaberite UEFI firmware
 UEFINoteTextBox=Note: UEFI firmware mora imati {0} fajl ekstenziju.
 LocalUEFIRadioBtn=Koristi firmware uskladisten na vasem racunaru
 ServerUEFIRadioBtn=Koristi poslednji firmware dostupan na serveru
-ServerUEFISourceLabel=Poreklo firmware-a:
 
 [SetupConfigurationPage]
 PageTitle=Konfiguracija
@@ -112,14 +130,13 @@ WindowsBootOptionsGroup=Windows boot opcije
 MemoryLimitLabel=Ogranicenje memorije:
 RecoveryEnabledCheck=Omoguci Windows Recovery Environment
 WoROptionsGroup={appname} opcije
-SaveConfigExitLabel=Sacuvaj ovu konfiguraciju na izlasku
+SaveConfigOnExitCheck=Sacuvaj ovu konfiguraciju na izlasku
+SaveConfigOnExitCheckInfoLabel=Note: options that are disabled (and those in the {0} menu) will not be saved.
 
 [SetupOverviewPage]
 PageTitle=Instaliraj
 InstallOverviewLabel=Pregled instalacije
 InstallWarnBox=Upozorenje! Svi podaci na uredjaju ce biti obrisani! Napravite rezervnu kopiju fajlova pre nego sto bude kasno!
-TargetDeviceLabel=Odredisni uredjaj
-DeviceTypeLabel=Vrsta uredjaja
 OSLabel=Operativni sistem
 DriversPathLabel=Putanja drajvera
 UEFIPathLabel=Putanja UEFI firmware-a
@@ -132,6 +149,7 @@ LZXCompression.NO=NE
 [SetupProgressPage]
 PageTitle=Instaliraj
 InstallInfoBox=Ovaj proces moze jako dugo trajati, zavisi od performansa uredjaja.
+TryAgainBtn=Try again
 InstallStatusLabel.GettingReady=Pripema...
 InstallStatusLabel.FormattingDisk=Formatizovanje odredisnog uredjaja...
 InstallStatusLabel.CreatingPartitions=Kreiranje particija...

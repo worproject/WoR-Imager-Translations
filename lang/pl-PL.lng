@@ -1,7 +1,6 @@
 ﻿[WoR lang file]
 Name=Polski (Polish)
-Author=macmmm81 , Gotard , Marcinoo97 , LUKI N (lukin123)
-IsComplete=1
+IsComplete=0
 
 [UpdateNotifyWindow]
 WindowTitle=Aktualizacja
@@ -27,9 +26,29 @@ AcceptBtn=Akceptuj
 DeclineBtn=Odrzuć
 
 [General]
-AnErrorOccurred=Wystąpił błąd! Sprawdź dziennik programu.
 MessageBox.CustomPackageWarn=Wybranie niekompatybilnego pliku może spowodować problemy podczas instalacji!{n}{n}Zalecane jest użycie najnowszej wersji z serwera.{n}{n}Kontynuować mimo wszystko?
-SelectedPackageInvalid=Wybrany plik jest niepoprawny lub niekompatybilny z twoim urządzeniem.
+MessageBox.SelectedPackageInvalid.Heading=Wybrany plik jest niepoprawny lub niekompatybilny z twoim urządzeniem.
+MessageBox.SelectedPackageInvalid.Message=Please select a package built for {0}.
+Message.ExtractingPackageToTemp=Wypakowywanie archiwum do folderu tymczasowego...
+Message.DownloadingReqFiles=Pobieranie wymaganych plików...
+Label.StorageDrive=Storage drive
+Label.DeviceType=Typ urządzenia
+FilePathTextPlaceholder=Click on the "{0}" button or drag and drop the file here.
+ServerPackageInfoLabel=This is the recommended option. It can be used offline too, as long as the package has been previously downloaded.
+
+[MessageBox]
+Button.OK=OK
+Button.Cancel=Cancel
+Button.Abort=Abort
+Button.Retry=Retry
+Button.Ignore=Ignore
+Button.Yes=Yes
+Button.No=No
+CheckBox.DoNotShowAgain=Don't show this again
+
+[MessageBox.Common]
+Heading.SomethingWentWrong=Something went wrong...
+Heading.Warning=Warning!
 
 [MainWindow]
 SendFeedbackBtn=Wyślij opinię
@@ -37,56 +56,56 @@ NextPageBtn=Dalej
 BackPageBtn=Wstecz
 NextPageBtn.Install=Zainstaluj
 NextPageBtn.Finish=Zakończ
-StatusBar.Idle=Bezczynny
-StatusBar.LoadingDisks=Wyszukiwanie dysków...
-StatusBar.MountingISO=Montowanie obrazu ISO...
-StatusBar.UnmountingISO=Odmontowywanie pliku ISO...
-StatusBar.VerifyingImage=Weryfikacja obrazu...
-StatusBar.ExtractingPackageToTemp=Wypakowywanie archiwum do folderu tymczasowego...
-StatusBar.DownloadingReqFiles=Pobieranie wymaganych plików...
-StatusBar.FormattingDisk=Formatowanie urządzenia...
-StatusBar.CreatingPartitions=Tworzenie partycji...
-StatusBar.ApplyingImage=Instalacja obrazu...
-StatusBar.CopyingBootFiles=Kopiowanie plików rozruchowych...
-StatusBar.CreatingBCD=Tworzenie BCD...
-StatusBar.ConfiguringBCD=Konfiguracja BCD...
-StatusBar.ConvertingEFI=Konwersja partycji rozruchowej na ESP...
-StatusBar.InstallingDrivers=Instalowanie sterowników...
-MessageBox.TaskOngoing=Operacja w toku.{n}Czy chcesz wymusić zamknięcie programu?
+MessageBox.TaskOngoing.Heading=Czy chcesz wymusić zamknięcie programu?
+MessageBox.TaskOngoing.Message=Operacja w toku.
 
 [WelcomePage]
 PageTitle=Witaj!
 WelcomeLabel=Witaj w {appname}!
-WelcomeMsgTextBox={appname} jest narzędziem, które potrafi zainstalować system Windows on ARM (pełna wersja, nie IoT) na twojej karcie SD do zastosowania w Raspberry Pi.
+WelcomeMsgTextBox=This wizard will help you easily install the full desktop version of Windows 10 on your Raspberry Pi computer.{n}{n}Click on the {0} button to continue.
 SelectLangLabel=Wybierz język:
 
 [SelectDevicePage]
 PageTitle=Wybór urządzenia
-SelectDiskLabel=Wybór urządzenia
+SelectDeviceLabel=Wybór urządzenia
+DisksListCombo.TextEmptyList=No drives have been found. Click on the {0} button to reload the list.
+DisksListCombo.TextNoItemSelected=Click here to select a drive from the list.
+StorageDriveWarningLabel=Warning! Selecting the wrong drive may lead to unwanted data loss.
 Device.ExperimentalSupport=Funkcje eksperymentalne
 Device.SupportedModels=Obsługiwane modele: {0}
-DiskInfoBox.AtLeast8=Urządzenie musi mieć co najmniej 8 GB wolnego miejsca!
-DiskInfoBox.Good=Wybrane urządzenie posiada co najmniej 8 GB wolnego miejsca.
-DiskInfoBox.Enough=Wybrane urządzenie posiada wystarczająco miejsca na skompresowaną instalację.
+MessageBox.DiskAtLeast=Urządzenie musi mieć co najmniej {0} GB wolnego miejsca!
+MessageBox.DiskCompressedInstall.Heading=Wybrane urządzenie posiada wystarczająco miejsca na skompresowaną instalację.
+MessageBox.DiskCompressedInstall.Message=System performance may be slightly reduced due to compression.
+Message.LoadingDisks=Wyszukiwanie dysków...
+MessageBox.NewBootloaderRequiredWarn=If you want to boot your {0} from an USB drive or use the GPT partitioning scheme, the bootloader must be updated to the latest version.{n}{n}Please visit the following link for more details: {1}
 
 [SelectImagePage]
 PageTitle=Wybór obrazu systemu
 SelectImageLabel=Wybierz obraz systemu Windows on ARM
-WindowsEditionLabel=Wersja Windows:
-WorkingBuildsTextBox=Note: Wersja Windows 10 1803 lub nowsze były testowane i działają.{n}Wersja 1809 może niespodziewanie się wyłaczać przez zmiany w sterowniku WppRecorder.sys, więc unikaj tej wersji.
-SelectImgInfoBox.SelectedImageGood=Wybrany obraz (w wersji: {0}) jest w porządku!
-SelectImgInfoBox.SelectedImageInvalid=Wybrany plik nie jest prawidłowym plikiem obrazu systemu Windows!
-SelectImgInfoBox.SelectedImageUnsupported=Wybrany plik obrazu jest nie wspierany!
-MessageBox.NotEnoughSpace=Na dysku nie ma wystarczająco miejsca by zainstalować ten obraz!{n}Prosze wybierz większy dysk lub użyj kompaktowego obrazu.
+ImageFileLabel=Image file
+WindowsEditionLabel=Wersja Windows
+WorkingBuildsTextBox.MinBuild=Your device supports Windows 10 {0} build {1} or newer.
+WorkingBuildsTextBox.AllBuilds=Your device supports all the available builds of Windows 10 {0}.
+WorkingBuildsTextBox.GetImage=If you don't have an image yet, you can find details on how to download one on the project website.
+SelectImageIndexCombo.TextEmptyList=Please select an image first.
+MessageBox.SelectedImageInvalid=Wybrany plik nie jest prawidłowym plikiem obrazu systemu Windows!
+MessageBox.SelectedImageUnsupported=Wybrany plik obrazu jest nie wspierany!
+MessageBox.SelectedImageErrorInfo.AllBuilds=Please select a compatible Windows 10 {0} image.
+MessageBox.SelectedImageErrorInfo.MinBuild=Please select a compatible Windows 10 {0} build {1} or newer image.
+MessageBox.NotEnoughSpace.Heading=Na dysku nie ma wystarczająco miejsca by zainstalować ten obraz!
+MessageBox.NotEnoughSpace.Message=Prosze wybierz większy dysk lub użyj kompaktowego obrazu.
+Message.MountingISO=Montowanie obrazu ISO...
+Message.UnmountingISO=Odmontowywanie pliku ISO...
+Message.VerifyingImage=Weryfikacja obrazu...
 
 [SelectDriversPage]
 PageTitle=Wybór sterowników
 SelectDriversLabel=Wybierz sterowniki
-DriversNoteTextBox=Uwaga: sterowniki muszą być spakowane do pliku ZIP!
+DriversNoteTextBox=Uwaga: sterowniki muszą być spakowane do pliku {0}!
 LocalDrvPkgRadioBtn=Użyj archiwum ze sterownikami znalezionego na komputerze
 ServerDrvPkgRadioBtn=Użyj najnowszego archiwum ze sterownikami z serwera
-SelectDrvInfoBox.OK=Archiwum ze sterownikami jest w porządku!
-SelectDrvInfoBox.LicenseNotAccepted=Jedna z umów licencyjnych nie została zaakceptowana!
+MessageBox.LicenseNotAccepted.Heading=Jedna z umów licencyjnych nie została zaakceptowana!
+MessageBox.LicenseNotAccepted.Message=All licenses must be accepted to use this drivers package.
 
 [SelectUEFIPage]
 PageTitle=Wybór pliku UEFI
@@ -94,7 +113,6 @@ SelectUEFILabel=Wybierz oprogramowanie UEFI
 UEFINoteTextBox=Uwaga: plik oprogramowania UEFI musi mieć rozszerzenie {0}.
 LocalUEFIRadioBtn=Użyj oprogramowania znalezionego na komputerze
 ServerUEFIRadioBtn=Użyj najnowszego oprogramowania z serwera 
-ServerUEFISourceLabel=Źródło oprogramowania:
 
 [SetupConfigurationPage]
 PageTitle=Konfiguracja Instalacji
@@ -112,14 +130,13 @@ WindowsBootOptionsGroup=Opcje rozruchu Windowsa
 MemoryLimitLabel=Limit Pamięci:
 RecoveryEnabledCheck=Włą○cz środowisko odzyskiwania Windowsa
 WoROptionsGroup=Ustawienia {appname}
-SaveConfigExitLabel=Zapisz tę konfigurację
+SaveConfigOnExitCheck=Zapisz tę konfigurację
+SaveConfigOnExitCheckInfoLabel=Note: options that are disabled (and those in the {0} menu) will not be saved.
 
 [SetupOverviewPage]
 PageTitle=Instalacja
 InstallOverviewLabel=Podsumowanie instalacji
 InstallWarnBox=Ostrzeżenie! Wszystkie dane na wybranym urządzeniu zostaną usunięte! Utwórz kopię zapasową wszystkich ważnych plików, zanim będzie za późno!
-TargetDeviceLabel=Urządzenie docelowe
-DeviceTypeLabel=Typ urządzenia
 OSLabel=System operacyjny
 DriversPathLabel=Ścieżka do sterowników
 UEFIPathLabel=Ścieżka do pliku oprogramowania UEFI
@@ -132,6 +149,7 @@ LZXCompression.NO=NIE
 [SetupProgressPage]
 PageTitle=Instalacja
 InstallInfoBox=Ten proces może zająć trochę czasu, w zależności od prędkości twojego urządzenia.
+TryAgainBtn=Try again
 InstallStatusLabel.GettingReady=Przygotowywanie...
 InstallStatusLabel.FormattingDisk=Formatowanie urządzenia docelowego...
 InstallStatusLabel.CreatingPartitions=Tworzenie partycji...
