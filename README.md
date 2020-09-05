@@ -23,26 +23,26 @@ Issues related to the WoR tool should be reported on the [dedicated bug tracker]
 
 | Language                                    | Filename  | Status   | Contributors 
 | ------------------------------------------- | --------- | -------- | --------------
-| Čeština (Czech)                             | cs-CZ.lng | Outdated | martindrey , Nuparu00 , lukajin
-| Deutsch (German)                            | de-DE.lng | Outdated | EpicLPer , BastiJames333 , Schule04 , NASS-eK , ulrichrobin
-| English                                     | en-US.lng | Complete | Mario Bălănică
-| Español (Spanish)                           | es-ES.lng | Outdated | Ivan Ruiz (ivigamergames) 
-| Français (French)                           | fr-FR.lng | Outdated | Garfi69
-| Hrvatski (Croatian)                         | hr-HR.lng | Outdated | Biggie 
-| Italiano (Italian)                          | it-IT.lng | Outdated | xicciodj , lorecast162 , nopesir
-| Magyar (Hungarian)                          | hu-HU.lng | Outdated | Janaboy , Googulator 
-| Nederlands (Dutch)                          | nl-NL.lng | Complete | Finnie2006
-| Polski (Polish)                             | pl-PL.lng | Outdated | macmmm81 , Gotard , Marcinoo97 , LUKI N (lukin123)
-| Português (Portuguese)                      | pt-PT.lng | Outdated | Miguel Couto
-| Português Brasileiro (Brazilian Portuguese) | pt-BR.lng | Outdated | Rafael Fontenelle
-| Română (Romanian)                           | ro-RO.lng | Complete | Mario Bălănică
-| Slovenčina (Slovak)                         | sk-SK.lng | Complete | sebkopal
-| Srpski (Serbian)                            | sr-SP.lng | Outdated | Luka Matovic
-| Svenska (Swedish)                           | sv-SE.lng | Complete | Daniel Lundh , joakimus74
-| Türkçe (Turkish)                            | tr-TR.lng | Outdated | ysoyipek , pixelomer , SWATcyp
-| Русский (Russian)                           | ru-RU.lng | Outdated | Andryshik345 , beeoss
-| Українська (Ukrainian)                      | uk-UA.lng | Outdated | Volodymyr Borodaykevych
-| 한국어 (Korean)                             | ko-KR.lng | Outdated | rlatn1234 , Raccooni
-| 日本語 (Japanese)                           | ja-JP.lng | Outdated | imai9999 , OSAKANATARO , Prime9999
-| 简体中文 (Simplified Chinese)               | zh-CN.lng | Outdated | thchi12 , nyaruko , Meaqua233 , CirnoTH
-| 繁體中文 (Traditional Chinese)              | zh-TW.lng | Outdated | Gekoii , ConashinChen
+| Čeština (Czech)                             | cs-CZ.lng | ![Outdated](https://img.shields.io/badge/-Outdated-red) | martindrey , Nuparu00 , lukajin
+| Deutsch (German)                            | de-DE.lng | ![Outdated](https://img.shields.io/badge/-Outdated-red) | EpicLPer , BastiJames333 , Schule04 , NASS-eK , ulrichrobin
+| English                                     | en-US.lng | ![Complete](https://img.shields.io/badge/-Complete-green) | Mario Bălănică
+| Español (Spanish)                           | es-ES.lng | ![Outdated](https://img.shields.io/badge/-Outdated-red) | Ivan Ruiz (ivigamergames) 
+| Français (French)                           | fr-FR.lng | ![Outdated](https://img.shields.io/badge/-Outdated-red) | Garfi69
+| Hrvatski (Croatian)                         | hr-HR.lng | ![Outdated](https://img.shields.io/badge/-Outdated-red) | Biggie 
+| Italiano (Italian)                          | it-IT.lng | ![Outdated](https://img.shields.io/badge/-Outdated-red) | xicciodj , lorecast162 , nopesir
+| Magyar (Hungarian)                          | hu-HU.lng | ![Outdated](https://img.shields.io/badge/-Outdated-red) | Janaboy , Googulator 
+| Nederlands (Dutch)                          | nl-NL.lng | ![Complete](https://img.shields.io/badge/-Complete-green) | Finnie2006
+| Polski (Polish)                             | pl-PL.lng | ![Outdated](https://img.shields.io/badge/-Outdated-red) | macmmm81 , Gotard , Marcinoo97 , LUKI N (lukin123)
+| Português (Portuguese)                      | pt-PT.lng | ![Outdated](https://img.shields.io/badge/-Outdated-red) | Miguel Couto
+| Português Brasileiro (Brazilian Portuguese) | pt-BR.lng | ![Outdated](https://img.shields.io/badge/-Outdated-red) | Rafael Fontenelle
+| Română (Romanian)                           | ro-RO.lng | ![Complete](https://img.shields.io/badge/-Complete-green) | Mario Bălănică
+| Slovenčina (Slovak)                         | sk-SK.lng | ![Complete](https://img.shields.io/badge/-Complete-green) | sebkopal
+| Srpski (Serbian)                            | sr-SP.lng | ![Outdated](https://img.shields.io/badge/-Outdated-red) | Luka Matovic
+| Svenska (Swedish)                           | sv-SE.lng | ![Complete](https://img.shields.io/badge/-Complete-green) | Daniel Lundh , joakimus74
+| Türkçe (Turkish)                            | tr-TR.lng | ![Outdated](https://img.shields.io/badge/-Outdated-red) | ysoyipek , pixelomer , SWATcyp
+| Русский (Russian)                           | ru-RU.lng | ![Outdated](https://img.shields.io/badge/-Outdated-red) | Andryshik345 , beeoss
+| Українська (Ukrainian)                      | uk-UA.lng | ![Outdated](https://img.shields.io/badge/-Outdated-red) | Volodymyr Borodaykevych
+| 한국어 (Korean)                             | ko-KR.lng | ![Outdated](https://img.shields.io/badge/-Outdated-red) | rlatn1234 , Raccooni
+| 日本語 (Japanese)                           | ja-JP.lng | ![Outdated](https://img.shields.io/badge/-Outdated-red) | imai9999 , OSAKANATARO , Prime9999
+| 简体中文 (Simplified Chinese)               | zh-CN.lng | ![Outdated](https://img.shields.io/badge/-Outdated-red) | thchi12 , nyaruko , Meaqua233 , CirnoTH
+| 繁體中文 (Traditional Chinese)              | zh-TW.lng | ![Outdated](https://img.shields.io/badge/-Outdated-red) | Gekoii , ConashinChen
