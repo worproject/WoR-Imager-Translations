@@ -1,6 +1,6 @@
 ﻿[WoR lang file]
 Name=Svenska (Swedish)
-IsComplete=0
+IsComplete=1
 
 [UpdateNotifyWindow]
 WindowTitle=Uppdatering
@@ -91,7 +91,7 @@ SelectImageIndexCombo.TextEmptyList=Välj en avbild först.
 MessageBox.SelectedImageInvalid=Den valda filen är inte en giltig Windowsavbildning!
 MessageBox.SelectedImageUnsupported=Den valda avbildningsfilen stöds inte!
 MessageBox.SelectedImageErrorInfo.AllBuilds=Välj en kompatibel Windows 10 {0} avbildning.
-MessageBox.SelectedImageErrorInfo.MinBuild=Välj en kompatibel Windows 10 Windows 10 {0} version {1} eller nyare.
+MessageBox.SelectedImageErrorInfo.MinBuild=Välj en kompatibel Windows 10 {0} version {1} eller nyare.
 MessageBox.NotEnoughSpace.Heading=Det finns inte nog med utrymme på disken för att installera den här avbildningen!
 MessageBox.NotEnoughSpace.Message=Välj en större lagringsenhet eller en komprimerad avbildning.
 Message.MountingISO=Monterar ISO-avbildningen...
