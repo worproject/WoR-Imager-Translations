@@ -1,6 +1,6 @@
 ﻿[WoR lang file]
 Name=Slovenčina (Slovak)
-IsComplete=0
+IsComplete=1
 
 [UpdateNotifyWindow]
 WindowTitle=Aktualizácia
@@ -27,28 +27,28 @@ DeclineBtn=Odmietnuť
 
 [General]
 MessageBox.CustomPackageWarn=Výber zastaralého alebo nekompatibilného balíka môže spôsobiť problémy v inštalácii!{n}{n}Je preto odporúčané, aby ste použili poslednú verziu dostupnú na serveri.{n}{n}Chcete pokračovať?
-MessageBox.SelectedPackageInvalid.Heading=Vybraný balík je neplatná alebo nekompatibilný s Vašim zariadením.
-MessageBox.SelectedPackageInvalid.Message=Please select a package built for {0}.
-Message.ExtractingPackageToTemp=Rozbalovanie archívu do dočasného priečinka...
-Message.DownloadingReqFiles=Sťahovanie vyžadovaných súborov...
-Label.StorageDrive=Storage drive
+MessageBox.SelectedPackageInvalid.Heading=Vybraný balík je neplatný alebo není kompatibilný s vaším zariadením.
+MessageBox.SelectedPackageInvalid.Message=Vyberte postavený balík pre {0}.
+Message.ExtractingPackageToTemp=Extrahovanie archívu do dočasného priečinka...
+Message.DownloadingReqFiles=Sťahujú sa požadované súbory...
+Label.StorageDrive=Úložisko
 Label.DeviceType=Typ zariadenia
-FilePathTextPlaceholder=Click on the "{0}" button or drag and drop the file here.
-ServerPackageInfoLabel=This is the recommended option. It can be used offline too, as long as the package has been previously downloaded.
+FilePathTextPlaceholder=Klikni na tlačidlo "{0}" alebo myšou sem presuňte súbor.
+ServerPackageInfoLabel=Toto je odporúčaná možnosť. Môže sa použiť aj offline, pokiaľ bol balík predtým stiahnutý.
 
 [MessageBox]
 Button.OK=OK
-Button.Cancel=Cancel
-Button.Abort=Abort
-Button.Retry=Retry
-Button.Ignore=Ignore
-Button.Yes=Yes
-Button.No=No
-CheckBox.DoNotShowAgain=Don't show this again
+Button.Cancel=Zrušiť
+Button.Abort=Prerušiť
+Button.Retry=Znova
+Button.Ignore=Ignorovať
+Button.Yes=Áno
+Button.No=Nie
+CheckBox.DoNotShowAgain=Znovu už nezobrazovať
 
 [MessageBox.Common]
-Heading.SomethingWentWrong=Something went wrong...
-Heading.Warning=Warning!
+Heading.SomethingWentWrong=Niečo sa pokazilo...
+Heading.Warning=Varovanie!
 
 [MainWindow]
 SendFeedbackBtn=Poslať spätnú väzbu
@@ -56,56 +56,56 @@ NextPageBtn=Ďalej
 BackPageBtn=Späť
 NextPageBtn.Install=Inštalovať
 NextPageBtn.Finish=Dokončiť
-MessageBox.TaskOngoing.Heading=Ste si istý, že chcete nasilu zavrieť aplikáciu?
-MessageBox.TaskOngoing.Message=Proces práve prebieha.
+MessageBox.TaskOngoing.Heading=Naozaj chcete vynútiť ukončenie aplikácie ?
+MessageBox.TaskOngoing.Message=Operácia momentálne prebieha.
 
 [WelcomePage]
 PageTitle=Vitajte
 WelcomeLabel=Vitajte vo {appname}!
-WelcomeMsgTextBox=This wizard will help you easily install the full desktop version of Windows 10 on your Raspberry Pi computer.{n}{n}Click on the {0} button to continue.
+WelcomeMsgTextBox=Tento program vám pomôže jednoducho nainštalovať plnú desktopovú verziu Windowsu 10 na váš Raspberry Pi počítač.{n}{n}Kliknite na tlačidlo {0} pre pokračovanie.
 SelectLangLabel=Zvoľte svoj jazyk:
 
 [SelectDevicePage]
 PageTitle=Výber zariadenia
-SelectDeviceLabel=Vyberte zariadenie
-DisksListCombo.TextEmptyList=No drives have been found. Click on the {0} button to reload the list.
-DisksListCombo.TextNoItemSelected=Click here to select a drive from the list.
-StorageDriveWarningLabel=Warning! Selecting the wrong drive may lead to unwanted data loss.
+SelectDeviceLabel=Vybrať zariadenie
+DisksListCombo.TextEmptyList=Neboli nájdené žiadne disky. Kliknite na tlačidlo {0} pre opätovné načítanie zoznamu.
+DisksListCombo.TextNoItemSelected=Kliknite sem pre výber disku zo zoznamu.
+StorageDriveWarningLabel=Upozornenie! Výber nesprávneho disku môže viesť k nežiaducej strate údajov.
 Device.ExperimentalSupport=Experimentálna
 Device.SupportedModels=Podporované modely: {0}
-MessageBox.DiskAtLeast=Zariadenie musí mať aspoň {0}GB volného miesta!
-MessageBox.DiskCompressedInstall.Heading=Vybrané zariadenie dostatok miesta pre komprimovanú inštaláciu.
-MessageBox.DiskCompressedInstall.Message=System performance may be slightly reduced due to compression.
-Message.LoadingDisks=Načítavam zoznam diskov...
-MessageBox.NewBootloaderRequiredWarn=If you want to boot your {0} from an USB drive or use the GPT partitioning scheme, the bootloader must be updated to the latest version.{n}{n}Please visit the following link for more details: {1}
+MessageBox.DiskAtLeast=Tento disk musí mať apsoň {0} GB voľného miesta!
+MessageBox.DiskCompressedInstall.Heading=Vybrané zariadenie má dostatok miesta na komprimovanú inštaláciu.
+MessageBox.DiskCompressedInstall.Message=Výkon systému sa môže mierne znížiť v dôsledku kompresie.
+Message.LoadingDisks=Načítava sa zoznam diskov...
+MessageBox.NewBootloaderRequiredWarn=Ak chcete nabootovať váš {0} z USB disku alebo použite GPT partície, bootloader musí byť aktualizovaný na najnovšiu verziu.{n}{n}Viac podrobností nájdete na nasledujúcom odkaze: {1}
 
 [SelectImagePage]
 PageTitle=Výber obrazu
 SelectImageLabel=Vyberte Váš Windows v ARM obraze
-ImageFileLabel=Image file
+ImageFileLabel=Súbor obrazu
 WindowsEditionLabel=Windows edícia
-WorkingBuildsTextBox.MinBuild=Your device supports Windows 10 {0} build {1} or newer.
-WorkingBuildsTextBox.AllBuilds=Your device supports all the available builds of Windows 10 {0}.
-WorkingBuildsTextBox.GetImage=If you don't have an image yet, you can find details on how to download one on the project website.
-SelectImageIndexCombo.TextEmptyList=Please select an image first.
-MessageBox.SelectedImageInvalid=Vybraný súbor není platný obraz Windowsu!
+WorkingBuildsTextBox.MinBuild=Vaše zariadenie podporuje Windows 10 {0} verzia {1} alebo novší.
+WorkingBuildsTextBox.AllBuilds=Vaše zariadenie podporuje všetky dostupné verzie systému Windows 10 {0}.
+WorkingBuildsTextBox.GetImage=Ak ešte nemáte obraz, podrobné informácie o tom, ako si jeden stiahnuť nájdete na webovej stránke projektu.
+SelectImageIndexCombo.TextEmptyList=Najskôr vyberte obraz.
+MessageBox.SelectedImageInvalid=Vybratý súbor nie je platným obrazom systému Windows !
 MessageBox.SelectedImageUnsupported=Vybraný súbor obrazu nie je podporovaný!
-MessageBox.SelectedImageErrorInfo.AllBuilds=Please select a compatible Windows 10 {0} image.
-MessageBox.SelectedImageErrorInfo.MinBuild=Please select a compatible Windows 10 {0} build {1} or newer image.
-MessageBox.NotEnoughSpace.Heading=Nie je dostatok miesta na disku na nainštalovanie tohto obrazu!
-MessageBox.NotEnoughSpace.Message=Vyberte prosím väčšie úložné zariadenie alebo kompaktný obraz.
+MessageBox.SelectedImageErrorInfo.AllBuilds=Vyberte kompatibilný Windows 10 {0} obraz.
+MessageBox.SelectedImageErrorInfo.MinBuild=Vyberte kompatibilný Windows 10 {0} verzia {1} alebo novší obraz.
+MessageBox.NotEnoughSpace.Heading=Na disku nie je dostatok miesta na inštaláciu tohto obrazu !
+MessageBox.NotEnoughSpace.Message=Vyberte väčšie úložisko disku alebo kompaktný obraz.
 Message.MountingISO=Pripájanie ISO obrazu...
 Message.UnmountingISO=Odpájanie ISO obrazu...
-Message.VerifyingImage=Overovanie obrazu...
+Message.VerifyingImage=Overujem obraz...
 
 [SelectDriversPage]
 PageTitle=Výber ovládačov
 SelectDriversLabel=Vyberte ovládače
-DriversNoteTextBox=Poznámka: ovládače musia byť archivované v {0} formáte.
+DriversNoteTextBox=Poznámka: ovládače musia byť archivované v súborovom formáte {0}t.
 LocalDrvPkgRadioBtn=Použiť balík uložený v tomto počítači
 ServerDrvPkgRadioBtn=Použiť posledný balík dustupný na serveri
-MessageBox.LicenseNotAccepted.Heading=Nepotvrdili ste licenčné podmienky!
-MessageBox.LicenseNotAccepted.Message=All licenses must be accepted to use this drivers package.
+MessageBox.LicenseNotAccepted.Heading=Neprijali ste jednu z licenčných zmlúv !
+MessageBox.LicenseNotAccepted.Message=Musia byť prijaté všetky licencie na použitie tohto balíka ovládačov.
 
 [SelectUEFIPage]
 PageTitle=UEFI firmware
@@ -130,8 +130,8 @@ WindowsBootOptionsGroup=Nastavenia bootovania Windowsu
 MemoryLimitLabel=Limit pamäte:
 RecoveryEnabledCheck=Povoliť Windows Recovery Environment
 WoROptionsGroup={appname} nastavenia
-SaveConfigOnExitCheck=Po ukončení uložiť konfiguráciu
-SaveConfigOnExitCheckInfoLabel=Note: options that are disabled (and those in the {0} menu) will not be saved.
+SaveConfigOnExitCheck=Pri ukončení túto konfiguráciu uložiť
+SaveConfigOnExitCheckInfoLabel=Poznámka: nastavenia sú vypnuté (a tie v ponuke {0}) nebudú uložené.
 
 [SetupOverviewPage]
 PageTitle=Inštalácia

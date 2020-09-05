@@ -36,7 +36,7 @@ Issues related to the WoR tool should be reported on the [dedicated bug tracker]
 | Português (Portuguese)                      | pt-PT.lng | Outdated | Miguel Couto
 | Português Brasileiro (Brazilian Portuguese) | pt-BR.lng | Outdated | Rafael Fontenelle
 | Română (Romanian)                           | ro-RO.lng | Complete | Mario Bălănică
-| Slovenčina (Slovak)                         | sk-SK.lng | Outdated | sebkopal
+| Slovenčina (Slovak)                         | sk-SK.lng | Complete | sebkopal
 | Srpski (Serbian)                            | sr-SP.lng | Outdated | Luka Matovic
 | Svenska (Swedish)                           | sv-SE.lng | Outdated | Daniel Lundh
 | Türkçe (Turkish)                            | tr-TR.lng | Outdated | ysoyipek , pixelomer , SWATcyp
