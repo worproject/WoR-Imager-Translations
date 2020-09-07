@@ -1,6 +1,6 @@
 ﻿[WoR lang file]
 Name=Deutsch (German)
-IsComplete=0
+IsComplete=1
 
 [UpdateNotifyWindow]
 WindowTitle=Update
@@ -31,24 +31,24 @@ MessageBox.SelectedPackageInvalid.Heading=Das ausgewählte Paket ist ungültig o
 MessageBox.SelectedPackageInvalid.Message=Please select a package built for {0}.
 Message.ExtractingPackageToTemp=Das Archiv wird in das temporäre Verzeichnis entpackt...
 Message.DownloadingReqFiles=Erforderliche Dateien werden heruntergeladen...
-Label.StorageDrive=Storage drive
+Label.StorageDrive=Speicherlaufwerk
 Label.DeviceType=Gerätetyp
-FilePathTextPlaceholder=Click on the "{0}" button or drag and drop the file here.
-ServerPackageInfoLabel=This is the recommended option. It can be used offline too, as long as the package has been previously downloaded.
+FilePathTextPlaceholder=Klicken Sie auf die Schaltfläche "{0}" oder ziehen Sie die Datei hier per Drag & Drop.
+ServerPackageInfoLabel=Dies ist die empfohlene Option. Es kann auch offline verwendet werden, solange das Paket zuvor heruntergeladen wurde.
 
 [MessageBox]
 Button.OK=OK
-Button.Cancel=Cancel
-Button.Abort=Abort
-Button.Retry=Retry
-Button.Ignore=Ignore
-Button.Yes=Yes
-Button.No=No
-CheckBox.DoNotShowAgain=Don't show this again
+Button.Cancel=Stornieren
+Button.Abort=Abbrechen
+Button.Retry=Wiederholen
+Button.Ignore=Ignorieren
+Button.Yes=Ja
+Button.No=Nein
+CheckBox.DoNotShowAgain=Zeig das nicht nochmal
 
 [MessageBox.Common]
-Heading.SomethingWentWrong=Something went wrong...
-Heading.Warning=Warning!
+Heading.SomethingWentWrong=Etwas ist schief gelaufen...
+Heading.Warning=Warnung!
 
 [MainWindow]
 SendFeedbackBtn=Feedback senden
@@ -62,36 +62,36 @@ MessageBox.TaskOngoing.Message=Es wird gerade ein Vorgang ausgeführt.
 [WelcomePage]
 PageTitle=Willkommen
 WelcomeLabel=Willkommen zum {appname}!
-WelcomeMsgTextBox=This wizard will help you easily install the full desktop version of Windows 10 on your Raspberry Pi computer.{n}{n}Click on the {0} button to continue.
+WelcomeMsgTextBox=Mit diesem Assistenten können Sie problemlos die vollständige Desktop-Version von Windows 10 auf Ihrem Raspberry Pi-Computer installieren.{n}{n}Klicken Sie auf die Schaltfläche {0}, um fortzufahren.
 SelectLangLabel=Sprache wählen:
 
 [SelectDevicePage]
 PageTitle=Datenträger wählen
 SelectDeviceLabel=Wählen Sie den Datenträger aus
-DisksListCombo.TextEmptyList=No drives have been found. Click on the {0} button to reload the list.
-DisksListCombo.TextNoItemSelected=Click here to select a drive from the list.
-StorageDriveWarningLabel=Warning! Selecting the wrong drive may lead to unwanted data loss.
+DisksListCombo.TextEmptyList=Es wurden keine Laufwerke gefunden. Klicken Sie auf die Schaltfläche {0}, um die Liste neu zu laden.
+DisksListCombo.TextNoItemSelected=Klicken Sie hier, um ein Laufwerk aus der Liste auszuwählen.
+StorageDriveWarningLabel=Warnung! Die Auswahl des falschen Laufwerks kann zu unerwünschten Datenverlusten führen.
 Device.ExperimentalSupport=Experimentell
 Device.SupportedModels=Unterstützte Modelle: {0}
 MessageBox.DiskAtLeast=Der Datenträger muss mindestens {0} GB Speicher haben!
 MessageBox.DiskCompressedInstall.Heading=Der gewählte Datenträger hat genug Speicher für eine gepackte Installation.
-MessageBox.DiskCompressedInstall.Message=System performance may be slightly reduced due to compression.
+MessageBox.DiskCompressedInstall.Message=Die Systemleistung kann aufgrund der Komprimierung leicht beeinträchtigt sein.
 Message.LoadingDisks=Lade Treiber...
-MessageBox.NewBootloaderRequiredWarn=If you want to boot your {0} from an USB drive or use the GPT partitioning scheme, the bootloader must be updated to the latest version.{n}{n}Please visit the following link for more details: {1}
+MessageBox.NewBootloaderRequiredWarn=Wenn Sie Ihre {0} von einem USB-Laufwerk booten oder das GPT-Partitionierungsschema verwenden möchten, muss der Bootloader auf die neueste Version aktualisiert werden.{n}{n}Weitere Informationen finden Sie unter folgendem Link: {1}
 
 [SelectImagePage]
 PageTitle=Abbilddatei wählen
 SelectImageLabel=Wählen Sie Ihre Windows on ARM-Abbilddatei
-ImageFileLabel=Image file
+ImageFileLabel=Bilddatei
 WindowsEditionLabel=Windows Edition
-WorkingBuildsTextBox.MinBuild=Your device supports Windows 10 {0} build {1} or newer.
-WorkingBuildsTextBox.AllBuilds=Your device supports all the available builds of Windows 10 {0}.
-WorkingBuildsTextBox.GetImage=If you don't have an image yet, you can find details on how to download one on the project website.
-SelectImageIndexCombo.TextEmptyList=Please select an image first.
+WorkingBuildsTextBox.MinBuild=Ihr Gerät unterstützt Windows 10 {0} Build {1} oder neuer.
+WorkingBuildsTextBox.AllBuilds=Ihr Gerät unterstützt alle verfügbaren Builds von Windows 10 {0}.
+WorkingBuildsTextBox.GetImage=Wenn Sie noch kein Bild haben, finden Sie Details zum Herunterladen eines auf der Projektwebsite.
+SelectImageIndexCombo.TextEmptyList=Bitte wählen Sie zuerst ein Bild aus.
 MessageBox.SelectedImageInvalid=Die ausgewählte Datei ist kein gültiges Windows-Abbild!
 MessageBox.SelectedImageUnsupported=Das ausgewählte Abbild wird nicht unterstützt!
-MessageBox.SelectedImageErrorInfo.AllBuilds=Please select a compatible Windows 10 {0} image.
-MessageBox.SelectedImageErrorInfo.MinBuild=Please select a compatible Windows 10 {0} build {1} or newer image.
+MessageBox.SelectedImageErrorInfo.AllBuilds=Bitte wählen Sie ein kompatibles Windows 10 {0} -Image.
+MessageBox.SelectedImageErrorInfo.MinBuild=Bitte wählen Sie ein kompatibles Windows 10 {0} Build {1} oder ein neueres Image aus.
 MessageBox.NotEnoughSpace.Heading=Nicht genügend Speicher auf dem Datenträger vorhanden um dieses Abbild zu installieren!
 MessageBox.NotEnoughSpace.Message=Bitte wählen Sie einen größeren Datenträger oder verwenden Sie ein kleineres Abbild.
 Message.MountingISO=ISO wird gemountet...
@@ -105,7 +105,7 @@ DriversNoteTextBox=Hinweis: Die Treiber müssen im {0}-Dateiformat archiviert se
 LocalDrvPkgRadioBtn=Lokal gespeichertes Treiber-Paket verwenden
 ServerDrvPkgRadioBtn=Neustes Treiber-Paket vom Server herunterladen
 MessageBox.LicenseNotAccepted.Heading=Sie haben die Lizenzvereinbarung nicht akzeptiert!
-MessageBox.LicenseNotAccepted.Message=All licenses must be accepted to use this drivers package.
+MessageBox.LicenseNotAccepted.Message=Alle Lizenzen müssen akzeptiert werden, um dieses Treiberpaket verwenden zu können.
 
 [SelectUEFIPage]
 PageTitle=UEFI-Firmware
@@ -149,7 +149,7 @@ LZXCompression.NO=NEIN
 [SetupProgressPage]
 PageTitle=Installation
 InstallInfoBox=Dieser Prozess kann je nach Geschwindigkeit des Datenträgers eine lange Zeit dauern.
-TryAgainBtn=Try again
+TryAgainBtn=Versuch es noch einmal
 InstallStatusLabel.GettingReady=Vorbereiten...
 InstallStatusLabel.FormattingDisk=Zieldatenträger wird formatiert...
 InstallStatusLabel.CreatingPartitions=Partitionen werden erstellt...
