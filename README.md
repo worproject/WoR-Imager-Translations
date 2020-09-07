@@ -24,7 +24,7 @@ Issues related to the WoR tool should be reported on the [dedicated bug tracker]
 | Language                                    | Filename  | Status                                                                       | Contributors 
 | ------------------------------------------- | --------- | ---------------------------------------------------------------------------- | --------------
 | Čeština (Czech)                             | cs-CZ.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/cs-CZ.lng)   | martindrey , Nuparu00 , lukajin
-| Deutsch (German)                            | de-DE.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/de-DE.lng)   | EpicLPer , BastiJames333 , Schule04 , NASS-eK , ulrichrobin
+| Deutsch (German)                            | de-DE.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/de-DE.lng) | EpicLPer , BastiJames333 , Schule04 , NASS-eK , ulrichrobin , Finnie2006
 | English                                     | en-US.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/en-US.lng) | Mario Bălănică
 | Español (Spanish)                           | es-ES.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/es-ES.lng)   | Ivan Ruiz (ivigamergames) 
 | Français (French)                           | fr-FR.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/fr-FR.lng)   | Garfi69
