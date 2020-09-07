@@ -1,6 +1,6 @@
 ﻿[WoR lang file]
 Name=Deutsch (German)
-IsComplete=0
+IsComplete=1
 
 [UpdateNotifyWindow]
 WindowTitle=Update
@@ -38,13 +38,13 @@ ServerPackageInfoLabel=Dies ist die empfohlene Option. Es kann auch offline verw
 
 [MessageBox]
 Button.OK=OK
-Button.Cancel=stornieren
-Button.Abort=abbrechen
+Button.Cancel=Stornieren
+Button.Abort=Abbrechen
 Button.Retry=Wiederholen
-Button.Ignore=ignorieren
+Button.Ignore=Ignorieren
 Button.Yes=Ja
 Button.No=Nein
-CheckBox.DoNotShowAgain=zeig das nicht nochmal
+CheckBox.DoNotShowAgain=Zeig das nicht nochmal
 
 [MessageBox.Common]
 Heading.SomethingWentWrong=Etwas ist schief gelaufen...
@@ -62,7 +62,7 @@ MessageBox.TaskOngoing.Message=Es wird gerade ein Vorgang ausgeführt.
 [WelcomePage]
 PageTitle=Willkommen
 WelcomeLabel=Willkommen zum {appname}!
-WelcomeMsgTextBox=Mit diesem Assistenten können Sie problemlos die vollständige Desktop-Version von Windows 10 auf Ihrem Raspberry Pi-Computer installieren. {N} {n} Klicken Sie auf die Schaltfläche {0}, um fortzufahren.
+WelcomeMsgTextBox=Mit diesem Assistenten können Sie problemlos die vollständige Desktop-Version von Windows 10 auf Ihrem Raspberry Pi-Computer installieren.{n}{n}Klicken Sie auf die Schaltfläche {0}, um fortzufahren.
 SelectLangLabel=Sprache wählen:
 
 [SelectDevicePage]
@@ -70,14 +70,14 @@ PageTitle=Datenträger wählen
 SelectDeviceLabel=Wählen Sie den Datenträger aus
 DisksListCombo.TextEmptyList=Es wurden keine Laufwerke gefunden. Klicken Sie auf die Schaltfläche {0}, um die Liste neu zu laden.
 DisksListCombo.TextNoItemSelected=Klicken Sie hier, um ein Laufwerk aus der Liste auszuwählen.
-StorageDriveWarningLabelWarnung! Die Auswahl des falschen Laufwerks kann zu unerwünschten Datenverlusten führen.
+StorageDriveWarningLabel=Warnung! Die Auswahl des falschen Laufwerks kann zu unerwünschten Datenverlusten führen.
 Device.ExperimentalSupport=Experimentell
 Device.SupportedModels=Unterstützte Modelle: {0}
 MessageBox.DiskAtLeast=Der Datenträger muss mindestens {0} GB Speicher haben!
 MessageBox.DiskCompressedInstall.Heading=Der gewählte Datenträger hat genug Speicher für eine gepackte Installation.
 MessageBox.DiskCompressedInstall.Message=Die Systemleistung kann aufgrund der Komprimierung leicht beeinträchtigt sein.
 Message.LoadingDisks=Lade Treiber...
-MessageBox.NewBootloaderRequiredWarn=Wenn Sie Ihre {0} von einem USB-Laufwerk booten oder das GPT-Partitionierungsschema verwenden möchten, muss der Bootloader auf die neueste Version aktualisiert werden. {N} {n} Weitere Informationen finden Sie unter folgendem Link: {1}
+MessageBox.NewBootloaderRequiredWarn=Wenn Sie Ihre {0} von einem USB-Laufwerk booten oder das GPT-Partitionierungsschema verwenden möchten, muss der Bootloader auf die neueste Version aktualisiert werden.{n}{n}Weitere Informationen finden Sie unter folgendem Link: {1}
 
 [SelectImagePage]
 PageTitle=Abbilddatei wählen
@@ -149,7 +149,7 @@ LZXCompression.NO=NEIN
 [SetupProgressPage]
 PageTitle=Installation
 InstallInfoBox=Dieser Prozess kann je nach Geschwindigkeit des Datenträgers eine lange Zeit dauern.
-TryAgainBtn=Try again
+TryAgainBtn=Versuch es noch einmal
 InstallStatusLabel.GettingReady=Vorbereiten...
 InstallStatusLabel.FormattingDisk=Zieldatenträger wird formatiert...
 InstallStatusLabel.CreatingPartitions=Partitionen werden erstellt...
