@@ -55,7 +55,7 @@ SendFeedbackBtn=Stuur feedback
 NextPageBtn=Volgende
 BackPageBtn=Vorige
 NextPageBtn.Install=Installeren 
-NextPageBtn.Finish=Klaae
+NextPageBtn.Finish=Klaar
 MessageBox.TaskOngoing.Heading=Weet u zeker dat u de toepassing geforceerd wilt sluiten?
 MessageBox.TaskOngoing.Message=Er wordt momenteel een bewerking uitgevoerd.
 
@@ -149,7 +149,7 @@ LZXCompression.NO=Nee
 [SetupProgressPage]
 PageTitle=Installeren
 InstallInfoBox=Dit proces kan lang duren, afhankelijk van de apparaatprestaties.
-TryAgainBtn=Try again
+TryAgainBtn=Opnieuw Proberen
 InstallStatusLabel.GettingReady=Klaar maken...
 InstallStatusLabel.FormattingDisk=Het doelapparaat formatteren...
 InstallStatusLabel.CreatingPartitions=De partities maken...
