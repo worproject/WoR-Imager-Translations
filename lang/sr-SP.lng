@@ -1,6 +1,6 @@
 ﻿[WoR lang file]
 Name=Srpski (Serbian)
-IsComplete=0
+IsComplete=1
 
 [UpdateNotifyWindow]
 WindowTitle=Azuriranje
@@ -28,27 +28,27 @@ DeclineBtn=Odbij
 [General]
 MessageBox.CustomPackageWarn=Biranje neazurnog ili nepodrzanog paketa moze prouzrokovati probleme pri instalaciji!{n}{n}Preporucuje se da koristite poslednju verziju koja je na serveru.{n}{n}Ipak nastaviti?
 MessageBox.SelectedPackageInvalid.Heading=Odabrani paket nije validan ili nije podrzan sa vasim uredjajem.
-MessageBox.SelectedPackageInvalid.Message=Please select a package built for {0}.
-Message.ExtractingPackageToTemp=Extracting the archive to the temporary folder...
+MessageBox.SelectedPackageInvalid.Message=Molimo odaberite paket napravljen za {0}.
+Message.ExtractingPackageToTemp=Raspakivanje arhive u privremeni folder...
 Message.DownloadingReqFiles=Preuzimanje neophodnih fajlova...
-Label.StorageDrive=Storage drive
+Label.StorageDrive=Drajv skladistenja
 Label.DeviceType=Vrsta uredjaja
-FilePathTextPlaceholder=Click on the "{0}" button or drag and drop the file here.
-ServerPackageInfoLabel=This is the recommended option. It can be used offline too, as long as the package has been previously downloaded.
+FilePathTextPlaceholder=Kliknite na "{0}" dugme ili prevucite i otpustite fajlove ovde.
+ServerPackageInfoLabel=Ovo je preporucena opcija. Moze se koristiti i van mreze, samo ako je paket prethodno preuzet.
 
 [MessageBox]
 Button.OK=OK
-Button.Cancel=Cancel
-Button.Abort=Abort
-Button.Retry=Retry
-Button.Ignore=Ignore
-Button.Yes=Yes
-Button.No=No
-CheckBox.DoNotShowAgain=Don't show this again
+Button.Cancel=Otkazi
+Button.Abort=Prekini
+Button.Retry=Pokusaj ponovo
+Button.Ignore=Ignorisi
+Button.Yes=Da
+Button.No=Ne
+CheckBox.DoNotShowAgain=Ne prikazuj ovo ponovo
 
 [MessageBox.Common]
-Heading.SomethingWentWrong=Something went wrong...
-Heading.Warning=Warning!
+Heading.SomethingWentWrong=Nesto je krenulo po zlu...
+Heading.Warning=Upozorenje!
 
 [MainWindow]
 SendFeedbackBtn=Posalji povratne podatke
@@ -62,36 +62,36 @@ MessageBox.TaskOngoing.Message=Operacija je trenutno u toku.
 [WelcomePage]
 PageTitle=Dobrodosli
 WelcomeLabel=Dobrodosli u {appname}!
-WelcomeMsgTextBox=This wizard will help you easily install the full desktop version of Windows 10 on your Raspberry Pi computer.{n}{n}Click on the {0} button to continue.
+WelcomeMsgTextBox=Ovaj carobnjak ce vam pomoci da lako instalirate punu desktop verziju Windows 10  na vas Raspberry Pi racunar.{n}{n}Kliknite na {0} dugme da bi nastavili.
 SelectLangLabel=Izaberite svoj jezik:
 
 [SelectDevicePage]
 PageTitle=Izaberite uredjaj
 SelectDeviceLabel=Izaberite uredjaj
-DisksListCombo.TextEmptyList=No drives have been found. Click on the {0} button to reload the list.
-DisksListCombo.TextNoItemSelected=Click here to select a drive from the list.
-StorageDriveWarningLabel=Warning! Selecting the wrong drive may lead to unwanted data loss.
+DisksListCombo.TextEmptyList=Nije pronadjen nijedan disk. Kliknite na {0} dugme da bi ponovo ucitali listu.
+DisksListCombo.TextNoItemSelected=Kliknite ovde da bi selektovali disk sa liste.
+StorageDriveWarningLabel=Upozorenje! Odabir pogresnog diska moze uzrokovati gubitak podataka.
 Device.ExperimentalSupport=Eksperimentalno
 Device.SupportedModels=Podrzani modeli: {0}
 MessageBox.DiskAtLeast=Uredjaj mora imati najmanje {0} GB dostupnog prostora!
 MessageBox.DiskCompressedInstall.Heading=Izabrani uredjaj ima dovoljno prostora za kompresovanu instalaciju.
-MessageBox.DiskCompressedInstall.Message=System performance may be slightly reduced due to compression.
+MessageBox.DiskCompressedInstall.Message=Sistemske performanse mogu biti blago smanjene zbog kompresije.
 Message.LoadingDisks=Ucitavanje liste diskova...
-MessageBox.NewBootloaderRequiredWarn=If you want to boot your {0} from an USB drive or use the GPT partitioning scheme, the bootloader must be updated to the latest version.{n}{n}Please visit the following link for more details: {1}
+MessageBox.NewBootloaderRequiredWarn=Ukoliko zelite da boot-ujete vas {0} sa USB diska ili da koristite GPT semu particija, bootloader mora biti azuriran na poslednju verziju.{n}{n}Molim posetite sledeci link za vise detalja: {1}
 
 [SelectImagePage]
 PageTitle=Odaberite datoteku
 SelectImageLabel=Selektujte svoju Windows on ARM datoteku
-ImageFileLabel=Image file
+ImageFileLabel=Datoteka slike sistema
 WindowsEditionLabel=Windows edicija
-WorkingBuildsTextBox.MinBuild=Your device supports Windows 10 {0} build {1} or newer.
-WorkingBuildsTextBox.AllBuilds=Your device supports all the available builds of Windows 10 {0}.
-WorkingBuildsTextBox.GetImage=If you don't have an image yet, you can find details on how to download one on the project website.
-SelectImageIndexCombo.TextEmptyList=Please select an image first.
+WorkingBuildsTextBox.MinBuild=Vas uredjaj podrzava Windows 10 {0} verziju {1} ili noviju.
+WorkingBuildsTextBox.AllBuilds=Vas uredjaj podrzava sve dostupne verzije Windows 10-ke {0}.
+WorkingBuildsTextBox.GetImage=Ukoliko nemate datoteku sistema jos uvek, mozete pronaci detalje kako je preuzeti na vebsajtu projekta.
+SelectImageIndexCombo.TextEmptyList=Molim odaberite prvo datoteku sistema.
 MessageBox.SelectedImageInvalid=Odabrani fajl nije validna Windows datoteka!
 MessageBox.SelectedImageUnsupported=Odabrana datoteka nije podrzana!
-MessageBox.SelectedImageErrorInfo.AllBuilds=Please select a compatible Windows 10 {0} image.
-MessageBox.SelectedImageErrorInfo.MinBuild=Please select a compatible Windows 10 {0} build {1} or newer image.
+MessageBox.SelectedImageErrorInfo.AllBuilds=Molimo odaberite odgovarajucu Windows 10 {0} datoteku sistema.
+MessageBox.SelectedImageErrorInfo.MinBuild=Molimo odaberite odgovarajucu Windows 10 {0} verziju {1} ili noviju datoteku sistema.
 MessageBox.NotEnoughSpace.Heading=Nema dovoljno prostora na disku da se instalira ova datoteka!
 MessageBox.NotEnoughSpace.Message=Molim odaberite vece skladiste ili kompaktnu datoteku.
 Message.MountingISO=Montiranje ISO datoteke...
@@ -105,7 +105,7 @@ DriversNoteTextBox=Primetiti: drajveri moraju biti arhivirani koriscenjem {0} fo
 LocalDrvPkgRadioBtn=Koristi paket uskladisten na vasem racunaru
 ServerDrvPkgRadioBtn=Koristi posednji dostupan paket na serveru
 MessageBox.LicenseNotAccepted.Heading=Nise prihvatili jednu od licencnih saglasnosti!
-MessageBox.LicenseNotAccepted.Message=All licenses must be accepted to use this drivers package.
+MessageBox.LicenseNotAccepted.Message=Sve licence moraju biti prihvacene kako bi mogli koristiti ovaj paket drajvera.
 
 [SelectUEFIPage]
 PageTitle=UEFI firmware
@@ -131,7 +131,7 @@ MemoryLimitLabel=Ogranicenje memorije:
 RecoveryEnabledCheck=Omoguci Windows Recovery Environment
 WoROptionsGroup={appname} opcije
 SaveConfigOnExitCheck=Sacuvaj ovu konfiguraciju na izlasku
-SaveConfigOnExitCheckInfoLabel=Note: options that are disabled (and those in the {0} menu) will not be saved.
+SaveConfigOnExitCheckInfoLabel=Obavestenje: opcije koje su onemogucene (i one u {0} meniju) nece biti sacuvane.
 
 [SetupOverviewPage]
 PageTitle=Instaliraj
@@ -149,7 +149,7 @@ LZXCompression.NO=NE
 [SetupProgressPage]
 PageTitle=Instaliraj
 InstallInfoBox=Ovaj proces moze jako dugo trajati, zavisi od performansa uredjaja.
-TryAgainBtn=Try again
+TryAgainBtn=Probaj ponovo
 InstallStatusLabel.GettingReady=Pripema...
 InstallStatusLabel.FormattingDisk=Formatizovanje odredisnog uredjaja...
 InstallStatusLabel.CreatingPartitions=Kreiranje particija...
