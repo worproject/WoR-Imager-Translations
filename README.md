@@ -42,7 +42,7 @@ Issues related to the WoR tool should be reported on the [dedicated bug tracker]
 | Türkçe (Turkish)                            | tr-TR.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/tr-TR.lng)   | ysoyipek , pixelomer , SWATcyp
 | Русский (Russian)                           | ru-RU.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/ru-RU.lng)   | Andryshik345 , beeoss
 | Українська (Ukrainian)                      | uk-UA.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/uk-US.lng)   | Volodymyr Borodaykevych
-| 한국어 (Korean)                             | ko-KR.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/ko-KR.lng)   | rlatn1234 , Raccooni
+| 한국어 (Korean)                             | ko-KR.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/ko-KR.lng) | rlatn1234, URK96, Raccooni
 | 日本語 (Japanese)                           | ja-JP.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/ja-JP.lng)   | imai9999 , OSAKANATARO , Prime9999
 | 简体中文 (Simplified Chinese)               | zh-CN.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/zh-CN.lng)   | thchi12 , nyaruko , Meaqua233 , CirnoTH
 | 繁體中文 (Traditional Chinese)              | zh-TW.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/zh-TW.lng)   | Gekoii , ConashinChen
