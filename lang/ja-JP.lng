@@ -34,7 +34,7 @@ Message.DownloadingReqFiles=必要なファイルのダウンロード中...
 Label.StorageDrive=ストレージドライブ
 Label.DeviceType=デバイスの種類
 FilePathTextPlaceholder="{0}" ボタンをクリックするか、ファイルをドラッグアンドドロップしてください。
-ServerPackageInfoLabel=これは推奨されたオプションです。 オフラインの時にも使えます。一度ダウンロードしたら。
+ServerPackageInfoLabel=これは推奨されたオプションです。 一度ダウンロードしたら、オフラインの時にも使えます。
 
 [MessageBox]
 Button.OK=OK
