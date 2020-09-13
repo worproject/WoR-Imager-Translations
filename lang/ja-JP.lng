@@ -1,6 +1,6 @@
 [WoR lang file]
 Name=日本語 (Japanese)
-IsComplete=0
+IsComplete=1
 
 [UpdateNotifyWindow]
 WindowTitle=アップデート
@@ -69,15 +69,15 @@ SelectLangLabel=言語を選択してください
 PageTitle=デバイス選択
 SelectDeviceLabel=デバイス選択
 DisksListCombo.TextEmptyList=ドライブが見つかりませんでした。 {0} ボタンをクリックしてリストを再読み込みします。
-DisksListCombo.TextNoItemSelected= リストからドライブを選択するには、ここをクリックしてください。
-StorageDriveWarningLabel= 警告！ 間違ったドライブを選択すると、データが失われる可能性があります。
+DisksListCombo.TextNoItemSelected=リストからドライブを選択するには、ここをクリックしてください。
+StorageDriveWarningLabel=警告！ 間違ったドライブを選択すると、データが失われる可能性があります。
 Device.ExperimentalSupport=実験的
 Device.SupportedModels=サポートモデル: {0}
 MessageBox.DiskAtLeast=選択したデバイスには、少なくとも {0} GB の空き容量が必要です!
 MessageBox.DiskCompressedInstall.Heading=選択したデバイスには、圧縮インストールに十分な空き容量があります。
 MessageBox.DiskCompressedInstall.Message=圧縮により、システムのパフォーマンスがわずかに低下することがあります。
 Message.LoadingDisks=ドライバーの読込中...
-MessageBox.NewBootloaderRequiredWarn= {0} をUSBドライブから起動する場合、またはGPTパーティションスキームを使用する場合は、ブートローダーを最新バージョンに更新する必要があります。{n} {n}詳細については、次のリンクにアクセスしてください：{1}
+MessageBox.NewBootloaderRequiredWarn={0} をUSBドライブから起動する場合、またはGPTパーティションスキームを使用する場合は、ブートローダーを最新バージョンに更新する必要があります。{n} {n}詳細については、次のリンクにアクセスしてください：{1}
 
 [SelectImagePage]
 PageTitle=イメージの選択
