@@ -44,7 +44,7 @@ Button.Retry=再試行
 Button.Ignore=無視
 Button.Yes=はい
 Button.No=いいえ
-CheckBox.DoNotShowAgain=もうこれを二度と表示させない
+CheckBox.DoNotShowAgain=次回から表示させない
 
 [MessageBox.Common]
 Heading.SomethingWentWrong=何かエラーが起こりました...
