@@ -1,4 +1,4 @@
-﻿[WoR lang file]
+[WoR lang file]
 Name=日本語 (Japanese)
 IsComplete=0
 
@@ -28,27 +28,27 @@ DeclineBtn=同意しない
 [General]
 MessageBox.CustomPackageWarn=古すぎるか互換性のないパッケージはインストールに問題が生じます!{n}{n}サーバーから最新版を入手することを推奨します。{n}{n}続けますか?
 MessageBox.SelectedPackageInvalid.Heading=選択したパッケージは無効かあなたのデバイスとの互換性がありません。
-MessageBox.SelectedPackageInvalid.Message=Please select a package built for {0}.
+MessageBox.SelectedPackageInvalid.Message="{0}" 用にビルドされたパッケージを選択してください。
 Message.ExtractingPackageToTemp=一時フォルダにアーカイブを抽出しています...
 Message.DownloadingReqFiles=必要なファイルのダウンロード中...
-Label.StorageDrive=Storage drive
+Label.StorageDrive=ストレージドライブ
 Label.DeviceType=デバイスの種類
-FilePathTextPlaceholder=Click on the "{0}" button or drag and drop the file here.
-ServerPackageInfoLabel=This is the recommended option. It can be used offline too, as long as the package has been previously downloaded.
+FilePathTextPlaceholder="{0}" ボタンをクリックするか、ファイルをドラッグアンドドロップしてください。
+ServerPackageInfoLabel=これは推奨されたオプションです。 オフラインの時にも使えます。一度ダウンロードしたら。
 
 [MessageBox]
 Button.OK=OK
-Button.Cancel=Cancel
+Button.Cancel=キャンセル
 Button.Abort=Abort
-Button.Retry=Retry
-Button.Ignore=Ignore
-Button.Yes=Yes
-Button.No=No
-CheckBox.DoNotShowAgain=Don't show this again
+Button.Retry=再試行
+Button.Ignore=無視
+Button.Yes=はい
+Button.No=いいえ
+CheckBox.DoNotShowAgain=もうこれを二度と表示させない
 
 [MessageBox.Common]
-Heading.SomethingWentWrong=Something went wrong...
-Heading.Warning=Warning!
+Heading.SomethingWentWrong=何かエラーが起こりました...
+Heading.Warning=警告!
 
 [MainWindow]
 SendFeedbackBtn=フィードバックを送る
@@ -62,36 +62,36 @@ MessageBox.TaskOngoing.Message=現在操作が進行中です.
 [WelcomePage]
 PageTitle=ようこそ
 WelcomeLabel={appname} にようこそ!
-WelcomeMsgTextBox=This wizard will help you easily install the full desktop version of Windows 10 on your Raspberry Pi computer.{n}{n}Click on the {0} button to continue.
+WelcomeMsgTextBox=このウィザードは、Raspberry PiコンピューターにWindows 10のフルデスクトップバージョンを簡単にインストールするのに役立ちます。{n}{n} 続行するには {0} をクリックしてください。
 SelectLangLabel=言語を選択してください
 
 [SelectDevicePage]
 PageTitle=デバイス選択
 SelectDeviceLabel=デバイス選択
-DisksListCombo.TextEmptyList=No drives have been found. Click on the {0} button to reload the list.
-DisksListCombo.TextNoItemSelected=Click here to select a drive from the list.
-StorageDriveWarningLabel=Warning! Selecting the wrong drive may lead to unwanted data loss.
+DisksListCombo.TextEmptyList=ドライブが見つかりませんでした。 {0} ボタンをクリックしてリストを再読み込みします。
+DisksListCombo.TextNoItemSelected= リストからドライブを選択するには、ここをクリックしてください。
+StorageDriveWarningLabel= 警告！ 間違ったドライブを選択すると、データが失われる可能性があります。
 Device.ExperimentalSupport=実験的
 Device.SupportedModels=サポートモデル: {0}
 MessageBox.DiskAtLeast=選択したデバイスには、少なくとも {0} GB の空き容量が必要です!
-MessageBox.DiskCompressedInstall.Heading=選択したデバイスには、圧縮インストールにじゅうぶんな空き容量があります。
-MessageBox.DiskCompressedInstall.Message=System performance may be slightly reduced due to compression.
+MessageBox.DiskCompressedInstall.Heading=選択したデバイスには、圧縮インストールに十分な空き容量があります。
+MessageBox.DiskCompressedInstall.Message=圧縮により、システムのパフォーマンスがわずかに低下することがあります。
 Message.LoadingDisks=ドライバーの読込中...
-MessageBox.NewBootloaderRequiredWarn=If you want to boot your {0} from an USB drive or use the GPT partitioning scheme, the bootloader must be updated to the latest version.{n}{n}Please visit the following link for more details: {1}
+MessageBox.NewBootloaderRequiredWarn= {0} をUSBドライブから起動する場合、またはGPTパーティションスキームを使用する場合は、ブートローダーを最新バージョンに更新する必要があります。{n} {n}詳細については、次のリンクにアクセスしてください：{1}
 
 [SelectImagePage]
 PageTitle=イメージの選択
 SelectImageLabel=ARM 用 Windows のイメージを選択してください
-ImageFileLabel=Image file
+ImageFileLabel=イメージファイル
 WindowsEditionLabel=Windowsのエディション
-WorkingBuildsTextBox.MinBuild=Your device supports Windows 10 {0} build {1} or newer.
-WorkingBuildsTextBox.AllBuilds=Your device supports all the available builds of Windows 10 {0}.
-WorkingBuildsTextBox.GetImage=If you don't have an image yet, you can find details on how to download one on the project website.
-SelectImageIndexCombo.TextEmptyList=Please select an image first.
+WorkingBuildsTextBox.MinBuild=デバイスはWindows 10  {0} ビルド {1} 以降をサポートしています。
+WorkingBuildsTextBox.AllBuilds=お使いのデバイスは、Windows 10 {0} の利用可能なすべてのビルドをサポートしています。
+WorkingBuildsTextBox.GetImage=イメージがまだない場合は、プロジェクトのWebサイトでダウンロード方法の詳細を確認できます。
+SelectImageIndexCombo.TextEmptyList=先にイメージを選択してください。
 MessageBox.SelectedImageInvalid=選択したイメージファイルは正しい Windows のイメージではありません!
 MessageBox.SelectedImageUnsupported=選択したイメージファイルはサポートされていません!
-MessageBox.SelectedImageErrorInfo.AllBuilds=Please select a compatible Windows 10 {0} image.
-MessageBox.SelectedImageErrorInfo.MinBuild=Please select a compatible Windows 10 {0} build {1} or newer image.
+MessageBox.SelectedImageErrorInfo.AllBuilds=互換性のあるWindows 10 {0} イメージを選択してください。
+MessageBox.SelectedImageErrorInfo.MinBuild=互換性のあるWindows 10 {0} ビルド {1} 以降のイメージを選択してください。
 MessageBox.NotEnoughSpace.Heading=このイメージを使ってインストールするにはディスクのサイズが不足しています!
 MessageBox.NotEnoughSpace.Message=大きめの記憶装置やコンパクトなイメージを選択してください。
 Message.MountingISO=ISO イメージのマウント中...
@@ -105,7 +105,7 @@ DriversNoteTextBox=注意: ドライバーは、{0} ファイル形式でアー�
 LocalDrvPkgRadioBtn=コンピューター上に保存したパッケージを使用
 ServerDrvPkgRadioBtn=最新のパッケージをサーバーからダウンロードして使用
 MessageBox.LicenseNotAccepted.Heading=あなたは全てのライセンス契約に同意していません!
-MessageBox.LicenseNotAccepted.Message=All licenses must be accepted to use this drivers package.
+MessageBox.LicenseNotAccepted.Message=このドライバーパッケージを使用するには、すべてのライセンスに同意する必要があります。
 
 [SelectUEFIPage]
 PageTitle=UEFI ファームウェアの選択
@@ -131,7 +131,7 @@ MemoryLimitLabel=メモリ制限:
 RecoveryEnabledCheck=Windowsリカバリ環境を有効化
 WoROptionsGroup={appname} オプション
 SaveConfigOnExitCheck=終了時に、この設定を保存する
-SaveConfigOnExitCheckInfoLabel=Note: options that are disabled (and those in the {0} menu) will not be saved.
+SaveConfigOnExitCheckInfoLabel=注：無効になっているオプション（および {0} オプション）は保存されません。
 
 [SetupOverviewPage]
 PageTitle=インストール
@@ -149,7 +149,7 @@ LZXCompression.NO=いいえ
 [SetupProgressPage]
 PageTitle=インストール
 InstallInfoBox=この処理は、デバイスのパフォーマンスにより長時間かかることがあります。
-TryAgainBtn=Try again
+TryAgainBtn=再試行
 InstallStatusLabel.GettingReady=準備中...
 InstallStatusLabel.FormattingDisk=ターゲットデバイスのフォーマット中...
 InstallStatusLabel.CreatingPartitions=パーティションの作成中...
