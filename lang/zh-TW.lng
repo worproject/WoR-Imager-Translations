@@ -28,27 +28,27 @@ DeclineBtn=拒絕
 [General]
 MessageBox.CustomPackageWarn=使用過舊或不兼容的安裝包將可能導致安裝過程出現問題！{n}{n}建議您使用伺服器上可用的最新版本。{n}{n}您仍要繼續嗎?
 MessageBox.SelectedPackageInvalid.Heading=您所選擇的安裝包無效或不兼容於您的設備。
-MessageBox.SelectedPackageInvalid.Message=Please select a package built for {0}.
+MessageBox.SelectedPackageInvalid.Message=請選擇用於 {0} 的安裝包。
 Message.ExtractingPackageToTemp=將檔案解壓縮到臨時文件夾...
 Message.DownloadingReqFiles=正在下載所需文件...
-Label.StorageDrive=Storage drive
+Label.StorageDrive=存儲硬碟
 Label.DeviceType=裝置類型
-FilePathTextPlaceholder=Click on the "{0}" button or drag and drop the file here.
-ServerPackageInfoLabel=This is the recommended option. It can be used offline too, as long as the package has been previously downloaded.
+FilePathTextPlaceholder=請點擊 "{0}" 按鈕或拖放文件到這裡。
+ServerPackageInfoLabel=這是推薦的選項。 只要先前已經將安裝包下載到您的電腦上，您也可以在離線狀態下使用。
 
 [MessageBox]
-Button.OK=OK
-Button.Cancel=Cancel
-Button.Abort=Abort
-Button.Retry=Retry
-Button.Ignore=Ignore
-Button.Yes=Yes
-Button.No=No
-CheckBox.DoNotShowAgain=Don't show this again
+Button.OK=好
+Button.Cancel=取消
+Button.Abort=中止
+Button.Retry=重試
+Button.Ignore=忽略
+Button.Yes=是
+Button.No=否
+CheckBox.DoNotShowAgain=不要再次顯示
 
 [MessageBox.Common]
-Heading.SomethingWentWrong=Something went wrong...
-Heading.Warning=Warning!
+Heading.SomethingWentWrong=有東西出現錯誤...
+Heading.Warning=警告!
 
 [MainWindow]
 SendFeedbackBtn=傳送回報訊息
@@ -62,36 +62,36 @@ MessageBox.TaskOngoing.Message=另一個程序正在執行中。
 [WelcomePage]
 PageTitle=歡迎
 WelcomeLabel=歡迎使用 {appname}!
-WelcomeMsgTextBox=This wizard will help you easily install the full desktop version of Windows 10 on your Raspberry Pi computer.{n}{n}Click on the {0} button to continue.
+WelcomeMsgTextBox=本嚮導將幫助您輕鬆地安裝 Windows 10 的完整桌面版本到您的 Raspberry Pi 電腦上。{n}{n}請點擊 {0} 按鈕以繼續。
 SelectLangLabel=語言:
 
 [SelectDevicePage]
 PageTitle=裝置選擇
 SelectDeviceLabel=選擇您的裝置
-DisksListCombo.TextEmptyList=No drives have been found. Click on the {0} button to reload the list.
-DisksListCombo.TextNoItemSelected=Click here to select a drive from the list.
-StorageDriveWarningLabel=Warning! Selecting the wrong drive may lead to unwanted data loss.
+DisksListCombo.TextEmptyList=未找到任何硬碟。 請點擊 {0} 按鈕來重新整理列表。
+DisksListCombo.TextNoItemSelected=點擊這裡來從列表中選取硬碟。
+StorageDriveWarningLabel=警告! 選擇錯誤的硬碟將導致不必要的數據損失。
 Device.ExperimentalSupport=實驗性的
 Device.SupportedModels=支援型號: {0}
 MessageBox.DiskAtLeast=所選的裝置必須擁有 {0} GB 以上的可用空間！
 MessageBox.DiskCompressedInstall.Heading=所選的裝置僅擁有足夠的空間進行壓縮版安裝。
-MessageBox.DiskCompressedInstall.Message=System performance may be slightly reduced due to compression.
+MessageBox.DiskCompressedInstall.Message=由於壓縮，系統性能可能會略有下降。
 Message.LoadingDisks=正在取讀磁碟列表...
-MessageBox.NewBootloaderRequiredWarn=If you want to boot your {0} from an USB drive or use the GPT partitioning scheme, the bootloader must be updated to the latest version.{n}{n}Please visit the following link for more details: {1}
+MessageBox.NewBootloaderRequiredWarn=如果您想要從 USB硬碟 或 GUID磁碟分割格式(GPT partitioning scheme) 啟動您的 {0} ,那麼 bootloader 必須更新到最新的版本。{n}{n}獲取更多資訊請參訪以下連結: {1}
 
 [SelectImagePage]
 PageTitle=選擇映像檔
 SelectImageLabel=請選擇您的 Windows on ARM 映像檔。
-ImageFileLabel=Image file
+ImageFileLabel=映像檔
 WindowsEditionLabel=Windows版本
-WorkingBuildsTextBox.MinBuild=Your device supports Windows 10 {0} build {1} or newer.
-WorkingBuildsTextBox.AllBuilds=Your device supports all the available builds of Windows 10 {0}.
-WorkingBuildsTextBox.GetImage=If you don't have an image yet, you can find details on how to download one on the project website.
-SelectImageIndexCombo.TextEmptyList=Please select an image first.
+WorkingBuildsTextBox.MinBuild=您的裝置支援 Windows 10 {0} 的版本 {1} 或更新的版本。
+WorkingBuildsTextBox.AllBuilds=您的裝置支援所有可用的 Windows 10 {0} 的版本。
+WorkingBuildsTextBox.GetImage=若您還沒有任何的映像檔， 您可以在網站上找到如何下載的相關詳細資訊。
+SelectImageIndexCombo.TextEmptyList=請先選擇映像檔。
 MessageBox.SelectedImageInvalid=所選的檔案不是有效的Windows映像檔！
 MessageBox.SelectedImageUnsupported=不支援所選的檔案格式！
-MessageBox.SelectedImageErrorInfo.AllBuilds=Please select a compatible Windows 10 {0} image.
-MessageBox.SelectedImageErrorInfo.MinBuild=Please select a compatible Windows 10 {0} build {1} or newer image.
+MessageBox.SelectedImageErrorInfo.AllBuilds=請選擇兼容的 Windows 10 {0} 映像檔。
+MessageBox.SelectedImageErrorInfo.MinBuild=請選擇兼容的 Windows 10 {0} 的版本 {1} 或更新的映像檔。
 MessageBox.NotEnoughSpace.Heading=所選裝置沒有足夠空間安裝所選映像檔
 MessageBox.NotEnoughSpace.Message=請改用較大的儲存裝置或較小的映像檔。
 Message.MountingISO=正在加載映像檔...
@@ -105,7 +105,7 @@ DriversNoteTextBox=備註：驅動程式必須被壓縮為{0}格式
 LocalDrvPkgRadioBtn=從磁碟安裝驅動程式
 ServerDrvPkgRadioBtn=從伺服器上下載最新驅動程式
 MessageBox.LicenseNotAccepted.Heading=您尚未同意所有的授權協議！
-MessageBox.LicenseNotAccepted.Message=All licenses must be accepted to use this drivers package.
+MessageBox.LicenseNotAccepted.Message=您必須同意所有的授權協議才能使用這些驅動程式。
 
 [SelectUEFIPage]
 PageTitle=UEFI韌體
@@ -131,7 +131,7 @@ MemoryLimitLabel=記憶體限制:
 RecoveryEnabledCheck=啟用Windows修復環境（WinRE）
 WoROptionsGroup={appname}選項
 SaveConfigOnExitCheck=離開時儲存設定
-SaveConfigOnExitCheckInfoLabel=Note: options that are disabled (and those in the {0} menu) will not be saved.
+SaveConfigOnExitCheckInfoLabel=注意：關閉的選項（以及 {0} 選單中的選項）將不會保存。
 
 [SetupOverviewPage]
 PageTitle=安裝
@@ -149,7 +149,7 @@ LZXCompression.NO=否
 [SetupProgressPage]
 PageTitle=安裝
 InstallInfoBox=安裝程序將會耗費一段時間，這取決於裝置的速度。
-TryAgainBtn=Try again
+TryAgainBtn=請重試
 InstallStatusLabel.GettingReady=正在準備就緒...
 InstallStatusLabel.FormattingDisk=正在格式化裝置...
 InstallStatusLabel.CreatingPartitions=正在建立磁碟分割...
