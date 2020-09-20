@@ -1,6 +1,6 @@
 ﻿[WoR lang file]
 Name=繁體中文(台灣) (Traditional Chinese)
-IsComplete=0
+IsComplete=1
 
 [UpdateNotifyWindow]
 WindowTitle=更新
