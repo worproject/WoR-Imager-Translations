@@ -3,11 +3,11 @@ Name=Русский (Russian)
 IsComplete=0
 
 [UpdateNotifyWindow]
-WindowTitle=Update
-NewVersionAvailableLabel=New version available
-NewVersionAvailableBox={appname} {0} is available! Would you like to download it now?
-DownloadBtn=Download
-CloseBtn=Close
+WindowTitle=Обновить
+NewVersionAvailableLabel=Доступна новая версия
+NewVersionAvailableBox={appname} {0} уже доступна! Хотите скачать её сейчас?
+DownloadBtn=Скачать
+CloseBtn=Закрыть
 
 [AboutWindow]
 WindowTitle=О программе
@@ -18,7 +18,7 @@ LicensesPage=Лицензирование
 
 [LoggerWindow]
 WindowTitle=Логи
-CopyToClipboardBtn=Copy
+CopyToClipboardBtn=Копировать
 
 [LicenseAgreementWindow]
 WindowTitle=Лицензионное соглашение
@@ -38,16 +38,16 @@ ServerPackageInfoLabel=This is the recommended option. It can be used offline to
 
 [MessageBox]
 Button.OK=OK
-Button.Cancel=Cancel
+Button.Cancel=Отменить
 Button.Abort=Abort
-Button.Retry=Retry
-Button.Ignore=Ignore
-Button.Yes=Yes
-Button.No=No
-CheckBox.DoNotShowAgain=Don't show this again
+Button.Retry=Повторить
+Button.Ignore=Игнорировать
+Button.Yes=Да
+Button.No=Нет
+CheckBox.DoNotShowAgain=Не показывать снова
 
 [MessageBox.Common]
-Heading.SomethingWentWrong=Something went wrong...
+Heading.SomethingWentWrong=Что-то пошло не так...
 Heading.Warning=Warning!
 
 [MainWindow]
@@ -83,7 +83,7 @@ MessageBox.NewBootloaderRequiredWarn=If you want to boot your {0} from an USB dr
 PageTitle=Выбор образа
 SelectImageLabel=Выберите ваш Windows ARM образ
 ImageFileLabel=Image file
-WindowsEditionLabel=Windows edition
+WindowsEditionLabel=Редакции Windows
 WorkingBuildsTextBox.MinBuild=Your device supports Windows 10 {0} build {1} or newer.
 WorkingBuildsTextBox.AllBuilds=Your device supports all the available builds of Windows 10 {0}.
 WorkingBuildsTextBox.GetImage=If you don't have an image yet, you can find details on how to download one on the project website.
@@ -102,10 +102,10 @@ Message.VerifyingImage=Verifying the image...
 PageTitle=Выбор драйверов
 SelectDriversLabel=Выберите драйвера
 DriversNoteTextBox=Примечание: драйвера должен быть упакованы в {0} формате.
-LocalDrvPkgRadioBtn=Use a package stored on your computer
-ServerDrvPkgRadioBtn=Use the latest package available on the server
+LocalDrvPkgRadioBtn=Использовать пакет с локального хранилища
+ServerDrvPkgRadioBtn=Испльзовать последную доступную весию с сервера
 MessageBox.LicenseNotAccepted.Heading=Вы не приняли одно из лицензионных соглашений!
-MessageBox.LicenseNotAccepted.Message=All licenses must be accepted to use this drivers package.
+MessageBox.LicenseNotAccepted.Message=Для использования этого пакета драйверов необходимо принять все лицензии.
 
 [SelectUEFIPage]
 PageTitle=UEFI прошивка
@@ -149,7 +149,7 @@ LZXCompression.NO=НЕТ
 [SetupProgressPage]
 PageTitle=Установить
 InstallInfoBox=Этот процесс может занять длительное время, в зависимости от производительности носителя.
-TryAgainBtn=Try again
+TryAgainBtn=Попробовать снова
 InstallStatusLabel.GettingReady=Ожидайте... 
 InstallStatusLabel.FormattingDisk=Форматирование выбранного носителя...
 InstallStatusLabel.CreatingPartitions=Создание разделов... 
