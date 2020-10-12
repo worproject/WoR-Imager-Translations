@@ -1,6 +1,6 @@
 ﻿[WoR lang file]
 Name=Polski (Polish)
-IsComplete=0
+IsComplete=1
 
 [UpdateNotifyWindow]
 WindowTitle=Aktualizacja
@@ -28,27 +28,27 @@ DeclineBtn=Odrzuć
 [General]
 MessageBox.CustomPackageWarn=Wybranie niekompatybilnego pliku może spowodować problemy podczas instalacji!{n}{n}Zalecane jest użycie najnowszej wersji z serwera.{n}{n}Kontynuować mimo wszystko?
 MessageBox.SelectedPackageInvalid.Heading=Wybrany plik jest niepoprawny lub niekompatybilny z twoim urządzeniem.
-MessageBox.SelectedPackageInvalid.Message=Please select a package built for {0}.
+MessageBox.SelectedPackageInvalid.Message=Proszę, wybierz poprawny pakiet {0}.
 Message.ExtractingPackageToTemp=Wypakowywanie archiwum do folderu tymczasowego...
 Message.DownloadingReqFiles=Pobieranie wymaganych plików...
-Label.StorageDrive=Storage drive
+Label.StorageDrive=Dysk
 Label.DeviceType=Typ urządzenia
-FilePathTextPlaceholder=Click on the "{0}" button or drag and drop the file here.
-ServerPackageInfoLabel=This is the recommended option. It can be used offline too, as long as the package has been previously downloaded.
+FilePathTextPlaceholder=Naciśnij ten "{0}" przycisk, lub przenieś plik tutaj.
+ServerPackageInfoLabel=To jest rekomendowana opcja. Może być używana jak jest offline, dopóki pakiet jest pobrany.
 
 [MessageBox]
 Button.OK=OK
-Button.Cancel=Cancel
-Button.Abort=Abort
-Button.Retry=Retry
-Button.Ignore=Ignore
-Button.Yes=Yes
-Button.No=No
-CheckBox.DoNotShowAgain=Don't show this again
+Button.Cancel=Anulij
+Button.Abort=Pomiń
+Button.Retry=Spróbuj ponownie
+Button.Ignore=Ignoruj
+Button.Yes=Tak
+Button.No=Nie
+CheckBox.DoNotShowAgain=Nie pokazuj tego ponownie
 
 [MessageBox.Common]
-Heading.SomethingWentWrong=Something went wrong...
-Heading.Warning=Warning!
+Heading.SomethingWentWrong=Coś poszło nie tak...
+Heading.Warning=Uwaga!
 
 [MainWindow]
 SendFeedbackBtn=Wyślij opinię
@@ -62,36 +62,36 @@ MessageBox.TaskOngoing.Message=Operacja w toku.
 [WelcomePage]
 PageTitle=Witaj!
 WelcomeLabel=Witaj w {appname}!
-WelcomeMsgTextBox=This wizard will help you easily install the full desktop version of Windows 10 on your Raspberry Pi computer.{n}{n}Click on the {0} button to continue.
+WelcomeMsgTextBox=Ten kreator pomoże Ci łatwo zainstalować pełną wersję Windows 10 na twoim komputerze Raspberry Pi.{n}{n} Naciśnij na ten {0} przycisk, aby kontynuować.
 SelectLangLabel=Wybierz język:
 
 [SelectDevicePage]
 PageTitle=Wybór urządzenia
 SelectDeviceLabel=Wybór urządzenia
-DisksListCombo.TextEmptyList=No drives have been found. Click on the {0} button to reload the list.
-DisksListCombo.TextNoItemSelected=Click here to select a drive from the list.
-StorageDriveWarningLabel=Warning! Selecting the wrong drive may lead to unwanted data loss.
+DisksListCombo.TextEmptyList=Nie wykryto żadnych dysków. Kliknij na ten {0} przycisk, aby odświeżyc listę.
+DisksListCombo.TextNoItemSelected=Naciśnij tutaj, aby wybrać dysk z listy.
+StorageDriveWarningLabel=Uwaga! Wybranie złego dysku, doprowadzi do niechcianej utraty danych.
 Device.ExperimentalSupport=Funkcje eksperymentalne
 Device.SupportedModels=Obsługiwane modele: {0}
 MessageBox.DiskAtLeast=Urządzenie musi mieć co najmniej {0} GB wolnego miejsca!
 MessageBox.DiskCompressedInstall.Heading=Wybrane urządzenie posiada wystarczająco miejsca na skompresowaną instalację.
-MessageBox.DiskCompressedInstall.Message=System performance may be slightly reduced due to compression.
+MessageBox.DiskCompressedInstall.Message=Wydajność może być lekko zaniżona, na wskutek trwającej kompresji.
 Message.LoadingDisks=Wyszukiwanie dysków...
-MessageBox.NewBootloaderRequiredWarn=If you want to boot your {0} from an USB drive or use the GPT partitioning scheme, the bootloader must be updated to the latest version.{n}{n}Please visit the following link for more details: {1}
+MessageBox.NewBootloaderRequiredWarn=Jeśli chcesz uruchomić system {0} z dysku USB, lub użyć tablicy partycji GPT, program rozruchowy musi być uaktualniony do najnowszej wersji.{n}{n}Proszę, odwiedź ten link, po więcej informacji: {1}
 
 [SelectImagePage]
 PageTitle=Wybór obrazu systemu
 SelectImageLabel=Wybierz obraz systemu Windows on ARM
-ImageFileLabel=Image file
+ImageFileLabel=Plik obrazu
 WindowsEditionLabel=Wersja Windows
-WorkingBuildsTextBox.MinBuild=Your device supports Windows 10 {0} build {1} or newer.
-WorkingBuildsTextBox.AllBuilds=Your device supports all the available builds of Windows 10 {0}.
-WorkingBuildsTextBox.GetImage=If you don't have an image yet, you can find details on how to download one on the project website.
-SelectImageIndexCombo.TextEmptyList=Please select an image first.
+WorkingBuildsTextBox.MinBuild=Twoje urządzenie obsługuje Windows 10 {0} wersję {1} ,lub nowszą.
+WorkingBuildsTextBox.AllBuilds=Twoje urządzenie obsługuje wszystkie wersje Windows 10 {0}.
+WorkingBuildsTextBox.GetImage=Jeśli, jeszcze nie masz pliku obrazu, Możesz znaleźć detale ,jak taki pobrać na stronie projektu.
+SelectImageIndexCombo.TextEmptyList=Proszę, wybrać plik obrazy.
 MessageBox.SelectedImageInvalid=Wybrany plik nie jest prawidłowym plikiem obrazu systemu Windows!
 MessageBox.SelectedImageUnsupported=Wybrany plik obrazu jest nie wspierany!
-MessageBox.SelectedImageErrorInfo.AllBuilds=Please select a compatible Windows 10 {0} image.
-MessageBox.SelectedImageErrorInfo.MinBuild=Please select a compatible Windows 10 {0} build {1} or newer image.
+MessageBox.SelectedImageErrorInfo.AllBuilds=Proszę, wybierz kompatybilny obraz Windows 10 {0}.
+MessageBox.SelectedImageErrorInfo.MinBuild=Proszę, wybierz kompatybilny plik obrazu Windows 10 {0} wersje {1} lub nowszą.
 MessageBox.NotEnoughSpace.Heading=Na dysku nie ma wystarczająco miejsca by zainstalować ten obraz!
 MessageBox.NotEnoughSpace.Message=Prosze wybierz większy dysk lub użyj kompaktowego obrazu.
 Message.MountingISO=Montowanie obrazu ISO...
@@ -105,7 +105,7 @@ DriversNoteTextBox=Uwaga: sterowniki muszą być spakowane do pliku {0}!
 LocalDrvPkgRadioBtn=Użyj archiwum ze sterownikami znalezionego na komputerze
 ServerDrvPkgRadioBtn=Użyj najnowszego archiwum ze sterownikami z serwera
 MessageBox.LicenseNotAccepted.Heading=Jedna z umów licencyjnych nie została zaakceptowana!
-MessageBox.LicenseNotAccepted.Message=All licenses must be accepted to use this drivers package.
+MessageBox.LicenseNotAccepted.Message=Wszystkie, umowy licencyjne muszą zostac zaakceptowane, aby użyc tego pakietu sterowników.
 
 [SelectUEFIPage]
 PageTitle=Wybór pliku UEFI
@@ -128,10 +128,10 @@ ConfigurationTabControl.AdvancedTabPage=Zaawansowane
 MessageBox.AdvancedTabPageWarn=Zmianianie domyślnych ustawieć w zaawansowanych opcjach może wyłączyć wyłączyć określone funkcje urządzenia lub uniemożliwić uruchomienie systemu.{n}{n}Czy jesteś pewny że chcesz kontynuować?
 WindowsBootOptionsGroup=Opcje rozruchu Windowsa
 MemoryLimitLabel=Limit Pamięci:
-RecoveryEnabledCheck=Włą○cz środowisko odzyskiwania Windowsa
+RecoveryEnabledCheck=Uruchom środowisko odzyskiwania Windowsa
 WoROptionsGroup=Ustawienia {appname}
 SaveConfigOnExitCheck=Zapisz tę konfigurację
-SaveConfigOnExitCheckInfoLabel=Note: options that are disabled (and those in the {0} menu) will not be saved.
+SaveConfigOnExitCheckInfoLabel=Informacja: Opcje, które są wyłączone (i te w {0} menu) nie zostaną zapisane.
 
 [SetupOverviewPage]
 PageTitle=Instalacja
