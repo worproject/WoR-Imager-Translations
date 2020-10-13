@@ -1,6 +1,6 @@
 ﻿[WoR lang file]
 Name=한국어 (Korean)
-IsComplete=0
+IsComplete=1
 
 [UpdateNotifyWindow]
 WindowTitle=업데이트
