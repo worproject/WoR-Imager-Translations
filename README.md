@@ -32,7 +32,7 @@ Issues related to the WoR tool should be reported on the [dedicated bug tracker]
 | Italiano (Italian)                          | it-IT.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/it-IT.lng)   | xicciodj , lorecast162 , nopesir
 | Magyar (Hungarian)                          | hu-HU.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/hu-HU.lng)   | Janaboy , Googulator 
 | Nederlands (Dutch)                          | nl-NL.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/nl-NL.lng) | Finnie2006
-| Polski (Polish)                             | pl-PL.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/pl-PL.lng)   | macmmm81 , Gotard , Marcinoo97 , LUKI N (lukin123)
+| Polski (Polish)                             | pl-PL.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/pl-PL.lng)   | macmmm81 , Gotard , Marcinoo97 , LUKI N (lukin123) , krolik-exe
 | Português (Portuguese)                      | pt-PT.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/pt-PT.lng)   | Miguel Couto
 | Português Brasileiro (Brazilian Portuguese) | pt-BR.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/pt-BR.lng)   | Rafael Fontenelle
 | Română (Romanian)                           | ro-RO.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/ro-RO.lng) | Mario Bălănică
