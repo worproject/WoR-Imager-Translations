@@ -26,32 +26,32 @@ AcceptBtn=Příjmout
 DeclineBtn=Odmítnout
 
 [General]
-MessageBox.CustomPackageWarn=Choosing an outdated or incompatible package may cause installation problems!{n}{n}It is recommended that you use the latest version available on the server instead.{n}{n}Continue anyway?
-MessageBox.SelectedPackageInvalid.Heading=The selected package is invalid or incompatible with your device.
-MessageBox.SelectedPackageInvalid.Message=Please select a package built for {0}.
+MessageBox.CustomPackageWarn=Výběr zastaralého nebo nekompatibilního balíčku může způsobit problémy s instalací!{n}{n}Doporučujeme místo toho použít nejnovější verzi dostupnou na serveru.{n}{n}Přesto pokračovat?
+MessageBox.SelectedPackageInvalid.Heading=Vybraný balíček je neplatný nebo nekompatibilní s vaším zařízením.
+MessageBox.SelectedPackageInvalid.Message=Prosím vyberte balíček vytvořený pro {0}.
 Message.ExtractingPackageToTemp=Rozbalování archivu do dočasné složky...
 Message.DownloadingReqFiles=Stahování vyžadovaných souborů...
-Label.StorageDrive=Storage drive
-Label.DeviceType=Device type
-FilePathTextPlaceholder=Click on the "{0}" button or drag and drop the file here.
-ServerPackageInfoLabel=This is the recommended option. It can be used offline too, as long as the package has been previously downloaded.
+Label.StorageDrive=Úložná jednotka
+Label.DeviceType=Typ zařízení
+FilePathTextPlaceholder=Klikněte na tlačítko "{0}" nebo sem přetáhněte soubor.
+ServerPackageInfoLabel=Toto je doporučená možnost. Lze použít také offline, pokud byl balíček stažen předem.
 
 [MessageBox]
 Button.OK=OK
-Button.Cancel=Cancel
-Button.Abort=Abort
-Button.Retry=Retry
-Button.Ignore=Ignore
+Button.Cancel=Zrušit
+Button.Abort=Přerušit
+Button.Retry=Opakovat
+Button.Ignore=Ignorovat
 Button.Yes=Yes
 Button.No=No
-CheckBox.DoNotShowAgain=Don't show this again
+CheckBox.DoNotShowAgain=Toto již znovu nezobrazovat
 
 [MessageBox.Common]
-Heading.SomethingWentWrong=Something went wrong...
-Heading.Warning=Warning!
+Heading.SomethingWentWrong=Něco se pokazilo ...
+Heading.Warning=Varování!
 
 [MainWindow]
-SendFeedbackBtn=Send feedback
+SendFeedbackBtn=Odeslat zpětnou vazbu
 NextPageBtn=Další
 BackPageBtn=Zpět
 NextPageBtn.Install=Instalovat
@@ -62,41 +62,41 @@ MessageBox.TaskOngoing.Message=Oprace právě probíhá.
 [WelcomePage]
 PageTitle=Vítejte
 WelcomeLabel=Vítejte ve {appname}!
-WelcomeMsgTextBox=This wizard will help you easily install the full desktop version of Windows 10 on your Raspberry Pi computer.{n}{n}Click on the {0} button to continue.
+WelcomeMsgTextBox=Tento průvodce vám pomůže snadno nainstalovat plnou verzi systému Windows 10 pro stolní počítače do vašeho počítače Raspberry Pi.{n}{n}Klikněte na tlačítko {0} pro pokračování.
 SelectLangLabel=Zvolte jazyk:
 
 [SelectDevicePage]
 PageTitle=Vyberte zařízení
 SelectDeviceLabel=Vyberte zařízení
-DisksListCombo.TextEmptyList=No drives have been found. Click on the {0} button to reload the list.
-DisksListCombo.TextNoItemSelected=Click here to select a drive from the list.
-StorageDriveWarningLabel=Warning! Selecting the wrong drive may lead to unwanted data loss.
-Device.ExperimentalSupport=Experimental
-Device.SupportedModels=Supported models: {0}
+DisksListCombo.TextEmptyList=Nebyly nalezeny žádné disky. Kliknutím na tlačítko {0} seznam znovu načtete.
+DisksListCombo.TextNoItemSelected=Kliknutím zde vyberte jednotku ze seznamu.
+StorageDriveWarningLabel=Varování! Výběr nesprávné jednotky může vést ke ztrátě dat.
+Device.ExperimentalSupport=Experimentální
+Device.SupportedModels=Podporované modely: {0}
 MessageBox.DiskAtLeast=Zařízení musí mít alespoň {0} GB volného místa!
 MessageBox.DiskCompressedInstall.Heading=Vybrané zařízení nemá dostatek místa pro komprimovanou instalaci.
-MessageBox.DiskCompressedInstall.Message=System performance may be slightly reduced due to compression.
+MessageBox.DiskCompressedInstall.Message=Výkon systému může být kvůli kompresi mírně nížší.
 Message.LoadingDisks=Načítání seznamu disků...
-MessageBox.NewBootloaderRequiredWarn=If you want to boot your {0} from an USB drive or use the GPT partitioning scheme, the bootloader must be updated to the latest version.{n}{n}Please visit the following link for more details: {1}
+MessageBox.NewBootloaderRequiredWarn=Chcete-li zavést {0} z jednotky USB nebo použít schéma rozdělení GPT, musí být bootloader aktualizován na nejnovější verzi.{n}{n}Další podrobnosti naleznete na následujícím odkazu: {1}
 
 [SelectImagePage]
 PageTitle=Vyberte obraz
 SelectImageLabel=Vyberte Váš obraz Windows
 ImageFileLabel=Image file
 WindowsEditionLabel=Edice Windows
-WorkingBuildsTextBox.MinBuild=Your device supports Windows 10 {0} build {1} or newer.
-WorkingBuildsTextBox.AllBuilds=Your device supports all the available builds of Windows 10 {0}.
-WorkingBuildsTextBox.GetImage=If you don't have an image yet, you can find details on how to download one on the project website.
-SelectImageIndexCombo.TextEmptyList=Please select an image first.
+WorkingBuildsTextBox.MinBuild=Vaše zařízení podporuje Windows {0} build {1} nebo novější.
+WorkingBuildsTextBox.AllBuilds=Vaše zařízení podporuje všechny dostupné verze Windows 10 {0}.
+WorkingBuildsTextBox.GetImage=Pokud ještě nemáte obraz, najdete podrobnosti o jeho stažení na webových stránkách projektu.
+SelectImageIndexCombo.TextEmptyList=Nejprve prosím vyberte obraz.
 MessageBox.SelectedImageInvalid=Vybraný soubor není platný obraz Windows!
 MessageBox.SelectedImageUnsupported=Vybraný obraz není podporovaný!
-MessageBox.SelectedImageErrorInfo.AllBuilds=Please select a compatible Windows 10 {0} image.
-MessageBox.SelectedImageErrorInfo.MinBuild=Please select a compatible Windows 10 {0} build {1} or newer image.
+MessageBox.SelectedImageErrorInfo.AllBuilds=Vyberte prosím kompatibilní obraz Windows 10 {0}.
+MessageBox.SelectedImageErrorInfo.MinBuild=Vyberte prosím kompatibilní obraz Windows 10 {0} build {1} nebo novější.
 MessageBox.NotEnoughSpace.Heading=Na disku není dostatek místa pro instalaci tohoto obrazu!
 MessageBox.NotEnoughSpace.Message=Zvolte prosím větší úložné zařízení nebo kompaktní obraz.
 Message.MountingISO=Připojování ISO obrazu...
 Message.UnmountingISO=Odpojování ISO obrazu...
-Message.VerifyingImage=Verifying the image...
+Message.VerifyingImage=Ověření ISO obrazu...
 
 [SelectDriversPage]
 PageTitle=Vyberte ovladače
@@ -105,7 +105,7 @@ DriversNoteTextBox=Pozn.: Ovladače musí být archivované ve formátu {0}.
 LocalDrvPkgRadioBtn=Použít balíček uložený v tomto počítači
 ServerDrvPkgRadioBtn=Použít poslední balíček dostupný na serveru
 MessageBox.LicenseNotAccepted.Heading=Nepotvrdili jste licenční ujednání!
-MessageBox.LicenseNotAccepted.Message=All licenses must be accepted to use this drivers package.
+MessageBox.LicenseNotAccepted.Message=K použití tohoto balíčku ovladačů je nutné přijmout všechny licence.
 
 [SelectUEFIPage]
 PageTitle=UEFI firmware
@@ -117,21 +117,21 @@ ServerUEFIRadioBtn=Použít poslední firmware dostupný na serveru
 [SetupConfigurationPage]
 PageTitle=Konfigurace
 ConfigurationLabel=Konfigurace
-ConfigurationTabControl.MainTabPage=General
+ConfigurationTabControl.MainTabPage=Obecné
 InstallOptionsGroup=nastavení instalace
 PartSchemeLabel=Oddílování:
 ImgInstallLabel=Instalovat obraz s:
 EnableLZXCheck=Povolit LZX kompresi instalace
 BootOptionsGroup=Nastavení bootování
-MessageBox.BootConfigEditorWarn=Modifying the default boot configuration may cause the device to malfunction or not boot at all.{n}{n}Continue anyway?
-ConfigurationTabControl.AdvancedTabPage=Advanced
-MessageBox.AdvancedTabPageWarn=Changing the default settings in the advanced menu may disable specific device features or prevent the system from booting.{n}{n}Are you sure you want to continue?
+MessageBox.BootConfigEditorWarn=Úprava výchozí konfigurace spouštění může způsobit nefunkčnost zařízení nebo, že se vůbec nespustí.{n}{n}Přesto pokračovat?
+ConfigurationTabControl.AdvancedTabPage=Pokročilé
+MessageBox.AdvancedTabPageWarn=Změna výchozího nastavení v rozšířené nabídce může deaktivovat konkrétní funkce zařízení nebo zabránit spuštění systému.{n}{n}Opravdu chcete pokračovat?
 WindowsBootOptionsGroup=Windows boot options
-MemoryLimitLabel=Memory limit:
-RecoveryEnabledCheck=Enable the Windows Recovery Environment
+MemoryLimitLabel=Limit paměti:
+RecoveryEnabledCheck=Povolit prostředí Windows Recovery Environment
 WoROptionsGroup=Nastavení {appname}
 SaveConfigOnExitCheck=Při ukončení uložit tuto konfiguraci.
-SaveConfigOnExitCheckInfoLabel=Note: options that are disabled (and those in the {0} menu) will not be saved.
+SaveConfigOnExitCheckInfoLabel=Poznámka: možnosti, které jsou deaktivovány (a ty, které jsou v nabídce {0}) nebudou uloženy.
 
 [SetupOverviewPage]
 PageTitle=Instalovat
@@ -149,7 +149,7 @@ LZXCompression.NO=NE
 [SetupProgressPage]
 PageTitle=Instalovat
 InstallInfoBox=Tato operace může nějakou dobu trvat, záleží na rychlosti zařízení.
-TryAgainBtn=Try again
+TryAgainBtn=Zkusit znovu
 InstallStatusLabel.GettingReady=Příprava...
 InstallStatusLabel.FormattingDisk=Formátování cílového zařízení...
 InstallStatusLabel.CreatingPartitions=Vytváření oddílů...
