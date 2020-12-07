@@ -82,7 +82,7 @@ MessageBox.NewBootloaderRequiredWarn=Chcete-li zavést {0} z jednotky USB nebo p
 [SelectImagePage]
 PageTitle=Vyberte obraz
 SelectImageLabel=Vyberte Váš obraz Windows
-ImageFileLabel=Image file
+ImageFileLabel=Soubor obrazu
 WindowsEditionLabel=Edice Windows
 WorkingBuildsTextBox.MinBuild=Vaše zařízení podporuje Windows {0} build {1} nebo novější.
 WorkingBuildsTextBox.AllBuilds=Vaše zařízení podporuje všechny dostupné verze Windows 10 {0}.
