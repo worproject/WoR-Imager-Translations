@@ -42,8 +42,8 @@ Button.Cancel=Zrušit
 Button.Abort=Přerušit
 Button.Retry=Opakovat
 Button.Ignore=Ignorovat
-Button.Yes=Yes
-Button.No=No
+Button.Yes=Ano
+Button.No=Ne
 CheckBox.DoNotShowAgain=Toto již znovu nezobrazovat
 
 [MessageBox.Common]
