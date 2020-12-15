@@ -23,13 +23,13 @@ Issues related to the WoR tool should be reported on the [dedicated bug tracker]
 
 | Language                                    | Filename  | Status                                                                       | Contributors 
 | ------------------------------------------- | --------- | ---------------------------------------------------------------------------- | --------------
-| Čeština (Czech)                             | cs-CZ.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/cs-CZ.lng)   | martindrey , Nuparu00 , lukajin
+| Čeština (Czech)                             | cs-CZ.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/cs-CZ.lng) | czsgaba , martindrey , Nuparu00 , lukajin
 | Deutsch (German)                            | de-DE.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/de-DE.lng) | EpicLPer , BastiJames333 , Schule04 , NASS-eK , ulrichrobin , Finnie2006
 | English                                     | en-US.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/en-US.lng) | Mario Bălănică
-| Español (Spanish)                           | es-ES.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/es-ES.lng)   | Ivan Ruiz (ivigamergames) 
+| Español (Spanish)                           | es-ES.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/es-ES.lng) | tailys98 , Ivan Ruiz (ivigamergames) 
 | Français (French)                           | fr-FR.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/fr-FR.lng)   | Garfi69
 | Hrvatski (Croatian)                         | hr-HR.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/hr-HR.lng)   | Biggie 
-| Italiano (Italian)                          | it-IT.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/it-IT.lng)   | xicciodj , lorecast162 , nopesir
+| Italiano (Italian)                          | it-IT.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/it-IT.lng) | nopesir , xicciodj , lorecast162 
 | Magyar (Hungarian)                          | hu-HU.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/hu-HU.lng)   | Janaboy , Googulator 
 | Nederlands (Dutch)                          | nl-NL.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/nl-NL.lng) | Finnie2006
 | Polski (Polish)                             | pl-PL.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/pl-PL.lng) | macmmm81 , Gotard , Marcinoo97 , LUKI N (lukin123) , krolik-exe
