@@ -1,6 +1,6 @@
-﻿[WoR lang file]
+[WoR lang file]
 Name=Italiano (Italian)
-IsComplete=0
+IsComplete=1
 
 [UpdateNotifyWindow]
 WindowTitle=Aggiornamento
@@ -28,27 +28,27 @@ DeclineBtn=Rifiuta
 [General]
 MessageBox.CustomPackageWarn=La scelta di un pacchetto datato o incompatibile potrebbe causare problemi di installazione!{n}{n}Si raccomanda l'uso dell'ultima versione disponibile dal server.{n}{n}Procedere lo stesso?
 MessageBox.SelectedPackageInvalid.Heading=Il pacchetto selezionato è invalido o incompatibile con il tuo dispositivo.
-MessageBox.SelectedPackageInvalid.Message=Please select a package built for {0}.
+MessageBox.SelectedPackageInvalid.Message=Per favore, selezione un pacchetto compilato per {0}.
 Message.ExtractingPackageToTemp=Estrazione dell'archivio sulla cartella temporanea...
 Message.DownloadingReqFiles=Scaricamento dei file necessari...
 Label.StorageDrive=Storage drive
 Label.DeviceType=Tipo dispositivo
-FilePathTextPlaceholder=Click on the "{0}" button or drag and drop the file here.
-ServerPackageInfoLabel=This is the recommended option. It can be used offline too, as long as the package has been previously downloaded.
+FilePathTextPlaceholder=Clicca sul bottone "{0}" o trascina il file qui.
+ServerPackageInfoLabel=Questa è l'opzione raccomandata. Può essere usata anche offline, a patto che il pacchetto sia stato scaricato precedentemente.
 
 [MessageBox]
 Button.OK=OK
-Button.Cancel=Cancel
-Button.Abort=Abort
-Button.Retry=Retry
-Button.Ignore=Ignore
-Button.Yes=Yes
+Button.Cancel=Annulla
+Button.Abort=Interrompi
+Button.Retry=Riprova
+Button.Ignore=Ignora
+Button.Yes=Si
 Button.No=No
-CheckBox.DoNotShowAgain=Don't show this again
+CheckBox.DoNotShowAgain=Non mostrarlo più
 
 [MessageBox.Common]
-Heading.SomethingWentWrong=Something went wrong...
-Heading.Warning=Warning!
+Heading.SomethingWentWrong=Qualcosa è andato storto...
+Heading.Warning=Attenzione!
 
 [MainWindow]
 SendFeedbackBtn=Invia un feedback
@@ -62,36 +62,36 @@ MessageBox.TaskOngoing.Message=Un'operazione è attualmente in corso.
 [WelcomePage]
 PageTitle=Benvenuto
 WelcomeLabel=Benvenuto su {appname}!
-WelcomeMsgTextBox=This wizard will help you easily install the full desktop version of Windows 10 on your Raspberry Pi computer.{n}{n}Click on the {0} button to continue.
+WelcomeMsgTextBox=Questa guida ti aiuterà a installare facilmente la versione desktop completa di Windows 10 sul tuo Raspberry Pi.{n}{n}Clicca sul bottone {0} per continuare.
 SelectLangLabel=Seleziona la tua lingua:
 
 [SelectDevicePage]
 PageTitle=Seleziona il dispositivo
 SelectDeviceLabel=Seleziona il dispositivo
-DisksListCombo.TextEmptyList=No drives have been found. Click on the {0} button to reload the list.
-DisksListCombo.TextNoItemSelected=Click here to select a drive from the list.
-StorageDriveWarningLabel=Warning! Selecting the wrong drive may lead to unwanted data loss.
+DisksListCombo.TextEmptyList=Nessuna periferica rilevata. Clicca sul bottone {0} per aggiornare la lista.
+DisksListCombo.TextNoItemSelected=Clicca qui per selezionare una periferica dalla lista.
+StorageDriveWarningLabel=Attenzione! La selezione una periferica sbagliata potrebbe portare a perdite di dati inaspettate.
 Device.ExperimentalSupport=Sperimentale
 Device.SupportedModels=Modelli supportati: {0}
 MessageBox.DiskAtLeast=Il dispositivo deve avere almeno {0} GB di spazio libero!
 MessageBox.DiskCompressedInstall.Heading=Il disco selezionato ha abbastanza spazio per un'installazione compressa.
-MessageBox.DiskCompressedInstall.Message=System performance may be slightly reduced due to compression.
+MessageBox.DiskCompressedInstall.Message=Le prestazioni del sistema potrebbero essere leggermente ridotte in seguito alla compressione.
 Message.LoadingDisks=Caricamento driver...
-MessageBox.NewBootloaderRequiredWarn=If you want to boot your {0} from an USB drive or use the GPT partitioning scheme, the bootloader must be updated to the latest version.{n}{n}Please visit the following link for more details: {1}
+MessageBox.NewBootloaderRequiredWarn=Se vuoi avviare il tuo {0} da una periferica USB o usare lo schema di partizionamento GPT, il bootloader deve essere aggironato all'ultima versione.{n}{n}Per favore, visita il link seguente per maggiori dettagli: {1}
 
 [SelectImagePage]
 PageTitle=Seleziona immagine
 SelectImageLabel=Seleziona immagine Windows su ARM
-ImageFileLabel=Image file
+ImageFileLabel=File immagine
 WindowsEditionLabel=Edizione Windows
-WorkingBuildsTextBox.MinBuild=Your device supports Windows 10 {0} build {1} or newer.
-WorkingBuildsTextBox.AllBuilds=Your device supports all the available builds of Windows 10 {0}.
-WorkingBuildsTextBox.GetImage=If you don't have an image yet, you can find details on how to download one on the project website.
-SelectImageIndexCombo.TextEmptyList=Please select an image first.
+WorkingBuildsTextBox.MinBuild=Il tuo dispositivo supporta Windows 10 {0} build {1} o più recente.
+WorkingBuildsTextBox.AllBuilds=Il tuo dispositivo supporta tutte le builds disponibili di Windows 10 {0}.
+WorkingBuildsTextBox.GetImage=Se non sei in possesso di un'immagine, puoi trovare informazioni su come scaricala sul sito del progetto.
+SelectImageIndexCombo.TextEmptyList=Per favore seleziona prima un'immagine.
 MessageBox.SelectedImageInvalid=L'immagine selezionata non è un immagine Windows valida.
 MessageBox.SelectedImageUnsupported=L'immagine selezionata non è supportata.
-MessageBox.SelectedImageErrorInfo.AllBuilds=Please select a compatible Windows 10 {0} image.
-MessageBox.SelectedImageErrorInfo.MinBuild=Please select a compatible Windows 10 {0} build {1} or newer image.
+MessageBox.SelectedImageErrorInfo.AllBuilds=Per favore seleziona un'immagine Windows 10 {0} compatibile.
+MessageBox.SelectedImageErrorInfo.MinBuild=Per favore seleziona un'immagine compatibile Windows 10 {0} build {1} o più recente.
 MessageBox.NotEnoughSpace.Heading=Non c'è abbastanza spazio sul disco per installare questa immagine!
 MessageBox.NotEnoughSpace.Message=Per favore seleziona un dispositivo di archiviazione più capiente oppure un'immagine compatta.
 Message.MountingISO=Montaggio immagine ISO...
@@ -105,7 +105,7 @@ DriversNoteTextBox=Nota: i driver devono essere compressi dentro un file {0}.
 LocalDrvPkgRadioBtn=Usa un pacchetto scaricato sul tuo computer
 ServerDrvPkgRadioBtn=Usa il pacchetto più recente
 MessageBox.LicenseNotAccepted.Heading=Non hai accettato uno degli accordi di licenza.
-MessageBox.LicenseNotAccepted.Message=All licenses must be accepted to use this drivers package.
+MessageBox.LicenseNotAccepted.Message=Tutte le licenze devono essere accettate per poter usare questo pacchetto di drivers.
 
 [SelectUEFIPage]
 PageTitle=Firmware UEFI
@@ -117,12 +117,12 @@ ServerUEFIRadioBtn=Usa il firmware più recente disponibile sul server
 [SetupConfigurationPage]
 PageTitle=Configurazione
 ConfigurationLabel=Configurazione
-ConfigurationTabControl.MainTabPage=General
+ConfigurationTabControl.MainTabPage=Generale
 InstallOptionsGroup=Opzioni di installazione
 PartSchemeLabel=Schema partizioni:
 ImgInstallLabel=Installa immagine con:
 EnableLZXCheck=Abilita la compressione d'installazione LZX
-BootOptionsGroup=Opzioni di boot
+BootOptionsGroup=Opzioni di avvio
 MessageBox.BootConfigEditorWarn=La modifica della configurazione boot di default potrebbe causare malfunzionamenti al dispositivo o il non avvio dello stesso.{n}{n}Continuare ugualmente?
 ConfigurationTabControl.AdvancedTabPage=Avanzate
 MessageBox.AdvancedTabPageWarn=La modifica delle impostazioni di default nel menu avanzato potrebbe disabilitare funzionalità specifiche o il non avvio del sistema.{n}{n}Sei sicuro di voler continuare?
@@ -131,7 +131,7 @@ MemoryLimitLabel=Limite memoria:
 RecoveryEnabledCheck=Abilita Windows Recovery Environment
 WoROptionsGroup=Opzioni di {appname}
 SaveConfigOnExitCheck=Salva questa configurazione all'uscita
-SaveConfigOnExitCheckInfoLabel=Note: options that are disabled (and those in the {0} menu) will not be saved.
+SaveConfigOnExitCheckInfoLabel=Nota: le opzioni disabilitate (e quelle nel menu {0}) non saranno salvate.
 
 [SetupOverviewPage]
 PageTitle=Installa
@@ -149,7 +149,7 @@ LZXCompression.NO=NO
 [SetupProgressPage]
 PageTitle=Installa
 InstallInfoBox=Questo processo può durare molto tempo a seconda della performance del tuo dispositivo.
-TryAgainBtn=Try again
+TryAgainBtn=Ritenta
 InstallStatusLabel.GettingReady=Preparazione...
 InstallStatusLabel.FormattingDisk=Formattazione del dispositivo di destinazione...
 InstallStatusLabel.CreatingPartitions=Creazione delle partizioni...
