@@ -131,7 +131,7 @@ MemoryLimitLabel=Speicherlimit:
 RecoveryEnabledCheck=Aktivieren der Windows Recovery Environment
 WoROptionsGroup={appname}-Optionen
 SaveConfigOnExitCheck=Diese Konfiguration beim Beenden speichern
-SaveConfigOnExitCheckInfoLabel=Note: options that are disabled (and those in the {0} menu) will not be saved. Hinweis: Deaktivierte Optionen (und die, die im {0} Menü) werden nicht gespeichert!
+SaveConfigOnExitCheckInfoLabel=Hinweis: Deaktivierte Optionen (und die, die im {0} Menü) werden nicht gespeichert!
 
 [SetupOverviewPage]
 PageTitle=Installation
