@@ -1,6 +1,6 @@
 ﻿[WoR lang file]
 Name=Українська (Ukrainian)
-IsComplete=0
+IsComplete=1
 
 [UpdateNotifyWindow]
 WindowTitle=Оновлення
@@ -26,32 +26,32 @@ AcceptBtn=Погодитися
 DeclineBtn=Відхилити
 
 [General]
-MessageBox.CustomPackageWarn=Choosing an outdated or incompatible package may cause installation problems!{n}{n}It is recommended that you use the latest version available on the server instead.{n}{n}Continue anyway?
-MessageBox.SelectedPackageInvalid.Heading=The selected package is invalid or incompatible with your device.
-MessageBox.SelectedPackageInvalid.Message=Please select a package built for {0}.
+MessageBox.CustomPackageWarn=Вибір застарілого чи несумісного пакету може викликати проблеми зі встановленням!{n}{n}Натомість рекомендується використовувати останню версію, доступну на сервері.{n}{n}Всеодно продовжити?
+MessageBox.SelectedPackageInvalid.Heading=Вибраний пакет недійсний або несумнісний з вашим пристроєм.
+MessageBox.SelectedPackageInvalid.Message=Будь ласка, виберіть пакет створений для {0}.
 Message.ExtractingPackageToTemp=Розпакування архіву у тимчасову папку...
 Message.DownloadingReqFiles=Завантаження необхідних файлів...
-Label.StorageDrive=Storage drive
-Label.DeviceType=Device type
-FilePathTextPlaceholder=Click on the "{0}" button or drag and drop the file here.
-ServerPackageInfoLabel=This is the recommended option. It can be used offline too, as long as the package has been previously downloaded.
+Label.StorageDrive=Накопичувач
+Label.DeviceType=Тип прострою
+FilePathTextPlaceholder=Натисніть "{0}" кнопку чи перетягніть файл сюди.
+ServerPackageInfoLabel=Це рекомендований варіант. Він також може бути використаний в автономному режимі, за умови, що пакет попередньо завантажений.
 
 [MessageBox]
-Button.OK=OK
-Button.Cancel=Cancel
-Button.Abort=Abort
-Button.Retry=Retry
-Button.Ignore=Ignore
-Button.Yes=Yes
-Button.No=No
-CheckBox.DoNotShowAgain=Don't show this again
+Button.OK=Гаразд
+Button.Cancel=Скасувати
+Button.Abort=Перервати
+Button.Retry=Повторити
+Button.Ignore=Ігнорувати
+Button.Yes=Так
+Button.No=Ні
+CheckBox.DoNotShowAgain=Більше цього не показувати
 
 [MessageBox.Common]
-Heading.SomethingWentWrong=Something went wrong...
-Heading.Warning=Warning!
+Heading.SomethingWentWrong=Щось пішло не так...
+Heading.Warning=Увага!
 
 [MainWindow]
-SendFeedbackBtn=Send feedback
+SendFeedbackBtn=Надіслати відгук
 NextPageBtn=Далі
 BackPageBtn=Назад
 NextPageBtn.Install=Встановити
@@ -62,41 +62,41 @@ MessageBox.TaskOngoing.Message=В даний момент виконується
 [WelcomePage]
 PageTitle=Ласкаво просимо!
 WelcomeLabel=Ласкаво просимо в {appname}!
-WelcomeMsgTextBox=This wizard will help you easily install the full desktop version of Windows 10 on your Raspberry Pi computer.{n}{n}Click on the {0} button to continue.
+WelcomeMsgTextBox=Цей майстер допоможе вам легко встановити повну настільну версію Windows 10 на комп'ютері Raspberry Pi.{n}{n}Натисність {0} кнопку, щоб продовжити.
 SelectLangLabel=Виберіть вашу мову:
 
 [SelectDevicePage]
 PageTitle=Виберіть носій
 SelectDeviceLabel=Виберіть носій
-DisksListCombo.TextEmptyList=No drives have been found. Click on the {0} button to reload the list.
-DisksListCombo.TextNoItemSelected=Click here to select a drive from the list.
-StorageDriveWarningLabel=Warning! Selecting the wrong drive may lead to unwanted data loss.
-Device.ExperimentalSupport=Experimental
-Device.SupportedModels=Supported models: {0}
+DisksListCombo.TextEmptyList=Дисків не знайдено. Натисніть кнопку {0}, щоб оновити список.
+DisksListCombo.TextNoItemSelected=Натисніть тут, щоб вибрати диск зі списку.
+StorageDriveWarningLabel=Увага! Вибір неправильного диску може призвести до небажаної втрати даних.
+Device.ExperimentalSupport=Експериментальний
+Device.SupportedModels=Підтримувані моделі: {0}
 MessageBox.DiskAtLeast=Вибраний носій мусить мати, хоча б, {0} ГБ вільного місця!
 MessageBox.DiskCompressedInstall.Heading=Вибраного носія вистачає, щоб встрановити стиснутий образ.
-MessageBox.DiskCompressedInstall.Message=System performance may be slightly reduced due to compression.
+MessageBox.DiskCompressedInstall.Message=Продуктивність системи може дещо знизитися через стиснення.
 Message.LoadingDisks=Завантаження драйверів...
-MessageBox.NewBootloaderRequiredWarn=If you want to boot your {0} from an USB drive or use the GPT partitioning scheme, the bootloader must be updated to the latest version.{n}{n}Please visit the following link for more details: {1}
+MessageBox.NewBootloaderRequiredWarn=Якщо ви хочете завантажити {0} з USB-накопичувача або скористатися схемою розділення GPT, завантажувач потрібно оновити до останньої версії.{n}{n}Будь ласка, пройдіть за посинанням для отримання додаткової інформації: {1}
 
 [SelectImagePage]
 PageTitle=Вибір образу
 SelectImageLabel=Виберіть ваш Windows ARM образ
-ImageFileLabel=Image file
-WindowsEditionLabel=Windows edition
-WorkingBuildsTextBox.MinBuild=Your device supports Windows 10 {0} build {1} or newer.
-WorkingBuildsTextBox.AllBuilds=Your device supports all the available builds of Windows 10 {0}.
-WorkingBuildsTextBox.GetImage=If you don't have an image yet, you can find details on how to download one on the project website.
-SelectImageIndexCombo.TextEmptyList=Please select an image first.
+ImageFileLabel=Файл образу
+WindowsEditionLabel=Редакція Windows
+WorkingBuildsTextBox.MinBuild=Ваш пристрій підтримує Windows 10 {0} збірку {1} чи новішу.
+WorkingBuildsTextBox.AllBuilds=Ваш пристрій підтримує всі доступні збірки Windows 10 {0}.
+WorkingBuildsTextBox.GetImage=Якщо у вас ще немає образу, ви можете знайти детальну інформацію про те як його завантажити на веб-сайті проекту.
+SelectImageIndexCombo.TextEmptyList=Будь ласка, спершу виберіть образ.
 MessageBox.SelectedImageInvalid=Вибраний файл є недійсним образом Windows!
 MessageBox.SelectedImageUnsupported=Вибраний образ не підтримується!
-MessageBox.SelectedImageErrorInfo.AllBuilds=Please select a compatible Windows 10 {0} image.
-MessageBox.SelectedImageErrorInfo.MinBuild=Please select a compatible Windows 10 {0} build {1} or newer image.
+MessageBox.SelectedImageErrorInfo.AllBuilds=Будь ласка, виберіть сумісний образ Windows 10 {0}.
+MessageBox.SelectedImageErrorInfo.MinBuild=Виберіть сумісну {0} збірку {1} Windows 10 або новіший образ.
 MessageBox.NotEnoughSpace.Heading=На вашому диску недостатньо місця щоб встатовити цей образ!
 MessageBox.NotEnoughSpace.Message=Будь ласка, виберіть пристрій з більшим розміром сховища або менший образ.
 Message.MountingISO=Монтування ISO образу...
 Message.UnmountingISO=Відмонтовування ISO образу...
-Message.VerifyingImage=Verifying the image...
+Message.VerifyingImage=Перевірка образу...
 
 [SelectDriversPage]
 PageTitle=Вибір драйверів
@@ -105,7 +105,7 @@ DriversNoteTextBox=Примітка: драйвери мають бути зап
 LocalDrvPkgRadioBtn=Використати інсталяційний пакет збережений на вашому комп'ютері
 ServerDrvPkgRadioBtn=Використати найновіший доступний пакет з серверу
 MessageBox.LicenseNotAccepted.Heading=Ви не прийняли одну з ліцензійних угод!
-MessageBox.LicenseNotAccepted.Message=All licenses must be accepted to use this drivers package.
+MessageBox.LicenseNotAccepted.Message=Для використання цього пакету драйверів потрібно прийняти всі ліцензійні угоди.
 
 [SelectUEFIPage]
 PageTitle=UEFI прошивка
@@ -117,21 +117,21 @@ ServerUEFIRadioBtn=Використати найновішу доступну п
 [SetupConfigurationPage]
 PageTitle=Конфігурація
 ConfigurationLabel=Конфігурація
-ConfigurationTabControl.MainTabPage=General
+ConfigurationTabControl.MainTabPage=Загальні
 InstallOptionsGroup=Опції встановлення
 PartSchemeLabel=Схема розділів:
 ImgInstallLabel=Встановити образ через:
 EnableLZXCheck=Увімкнути LZX стискання
 BootOptionsGroup=Опції запуску
-MessageBox.BootConfigEditorWarn=Modifying the default boot configuration may cause the device to malfunction or not boot at all.{n}{n}Continue anyway?
-ConfigurationTabControl.AdvancedTabPage=Advanced
-MessageBox.AdvancedTabPageWarn=Changing the default settings in the advanced menu may disable specific device features or prevent the system from booting.{n}{n}Are you sure you want to continue?
-WindowsBootOptionsGroup=Windows boot options
-MemoryLimitLabel=Memory limit:
-RecoveryEnabledCheck=Enable the Windows Recovery Environment
+MessageBox.BootConfigEditorWarn=Зміна конфігурації завантаження за замовчуванням може спричинити несправність пристрою або взагалі не завантажуватися.{n}{n}Всеодно продовжити?
+ConfigurationTabControl.AdvancedTabPage=Додаткові
+MessageBox.AdvancedTabPageWarn=Зміна налаштувань за замовчуванням у розширеному меню може вимкнути певні функції пристрою або перешкодити завантаженню системи.{n}{n}Ви впевнені, що хочете продовжити?
+WindowsBootOptionsGroup=Параметри завантаження Windows
+MemoryLimitLabel=Обмеження пам'яті:
+RecoveryEnabledCheck=Увімкнути середовище відновлення Windows
 WoROptionsGroup=Налаштування {appname}
 SaveConfigOnExitCheck=Зберегти цю конфігурацію при виході
-SaveConfigOnExitCheckInfoLabel=Note: options that are disabled (and those in the {0} menu) will not be saved.
+SaveConfigOnExitCheckInfoLabel=Примітка: параметри, які вимкнено (і ті, що знаходяться в меню {0}), не будуть збережені.
 
 [SetupOverviewPage]
 PageTitle=Втановити
@@ -149,7 +149,7 @@ LZXCompression.NO=НІ
 [SetupProgressPage]
 PageTitle=Втановити
 InstallInfoBox=Цей процес може тривати багато часу, в залежності від швидкодії носія.
-TryAgainBtn=Try again
+TryAgainBtn=Спробувати знову
 InstallStatusLabel.GettingReady=Очікуйте...
 InstallStatusLabel.FormattingDisk=Форматування вибраного носія...
 InstallStatusLabel.CreatingPartitions=Створення розділів...

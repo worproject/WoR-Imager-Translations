@@ -41,7 +41,7 @@ Issues related to the WoR tool should be reported on the [dedicated bug tracker]
 | Svenska (Swedish)                           | sv-SE.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/sv-SE.lng) | Daniel Lundh , joakimus74
 | Türkçe (Turkish)                            | tr-TR.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/tr-TR.lng)   | ysoyipek , pixelomer , SWATcyp
 | Русский (Russian)                           | ru-RU.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/ru-RU.lng) | aleksrovinski , Andryshik345 , beeoss
-| Українська (Ukrainian)                      | uk-UA.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/uk-US.lng)   | Volodymyr Borodaykevych
+| Українська (Ukrainian)                      | uk-UA.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/uk-UA.lng)   | Volodymyr Borodaykevych
 | 한국어 (Korean)                              | ko-KR.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/ko-KR.lng) | rlatn1234 , URK96 , Raccooni
 | 日本語 (Japanese)                            | ja-JP.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/ja-JP.lng) | okajimaitsuki , imai9999 , OSAKANATARO , Prime9999
 | 简体中文 (Simplified Chinese)                | zh-CN.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/zh-CN.lng) | wherewhere , thchi12 , nyaruko , Meaqua233 , CirnoTH
