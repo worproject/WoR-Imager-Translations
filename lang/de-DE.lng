@@ -28,12 +28,12 @@ DeclineBtn=Ablehnen
 [General]
 MessageBox.CustomPackageWarn=Die Auswahl eines veralteten oder inkompatiblen Paketes kann Probleme bei der Installation verursachen!{n}{n}Es wird empfohlen, die neueste verfügbare Version auf dem Server zu verwenden.{n}{n}Dennoch fortfahren?
 MessageBox.SelectedPackageInvalid.Heading=Das ausgewählte Paket ist ungültig oder nicht mit Ihrem Gerät kompatibel.
-MessageBox.SelectedPackageInvalid.Message=Please select a package built for {0}.
+MessageBox.SelectedPackageInvalid.Message=Bitte wählen Sie ein für {0} erstelltes Paket.
 Message.ExtractingPackageToTemp=Das Archiv wird in das temporäre Verzeichnis entpackt...
 Message.DownloadingReqFiles=Erforderliche Dateien werden heruntergeladen...
 Label.StorageDrive=Speicherlaufwerk
 Label.DeviceType=Gerätetyp
-FilePathTextPlaceholder=Klicken Sie auf die Schaltfläche "{0}" oder ziehen Sie die Datei hier per Drag & Drop.
+FilePathTextPlaceholder=Klicken Sie auf die Schaltfläche "{0}" oder ziehen Sie die Datei per Drag & Drop hierher.
 ServerPackageInfoLabel=Dies ist die empfohlene Option. Es kann auch offline verwendet werden, solange das Paket zuvor heruntergeladen wurde.
 
 [MessageBox]
@@ -44,7 +44,7 @@ Button.Retry=Wiederholen
 Button.Ignore=Ignorieren
 Button.Yes=Ja
 Button.No=Nein
-CheckBox.DoNotShowAgain=Nicht nochmal anzeigen
+CheckBox.DoNotShowAgain=Nicht wieder anzeigen
 
 [MessageBox.Common]
 Heading.SomethingWentWrong=Etwas ist schief gelaufen...
