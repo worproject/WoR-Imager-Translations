@@ -148,7 +148,7 @@ LZXCompression.NO=已禁用
 
 [SetupProgressPage]
 PageTitle=安装
-InstallInfoBox=此过程可能需要很长时间，具体取决于您的SD卡性能。
+InstallInfoBox=此过程可能需要很长时间，具体取决于您的设备性能。
 TryAgainBtn=重试
 InstallStatusLabel.GettingReady=准备就绪……
 InstallStatusLabel.FormattingDisk=正在格式化您的设备……
