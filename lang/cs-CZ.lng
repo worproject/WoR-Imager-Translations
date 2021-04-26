@@ -1,6 +1,6 @@
 ﻿[WoR lang file]
 Name=Čeština (Czech)
-IsComplete=1
+IsComplete=0
 
 [UpdateNotifyWindow]
 WindowTitle=Aktualizace
@@ -29,6 +29,8 @@ DeclineBtn=Odmítnout
 MessageBox.CustomPackageWarn=Výběr zastaralého nebo nekompatibilního balíčku může způsobit problémy s instalací!{n}{n}Doporučujeme místo toho použít nejnovější verzi dostupnou na serveru.{n}{n}Přesto pokračovat?
 MessageBox.SelectedPackageInvalid.Heading=Vybraný balíček je neplatný nebo nekompatibilní s vaším zařízením.
 MessageBox.SelectedPackageInvalid.Message=Prosím vyberte balíček vytvořený pro {0}.
+MessageBox.PackageUpdateError.Heading=The latest version of the package couldn't be downloaded!
+MessageBox.PackageUpdateError.Message=If you ignore this error, the setup will continue with the local version which may be outdated.
 Message.ExtractingPackageToTemp=Rozbalování archivu do dočasné složky...
 Message.DownloadingReqFiles=Stahování vyžadovaných souborů...
 Label.StorageDrive=Úložná jednotka
@@ -92,6 +94,8 @@ MessageBox.SelectedImageInvalid=Vybraný soubor není platný obraz Windows!
 MessageBox.SelectedImageUnsupported=Vybraný obraz není podporovaný!
 MessageBox.SelectedImageErrorInfo.AllBuilds=Vyberte prosím kompatibilní obraz Windows 10 {0}.
 MessageBox.SelectedImageErrorInfo.MinBuild=Vyberte prosím kompatibilní obraz Windows 10 {0} build {1} nebo novější.
+MessageBox.SelectedImageMountError.Heading=The image couldn't be mounted!
+MessageBox.SelectedImageMountError.Message=Verify that the image can be mounted by Windows (right click -> Mount) and try again. Accessing it over a network share may not work.{n}{n}If the error persists but you're able to mount the image manually, you can directly select the {0} file from the {1} directory inside it.
 MessageBox.NotEnoughSpace.Heading=Na disku není dostatek místa pro instalaci tohoto obrazu!
 MessageBox.NotEnoughSpace.Message=Zvolte prosím větší úložné zařízení nebo kompaktní obraz.
 Message.MountingISO=Připojování ISO obrazu...
@@ -124,6 +128,7 @@ ImgInstallLabel=Instalovat obraz s:
 EnableLZXCheck=Povolit LZX kompresi instalace
 BootOptionsGroup=Nastavení bootování
 MessageBox.BootConfigEditorWarn=Úprava výchozí konfigurace spouštění může způsobit nefunkčnost zařízení nebo, že se vůbec nespustí.{n}{n}Přesto pokračovat?
+MessageBox.MbrPartSchemeWarn=Choosing the MBR partitioning scheme will prevent you from using the recovery environment and doing system updates.{n}{n}Continue anyway?
 ConfigurationTabControl.AdvancedTabPage=Pokročilé
 MessageBox.AdvancedTabPageWarn=Změna výchozího nastavení v rozšířené nabídce může deaktivovat konkrétní funkce zařízení nebo zabránit spuštění systému.{n}{n}Opravdu chcete pokračovat?
 WindowsBootOptionsGroup=Windows boot options
@@ -158,3 +163,5 @@ InstallStatusLabel.InstallingBootFiles=Instalace bootovacích souborů...
 InstallStatusLabel.InstallingDrivers=Instalace ovladačů...
 InstallStatusLabel.InstallFinished=Instalace byla dokončena!
 InstallStatusLabel.InstallFailed=Instalace selhala!
+MessageBox.RecoveryNotFoundWarn.Heading=The recovery image could not be found!
+MessageBox.RecoveryNotFoundWarn.Message=If you continue, the recovery environment will be completely disabled.

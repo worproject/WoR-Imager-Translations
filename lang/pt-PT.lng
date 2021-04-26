@@ -1,6 +1,6 @@
 ﻿[WoR lang file]
 Name=Português (Portuguese)
-IsComplete=1
+IsComplete=0
 
 [UpdateNotifyWindow]
 WindowTitle=Actualização
@@ -29,6 +29,8 @@ DeclineBtn=Recusar
 MessageBox.CustomPackageWarn=A escolha de um pacote desatualizado ou incompatível pode causar problemas de instalação!{n}{n}É recomendável que utilize a última versão disponível no servidor.{n}{n}Pretende continuar?
 MessageBox.SelectedPackageInvalid.Heading=O pacote seleccionado é inválido ou incompativel com o seu dispositivo.
 MessageBox.SelectedPackageInvalid.Message=Por favor escolha a versão do pacote para {0}.
+MessageBox.PackageUpdateError.Heading=The latest version of the package couldn't be downloaded!
+MessageBox.PackageUpdateError.Message=If you ignore this error, the setup will continue with the local version which may be outdated.
 Message.ExtractingPackageToTemp=Extrair o arquivo para uma pasta temporária...
 Message.DownloadingReqFiles=Descarregar os ficheiros obrigatórios...
 Label.StorageDrive=Unidade de disco
@@ -92,6 +94,8 @@ MessageBox.SelectedImageInvalid=O ficheiro escolhido não é uma imagem do Windo
 MessageBox.SelectedImageUnsupported=O ficheiro de imagem escolhido não é suportado!
 MessageBox.SelectedImageErrorInfo.AllBuilds=Por favor escolha a imagem do Windows 10 {0} compatível.
 MessageBox.SelectedImageErrorInfo.MinBuild=Por favor escolha o Windows 10 {0} versão {1} compatível ou recente.
+MessageBox.SelectedImageMountError.Heading=The image couldn't be mounted!
+MessageBox.SelectedImageMountError.Message=Verify that the image can be mounted by Windows (right click -> Mount) and try again. Accessing it over a network share may not work.{n}{n}If the error persists but you're able to mount the image manually, you can directly select the {0} file from the {1} directory inside it.
 MessageBox.NotEnoughSpace.Heading=Não tem mais espaço em disco para instalar esta imagem!
 MessageBox.NotEnoughSpace.Message=Por favor, escolha um dispositivo com maior capacidade ou uma imagem compacta.
 Message.MountingISO=Montar a imagem ISO...
@@ -124,6 +128,7 @@ ImgInstallLabel=Imagem de instalação em:
 EnableLZXCheck=Activar a instalação em compressão LZX
 BootOptionsGroup=Opções de arranque
 MessageBox.BootConfigEditorWarn=Modificou a configuraçao do arranque por defeito, o que pode causar com que o dispositivo tenha dificuldades ou não arrancar.{n}{n}Pretende continuar?
+MessageBox.MbrPartSchemeWarn=Choosing the MBR partitioning scheme will prevent you from using the recovery environment and doing system updates.{n}{n}Continue anyway?
 ConfigurationTabControl.AdvancedTabPage=Avançadas
 MessageBox.AdvancedTabPageWarn=Alterar as opções por defeito no menu avançado podem desactivar recursos específicos do dispositivo ou evitar com que o sistema arranque.{n}{n}Tem a certeza que pretende continuar?
 WindowsBootOptionsGroup=Opçoes de arranque do Windows
@@ -158,3 +163,5 @@ InstallStatusLabel.InstallingBootFiles=Instalar os ficheiros de arranque...
 InstallStatusLabel.InstallingDrivers=Instalar os controladores...
 InstallStatusLabel.InstallFinished=Instalação completa!
 InstallStatusLabel.InstallFailed=Instalação falhada!
+MessageBox.RecoveryNotFoundWarn.Heading=The recovery image could not be found!
+MessageBox.RecoveryNotFoundWarn.Message=If you continue, the recovery environment will be completely disabled.

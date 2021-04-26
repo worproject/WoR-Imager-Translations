@@ -1,6 +1,6 @@
 ﻿[WoR lang file]
 Name=Polski (Polish)
-IsComplete=1
+IsComplete=0
 
 [UpdateNotifyWindow]
 WindowTitle=Aktualizacja
@@ -29,6 +29,8 @@ DeclineBtn=Odrzuć
 MessageBox.CustomPackageWarn=Wybranie niekompatybilnego pliku może spowodować problemy podczas instalacji!{n}{n}Zalecane jest użycie najnowszej wersji z serwera.{n}{n}Kontynuować mimo wszystko?
 MessageBox.SelectedPackageInvalid.Heading=Wybrany plik jest niepoprawny lub niekompatybilny z twoim urządzeniem.
 MessageBox.SelectedPackageInvalid.Message=Proszę, wybierz poprawny pakiet {0}.
+MessageBox.PackageUpdateError.Heading=The latest version of the package couldn't be downloaded!
+MessageBox.PackageUpdateError.Message=If you ignore this error, the setup will continue with the local version which may be outdated.
 Message.ExtractingPackageToTemp=Wypakowywanie archiwum do folderu tymczasowego...
 Message.DownloadingReqFiles=Pobieranie wymaganych plików...
 Label.StorageDrive=Dysk
@@ -92,6 +94,8 @@ MessageBox.SelectedImageInvalid=Wybrany plik nie jest prawidłowym plikiem obraz
 MessageBox.SelectedImageUnsupported=Wybrany plik obrazu jest nie wspierany!
 MessageBox.SelectedImageErrorInfo.AllBuilds=Proszę, wybierz kompatybilny obraz Windows 10 {0}.
 MessageBox.SelectedImageErrorInfo.MinBuild=Proszę, wybierz kompatybilny plik obrazu Windows 10 {0} wersje {1} lub nowszą.
+MessageBox.SelectedImageMountError.Heading=The image couldn't be mounted!
+MessageBox.SelectedImageMountError.Message=Verify that the image can be mounted by Windows (right click -> Mount) and try again. Accessing it over a network share may not work.{n}{n}If the error persists but you're able to mount the image manually, you can directly select the {0} file from the {1} directory inside it.
 MessageBox.NotEnoughSpace.Heading=Na dysku nie ma wystarczająco miejsca by zainstalować ten obraz!
 MessageBox.NotEnoughSpace.Message=Prosze wybierz większy dysk lub użyj kompaktowego obrazu.
 Message.MountingISO=Montowanie obrazu ISO...
@@ -124,6 +128,7 @@ ImgInstallLabel=Zainstaluj obraz używając:
 EnableLZXCheck=Aktywuj kompresję LZX instalacji 
 BootOptionsGroup=Ustawienia rozruchu
 MessageBox.BootConfigEditorWarn=Modyfikacja domyślnej konfiguracji rozruchowej może spowodować niechciane zachowania lub błąd rozruchu..{n}{n}Kontynuować?
+MessageBox.MbrPartSchemeWarn=Choosing the MBR partitioning scheme will prevent you from using the recovery environment and doing system updates.{n}{n}Continue anyway?
 ConfigurationTabControl.AdvancedTabPage=Zaawansowane
 MessageBox.AdvancedTabPageWarn=Zmianianie domyślnych ustawieć w zaawansowanych opcjach może wyłączyć wyłączyć określone funkcje urządzenia lub uniemożliwić uruchomienie systemu.{n}{n}Czy jesteś pewny że chcesz kontynuować?
 WindowsBootOptionsGroup=Opcje rozruchu Windowsa
@@ -158,3 +163,5 @@ InstallStatusLabel.InstallingBootFiles=Instalowanie plików rozruchowych...
 InstallStatusLabel.InstallingDrivers=Instalowanie sterowników...
 InstallStatusLabel.InstallFinished=Instalacja została zakończona!
 InstallStatusLabel.InstallFailed=Instalacja się nie powiodła!
+MessageBox.RecoveryNotFoundWarn.Heading=The recovery image could not be found!
+MessageBox.RecoveryNotFoundWarn.Message=If you continue, the recovery environment will be completely disabled.

@@ -1,6 +1,6 @@
 ﻿[WoR lang file]
 Name=한국어 (Korean)
-IsComplete=1
+IsComplete=0
 
 [UpdateNotifyWindow]
 WindowTitle=업데이트
@@ -29,6 +29,8 @@ DeclineBtn=거절
 MessageBox.CustomPackageWarn=오래되거나 호환되지 않는 패키지를 선택하는 것은 설치에 문제를 일으킬 수 있습니다!{n}{n}서버에서 사용 가능한 최신버젼을 사용하는 것을 권장합니다.{n}{n}계속하시겠습니까?
 MessageBox.SelectedPackageInvalid.Heading=선택한 패키지가 잘못되었거나 기기와 호환되지 않습니다.
 MessageBox.SelectedPackageInvalid.Message={0}용으로 제작된 패키지를 선택해 주세요.
+MessageBox.PackageUpdateError.Heading=The latest version of the package couldn't be downloaded!
+MessageBox.PackageUpdateError.Message=If you ignore this error, the setup will continue with the local version which may be outdated.
 Message.ExtractingPackageToTemp=임시 폴더로 아카이브 추출...
 Message.DownloadingReqFiles=필요한 파일을 다운로드하는 중...
 Label.StorageDrive=저장 장치
@@ -92,6 +94,8 @@ MessageBox.SelectedImageInvalid=선택한 이미지는 올바른 윈도우 이�
 MessageBox.SelectedImageUnsupported=선택한 이미지는 지원되지 않습니다!
 MessageBox.SelectedImageErrorInfo.AllBuilds=호환되는 Windows 10 {0} 이미지를 선택해 주세요.
 MessageBox.SelectedImageErrorInfo.MinBuild=호환되는 Windows 10 {0} 빌드 {1} 또는 더 최신 빌드를 선택해 주세요.
+MessageBox.SelectedImageMountError.Heading=The image couldn't be mounted!
+MessageBox.SelectedImageMountError.Message=Verify that the image can be mounted by Windows (right click -> Mount) and try again. Accessing it over a network share may not work.{n}{n}If the error persists but you're able to mount the image manually, you can directly select the {0} file from the {1} directory inside it.
 MessageBox.NotEnoughSpace.Heading=선택한 디스크에 이 이미지를 설치하기 위한 공간이 부족합니다!
 MessageBox.NotEnoughSpace.Message=더 큰 저장장치를 선택하거나 작은 이미지를 선택해주세요!
 Message.MountingISO=Windows 10 ARM ISO 이미지를 마운트 중...
@@ -124,6 +128,7 @@ ImgInstallLabel=이미지 설치 방식:
 EnableLZXCheck=LZX 압축 방식으로 설치
 BootOptionsGroup=부트 옵션
 MessageBox.BootConfigEditorWarn=기본 부트설정을 수정하는것은 부팅 오류나 오작동을 일으킬 수 있습니다.{n}{n}계속하시겠습니까?
+MessageBox.MbrPartSchemeWarn=Choosing the MBR partitioning scheme will prevent you from using the recovery environment and doing system updates.{n}{n}Continue anyway?
 ConfigurationTabControl.AdvancedTabPage=고급
 MessageBox.AdvancedTabPageWarn=고급 옵션에서 기본 설정을 수정하는 것은 특정 기능을 비활성화 하거나 시스템의 부팅을 막을 수 있습니다.{n}{n}그래도 계속 하시겠습니까?
 WindowsBootOptionsGroup=윈도우 부트 옵션 
@@ -158,3 +163,5 @@ InstallStatusLabel.InstallingBootFiles=부트 파일 설치 중...
 InstallStatusLabel.InstallingDrivers=드라이버 설치 중...
 InstallStatusLabel.InstallFinished=설치가 완료 되었습니다!
 InstallStatusLabel.InstallFailed=설치에 실패했습니다!
+MessageBox.RecoveryNotFoundWarn.Heading=The recovery image could not be found!
+MessageBox.RecoveryNotFoundWarn.Message=If you continue, the recovery environment will be completely disabled.

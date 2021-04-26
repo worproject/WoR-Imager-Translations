@@ -1,6 +1,6 @@
 ﻿[WoR lang file]
 Name=简体中文 (Simplified Chinese)
-IsComplete=1
+IsComplete=0
 
 [UpdateNotifyWindow]
 WindowTitle=更新
@@ -29,6 +29,8 @@ DeclineBtn=拒绝
 MessageBox.CustomPackageWarn=选择过旧或不兼容的安装包可能会导致出现安装问题！{n}{n}建议您使用服务器上提供的最新版本。{n}{n}是否仍然继续？
 MessageBox.SelectedPackageInvalid.Heading=所选的安装包无效或与您的设备不兼容。
 MessageBox.SelectedPackageInvalid.Message=请选择为 {0} 构建的安装包。
+MessageBox.PackageUpdateError.Heading=The latest version of the package couldn't be downloaded!
+MessageBox.PackageUpdateError.Message=If you ignore this error, the setup will continue with the local version which may be outdated.
 Message.ExtractingPackageToTemp=正在将档案解压缩到临时文件夹……
 Message.DownloadingReqFiles=正在下载所需文件……
 Label.StorageDrive=存储驱动器
@@ -92,6 +94,8 @@ MessageBox.SelectedImageInvalid=所选文件不是有效的 Windows 镜像！
 MessageBox.SelectedImageUnsupported=不支持所选的镜像文件！
 MessageBox.SelectedImageErrorInfo.AllBuilds=请选择一个兼容的 Windows 10 {0} 镜像。
 MessageBox.SelectedImageErrorInfo.MinBuild=请选择一个兼容的 Windows 10 {0} build {1} 及以上版本的镜像。
+MessageBox.SelectedImageMountError.Heading=The image couldn't be mounted!
+MessageBox.SelectedImageMountError.Message=Verify that the image can be mounted by Windows (right click -> Mount) and try again. Accessing it over a network share may not work.{n}{n}If the error persists but you're able to mount the image manually, you can directly select the {0} file from the {1} directory inside it.
 MessageBox.NotEnoughSpace.Heading=磁盘上没有足够的空间来安装此镜像！
 MessageBox.NotEnoughSpace.Message=请选择一个更大的存储设备或更小的镜像文件。
 Message.MountingISO=正在挂载光盘镜像……
@@ -124,6 +128,7 @@ ImgInstallLabel=安装镜像为：
 EnableLZXCheck=启用 LZX 安装压缩
 BootOptionsGroup=启动选项
 MessageBox.BootConfigEditorWarn=修改默认的启动配置可能会导致出现故障甚至根本无法启动。{n}{n}是否仍然继续？
+MessageBox.MbrPartSchemeWarn=Choosing the MBR partitioning scheme will prevent you from using the recovery environment and doing system updates.{n}{n}Continue anyway?
 ConfigurationTabControl.AdvancedTabPage=高级
 MessageBox.AdvancedTabPageWarn=在高级设置菜单中更改默认设置可能会禁用特定设备功能或导致系统无法启动。{n}{n}您确定要继续吗？
 WindowsBootOptionsGroup=Windows 启动选项
@@ -158,3 +163,5 @@ InstallStatusLabel.InstallingBootFiles=正在安装启动引导文件……
 InstallStatusLabel.InstallingDrivers=正在安装驱动程序……
 InstallStatusLabel.InstallFinished=安装完成！
 InstallStatusLabel.InstallFailed=安装失败！
+MessageBox.RecoveryNotFoundWarn.Heading=The recovery image could not be found!
+MessageBox.RecoveryNotFoundWarn.Message=If you continue, the recovery environment will be completely disabled.

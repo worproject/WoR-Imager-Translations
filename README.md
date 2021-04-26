@@ -23,26 +23,26 @@ Issues related to the WoR tool should be reported on the [dedicated bug tracker]
 
 | Language                                    | Filename  | Status                                                                       | Contributors 
 | ------------------------------------------- | --------- | ---------------------------------------------------------------------------- | --------------
-| Čeština (Czech)                             | cs-CZ.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/cs-CZ.lng) | czsgaba , martindrey , Nuparu00 , lukajin
-| Deutsch (German)                            | de-DE.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/de-DE.lng) | manfred-mueller , EpicLPer , BastiJames333 , Schule04 , NASS-eK , ulrichrobin , Finnie2006
+| Čeština (Czech)                             | cs-CZ.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/cs-CZ.lng) | czsgaba , martindrey , Nuparu00 , lukajin
+| Deutsch (German)                            | de-DE.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/de-DE.lng) | manfred-mueller , EpicLPer , BastiJames333 , Schule04 , NASS-eK , ulrichrobin , Finnie2006
 | English                                     | en-US.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/en-US.lng) | Mario Bălănică
-| Español (Spanish)                           | es-ES.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/es-ES.lng) | davilico05 , tailys98 , Ivan Ruiz (ivigamergames) 
-| Français (French)                           | fr-FR.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/fr-FR.lng) | Garfi69 , SraamaR
+| Español (Spanish)                           | es-ES.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/es-ES.lng) | davilico05 , tailys98 , Ivan Ruiz (ivigamergames) 
+| Français (French)                           | fr-FR.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/fr-FR.lng) | Garfi69 , SraamaR
 | Hrvatski (Croatian)                         | hr-HR.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/hr-HR.lng)   | Biggie 
-| Italiano (Italian)                          | it-IT.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/it-IT.lng) | nopesir , xicciodj , lorecast162 
+| Italiano (Italian)                          | it-IT.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/it-IT.lng) | nopesir , xicciodj , lorecast162 
 | Magyar (Hungarian)                          | hu-HU.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/hu-HU.lng)   | Janaboy , Googulator 
-| Nederlands (Dutch)                          | nl-NL.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/nl-NL.lng) | Finnie2006
-| Polski (Polish)                             | pl-PL.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/pl-PL.lng) | macmmm81 , Gotard , Marcinoo97 , LUKI N (lukin123) , krolik-exe
-| Português (Portuguese)                      | pt-PT.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/pt-PT.lng) | Miguel Couto
+| Nederlands (Dutch)                          | nl-NL.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/nl-NL.lng) | Finnie2006
+| Polski (Polish)                             | pl-PL.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/pl-PL.lng) | macmmm81 , Gotard , Marcinoo97 , LUKI N (lukin123) , krolik-exe
+| Português (Portuguese)                      | pt-PT.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/pt-PT.lng) | Miguel Couto
 | Português Brasileiro (Brazilian Portuguese) | pt-BR.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/pt-BR.lng)   | Rafael Fontenelle
 | Română (Romanian)                           | ro-RO.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/ro-RO.lng) | Mario Bălănică
-| Slovenčina (Slovak)                         | sk-SK.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/sk-SK.lng) | sebkopal
-| Srpski (Serbian)                            | sr-SP.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/sr-SP.lng) | Luka Matovic
-| Svenska (Swedish)                           | sv-SE.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/sv-SE.lng) | Daniel Lundh , joakimus74
+| Slovenčina (Slovak)                         | sk-SK.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/sk-SK.lng) | sebkopal
+| Srpski (Serbian)                            | sr-SP.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/sr-SP.lng) | Luka Matovic
+| Svenska (Swedish)                           | sv-SE.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/sv-SE.lng) | Daniel Lundh , joakimus74
 | Türkçe (Turkish)                            | tr-TR.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/tr-TR.lng)   | ysoyipek , pixelomer , SWATcyp
-| Русский (Russian)                           | ru-RU.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/ru-RU.lng) | aleksrovinski , Andryshik345 , beeoss
-| Українська (Ukrainian)                      | uk-UA.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/uk-UA.lng) | Volodymyr Borodaykevych
-| 한국어 (Korean)                              | ko-KR.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/ko-KR.lng) | rlatn1234 , URK96 , Raccooni
-| 日本語 (Japanese)                            | ja-JP.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/ja-JP.lng) | okajimaitsuki , imai9999 , OSAKANATARO , Prime9999
-| 简体中文 (Simplified Chinese)                | zh-CN.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/zh-CN.lng) | F-fengzi , wherewhere , thchi12 , nyaruko , Meaqua233 , CirnoTH
-| 繁體中文 (Traditional Chinese)               | zh-TW.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/zh-TW.lng) | bacon166539 , Gekoii , ConashinChen
+| Русский (Russian)                           | ru-RU.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/ru-RU.lng) | aleksrovinski , Andryshik345 , beeoss
+| Українська (Ukrainian)                      | uk-UA.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/uk-UA.lng) | Volodymyr Borodaykevych
+| 한국어 (Korean)                              | ko-KR.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/ko-KR.lng) | rlatn1234 , URK96 , Raccooni
+| 日本語 (Japanese)                            | ja-JP.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/ja-JP.lng) | okajimaitsuki , imai9999 , OSAKANATARO , Prime9999
+| 简体中文 (Simplified Chinese)                | zh-CN.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/zh-CN.lng) | F-fengzi , wherewhere , thchi12 , nyaruko , Meaqua233 , CirnoTH
+| 繁體中文 (Traditional Chinese)               | zh-TW.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/zh-TW.lng) | bacon166539 , Gekoii , ConashinChen

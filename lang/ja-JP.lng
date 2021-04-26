@@ -1,6 +1,6 @@
 ﻿[WoR lang file]
 Name=日本語 (Japanese)
-IsComplete=1
+IsComplete=0
 
 [UpdateNotifyWindow]
 WindowTitle=アップデート
@@ -29,6 +29,8 @@ DeclineBtn=同意しない
 MessageBox.CustomPackageWarn=古すぎるか互換性のないパッケージはインストールに問題が生じます!{n}{n}サーバーから最新版を入手することを推奨します。{n}{n}続けますか?
 MessageBox.SelectedPackageInvalid.Heading=選択したパッケージは無効かあなたのデバイスとの互換性がありません。
 MessageBox.SelectedPackageInvalid.Message="{0}" 用にビルドされたパッケージを選択してください。
+MessageBox.PackageUpdateError.Heading=The latest version of the package couldn't be downloaded!
+MessageBox.PackageUpdateError.Message=If you ignore this error, the setup will continue with the local version which may be outdated.
 Message.ExtractingPackageToTemp=一時フォルダにアーカイブを抽出しています...
 Message.DownloadingReqFiles=必要なファイルのダウンロード中...
 Label.StorageDrive=ストレージドライブ
@@ -92,6 +94,8 @@ MessageBox.SelectedImageInvalid=選択したイメージファイルは正しい
 MessageBox.SelectedImageUnsupported=選択したイメージファイルはサポートされていません!
 MessageBox.SelectedImageErrorInfo.AllBuilds=互換性のあるWindows 10 {0} イメージを選択してください。
 MessageBox.SelectedImageErrorInfo.MinBuild=互換性のあるWindows 10 {0} ビルド {1} 以降のイメージを選択してください。
+MessageBox.SelectedImageMountError.Heading=The image couldn't be mounted!
+MessageBox.SelectedImageMountError.Message=Verify that the image can be mounted by Windows (right click -> Mount) and try again. Accessing it over a network share may not work.{n}{n}If the error persists but you're able to mount the image manually, you can directly select the {0} file from the {1} directory inside it.
 MessageBox.NotEnoughSpace.Heading=このイメージを使ってインストールするにはディスクのサイズが不足しています!
 MessageBox.NotEnoughSpace.Message=大きめの記憶装置やコンパクトなイメージを選択してください。
 Message.MountingISO=ISO イメージのマウント中...
@@ -124,6 +128,7 @@ ImgInstallLabel=イメージのインストール方法:
 EnableLZXCheck=LZX 圧縮によるインストールを有効にする
 BootOptionsGroup=ブートオプション
 MessageBox.BootConfigEditorWarn=標準のブート設定から変更するとデバイスの故障や起動障害が発生する可能性があります。{n}{n}続けますか?
+MessageBox.MbrPartSchemeWarn=Choosing the MBR partitioning scheme will prevent you from using the recovery environment and doing system updates.{n}{n}Continue anyway?
 ConfigurationTabControl.AdvancedTabPage=拡張設定
 MessageBox.AdvancedTabPageWarn=拡張設定の項目を標準から変更した場合、デバイスが使えなくなったり起動に失敗したりする可能性があります。{n}{n}本当に続けますか?
 WindowsBootOptionsGroup=Windows起動オプション
@@ -158,3 +163,5 @@ InstallStatusLabel.InstallingBootFiles=ブートファイルのインストー�
 InstallStatusLabel.InstallingDrivers=ドライバーのインストール中...
 InstallStatusLabel.InstallFinished=インストールが完了しました!
 InstallStatusLabel.InstallFailed=インストールが失敗しました!
+MessageBox.RecoveryNotFoundWarn.Heading=The recovery image could not be found!
+MessageBox.RecoveryNotFoundWarn.Message=If you continue, the recovery environment will be completely disabled.
