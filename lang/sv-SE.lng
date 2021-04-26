@@ -1,6 +1,6 @@
 ﻿[WoR lang file]
 Name=Svenska (Swedish)
-IsComplete=1
+IsComplete=0
 
 [UpdateNotifyWindow]
 WindowTitle=Uppdatering
@@ -29,6 +29,8 @@ DeclineBtn=Avböj
 MessageBox.CustomPackageWarn=Ett gammalt eller inkompatibelt paket kan orsaka installationsproblem!{n}{n}Det är rekommenderat att använda den senaste versionen från servern istället.{n}{n}Fortsätt ändå?
 MessageBox.SelectedPackageInvalid.Heading=Det valda paketet är trasigt eller inkompatibelt med din enhet.
 MessageBox.SelectedPackageInvalid.Message=Välj en avbildning för {0}.
+MessageBox.PackageUpdateError.Heading=The latest version of the package couldn't be downloaded!
+MessageBox.PackageUpdateError.Message=If you ignore this error, the setup will continue with the local version which may be outdated.
 Message.ExtractingPackageToTemp=Extraherar arkivet till det temporära biblioteket...
 Message.DownloadingReqFiles=Laddar ner filer som krävs...
 Label.StorageDrive=Lagringsenhet 
@@ -92,6 +94,8 @@ MessageBox.SelectedImageInvalid=Den valda filen är inte en giltig Windowsavbild
 MessageBox.SelectedImageUnsupported=Den valda avbildningsfilen stöds inte!
 MessageBox.SelectedImageErrorInfo.AllBuilds=Välj en kompatibel Windows 10 {0} avbildning.
 MessageBox.SelectedImageErrorInfo.MinBuild=Välj en kompatibel Windows 10 {0} version {1} eller nyare.
+MessageBox.SelectedImageMountError.Heading=The image couldn't be mounted!
+MessageBox.SelectedImageMountError.Message=Verify that the image can be mounted by Windows (right click -> Mount) and try again. Accessing it over a network share may not work.{n}{n}If the error persists but you're able to mount the image manually, you can directly select the {0} file from the {1} directory inside it.
 MessageBox.NotEnoughSpace.Heading=Det finns inte nog med utrymme på disken för att installera den här avbildningen!
 MessageBox.NotEnoughSpace.Message=Välj en större lagringsenhet eller en komprimerad avbildning.
 Message.MountingISO=Monterar ISO-avbildningen...
@@ -124,6 +128,7 @@ ImgInstallLabel=Installera avbildning med:
 EnableLZXCheck=Installera LZX-kompression
 BootOptionsGroup=Uppstartsval
 MessageBox.BootConfigEditorWarn=Om du modifierar uppstartskonfigurationen kan enheten sluta fungera eller kanske inte starta alls.{n}{n}Fortsätt ändå?
+MessageBox.MbrPartSchemeWarn=Choosing the MBR partitioning scheme will prevent you from using the recovery environment and doing system updates.{n}{n}Continue anyway?
 ConfigurationTabControl.AdvancedTabPage=Avancerat
 MessageBox.AdvancedTabPageWarn=Om du ändrar de förvalda inställningarna under avancerat kan få enhet att sluta fungera eller hindraa den från att starta.{n}{n}Är du säker på att du vill fortsätta?
 WindowsBootOptionsGroup=Windows uppstartsval
@@ -158,3 +163,5 @@ InstallStatusLabel.InstallingBootFiles=Installerar uppstartsfiler...
 InstallStatusLabel.InstallingDrivers=Installerar driverrutiner...
 InstallStatusLabel.InstallFinished=Installationen är färdig!
 InstallStatusLabel.InstallFailed=Installationen fungerade inte!
+MessageBox.RecoveryNotFoundWarn.Heading=The recovery image could not be found!
+MessageBox.RecoveryNotFoundWarn.Message=If you continue, the recovery environment will be completely disabled.

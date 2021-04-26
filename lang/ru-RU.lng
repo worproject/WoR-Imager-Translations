@@ -1,6 +1,6 @@
 ﻿[WoR lang file]
 Name=Русский (Russian)
-IsComplete=1
+IsComplete=0
 
 [UpdateNotifyWindow]
 WindowTitle=Обновить
@@ -29,6 +29,8 @@ DeclineBtn=Отклонить
 MessageBox.CustomPackageWarn=Choosing an outdated or incompatible package may cause installation problems!{n}{n}It is recommended that you use the latest version available on the server instead.{n}{n}Continue anyway?
 MessageBox.SelectedPackageInvalid.Heading=The selected package is invalid or incompatible with your device.
 MessageBox.SelectedPackageInvalid.Message=Please select a package built for {0}.
+MessageBox.PackageUpdateError.Heading=The latest version of the package couldn't be downloaded!
+MessageBox.PackageUpdateError.Message=If you ignore this error, the setup will continue with the local version which may be outdated.
 Message.ExtractingPackageToTemp=Распаковка архива во временную папку...
 Message.DownloadingReqFiles=Загрузка необходимые файлы...
 Label.StorageDrive=Storage drive
@@ -92,6 +94,8 @@ MessageBox.SelectedImageInvalid=Выбранный файл не подходи�
 MessageBox.SelectedImageUnsupported=Выбранный образ не поддерживается!
 MessageBox.SelectedImageErrorInfo.AllBuilds=Please select a compatible Windows 10 {0} image.
 MessageBox.SelectedImageErrorInfo.MinBuild=Please select a compatible Windows 10 {0} build {1} or newer image.
+MessageBox.SelectedImageMountError.Heading=The image couldn't be mounted!
+MessageBox.SelectedImageMountError.Message=Verify that the image can be mounted by Windows (right click -> Mount) and try again. Accessing it over a network share may not work.{n}{n}If the error persists but you're able to mount the image manually, you can directly select the {0} file from the {1} directory inside it.
 MessageBox.NotEnoughSpace.Heading=There is not enough space on the disk to install this image!
 MessageBox.NotEnoughSpace.Message=Please choose a larger storage device or a compact image.
 Message.MountingISO=Монтирование ISO образа...
@@ -124,6 +128,7 @@ ImgInstallLabel=Установить образ через:
 EnableLZXCheck=Включить LZX сжатие
 BootOptionsGroup=Опции запуска
 MessageBox.BootConfigEditorWarn=Modifying the default boot configuration may cause the device to malfunction or not boot at all.{n}{n}Continue anyway?
+MessageBox.MbrPartSchemeWarn=Choosing the MBR partitioning scheme will prevent you from using the recovery environment and doing system updates.{n}{n}Continue anyway?
 ConfigurationTabControl.AdvancedTabPage=Advanced
 MessageBox.AdvancedTabPageWarn=Changing the default settings in the advanced menu may disable specific device features or prevent the system from booting.{n}{n}Are you sure you want to continue?
 WindowsBootOptionsGroup=Windows boot options
@@ -158,3 +163,5 @@ InstallStatusLabel.InstallingBootFiles=Устанавливаются файлы
 InstallStatusLabel.InstallingDrivers=Устанавливаются драйвера...
 InstallStatusLabel.InstallFinished=Установка завершена!
 InstallStatusLabel.InstallFailed=Установка прервана!
+MessageBox.RecoveryNotFoundWarn.Heading=The recovery image could not be found!
+MessageBox.RecoveryNotFoundWarn.Message=If you continue, the recovery environment will be completely disabled.

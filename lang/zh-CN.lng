@@ -1,11 +1,11 @@
 ﻿[WoR lang file]
 Name=简体中文 (Simplified Chinese)
-IsComplete=1
+IsComplete=0
 
 [UpdateNotifyWindow]
 WindowTitle=更新
 NewVersionAvailableLabel=新版本可用
-NewVersionAvailableBox=新版本{appname} {0} 可用！你要现在下载吗？
+NewVersionAvailableBox=新版本 {appname} {0} 可用！您要现在下载吗？
 DownloadBtn=下载
 CloseBtn=取消
 
@@ -17,7 +17,7 @@ ChangelogPage=更新日志
 LicensesPage=许可
 
 [LoggerWindow]
-WindowTitle=记录
+WindowTitle=日志
 CopyToClipboardBtn=复制
 
 [LicenseAgreementWindow]
@@ -26,58 +26,60 @@ AcceptBtn=接受
 DeclineBtn=拒绝
 
 [General]
-MessageBox.CustomPackageWarn=选择过旧或不兼容的安装包可能会导致安装失败！{n}{n}建议您使用网络上提供的最新版本。{n}{n}是否继续？
-MessageBox.SelectedPackageInvalid.Heading=所选的安装包无效或与你的设备不兼容。
+MessageBox.CustomPackageWarn=选择过旧或不兼容的安装包可能会导致出现安装问题！{n}{n}建议您使用服务器上提供的最新版本。{n}{n}是否仍然继续？
+MessageBox.SelectedPackageInvalid.Heading=所选的安装包无效或与您的设备不兼容。
 MessageBox.SelectedPackageInvalid.Message=请选择为 {0} 构建的安装包。
-Message.ExtractingPackageToTemp=将档案解压缩到临时文件夹……
+MessageBox.PackageUpdateError.Heading=The latest version of the package couldn't be downloaded!
+MessageBox.PackageUpdateError.Message=If you ignore this error, the setup will continue with the local version which may be outdated.
+Message.ExtractingPackageToTemp=正在将档案解压缩到临时文件夹……
 Message.DownloadingReqFiles=正在下载所需文件……
 Label.StorageDrive=存储驱动器
 Label.DeviceType=设备类型
-FilePathTextPlaceholder=单击 "{0}" 按钮或者拖拽文件到此处
-ServerPackageInfoLabel=这是一个推荐选项。安装包下载完成后也可以离线使用。
+FilePathTextPlaceholder=单击 "{0}" 按钮或者将文件拖拽到此处。
+ServerPackageInfoLabel=这是推荐的选项。如果之前下载过安装包，此选项也可以离线使用。
 
 [MessageBox]
 Button.OK=好的
 Button.Cancel=取消
-Button.Abort=关于
+Button.Abort=终止
 Button.Retry=重试
 Button.Ignore=忽略
 Button.Yes=是
 Button.No=否
-CheckBox.DoNotShowAgain=不再显示
+CheckBox.DoNotShowAgain=不再提示
 
 [MessageBox.Common]
-Heading.SomethingWentWrong=这里出现了一些问题……
+Heading.SomethingWentWrong=出现了一些问题……
 Heading.Warning=警告！
 
 [MainWindow]
-SendFeedbackBtn=发送反馈信息
+SendFeedbackBtn=发送反馈
 NextPageBtn=下一步
 BackPageBtn=上一步
 NextPageBtn.Install=安装
 NextPageBtn.Finish=完成
-MessageBox.TaskOngoing.Heading=您确定要关闭此程序吗？
-MessageBox.TaskOngoing.Message=目前正在进行安装。
+MessageBox.TaskOngoing.Heading=您确定要强制关闭此程序吗？
+MessageBox.TaskOngoing.Message=操作正在进行中。
 
 [WelcomePage]
 PageTitle=欢迎
 WelcomeLabel=欢迎使用 {appname}！
-WelcomeMsgTextBox=这个软件将会帮助您轻松地在树莓派上安装完整的 Windows 10 桌面版。{n}{n}单击{0}继续。
-SelectLangLabel=选择语言：
+WelcomeMsgTextBox=这个向导将会帮助您轻松地在树莓派上安装完整的桌面版 Windows 10。{n}{n}点击{0}继续。
+SelectLangLabel=选择您的语言：
 
 [SelectDevicePage]
 PageTitle=选择您的设备
 SelectDeviceLabel=选择您的设备
 DisksListCombo.TextEmptyList=未找到驱动器。单击{0}按钮以刷新列表。
-DisksListCombo.TextNoItemSelected=单击此处从列表中选择驱动器
+DisksListCombo.TextNoItemSelected=单击此处从列表中选择驱动器。
 StorageDriveWarningLabel=警告！选择错误的驱动器可能会导致不必要的数据丢失。
 Device.ExperimentalSupport=实验性
 Device.SupportedModels=支持的设备: {0}
-MessageBox.DiskAtLeast=至少需要 {0}GB 可用空间用于安装！
-MessageBox.DiskCompressedInstall.Heading=所选的设备具有足够的空间进行压缩版的安装。
+MessageBox.DiskAtLeast=设备需要至少 {0}GB 的可用空间！
+MessageBox.DiskCompressedInstall.Heading=所选的设备具有足够的空间进行压缩安装。
 MessageBox.DiskCompressedInstall.Message=由于压缩，系统性能可能会略有降低。
-Message.LoadingDisks=正在加载磁盘信息...
-MessageBox.NewBootloaderRequiredWarn=如果要从 USB 驱动器启动您的 {0} 或使用 GPT 分区方案，则必须将 Bootloader 程序更新到最新版本。{n}{n}请访问以下链接了解更多详情：{1}
+Message.LoadingDisks=正在加载磁盘列表...
+MessageBox.NewBootloaderRequiredWarn=如果要从 USB 驱动器启动您的 {0} 或使用 GPT 分区方案，则必须将 Bootloader 更新到最新版本。{n}{n}请访问以下链接了解更多详情：{1}
 
 [SelectImagePage]
 PageTitle=选择镜像
@@ -86,14 +88,16 @@ ImageFileLabel=镜像文件
 WindowsEditionLabel=Windows 版本
 WorkingBuildsTextBox.MinBuild=您的设备支持 Windows 10 {0} build {1} 及以上版本。
 WorkingBuildsTextBox.AllBuilds=您的设备支持所有 Windows 10 {0} 版本。
-WorkingBuildsTextBox.GetImage=如果您还没有镜像文件, 您可以在项目网站上找到下载镜像文件的教程.
+WorkingBuildsTextBox.GetImage=如果您还没有镜像文件，可以在项目网站上找到下载镜像文件的教程。
 SelectImageIndexCombo.TextEmptyList=请先选择一个镜像文件
 MessageBox.SelectedImageInvalid=所选文件不是有效的 Windows 镜像！
 MessageBox.SelectedImageUnsupported=不支持所选的镜像文件！
-MessageBox.SelectedImageErrorInfo.AllBuilds=请选择一个兼容的 Windows 10 {0} 镜像.
+MessageBox.SelectedImageErrorInfo.AllBuilds=请选择一个兼容的 Windows 10 {0} 镜像。
 MessageBox.SelectedImageErrorInfo.MinBuild=请选择一个兼容的 Windows 10 {0} build {1} 及以上版本的镜像。
+MessageBox.SelectedImageMountError.Heading=The image couldn't be mounted!
+MessageBox.SelectedImageMountError.Message=Verify that the image can be mounted by Windows (right click -> Mount) and try again. Accessing it over a network share may not work.{n}{n}If the error persists but you're able to mount the image manually, you can directly select the {0} file from the {1} directory inside it.
 MessageBox.NotEnoughSpace.Heading=磁盘上没有足够的空间来安装此镜像！
-MessageBox.NotEnoughSpace.Message=请选择更大存储设备或更小的镜像文件。
+MessageBox.NotEnoughSpace.Message=请选择一个更大的存储设备或更小的镜像文件。
 Message.MountingISO=正在挂载光盘镜像……
 Message.UnmountingISO=正在卸载光盘镜像……
 Message.VerifyingImage=正在验证镜像文件……
@@ -103,16 +107,16 @@ PageTitle=选择驱动程序
 SelectDriversLabel=选择驱动程序
 DriversNoteTextBox=注意：选择的驱动程序必须打包为 {0} 格式。
 LocalDrvPkgRadioBtn=使用本地的驱动程序包
-ServerDrvPkgRadioBtn=使用网络上提供的最新驱动程序包
+ServerDrvPkgRadioBtn=使用服务器上提供的最新驱动程序包
 MessageBox.LicenseNotAccepted.Heading=您尚未接受其中一项许可协议！
-MessageBox.LicenseNotAccepted.Message=想要使用此驱动程序包必须接受所有许可协议。
+MessageBox.LicenseNotAccepted.Message=必须接受所有许可协议才能使用此驱动程序包。
 
 [SelectUEFIPage]
 PageTitle=UEFI 固件
 SelectUEFILabel=选择 UEFI 固件
 UEFINoteTextBox=注意：您的 UEFI 固件必须是 {0} 扩展名。
 LocalUEFIRadioBtn=使用本地的固件
-ServerUEFIRadioBtn=使用网络上提供的最新固件
+ServerUEFIRadioBtn=使用服务器上提供的最新固件
 
 [SetupConfigurationPage]
 PageTitle=配置
@@ -121,40 +125,43 @@ ConfigurationTabControl.MainTabPage=常规
 InstallOptionsGroup=安装选项
 PartSchemeLabel=分区表：
 ImgInstallLabel=安装镜像为：
-EnableLZXCheck=启用 LZX 压缩，可以减小占用空间。
+EnableLZXCheck=启用 LZX 安装压缩
 BootOptionsGroup=启动选项
-MessageBox.BootConfigEditorWarn=修改默认启动配置可能会导致设备无法启动。{n}{n}是否继续？
+MessageBox.BootConfigEditorWarn=修改默认的启动配置可能会导致出现故障甚至根本无法启动。{n}{n}是否仍然继续？
+MessageBox.MbrPartSchemeWarn=Choosing the MBR partitioning scheme will prevent you from using the recovery environment and doing system updates.{n}{n}Continue anyway?
 ConfigurationTabControl.AdvancedTabPage=高级
-MessageBox.AdvancedTabPageWarn=在高级设置菜单中更改默认设置可能会禁用部分设备功能或导致系统无法启动。{n}{n}你确定要继续吗？
+MessageBox.AdvancedTabPageWarn=在高级设置菜单中更改默认设置可能会禁用特定设备功能或导致系统无法启动。{n}{n}您确定要继续吗？
 WindowsBootOptionsGroup=Windows 启动选项
 MemoryLimitLabel=内存限制：
 RecoveryEnabledCheck=启用 Windows 恢复环境
 WoROptionsGroup={appname} 选项
-SaveConfigOnExitCheck=退出时保存这次所用配置。
-SaveConfigOnExitCheckInfoLabel=提醒: 未开启的选项（以及{0}菜单中选项）将不会被保存。
+SaveConfigOnExitCheck=退出时保存此配置
+SaveConfigOnExitCheckInfoLabel=提醒: 已禁用的选项（以及{0}菜单中选项）将不会被保存。
 
 [SetupOverviewPage]
 PageTitle=安装
 InstallOverviewLabel=安装概览
-InstallWarnBox=警告，您的设备数据将会被清除！请提前对设备数据做好备份！
+InstallWarnBox=警告，您设备的所有数据都将会被清除！请提前对您的文件做好备份！
 OSLabel=要安装的操作系统
 DriversPathLabel=驱动程序路径
-UEFIPathLabel=UEFI固件路径
+UEFIPathLabel=UEFI 固件路径
 PartitionSchemeLabel=所使用的分区表
-ImageDeployerLabel=释放镜像方式
-LZXCompressionLabel=是否启用 LZX 压缩
-LZXCompression.YES=是
-LZXCompression.NO=否
+ImageDeployerLabel=部署镜像方式
+LZXCompressionLabel=LZX 安装压缩
+LZXCompression.YES=已启用
+LZXCompression.NO=已禁用
 
 [SetupProgressPage]
 PageTitle=安装
-InstallInfoBox=此过程可能需要很长时间，具体取决于你的SD卡性能。
-TryAgainBtn=重试一遍
-InstallStatusLabel.GettingReady=准备就绪
+InstallInfoBox=此过程可能需要很长时间，具体取决于您的设备性能。
+TryAgainBtn=重试
+InstallStatusLabel.GettingReady=准备就绪……
 InstallStatusLabel.FormattingDisk=正在格式化您的设备……
-InstallStatusLabel.CreatingPartitions=正在分区……
+InstallStatusLabel.CreatingPartitions=正在创建分区……
 InstallStatusLabel.InstallingWindows=正在安装 Windows……
-InstallStatusLabel.InstallingBootFiles=正在创建引导文件……
+InstallStatusLabel.InstallingBootFiles=正在安装启动引导文件……
 InstallStatusLabel.InstallingDrivers=正在安装驱动程序……
 InstallStatusLabel.InstallFinished=安装完成！
 InstallStatusLabel.InstallFailed=安装失败！
+MessageBox.RecoveryNotFoundWarn.Heading=The recovery image could not be found!
+MessageBox.RecoveryNotFoundWarn.Message=If you continue, the recovery environment will be completely disabled.
