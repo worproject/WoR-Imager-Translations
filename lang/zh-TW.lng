@@ -1,6 +1,6 @@
 ﻿[WoR lang file]
 Name=繁體中文(台灣) (Traditional Chinese)
-IsComplete=0
+IsComplete=1
 
 [UpdateNotifyWindow]
 WindowTitle=更新
@@ -29,8 +29,8 @@ DeclineBtn=拒絕
 MessageBox.CustomPackageWarn=使用過舊或不兼容的安裝包將可能導致安裝過程出現問題！{n}{n}建議您使用伺服器上可用的最新版本。{n}{n}您仍要繼續嗎?
 MessageBox.SelectedPackageInvalid.Heading=您所選擇的安裝包無效或不兼容於您的設備。
 MessageBox.SelectedPackageInvalid.Message=請選擇用於 {0} 的安裝包。
-MessageBox.PackageUpdateError.Heading=The latest version of the package couldn't be downloaded!
-MessageBox.PackageUpdateError.Message=If you ignore this error, the setup will continue with the local version which may be outdated.
+MessageBox.PackageUpdateError.Heading=無法下載最新版的安裝包！
+MessageBox.PackageUpdateError.Message=如果您忽略此錯誤，此嚮導將繼續使用可能已經過時的本地版本。
 Message.ExtractingPackageToTemp=將檔案解壓縮到臨時文件夾...
 Message.DownloadingReqFiles=正在下載所需文件...
 Label.StorageDrive=存儲硬碟
@@ -94,8 +94,8 @@ MessageBox.SelectedImageInvalid=所選的檔案不是有效的Windows映像檔�
 MessageBox.SelectedImageUnsupported=不支援所選的檔案格式！
 MessageBox.SelectedImageErrorInfo.AllBuilds=請選擇兼容的 Windows 10 {0} 映像檔。
 MessageBox.SelectedImageErrorInfo.MinBuild=請選擇兼容的 Windows 10 {0} 的版本 {1} 或更新的映像檔。
-MessageBox.SelectedImageMountError.Heading=The image couldn't be mounted!
-MessageBox.SelectedImageMountError.Message=Verify that the image can be mounted by Windows (right click -> Mount) and try again. Accessing it over a network share may not work.{n}{n}If the error persists but you're able to mount the image manually, you can directly select the {0} file from the {1} directory inside it.
+MessageBox.SelectedImageMountError.Heading=無法掛載所選映像檔！
+MessageBox.SelectedImageMountError.Message=請驗證Windows是否可以掛載此映像檔（右鍵->掛載）並重試。通過網路共用訪問可能會無法工作。{n}{n}如果此問題仍然存在但您可以手動掛載，您可以直接選擇在其{1}目錄下選擇{0}檔案。
 MessageBox.NotEnoughSpace.Heading=所選裝置沒有足夠空間安裝所選映像檔
 MessageBox.NotEnoughSpace.Message=請改用較大的儲存裝置或較小的映像檔。
 Message.MountingISO=正在加載映像檔...
@@ -128,7 +128,7 @@ ImgInstallLabel=安裝映像檔:
 EnableLZXCheck=使用LZX壓縮版安裝
 BootOptionsGroup=開機選項
 MessageBox.BootConfigEditorWarn=修改默認的啟動設置將可能導致您的設備發生故障或無法啟動。{n}{n}您仍要繼續嗎?
-MessageBox.MbrPartSchemeWarn=Choosing the MBR partitioning scheme will prevent you from using the recovery environment and doing system updates.{n}{n}Continue anyway?
+MessageBox.MbrPartSchemeWarn=選擇MBR分區方案會封锁您使用恢復環境或進行系統更新。{n}{n}是否繼續？
 ConfigurationTabControl.AdvancedTabPage=進階
 MessageBox.AdvancedTabPageWarn=修改進階選項中的默認啟動設置將可能使特定設備無法使用或無法啟動系統。{n}{n}您確定要繼續嗎?
 WindowsBootOptionsGroup=Windows啟動選項
@@ -163,5 +163,5 @@ InstallStatusLabel.InstallingBootFiles=正在安裝開機檔案...
 InstallStatusLabel.InstallingDrivers=正在安裝驅動程式...
 InstallStatusLabel.InstallFinished=安裝成功！
 InstallStatusLabel.InstallFailed=安裝失敗！
-MessageBox.RecoveryNotFoundWarn.Heading=The recovery image could not be found!
-MessageBox.RecoveryNotFoundWarn.Message=If you continue, the recovery environment will be completely disabled.
+MessageBox.RecoveryNotFoundWarn.Heading=找不到恢復鏡像！
+MessageBox.RecoveryNotFoundWarn.Message=如果繼續，恢復環境將會被完全禁用。
