@@ -38,6 +38,7 @@ Issues related to the WoR tool should be reported on the [dedicated bug tracker]
 | Română (Romanian)                           | ro-RO.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/ro-RO.lng) | Mario Bălănică
 | Slovenčina (Slovak)                         | sk-SK.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/sk-SK.lng) | sebkopal
 | Srpski (Serbian)                            | sr-SP.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/sr-SP.lng) | Luka Matovic
+| Suomi (Finnish)                             | fi-FI.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/fi-FI.lng) | Mixerboy24
 | Svenska (Swedish)                           | sv-SE.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/sv-SE.lng) | Daniel Lundh , joakimus74
 | Türkçe (Turkish)                            | tr-TR.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/tr-TR.lng)   | ysoyipek , pixelomer , SWATcyp
 | Русский (Russian)                           | ru-RU.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/ru-RU.lng) | aleksrovinski , Andryshik345 , beeoss
