@@ -1,0 +1,165 @@
+﻿[WoR lang file]
+Name=Suomi (Finnish)
+IsComplete=1
+
+[UpdateNotifyWindow]
+WindowTitle=Päivitä
+NewVersionAvailableLabel=Uusi versio saatavilla
+NewVersionAvailableBox={appname} {0} on saatavilla! Haluatko ladata sen nyt?
+DownloadBtn=Lataa
+CloseBtn=Sulje
+
+[AboutWindow]
+WindowTitle=Tietoja
+AppVersionLabel=Versio
+CreditsPage=Krediitit
+ChangelogPage=Muutosloki
+LicensesPage=Lisenssit
+
+[LoggerWindow]
+WindowTitle=Lokit
+CopyToClipboardBtn=Kopio
+
+[LicenseAgreementWindow]
+WindowTitle=Lisenssisopimus
+AcceptBtn=Hyväksy
+DeclineBtn=En hyväksy
+
+[General]
+MessageBox.CustomPackageWarn=Vanhentuneen tai yhteensopimattoman paketin valitseminen voi aiheuttaa asennusongelmia!{n}{n}On suositeltavaa käyttää sen sijaan uusinta palvelimella saatavana olevaa versiota.{n}{n}Haluatko jatkaa joka tapauksessa?
+MessageBox.SelectedPackageInvalid.Heading=Valittu paketti on virheellinen tai yhteensopimaton laitteesi kanssa.
+MessageBox.SelectedPackageInvalid.Message=Valitse paketti, joka on rakennettu {0}.
+MessageBox.PackageUpdateError.Heading=Paketin uusinta versiota ei voitu ladata!
+MessageBox.PackageUpdateError.Message=Jos ohitat tämän virheen, asennus jatkuu paikallisen version kanssa, joka saattaa olla vanhentunut.
+Message.ExtractingPackageToTemp=Pura arkisto väliaikaiseen kansioon...
+Message.DownloadingReqFiles=Vaadittavien tiedostojen lataaminen...
+Label.StorageDrive=Tallennusasema
+Label.DeviceType=Laitteen tyyppi
+FilePathTextPlaceholder=Napsauta "{0}" -painiketta tai vedä ja pudota tiedosto tähän.
+ServerPackageInfoLabel=Tämä on suositeltava vaihtoehto. Sitä voidaan käyttää myös offline-tilassa, kunhan paketti on aiemmin ladattu.
+
+[MessageBox]
+Button.OK=OK
+Button.Cancel=Peruuta
+Button.Abort=Keskeytä
+Button.Retry=Uudelleen
+Button.Ignore=Ohita
+Button.Yes=Kyllä
+Button.No=Ei
+CheckBox.DoNotShowAgain=Älä näytä tätä uudelleen
+
+[MessageBox.Common]
+Heading.SomethingWentWrong=Jotain meni pieleen...
+Heading.Warning=Varoitus!
+
+[MainWindow]
+SendFeedbackBtn=Lähetä palautetta
+NextPageBtn=Seuraava
+BackPageBtn=Takaisin
+NextPageBtn.Install=Asenna
+NextPageBtn.Finish=Valmis
+MessageBox.TaskOngoing.Heading=Haluatko varmasti pakottaa sovelluksen sulkeutumisen?
+MessageBox.TaskOngoing.Message=Operaatio on parhaillaan käynnissä.
+
+[WelcomePage]
+PageTitle=Tervetuloa
+WelcomeLabel=Tervetuloa {appname}!
+WelcomeMsgTextBox=Tämän ohjatun toiminnon avulla voit helposti asentaa Windows 10 työpöytäversion Raspberry Pi-tietokoneellesi. {n}{n} Jatka napsauttamalla {0}-painiketta.
+SelectLangLabel=Valitse kieli:
+
+[SelectDevicePage]
+PageTitle=Valitse laite
+SelectDeviceLabel=Valitse laite
+DisksListCombo.TextEmptyList=Asemia ei löytynyt. Lataa luettelo uudelleen napsauttamalla {0} -painiketta.
+DisksListCombo.TextNoItemSelected=Napsauta tätä valitaksesi aseman luettelosta.
+StorageDriveWarningLabel=Varoitus! Väärän aseman valitseminen voi johtaa ei-toivottuun tietojen menetykseen.
+Device.ExperimentalSupport=Kokeellinen
+Device.SupportedModels=Tuetut mallit: {0}
+MessageBox.DiskAtLeast=Laitteessa on oltava vähintään {0} Gt vapaata tilaa!
+MessageBox.DiskCompressedInstall.Heading=Valitulla laitteella on tarpeeksi tilaa pakatulle asennukselle.
+MessageBox.DiskCompressedInstall.Message=Järjestelmän suorituskyky voi heikentyä hieman pakkauksen vuoksi.
+Message.LoadingDisks=Ladataan levy luetteloa...
+MessageBox.NewBootloaderRequiredWarn=Jos haluat käynnistää {0}-laitteen USB-asemalta tai käyttää GPT-osiointimallia, käynnistyslatausohjelma on päivitettävä uusimpaan versioon.{n}{n}Saat lisätietoja seuraavalta sivulta: {1}
+
+[SelectImagePage]
+PageTitle=Valitse levykuva
+SelectImageLabel=Valitse Windows ARM levykuva
+ImageFileLabel=Levykuva
+WindowsEditionLabel=Windows-versio
+WorkingBuildsTextBox.MinBuild=Laitteesi tukee Windows 10 {0} koontiversiota {1} tai uudempaa.
+WorkingBuildsTextBox.AllBuilds=Laitteesi tukee kaikkia käytettävissä olevia Windows 10 -versioita {0}.
+WorkingBuildsTextBox.GetImage=Jos sinulla ei vielä ole levykuvaa, löydät yksityiskohdat kuvan lataamisesta projektin verkkosivustolta.
+SelectImageIndexCombo.TextEmptyList=Valitse ensin levykuva
+MessageBox.SelectedImageInvalid=Valittu tiedosto ei ole kelvollinen Windows-levykuva!
+MessageBox.SelectedImageUnsupported=Valittua levykuvatiedostoa ei tueta!
+MessageBox.SelectedImageErrorInfo.AllBuilds=Valitse yhteensopiva Windows 10 {0} -levykuva.
+MessageBox.SelectedImageErrorInfo.MinBuild=Valitse yhteensopiva Windows 10 {0} koontiversio {1} tai uudempi levykuva.
+MessageBox.SelectedImageMountError.Heading=Levykuvaa ei voitu asentaa!
+MessageBox.SelectedImageMountError.Message=Varmista, että Windows voi liittää levykuvan (napsauta hiiren kakkospainikkeella -> Asenna) ja yritä uudelleen. Sen käyttäminen verkko-jaon kautta ei välttämättä toimi.{n}{n}Jos virhe ei poistu, mutta pystyt liittämään kuvan manuaalisesti, voit valita {0} -tiedoston suoraan sen sisällä olevasta {1} hakemistosta.
+Message.MountingISO=ISO-kuvan asentaminen...
+Message.UnmountingISO=Irroitetaan ISO-kuvaa...
+Message.VerifyingImage=Tarksitetaan levykuvaa...
+
+[SelectDriversPage]
+PageTitle=Valitse ohjain
+SelectDriversLabel=Valitse ohjaimet
+DriversNoteTextBox=Huomaa: ohjaimet on arkistoitava tiedostomuodossa {0}.
+LocalDrvPkgRadioBtn=Käytä tietokoneellesi tallennettua pakettia
+ServerDrvPkgRadioBtn=Käytä viimeisintä palvelimella saatavana olevaa pakettia
+MessageBox.LicenseNotAccepted.Heading=Et ole hyväksynyt yhtä lisenssisopimuksesta!
+MessageBox.LicenseNotAccepted.Message=Kaikki sopimusehdot on hyväksyttävä käyttämään tätä ohjainpakettia. 
+
+[SelectUEFIPage]
+PageTitle=UEFI-laiteohjelmisto
+SelectUEFILabel=Valitse UEFI-laiteohjelmisto
+UEFINoteTextBox=Huomaa: UEFI-laiteohjelmistossa on oltava {0} -tiedostotunniste.
+LocalUEFIRadioBtn=Käytä tietokoneellesi tallennettua laiteohjelmistoa
+ServerUEFIRadioBtn=Käytä viimeisintä palvelimella saatavilla olevaa laiteohjelmistoa
+
+[SetupConfigurationPage]
+PageTitle=Kokoonpano
+ConfigurationLabel=Kokoonpano
+ConfigurationTabControl.MainTabPage=Yleinen
+InstallOptionsGroup=Asennusvaihtoehdot
+PartSchemeLabel=Osiointijärjestelmä:
+ImgInstallLabel=Asenna levykuva:
+EnableLZXCheck=Ota käyttöön LZX-asennuksen pakkaus
+BootOptionsGroup=Käynnistysvaihtoehdot
+MessageBox.BootConfigEditorWarn=Oletuskäynnistyskokoonpanon muuttaminen voi aiheuttaa laitteen toimintahäiriön tai ei käynnisty lainkaan.{n}{n} Haluatko jatkaa joka tapauksessa?
+MessageBox.MbrPartSchemeWarn=MBR-osiointijärjestelmän valinta estää sinua käyttämästä palautusympäristöä ja tekemästä järjestelmäpäivityksiä.{n}{n}Haluatko jatkaa joka tapauksessa?
+ConfigurationTabControl.AdvancedTabPage=Lisäasetukset
+MessageBox.AdvancedTabPageWarn=Oletusasetusten muuttaminen edistyneessä valikossa voi poistaa tiettyjä laitteen ominaisuuksia tai estää järjestelmän käynnistymistä.{n}{n}Oletko varma, että haluat jatkaa?
+WindowsBootOptionsGroup=Windowsin käynnistysvaihtoehdot
+MemoryLimitLabel=Muistiraja:
+RecoveryEnabledCheck=Ota Windowsin palautusympäristö käyttöön
+WoROptionsGroup={appname} asetukset
+SaveConfigOnExitCheck=Tallenna tämä kokoonpano poistuttaessa
+SaveConfigOnExitCheckInfoLabel=Huomaa: Poistettuja vaihtoehtoja (ja {0} -valikossa olevia) ei tallenneta.
+
+[SetupOverviewPage]
+PageTitle=Asenna
+InstallOverviewLabel=Asennuksen yleiskatsaus
+InstallWarnBox=Varoitus! Kaikki laitteesi tiedot poistetaan! Tee varmuuskopio tiedostoistasi ennen kuin on liian myöhäistä!
+OSLabel=Käyttöjärjestelmä
+DriversPathLabel=Ohjelmisto polku
+UEFIPathLabel=UEFI-laiteohjelmiston polku
+PartitionSchemeLabel=Osiojärjestelmä
+ImageDeployerLabel=Levykuvansiirtäjä
+LZXCompressionLabel=LZX-asennuksen pakkaus
+LZXCompression.YES=KYLLÄ
+LZXCompression.NO=EI
+
+[SetupProgressPage]
+PageTitle=Asenna
+InstallInfoBox=Tämä prosessi voi kestää kauan, riippuen laitteen suorituskyvystä.
+TryAgainBtn=Yritä uudelleen
+InstallStatusLabel.GettingReady=Valmistautumassa...
+InstallStatusLabel.FormattingDisk=Kohdelaitteen alustaminen...
+InstallStatusLabel.CreatingPartitions=Luodaan osioita...
+InstallStatusLabel.InstallingWindows=Asennetaan Windowsia...
+InstallStatusLabel.InstallingBootFiles=Asennetaan Käynnistystiedostoja...
+InstallStatusLabel.InstallingDrivers=Asennetaan ohjaimia...
+InstallStatusLabel.InstallFinished=Asennus on valmis!
+InstallStatusLabel.InstallFailed=Asennus epäonnistui!
+MessageBox.RecoveryNotFoundWarn.Heading=Palautuskuvaa ei löytynyt!
+MessageBox.RecoveryNotFoundWarn.Message=Jos jatkat, palautusympäristö poistetaan kokonaan käytöstä.

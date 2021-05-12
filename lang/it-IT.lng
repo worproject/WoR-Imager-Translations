@@ -1,6 +1,6 @@
-[WoR lang file]
+﻿[WoR lang file]
 Name=Italiano (Italian)
-IsComplete=1
+IsComplete=0
 
 [UpdateNotifyWindow]
 WindowTitle=Aggiornamento
@@ -29,6 +29,8 @@ DeclineBtn=Rifiuta
 MessageBox.CustomPackageWarn=La scelta di un pacchetto datato o incompatibile potrebbe causare problemi di installazione!{n}{n}Si raccomanda l'uso dell'ultima versione disponibile dal server.{n}{n}Procedere lo stesso?
 MessageBox.SelectedPackageInvalid.Heading=Il pacchetto selezionato è invalido o incompatibile con il tuo dispositivo.
 MessageBox.SelectedPackageInvalid.Message=Per favore, selezione un pacchetto compilato per {0}.
+MessageBox.PackageUpdateError.Heading=The latest version of the package couldn't be downloaded!
+MessageBox.PackageUpdateError.Message=If you ignore this error, the setup will continue with the local version which may be outdated.
 Message.ExtractingPackageToTemp=Estrazione dell'archivio sulla cartella temporanea...
 Message.DownloadingReqFiles=Scaricamento dei file necessari...
 Label.StorageDrive=Storage drive
@@ -92,6 +94,8 @@ MessageBox.SelectedImageInvalid=L'immagine selezionata non è un immagine Window
 MessageBox.SelectedImageUnsupported=L'immagine selezionata non è supportata.
 MessageBox.SelectedImageErrorInfo.AllBuilds=Per favore seleziona un'immagine Windows 10 {0} compatibile.
 MessageBox.SelectedImageErrorInfo.MinBuild=Per favore seleziona un'immagine compatibile Windows 10 {0} build {1} o più recente.
+MessageBox.SelectedImageMountError.Heading=The image couldn't be mounted!
+MessageBox.SelectedImageMountError.Message=Verify that the image can be mounted by Windows (right click -> Mount) and try again. Accessing it over a network share may not work.{n}{n}If the error persists but you're able to mount the image manually, you can directly select the {0} file from the {1} directory inside it.
 MessageBox.NotEnoughSpace.Heading=Non c'è abbastanza spazio sul disco per installare questa immagine!
 MessageBox.NotEnoughSpace.Message=Per favore seleziona un dispositivo di archiviazione più capiente oppure un'immagine compatta.
 Message.MountingISO=Montaggio immagine ISO...
@@ -124,6 +128,7 @@ ImgInstallLabel=Installa immagine con:
 EnableLZXCheck=Abilita la compressione d'installazione LZX
 BootOptionsGroup=Opzioni di avvio
 MessageBox.BootConfigEditorWarn=La modifica della configurazione boot di default potrebbe causare malfunzionamenti al dispositivo o il non avvio dello stesso.{n}{n}Continuare ugualmente?
+MessageBox.MbrPartSchemeWarn=Choosing the MBR partitioning scheme will prevent you from using the recovery environment and doing system updates.{n}{n}Continue anyway?
 ConfigurationTabControl.AdvancedTabPage=Avanzate
 MessageBox.AdvancedTabPageWarn=La modifica delle impostazioni di default nel menu avanzato potrebbe disabilitare funzionalità specifiche o il non avvio del sistema.{n}{n}Sei sicuro di voler continuare?
 WindowsBootOptionsGroup=Opzioni di boot Windows
@@ -158,3 +163,5 @@ InstallStatusLabel.InstallingBootFiles=Installazione dei file di boot...
 InstallStatusLabel.InstallingDrivers=Installazione dei driver...
 InstallStatusLabel.InstallFinished=L'installazione è finita!
 InstallStatusLabel.InstallFailed=L'installazione è fallita!
+MessageBox.RecoveryNotFoundWarn.Heading=The recovery image could not be found!
+MessageBox.RecoveryNotFoundWarn.Message=If you continue, the recovery environment will be completely disabled.
