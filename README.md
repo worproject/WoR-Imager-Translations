@@ -16,6 +16,8 @@ Updates or new language files can be submitted through pull requests or by creat
 * The `Author` field has been removed in version 2.0.0 as it was not used anywhere in the application. 
 
   You can add your name in the README.md file when submitting a translation update (we'll do it anyway in case you forget).
+  
+* The translation file must be saved as UTF-8 with BOM.
 
 Issues related to the WoR tool should be reported on the [dedicated bug tracker](https://www.worproject.ml/bugtracker), not on this repository!
 
@@ -27,9 +29,9 @@ Issues related to the WoR tool should be reported on the [dedicated bug tracker]
 | Deutsch (German)                            | de-DE.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/de-DE.lng) | manfred-mueller , EpicLPer , BastiJames333 , Schule04 , NASS-eK , ulrichrobin , Finnie2006
 | English                                     | en-US.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/en-US.lng) | Mario Bălănică
 | Español (Spanish)                           | es-ES.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/es-ES.lng) | davilico05 , tailys98 , Ivan Ruiz (ivigamergames) 
-| Français (French)                           | fr-FR.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/fr-FR.lng) | Garfi69 , SraamaR
+| Français (French)                           | fr-FR.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/fr-FR.lng) | SraamaR , Garfi69
 | Hrvatski (Croatian)                         | hr-HR.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/hr-HR.lng)   | Biggie 
-| Italiano (Italian)                          | it-IT.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/it-IT.lng) | nopesir , xicciodj , lorecast162 
+| Italiano (Italian)                          | it-IT.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/it-IT.lng) | gestef , nopesir , xicciodj , lorecast162 
 | Magyar (Hungarian)                          | hu-HU.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/hu-HU.lng)   | Janaboy , Googulator 
 | Nederlands (Dutch)                          | nl-NL.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/nl-NL.lng) | Finnie2006
 | Polski (Polish)                             | pl-PL.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/pl-PL.lng) | macmmm81 , Gotard , Marcinoo97 , LUKI N (lukin123) , krolik-exe
@@ -37,7 +39,7 @@ Issues related to the WoR tool should be reported on the [dedicated bug tracker]
 | Português Brasileiro (Brazilian Portuguese) | pt-BR.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/pt-BR.lng)   | Rafael Fontenelle
 | Română (Romanian)                           | ro-RO.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/ro-RO.lng) | Mario Bălănică
 | Slovenčina (Slovak)                         | sk-SK.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/sk-SK.lng) | sebkopal
-| Srpski (Serbian)                            | sr-SP.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/sr-SP.lng) | Luka Matovic
+| Srpski (Serbian)                            | sr-SP.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/sr-SP.lng) | Luka Matovic
 | Suomi (Finnish)                             | fi-FI.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/fi-FI.lng) | Mixerboy24
 | Svenska (Swedish)                           | sv-SE.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/sv-SE.lng) | Daniel Lundh , joakimus74
 | Türkçe (Turkish)                            | tr-TR.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/tr-TR.lng)   | ysoyipek , pixelomer , SWATcyp
