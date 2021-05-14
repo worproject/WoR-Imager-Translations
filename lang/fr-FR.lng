@@ -1,6 +1,6 @@
 ﻿[WoR lang file]
 Name=Français (French)
-IsComplete=0
+IsComplete=1
 
 [UpdateNotifyWindow]
 WindowTitle=Update
@@ -29,8 +29,8 @@ DeclineBtn=Refuser
 MessageBox.CustomPackageWarn=Le choix d'un paquet obsolète ou incompatible peut causer des problèmes d'installation ! {n}{n}Il est recommandé d'utiliser plutôt la dernière version disponible sur le serveur.{n}{n}Continuer quand même ?
 MessageBox.SelectedPackageInvalid.Heading=Le paquet sélectionné n'est pas valide ou est incompatible avec votre appareil.
 MessageBox.SelectedPackageInvalid.Message=Veuillez sélectionner un paquet compilé pour {0}.
-MessageBox.PackageUpdateError.Heading=The latest version of the package couldn't be downloaded!
-MessageBox.PackageUpdateError.Message=If you ignore this error, the setup will continue with the local version which may be outdated.
+MessageBox.PackageUpdateError.Heading=La dernière version du paquet n'a pas pu être téléchargée !
+MessageBox.PackageUpdateError.Message=Si vous ignorez cette erreur, l'installation continuera avec la version locale qui peut être obsolète.
 Message.ExtractingPackageToTemp=Extraire l'archive dans le dossier temporaire...
 Message.DownloadingReqFiles=Téléchargement des fichiers requis...
 Label.StorageDrive=Disque de données
@@ -94,10 +94,10 @@ MessageBox.SelectedImageInvalid=Le fichier sélectionné n'est pas une image Win
 MessageBox.SelectedImageUnsupported=Le fichier sélectionné n'est pas supporté !
 MessageBox.SelectedImageErrorInfo.AllBuilds=Veuillez sélectionner une image Windows 10 compatible {0}.
 MessageBox.SelectedImageErrorInfo.MinBuild=Veuillez sélectionner une image compatible Windows 10 {0} build {1} ou plus récent.
-MessageBox.SelectedImageMountError.Heading=The image couldn't be mounted!
-MessageBox.SelectedImageMountError.Message=Verify that the image can be mounted by Windows (right click -> Mount) and try again. Accessing it over a network share may not work.{n}{n}If the error persists but you're able to mount the image manually, you can directly select the {0} file from the {1} directory inside it.
+MessageBox.SelectedImageMountError.Heading=L'image n'a pas pu être montée !
+MessageBox.SelectedImageMountError.Vérifiez que l'image peut être montée par Windows (clic droit -> Monter) et réessayez. L'accès via un réseau partagé peut ne pas fonctionner.{n}{n}Si l'erreur persiste mais que vous êtes en mesure de monter l'image manuellement, vous pouvez sélectionner directement le fichier {0} dans le dossier {1} qu'elle contient.
 MessageBox.NotEnoughSpace.Heading=Il n'y a pas assez d'espace sur le disque pour installer cette image !
-MessageBox.NotEnoughSpace.Message=Veuillez choisir un périphérique de stockage plus grand ou une image compacte.
+MessageBox.NotEnoughSpace.Message=Veuillez choisir un périphérique de stockage plus grand ou une image plus petite.
 Message.MountingISO=Montage de l'image ISO...
 Message.UnmountingISO=Démontage de l'image ISO...
 Message.VerifyingImage=Vérification de l'image...
@@ -128,7 +128,7 @@ ImgInstallLabel=Installer l'image avec:
 EnableLZXCheck=Activer la compression LZX
 BootOptionsGroup=Options de démarage
 MessageBox.BootConfigEditorWarn=La modification de la configuration de démarrage par défaut peut entraîner un dysfonctionnement de l'appareil ou de l'empêcher de démarrer.{n}{n}Continuer quand même ?
-MessageBox.MbrPartSchemeWarn=Choosing the MBR partitioning scheme will prevent you from using the recovery environment and doing system updates.{n}{n}Continue anyway?
+MessageBox.MbrPartSchemeWarn=Le choix du schéma de partitionnement MBR vous empêchera d'utiliser l'environnement de récupération et d'effectuer des mises à jour du système.{n}{n}Continuer quand même ?
 ConfigurationTabControl.AdvancedTabPage=Avancé
 MessageBox.AdvancedTabPageWarn=La modification des paramètres par défaut dans le menu avancé peut désactiver certaines fonctions de l'appareil ou empêcher le système de démarrer.{n}{n} Êtes-vous sûr de vouloir continuer ?
 WindowsBootOptionsGroup=Options de démarage de Windows
@@ -163,5 +163,5 @@ InstallStatusLabel.InstallingBootFiles=Installation des fichiers de démarrages.
 InstallStatusLabel.InstallingDrivers=Installation des drivers...
 InstallStatusLabel.InstallFinished=L'installation est terminée !
 InstallStatusLabel.InstallFailed=L'installation a échoué !
-MessageBox.RecoveryNotFoundWarn.Heading=The recovery image could not be found!
-MessageBox.RecoveryNotFoundWarn.Message=If you continue, the recovery environment will be completely disabled.
+MessageBox.RecoveryNotFoundWarn.Heading=L'image de récupération n'a pas pu être trouvée !
+MessageBox.RecoveryNotFoundWarn.Message=Si vous continuez, l'environnement de récupération sera complètement désactivé.
