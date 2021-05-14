@@ -1,6 +1,6 @@
-﻿[WoR lang file]
+[WoR lang file]
 Name=Srpski (Serbian)
-IsComplete=0
+IsComplete=1
 
 [UpdateNotifyWindow]
 WindowTitle=Azuriranje
@@ -29,8 +29,8 @@ DeclineBtn=Odbij
 MessageBox.CustomPackageWarn=Biranje neazurnog ili nepodrzanog paketa moze prouzrokovati probleme pri instalaciji!{n}{n}Preporucuje se da koristite poslednju verziju koja je na serveru.{n}{n}Ipak nastaviti?
 MessageBox.SelectedPackageInvalid.Heading=Odabrani paket nije validan ili nije podrzan sa vasim uredjajem.
 MessageBox.SelectedPackageInvalid.Message=Molimo odaberite paket napravljen za {0}.
-MessageBox.PackageUpdateError.Heading=The latest version of the package couldn't be downloaded!
-MessageBox.PackageUpdateError.Message=If you ignore this error, the setup will continue with the local version which may be outdated.
+MessageBox.PackageUpdateError.Heading=Poslednja verzija paketa ne moze biti preuzeta!
+MessageBox.PackageUpdateError.Message=Ako ignorisete ovu gresku, instalacija ce nastaviti sa lokalnom instalacijom koja moze biti zastarela.
 Message.ExtractingPackageToTemp=Raspakivanje arhive u privremeni folder...
 Message.DownloadingReqFiles=Preuzimanje neophodnih fajlova...
 Label.StorageDrive=Drajv skladistenja
@@ -94,8 +94,8 @@ MessageBox.SelectedImageInvalid=Odabrani fajl nije validna Windows datoteka!
 MessageBox.SelectedImageUnsupported=Odabrana datoteka nije podrzana!
 MessageBox.SelectedImageErrorInfo.AllBuilds=Molimo odaberite odgovarajucu Windows 10 {0} datoteku sistema.
 MessageBox.SelectedImageErrorInfo.MinBuild=Molimo odaberite odgovarajucu Windows 10 {0} verziju {1} ili noviju datoteku sistema.
-MessageBox.SelectedImageMountError.Heading=The image couldn't be mounted!
-MessageBox.SelectedImageMountError.Message=Verify that the image can be mounted by Windows (right click -> Mount) and try again. Accessing it over a network share may not work.{n}{n}If the error persists but you're able to mount the image manually, you can directly select the {0} file from the {1} directory inside it.
+MessageBox.SelectedImageMountError.Heading=Slika sistema ne moze biti montirana!
+MessageBox.SelectedImageMountError.Message=Uverite se da slika sistema moze biti montirana (desni klik -> montiranje) i pokusajte ponovo. Pristupanje preko mreznog deljenja mozda nece raditi.{n}{n}Ako se problem i dalje pojavljuje a mozete rucno da montirate sliku sistema, mozete direktno odabrati {0} fajl iz {1} direktorijuma unutar njega.
 MessageBox.NotEnoughSpace.Heading=Nema dovoljno prostora na disku da se instalira ova datoteka!
 MessageBox.NotEnoughSpace.Message=Molim odaberite vece skladiste ili kompaktnu datoteku.
 Message.MountingISO=Montiranje ISO datoteke...
@@ -128,7 +128,7 @@ ImgInstallLabel=Instaliraj datoteku sa:
 EnableLZXCheck=Omoguci LZX kompresiju instalacije
 BootOptionsGroup=Boot opcije
 MessageBox.BootConfigEditorWarn=Menjanje uobicajene boot konfiguracije moze uzrokovati da uredjaj ne radi ispravno ili da se ne boot-uje uopste.{n}{n}Ipak nastaviti?
-MessageBox.MbrPartSchemeWarn=Choosing the MBR partitioning scheme will prevent you from using the recovery environment and doing system updates.{n}{n}Continue anyway?
+MessageBox.MbrPartSchemeWarn=Biranje MBR seme ce vas spreciti u koriscenju okruzenja za oporavak sistema i vrsenja azuriranja sistema.{n}{n}Ipak nastaviti?
 ConfigurationTabControl.AdvancedTabPage=Napredno
 MessageBox.AdvancedTabPageWarn=Menjanje uobicajenih postavki u naprednom meniju moze onemoguciti odredjene karakteristike ili spreciti sistem da se boot-uje.{n}{n}Da li ste sigurni da zelite da nastavie?
 WindowsBootOptionsGroup=Windows boot opcije
@@ -163,5 +163,5 @@ InstallStatusLabel.InstallingBootFiles=Instaliranje boot fajlova...
 InstallStatusLabel.InstallingDrivers=Instaliranje drajvera...
 InstallStatusLabel.InstallFinished=Instalacija je zavrsena!
 InstallStatusLabel.InstallFailed=Instalacija nije uspela!
-MessageBox.RecoveryNotFoundWarn.Heading=The recovery image could not be found!
-MessageBox.RecoveryNotFoundWarn.Message=If you continue, the recovery environment will be completely disabled.
+MessageBox.RecoveryNotFoundWarn.Heading=Slika oporavka ne moze biti pronadjena!
+MessageBox.RecoveryNotFoundWarn.Message=Ako nastavite, okruzenje za oporavak sistema ce biti u potpunosti onemoguceno.
