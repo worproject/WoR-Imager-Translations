@@ -1,0 +1,167 @@
+﻿[WoR lang file]
+Name=Persian / فارسی
+IsComplete=1
+
+[UpdateNotifyWindow]
+WindowTitle=به‌روزرسانی
+NewVersionAvailableLabel=نسخه جدید در دسترس است
+NewVersionAvailableBox={appname} {0} در دسترس است! آن را دانلود می‌کنید؟
+DownloadBtn=دانلود
+CloseBtn=بستن
+
+[AboutWindow]
+WindowTitle=درباره
+AppVersionLabel=نسخه
+CreditsPage=اعتبارات
+ChangelogPage=سیاهه تغییرات
+LicensesPage=مجوزها
+
+[LoggerWindow]
+WindowTitle=سیاهه
+CopyToClipboardBtn=کپی
+
+[LicenseAgreementWindow]
+WindowTitle=توافق‌نامه مجوز
+AcceptBtn=پذیرفتن
+DeclineBtn=رد کردن
+
+[General]
+MessageBox.CustomPackageWarn=انتخاب یک بسته قدیمی یا ناسازگار ممکن است باعث بروز مشکلات نصب شود!{n}{n}توصیه می‌شود به‌جای آن از تازه‌ترین نسخه موجود در سرور استفاده کنید.{n}{n}به هر حال ادامه می‌دهید؟
+MessageBox.SelectedPackageInvalid.Heading=بسته انتخاب شده معتبر نیست یا با دستگاه شما سازگاری ندارد.
+MessageBox.SelectedPackageInvalid.Message=لطفاً بسته ساخته شده برای {0} را انتخاب کنید.
+MessageBox.PackageUpdateError.Heading=تازه‌ترین نسخه این بسته قابل دانلود نیست!
+MessageBox.PackageUpdateError.Message=در صورت نادیده گرفتن این خطا، فرایند نصب با نسخه محلی که ممکن است منسوخ شده باشد، ادامه پیدا خواهد کرد.
+Message.ExtractingPackageToTemp=در حال خروجی گرفتن بایگانی به پوشه موقت...
+Message.DownloadingReqFiles=در حال دانلود پرونده‌های مورد نیاز...
+Label.StorageDrive=درایو ذخیره‌سازی
+Label.DeviceType=نوع دستگاه
+FilePathTextPlaceholder=روی دکمه "{0}" کلیک کنید یا پرونده را به اینجا بکشید و رها کنید.
+ServerPackageInfoLabel=این گزینه‌ای است که پیشنهاد می‌شود. اگر قبلاً این بسته را دانلود کرده باشید، می‌توان از آن به‌صورت آفلاین نیز استفاده کرد.
+
+[MessageBox]
+Button.OK=خیلی خوب
+Button.Cancel=لغو کردن
+Button.Abort=رها کردن
+Button.Retry=تلاش دوباره
+Button.Ignore=چشم‌پوشی کردن
+Button.Yes=بله
+Button.No=خیر
+CheckBox.DoNotShowAgain=دیگر نمایش نده
+
+[MessageBox.Common]
+Heading.SomethingWentWrong=خطایی رخ داده است...
+Heading.Warning=هشدار!
+
+[MainWindow]
+SendFeedbackBtn=ارسال بازخورد
+NextPageBtn=بعدی
+BackPageBtn=قبلی
+NextPageBtn.Install=نصب
+NextPageBtn.Finish=پایان
+MessageBox.TaskOngoing.Heading=آیا مطمئن هستید که می‌خواهید به‌زور برنامه را ببندید؟
+MessageBox.TaskOngoing.Message=در حال حاضر عملیاتی در حال انجام است.
+
+[WelcomePage]
+PageTitle=خوش‌آمدید
+WelcomeLabel=به {appname} خوش آمدید!
+WelcomeMsgTextBox=این راهنما به شما کمک می‌کند تا نسخه کامل رومیزی ویندوز 10 را به‌راحتی روی Raspberry Pi خود نصب کنید.{n}{n}برای ادامه روی دکمه {0} کلیک کنید.
+SelectLangLabel=زبان خود را انتخاب کنید:
+
+[SelectDevicePage]
+PageTitle=انتخاب دستگاه
+SelectDeviceLabel=انتخاب دستگاه
+DisksListCombo.TextEmptyList=هیچ درایوی یافت نشد. برای بارگذاری دوباره فهرست، روی دکمه {0} کلیک کنید.
+DisksListCombo.TextNoItemSelected=برای انتخاب یک درایو از فهرست، اینجا کلیک کنید.
+StorageDriveWarningLabel=هشدار! انتخاب درایو اشتباه ممکن است منجر به از دست رفتن ناخواسته داده‌های موجود در آن شود.
+Device.ExperimentalSupport=آزمایشی
+Device.SupportedModels=مدل‌های پشتیبانی شده: {0}
+MessageBox.DiskAtLeast=این دستگاه باید حداقل {0} گیگابایت فضای خالی داشته باشد!
+MessageBox.DiskCompressedInstall.Heading=دستگاه انتخاب شده، فضای کافی برای نصب فشرده را دارد.
+MessageBox.DiskCompressedInstall.Message=کارایی سیستم ممکن است به‌خاطر فشرده‌سازی کمی کاهش یابد.
+Message.LoadingDisks=در حال بارگذاری فهرست دیسک‌ها...
+MessageBox.NewBootloaderRequiredWarn=اگر می‌خواهید {0} خود را از یک درایو USB راه‌اندازی کنید یا از طرح پیکربندی GPT استفاده می‌کنید، بوت‌لودر باید به آخرین نسخه به‌روز شود.{n}{n}لطفاً برای کسب اطلاعات بیشتر به پیوند زیر مراجعه فرمایید: {1}
+
+[SelectImagePage]
+PageTitle=پرونده تصویری را انتخاب کنید
+SelectImageLabel=پرونده تصویری Windows on ARM خود را انتخاب کنید
+ImageFileLabel=پرونده تصویری
+WindowsEditionLabel=نسخه ویندوز
+WorkingBuildsTextBox.MinBuild=دستگاه شما از Windows 10 {0} ساخت {1} یا جدیدتر پشتیبانی می‌کند.
+WorkingBuildsTextBox.AllBuilds=دستگاه شما از تمام ساخت‌های موجود Windows 10 {0} پشتیبانی می‌کند.
+WorkingBuildsTextBox.GetImage=اگر هنوز یک پرونده تصویری ندارید، می‌توانید جزئیات نحوه دانلود را در وب سایت پروژه پیدا کنید.
+SelectImageIndexCombo.TextEmptyList=لطفاً ابتدا یک تصویر را انتخاب کنید.
+MessageBox.SelectedImageInvalid=پرونده تصویری انتخاب شده یک تصویر معتبر برای ویندوز نیست!
+MessageBox.SelectedImageUnsupported=پرونده تصویری انتخاب شده پشتیبانی نمی‌شود!
+MessageBox.SelectedImageErrorInfo.AllBuilds=لطفاً یک پرونده تصویری سازگار با Windows 10 {0} انتخاب کنید.
+MessageBox.SelectedImageErrorInfo.MinBuild=لطفاً یک پرونده تصویری سازگار با Windows 10 {0} ساخت {1} یا جدیدتر را انتخاب کنید.
+MessageBox.SelectedImageMountError.Heading=این پرونده تصویری قابل نصب نیست!
+MessageBox.SelectedImageMountError.Message=بررسی کنید که پرونده تصویری در ویندوز قابل نصب است (راست کلیک -> سوار کردن) و دوباره امتحان کنید. دسترسی به آن از طریق اشتراک شبکه ممکن است کارساز نباشد.{n}{n}اگر علی‌رغم امکان نصب دستی، خطا ادامه پیدا کرد می‌توانید مستقیماً پرونده {0} را از پوشه {1} موجود در داخل آن انتخاب کنید.
+MessageBox.NotEnoughSpace.Heading=فضای کافی برای نصب این پرونده تصویری روی دیسک وجود ندارد!
+MessageBox.NotEnoughSpace.Message=لطفاً یک دستگاه ذخیره‌سازی بزرگ‌تر یا یک پرونده تصویری فشرده را انتخاب کنید.
+Message.MountingISO=در حال سوار کردن پرونده تصویری ISO...
+Message.UnmountingISO=در حال پیاده کردن پرونده تصویری ISO...
+Message.VerifyingImage=در حال تأیید پرونده تصویری...
+
+[SelectDriversPage]
+PageTitle=درایورها را انتخاب کنید
+SelectDriversLabel=درایورها را انتخاب کنید
+DriversNoteTextBox=توجه: درایورها را باید بر اساس قالب فایل {0} بایگانی کرد.
+LocalDrvPkgRadioBtn=از بسته ذخیره شده در رایانه خود استفاده کنید
+ServerDrvPkgRadioBtn=از تازه‌ترین بسته موجود در سرور استفاده کنید
+MessageBox.LicenseNotAccepted.Heading=شما یکی از توافق‌نامه‌های مجوز را نپذیرفته‌اید!
+MessageBox.LicenseNotAccepted.Message=برای استفاده از این بسته درایورها، باید همه مجوزها را بپذیرید.
+
+[SelectUEFIPage]
+PageTitle=سفت‌افزار UEFI
+SelectUEFILabel=سفت‌افزار UEFI را انتخاب کنید
+UEFINoteTextBox=توجه: سیستم عامل UEFI باید پسوند پرونده {0} داشته باشد.
+LocalUEFIRadioBtn=از یک سفت‌افزار موجود در رایانه خود استفاده کنید
+ServerUEFIRadioBtn=از تازه‌ترین سیستم عامل موجود در سرور استفاده کنید
+
+[SetupConfigurationPage]
+PageTitle=تبریک
+ConfigurationLabel=تبریک فراوان
+ConfigurationTabControl.MainTabPage=عمومی
+InstallOptionsGroup=گزینه‌های نصب
+PartSchemeLabel=طرح پیکربندی:
+ImgInstallLabel=نصب پرونده تصویری با:
+EnableLZXCheck=فشرده‌سازی نصب LZX را فعال کنید
+BootOptionsGroup=گزینه‌های بوت
+MessageBox.BootConfigEditorWarn=تغییر در پیکربندی پیش‌فرض بوت ممکن است باعث عملکرد نادرست یا عدم راه‌اندازی شود.{n}{n}به‌هرحال ادامه می‌دهید؟
+MessageBox.MbrPartSchemeWarn=انتخاب طرح پیکربندی MBR موجب عدم دسترسی به محیط بازیابی و انجام به‌روزرسانی‌های سیستم می‌شود.{n}{n}به‌هرحال ادامه می‌دهید؟
+ConfigurationTabControl.AdvancedTabPage=پیشرفته
+MessageBox.AdvancedTabPageWarn=تغییر در تنظیمات پیش‌فرض منوی پیشرفته ممکن است ویژگی‌های خاص دستگاه را غیرفعال کند یا از بوت شدن سیستم جلوگیری کند.{n}{n}از اینکه می‌خواهید ادامه دهید، مطمئن هستید؟
+WindowsBootOptionsGroup=گزینه‌های بوت ویندوز
+MemoryLimitLabel=حد حافظه:
+RecoveryEnabledCheck=Windows Recovery Environment را فعال کنید
+WoROptionsGroup=گزینه‌های {appname}
+SaveConfigOnExitCheck=ذخیره این پیکربندی در هنگام خروج
+SaveConfigOnExitCheckInfoLabel=توجه: گزینه‌هایی که غیرفعال هستند (و گزینه‌های موجود در منوی {0}) ذخیره نمی‌شوند.
+
+[SetupOverviewPage]
+PageTitle=نصب
+InstallOverviewLabel=مروری بر نصب
+InstallWarnBox=هشدار! همه داده‌های موجود روی دستگاه شما حذف خواهد شد! پیش از آنکه خیلی دیر شود، از پرونده‌های خود نسخه پشتیبان تهیه کنید!
+OSLabel=سیستم عامل
+DriversPathLabel=مسیر درایور
+UEFIPathLabel=مسیر سفت‌افزار UEFI
+PartitionSchemeLabel=طرح پارتیشن‌بندی
+ImageDeployerLabel=گسترش‌دهنده تصویر
+LZXCompressionLabel=فشرده سازی نصب LZX
+LZXCompression.YES=بله
+LZXCompression.NO=خیر
+
+[SetupProgressPage]
+PageTitle=نصب
+InstallInfoBox=بسته به عملکرد دستگاه، این فرایند ممکن است طولانی شود.
+TryAgainBtn=دوباره تلاش کنید
+InstallStatusLabel.GettingReady=در حال آماده شدن...
+InstallStatusLabel.FormattingDisk=در حال فرمت کردن دستگاه مقصد...
+InstallStatusLabel.CreatingPartitions=در حال ایجاد پارتیشن‌ها...
+InstallStatusLabel.InstallingWindows=در حال نصب ویندوز...
+InstallStatusLabel.InstallingBootFiles=در حال نصب پرونده‌های بوت...
+InstallStatusLabel.InstallingDrivers=در حال نصب درایورها...
+InstallStatusLabel.InstallFinished=فرایند نصب کامل شد!
+InstallStatusLabel.InstallFailed=بروز خطا در فرایند نصب!
+MessageBox.RecoveryNotFoundWarn.Heading=تصویر بازیابی یافت نشد!
+MessageBox.RecoveryNotFoundWarn.Message=در صورت ادامه، محیط بازیابی کاملاً غیرفعال می‌شود.
