@@ -1,6 +1,6 @@
 ﻿[WoR lang file]
 Name=Українська (Ukrainian)
-IsComplete=0
+IsComplete=1
 
 [UpdateNotifyWindow]
 WindowTitle=Оновлення
@@ -17,7 +17,7 @@ ChangelogPage=Зміни
 LicensesPage=Ліцензування
 
 [LoggerWindow]
-WindowTitle=Логи
+WindowTitle=Журнали
 CopyToClipboardBtn=Копіювати
 
 [LicenseAgreementWindow]
@@ -29,8 +29,8 @@ DeclineBtn=Відхилити
 MessageBox.CustomPackageWarn=Вибір застарілого чи несумісного пакету може викликати проблеми зі встановленням!{n}{n}Натомість рекомендується використовувати останню версію, доступну на сервері.{n}{n}Всеодно продовжити?
 MessageBox.SelectedPackageInvalid.Heading=Вибраний пакет недійсний або несумнісний з вашим пристроєм.
 MessageBox.SelectedPackageInvalid.Message=Будь ласка, виберіть пакет створений для {0}.
-MessageBox.PackageUpdateError.Heading=The latest version of the package couldn't be downloaded!
-MessageBox.PackageUpdateError.Message=If you ignore this error, the setup will continue with the local version which may be outdated.
+MessageBox.PackageUpdateError.Heading=Неможливо завантажити останню версію пакету!
+MessageBox.PackageUpdateError.Message=Якщо ви проігноруєте цю помилку, налаштування продовжиться з локальною версію, що може бути застарілою.
 Message.ExtractingPackageToTemp=Розпакування архіву у тимчасову папку...
 Message.DownloadingReqFiles=Завантаження необхідних файлів...
 Label.StorageDrive=Накопичувач
@@ -94,8 +94,8 @@ MessageBox.SelectedImageInvalid=Вибраний файл є недійсним 
 MessageBox.SelectedImageUnsupported=Вибраний образ не підтримується!
 MessageBox.SelectedImageErrorInfo.AllBuilds=Будь ласка, виберіть сумісний образ Windows 10 {0}.
 MessageBox.SelectedImageErrorInfo.MinBuild=Виберіть сумісну {0} збірку {1} Windows 10 або новіший образ.
-MessageBox.SelectedImageMountError.Heading=The image couldn't be mounted!
-MessageBox.SelectedImageMountError.Message=Verify that the image can be mounted by Windows (right click -> Mount) and try again. Accessing it over a network share may not work.{n}{n}If the error persists but you're able to mount the image manually, you can directly select the {0} file from the {1} directory inside it.
+MessageBox.SelectedImageMountError.Heading=Неможливо змонтувати образ!
+MessageBox.SelectedImageMountError.Message=Перевірте чи образ може бути змонтований Windows (правик клік -> Змонтувати) та спробуйте знову. Доступ через спільний доступ до мережі може не працювати.{n}{n}Якщо помилка не зникне, але ви можете змонтувати образ вручну, ви можете безпосередньо вибрати {0} файл іщ {1} каталогу всередині нього.
 MessageBox.NotEnoughSpace.Heading=На вашому диску недостатньо місця щоб встатовити цей образ!
 MessageBox.NotEnoughSpace.Message=Будь ласка, виберіть пристрій з більшим розміром сховища або менший образ.
 Message.MountingISO=Монтування ISO образу...
@@ -128,7 +128,7 @@ ImgInstallLabel=Встановити образ через:
 EnableLZXCheck=Увімкнути LZX стискання
 BootOptionsGroup=Опції запуску
 MessageBox.BootConfigEditorWarn=Зміна конфігурації завантаження за замовчуванням може спричинити несправність пристрою або взагалі не завантажуватися.{n}{n}Всеодно продовжити?
-MessageBox.MbrPartSchemeWarn=Choosing the MBR partitioning scheme will prevent you from using the recovery environment and doing system updates.{n}{n}Continue anyway?
+MessageBox.MbrPartSchemeWarn=Вибір MBR схеми розділення не дозволить вам використовувати відновлення середовища і проводити оновлення системи.{n}{n}Всеодно продовжити?
 ConfigurationTabControl.AdvancedTabPage=Додаткові
 MessageBox.AdvancedTabPageWarn=Зміна налаштувань за замовчуванням у розширеному меню може вимкнути певні функції пристрою або перешкодити завантаженню системи.{n}{n}Ви впевнені, що хочете продовжити?
 WindowsBootOptionsGroup=Параметри завантаження Windows
@@ -163,5 +163,5 @@ InstallStatusLabel.InstallingBootFiles=Встановлюються файли �
 InstallStatusLabel.InstallingDrivers=Встановлюються драйвери...
 InstallStatusLabel.InstallFinished=Встановлення завершено!
 InstallStatusLabel.InstallFailed=Встановлення перервано!
-MessageBox.RecoveryNotFoundWarn.Heading=The recovery image could not be found!
-MessageBox.RecoveryNotFoundWarn.Message=If you continue, the recovery environment will be completely disabled.
+MessageBox.RecoveryNotFoundWarn.Heading=Не вдалося знайти образ відновлення!
+MessageBox.RecoveryNotFoundWarn.Message=Якщо ви продовжите, середовище відновлення буде повністю вимкнене.
