@@ -1,6 +1,6 @@
 ﻿[WoR lang file]
 Name=Türkçe (Turkish)
-IsComplete=0
+IsComplete=1
 
 [UpdateNotifyWindow]
 WindowTitle=Güncelle
@@ -28,29 +28,29 @@ DeclineBtn=Reddet
 [General]
 MessageBox.CustomPackageWarn=Eski ya da uyumsuz paket seçmek kurulum sorunlarına yol açabilir!{n}{n}Sunucudaki en son sürümü kullanmanız önerilir.{n}{n}Yine de devam et?
 MessageBox.SelectedPackageInvalid.Heading=Seçilen paket geçersiz ya da cihazınızla uyumlu değil.
-MessageBox.SelectedPackageInvalid.Message=Please select a package built for {0}.
-MessageBox.PackageUpdateError.Heading=The latest version of the package couldn't be downloaded!
-MessageBox.PackageUpdateError.Message=If you ignore this error, the setup will continue with the local version which may be outdated.
+MessageBox.SelectedPackageInvalid.Message=Kurmak için paket seçin {0}.
+MessageBox.PackageUpdateError.Heading=Paketin son sürümü indirilemedi!
+MessageBox.PackageUpdateError.Message=Bu hatayı görmezden gelirseniz kurulum, eski olabilecek yerel sürümle devam eder.
 Message.ExtractingPackageToTemp=Arşivi geçici klasöre çıkartılıyor...
 Message.DownloadingReqFiles=Gerekli dosyalar indiriliyor...
-Label.StorageDrive=Storage drive
+Label.StorageDrive=Kurulum medyası
 Label.DeviceType=Cihaz tipi
-FilePathTextPlaceholder=Click on the "{0}" button or drag and drop the file here.
-ServerPackageInfoLabel=This is the recommended option. It can be used offline too, as long as the package has been previously downloaded.
+FilePathTextPlaceholder="{0}" butonuna tıklayın veya dosyaları sürükleyin.
+ServerPackageInfoLabel=Bu önerilen seçenektir. Paket önceden indirildiği sürece çevrimdışı olarak da kullanılabilir.
 
 [MessageBox]
 Button.OK=OK
-Button.Cancel=Cancel
-Button.Abort=Abort
-Button.Retry=Retry
-Button.Ignore=Ignore
-Button.Yes=Yes
-Button.No=No
-CheckBox.DoNotShowAgain=Don't show this again
+Button.Cancel=Geri
+Button.Abort=Vazgeç
+Button.Retry=Yeniden dene
+Button.Ignore=Atla
+Button.Yes=Evet
+Button.No=Hayır
+CheckBox.DoNotShowAgain=Bunu tekrar gösterme
 
 [MessageBox.Common]
-Heading.SomethingWentWrong=Something went wrong...
-Heading.Warning=Warning!
+Heading.SomethingWentWrong=Bir şeyler ters gitti...
+Heading.Warning=Uyarı!
 
 [MainWindow]
 SendFeedbackBtn=Geribildirim gönder
@@ -63,39 +63,39 @@ MessageBox.TaskOngoing.Message=Şu anda bir işlem devam ediyor.
 
 [WelcomePage]
 PageTitle=Merhaba
-WelcomeLabel={appname}'a Hoş Geldiniz!
-WelcomeMsgTextBox=This wizard will help you easily install the full desktop version of Windows 10 on your Raspberry Pi computer.{n}{n}Click on the {0} button to continue.
+WelcomeLabel={appname}'ye Hoş Geldiniz!
+WelcomeMsgTextBox=Bu sihirbaz, Windows 10'un tam masaüstü sürümünü Raspberry Pi bilgisayarınıza kolayca yüklemenize yardımcı olacaktır.{n}{n}Devam etmek için {0} düğmesini tıklayın.
 SelectLangLabel=Dilinizi seçiniz:
 
 [SelectDevicePage]
 PageTitle=Cihaz seç
 SelectDeviceLabel=Cihaz seç
-DisksListCombo.TextEmptyList=No drives have been found. Click on the {0} button to reload the list.
-DisksListCombo.TextNoItemSelected=Click here to select a drive from the list.
-StorageDriveWarningLabel=Warning! Selecting the wrong drive may lead to unwanted data loss.
+DisksListCombo.TextEmptyList=Sürücü bulunamadı. Yeniden denemek için {0} butonuna basın.
+DisksListCombo.TextNoItemSelected=Listeden disk seçmek için tıklayın.
+StorageDriveWarningLabel=Uyarı! Yanlış diskin seçilmesi istenmeyen veri kayıplarına neden olabilir.
 Device.ExperimentalSupport=Deneysel
 Device.SupportedModels=Desteklenen modeller: {0}
 MessageBox.DiskAtLeast=Cihazda en az {0} GB alan olmalıdır!
 MessageBox.DiskCompressedInstall.Heading=Seçilen cihaz sıkıştırılmış bir kurulum için yeterli alana sahiptir.
-MessageBox.DiskCompressedInstall.Message=System performance may be slightly reduced due to compression.
+MessageBox.DiskCompressedInstall.Message=Sıkıştırma nedeniyle sistem performansı biraz düşebilir.
 Message.LoadingDisks=Diskler yükleniyor...
-MessageBox.NewBootloaderRequiredWarn=If you want to boot your {0} from an USB drive or use the GPT partitioning scheme, the bootloader must be updated to the latest version.{n}{n}Please visit the following link for more details: {1}
+MessageBox.NewBootloaderRequiredWarn={0} cihazınızı bir USB sürücüsünden başlatmak veya GPT bölümleme şemasını kullanmak istiyorsanız, önyükleyicinin en son sürüme güncellenmesi gerekir.{n}{n}Daha fazla ayrıntı için lütfen aşağıdaki bağlantıyı ziyaret edin: {1}
 
 [SelectImagePage]
 PageTitle=Görüntü Seç
 SelectImageLabel=Windows 10 ARM görüntünüzü seçin
-ImageFileLabel=Image file
+ImageFileLabel=İmaj dosyası
 WindowsEditionLabel=Windows versiyonu
-WorkingBuildsTextBox.MinBuild=Your device supports Windows 10 {0} build {1} or newer.
-WorkingBuildsTextBox.AllBuilds=Your device supports all the available builds of Windows 10 {0}.
-WorkingBuildsTextBox.GetImage=If you don't have an image yet, you can find details on how to download one on the project website.
-SelectImageIndexCombo.TextEmptyList=Please select an image first.
+WorkingBuildsTextBox.MinBuild=Cihazınız Windows 10 {0} sürüm {1} veya daha yenisini desteklemektedir.
+WorkingBuildsTextBox.AllBuilds=Cihazınız bütün Windows 10 {0} sürümlerini desteklemektedir.
+WorkingBuildsTextBox.GetImage=Henüz bir imaj dosyanız yoksa, nasıl indireceğinizle ilgili detayları proje web sitesinde bulabilirsiniz.
+SelectImageIndexCombo.TextEmptyList=Lütfen bir imaj dosyası seçin.
 MessageBox.SelectedImageInvalid=Seçilen dosya geçerli bir Windows görüntüsü değil!
 MessageBox.SelectedImageUnsupported=Seçilen görüntü dosyası desteklenmiyor!
-MessageBox.SelectedImageErrorInfo.AllBuilds=Please select a compatible Windows 10 {0} image.
+MessageBox.SelectedImageErrorInfo.AllBuilds=Lütfen desteklenen bir imaj dosyası seçiniz.
 MessageBox.SelectedImageErrorInfo.MinBuild=Please select a compatible Windows 10 {0} build {1} or newer image.
-MessageBox.SelectedImageMountError.Heading=The image couldn't be mounted!
-MessageBox.SelectedImageMountError.Message=Verify that the image can be mounted by Windows (right click -> Mount) and try again. Accessing it over a network share may not work.{n}{n}If the error persists but you're able to mount the image manually, you can directly select the {0} file from the {1} directory inside it.
+MessageBox.SelectedImageMountError.Heading=İmaj dosyası bağlanamadı!
+MessageBox.SelectedImageMountError.Message=İmaj dosyasının Windows tarafından yüklenebildiğini doğrulayın (sağ tıklama -> Bağla) ve yeniden deneyin. Bir ağ paylaşımı üzerinden erişim işe yaramayabilir.{n}{n}Hata devam ederse ancak görüntüyü manuel olarak bağlayabiliyorsanız, içindeki {1} dizininden doğrudan {0} dosyasını seçebilirsiniz.
 MessageBox.NotEnoughSpace.Heading=Diskte bu görüntüyü kullanmak için yeterli alan yok!
 MessageBox.NotEnoughSpace.Message=Lütfen daha büyük bir depolama aygıtı ya da daha kompakt bir görüntü seçiniz.
 Message.MountingISO=ISO dosyası bağlanıyor...
@@ -109,7 +109,7 @@ DriversNoteTextBox=Not: Sürücüler {0} dosya formatı ile arşivlenmiş olmal�
 LocalDrvPkgRadioBtn=Bilgisayarınızda depolanan bir paket kullanın
 ServerDrvPkgRadioBtn=Sunucuda bulunan en son paketi kullanın
 MessageBox.LicenseNotAccepted.Heading=Lisans sözleşmelerinden birini kabul etmediniz!
-MessageBox.LicenseNotAccepted.Message=All licenses must be accepted to use this drivers package.
+MessageBox.LicenseNotAccepted.Message=Bu sürücü paketini kullanmak için tüm lisanslar kabul edilmelidir.
 
 [SelectUEFIPage]
 PageTitle=UEFI Yazılımı
@@ -128,7 +128,7 @@ ImgInstallLabel=Bu imajla yükle:
 EnableLZXCheck=LZX kurulum sıkıştırmasını etkinleştir
 BootOptionsGroup=Önyükleme seçenekleri
 MessageBox.BootConfigEditorWarn=Varsayılan boot yapılandırmasını değiştirmek cihazın hata vermesine hatta hiç açılmamasına sebep olabilir.{n}{n}Yine de devam et?
-MessageBox.MbrPartSchemeWarn=Choosing the MBR partitioning scheme will prevent you from using the recovery environment and doing system updates.{n}{n}Continue anyway?
+MessageBox.MbrPartSchemeWarn=MBR bölümleme şemasını seçmek, kurtarma ortamını kullanmanızı ve sistem güncellemeleri yapmanızı engeller.{n}{n}Yine de devam etmek istiyor musunuz?
 ConfigurationTabControl.AdvancedTabPage=Gelişmiş
 MessageBox.AdvancedTabPageWarn=Gelişmiş menüdeki varsayılan ayarların değiştirilmesi, cihaza özgü bazı özellikleri kapatabilir ya da sistemin açılmasına engel olabilir.{n}{n}Devam etmek istediğinize emin misiniz?
 WindowsBootOptionsGroup=Windows boot seçenekleri
@@ -136,7 +136,7 @@ MemoryLimitLabel=Hafıza limiti:
 RecoveryEnabledCheck=Windows Kurtarma Ortamını Aç
 WoROptionsGroup={appname} seçenekleri
 SaveConfigOnExitCheck=Bu konfigürasyonu kaydet ve çık
-SaveConfigOnExitCheckInfoLabel=Note: options that are disabled (and those in the {0} menu) will not be saved.
+SaveConfigOnExitCheckInfoLabel=Not: Devre dışı bırakılan seçenekler (ve {0} menüsündekiler) kaydedilmeyecektir.
 
 [SetupOverviewPage]
 PageTitle=Yükle
@@ -154,7 +154,7 @@ LZXCompression.NO=HAYIR
 [SetupProgressPage]
 PageTitle=Yükle
 InstallInfoBox=Bu işlem, cihaz performansına bağlı olarak uzun sürebilir.
-TryAgainBtn=Try again
+TryAgainBtn=Yeniden deneyin
 InstallStatusLabel.GettingReady=Hazırlanıyor...
 InstallStatusLabel.FormattingDisk=Hedef cihaz biçimlendiriliyor...
 InstallStatusLabel.CreatingPartitions=Bölüntüler oluşturuluyor...
@@ -163,5 +163,5 @@ InstallStatusLabel.InstallingBootFiles=Önyükleme dosyaları yaratılıyor...
 InstallStatusLabel.InstallingDrivers=Sürücüler kuruluyor...
 InstallStatusLabel.InstallFinished=Kurulum tamamlandı!
 InstallStatusLabel.InstallFailed=Yükleme başarısız!
-MessageBox.RecoveryNotFoundWarn.Heading=The recovery image could not be found!
-MessageBox.RecoveryNotFoundWarn.Message=If you continue, the recovery environment will be completely disabled.
+MessageBox.RecoveryNotFoundWarn.Heading=Kurtarma imaj dosyası bulunamadı.
+MessageBox.RecoveryNotFoundWarn.Message=Eğer devam ederseniz, kurtarma tamamen devre dışı bırakılacak.
