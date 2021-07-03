@@ -64,7 +64,7 @@ MessageBox.TaskOngoing.Message=Operaatio on parhaillaan käynnissä.
 [WelcomePage]
 PageTitle=Tervetuloa
 WelcomeLabel=Tervetuloa {appname}!
-WelcomeMsgTextBox=Tämän ohjatun toiminnon avulla voit helposti asentaa Windows 10 työpöytäversion Raspberry Pi-tietokoneellesi. {n}{n} Jatka napsauttamalla {0}-painiketta.
+WelcomeMsgTextBox=Tämän ohjatun toiminnon avulla voit helposti asentaa Windows työpöytäversion Raspberry Pi-tietokoneellesi. {n}{n} Jatka napsauttamalla {0}-painiketta.
 SelectLangLabel=Valitse kieli:
 
 [SelectDevicePage]
@@ -86,14 +86,14 @@ PageTitle=Valitse levykuva
 SelectImageLabel=Valitse Windows ARM levykuva
 ImageFileLabel=Levykuva
 WindowsEditionLabel=Windows-versio
-WorkingBuildsTextBox.MinBuild=Laitteesi tukee Windows 10 {0} koontiversiota {1} tai uudempaa.
-WorkingBuildsTextBox.AllBuilds=Laitteesi tukee kaikkia käytettävissä olevia Windows 10 -versioita {0}.
+WorkingBuildsTextBox.MinBuild=Laitteesi tukee Windows {0} koontiversiota {1} tai uudempaa.
+WorkingBuildsTextBox.AllBuilds=Laitteesi tukee kaikkia käytettävissä olevia Windows -versioita {0}.
 WorkingBuildsTextBox.GetImage=Jos sinulla ei vielä ole levykuvaa, löydät yksityiskohdat kuvan lataamisesta projektin verkkosivustolta.
 SelectImageIndexCombo.TextEmptyList=Valitse ensin levykuva
 MessageBox.SelectedImageInvalid=Valittu tiedosto ei ole kelvollinen Windows-levykuva!
 MessageBox.SelectedImageUnsupported=Valittua levykuvatiedostoa ei tueta!
-MessageBox.SelectedImageErrorInfo.AllBuilds=Valitse yhteensopiva Windows 10 {0} -levykuva.
-MessageBox.SelectedImageErrorInfo.MinBuild=Valitse yhteensopiva Windows 10 {0} koontiversio {1} tai uudempi levykuva.
+MessageBox.SelectedImageErrorInfo.AllBuilds=Valitse yhteensopiva Windows {0} -levykuva.
+MessageBox.SelectedImageErrorInfo.MinBuild=Valitse yhteensopiva Windows {0} koontiversio {1} tai uudempi levykuva.
 MessageBox.SelectedImageMountError.Heading=Levykuvaa ei voitu asentaa!
 MessageBox.SelectedImageMountError.Message=Varmista, että Windows voi liittää levykuvan (napsauta hiiren kakkospainikkeella -> Asenna) ja yritä uudelleen. Sen käyttäminen verkko-jaon kautta ei välttämättä toimi.{n}{n}Jos virhe ei poistu, mutta pystyt liittämään kuvan manuaalisesti, voit valita {0} -tiedoston suoraan sen sisällä olevasta {1} hakemistosta.
 Message.MountingISO=ISO-kuvan asentaminen...

@@ -64,7 +64,7 @@ MessageBox.TaskOngoing.Message=En operation pågår.
 [WelcomePage]
 PageTitle=Välkommen
 WelcomeLabel=Välkommen till {appname}!
-WelcomeMsgTextBox=Det här programet kommer att hjälpa dig att lätt installera en full skrivbords version av Windows 10 på din Raspberry Pi computer.{n}{n}Klicka på {0} för att fortsätta.
+WelcomeMsgTextBox=Det här programet kommer att hjälpa dig att lätt installera en full skrivbords version av Windows på din Raspberry Pi computer.{n}{n}Klicka på {0} för att fortsätta.
 SelectLangLabel=Språkval:
 
 [SelectDevicePage]
@@ -86,14 +86,14 @@ PageTitle=Välj avbildning
 SelectImageLabel=Välj din Windows på ARM-avbildning
 ImageFileLabel=Avbildning fil
 WindowsEditionLabel=Windowsutgåva
-WorkingBuildsTextBox.MinBuild=Din enhet stödjer Windows 10 {0} version {1} eller nyare.
-WorkingBuildsTextBox.AllBuilds=Din enhet stödjer alla tillgängliga versioner av Windows 10 {0}.
+WorkingBuildsTextBox.MinBuild=Din enhet stödjer Windows {0} version {1} eller nyare.
+WorkingBuildsTextBox.AllBuilds=Din enhet stödjer alla tillgängliga versioner av Windows {0}.
 WorkingBuildsTextBox.GetImage=Om du inte har en avbild än, kan du hitta information om hur du laddar ner en på projektets webbplats.
 SelectImageIndexCombo.TextEmptyList=Välj en avbild först.
 MessageBox.SelectedImageInvalid=Den valda filen är inte en giltig Windowsavbildning!
 MessageBox.SelectedImageUnsupported=Den valda avbildningsfilen stöds inte!
-MessageBox.SelectedImageErrorInfo.AllBuilds=Välj en kompatibel Windows 10 {0} avbildning.
-MessageBox.SelectedImageErrorInfo.MinBuild=Välj en kompatibel Windows 10 {0} version {1} eller nyare.
+MessageBox.SelectedImageErrorInfo.AllBuilds=Välj en kompatibel Windows {0} avbildning.
+MessageBox.SelectedImageErrorInfo.MinBuild=Välj en kompatibel Windows {0} version {1} eller nyare.
 MessageBox.SelectedImageMountError.Heading=The image couldn't be mounted!
 MessageBox.SelectedImageMountError.Message=Verify that the image can be mounted by Windows (right click -> Mount) and try again. Accessing it over a network share may not work.{n}{n}If the error persists but you're able to mount the image manually, you can directly select the {0} file from the {1} directory inside it.
 MessageBox.NotEnoughSpace.Heading=Det finns inte nog med utrymme på disken för att installera den här avbildningen!

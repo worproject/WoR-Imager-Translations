@@ -64,7 +64,7 @@ MessageBox.TaskOngoing.Message=Şu anda bir işlem devam ediyor.
 [WelcomePage]
 PageTitle=Merhaba
 WelcomeLabel={appname}'ye Hoş Geldiniz!
-WelcomeMsgTextBox=Bu sihirbaz, Windows 10'un tam masaüstü sürümünü Raspberry Pi bilgisayarınıza kolayca yüklemenize yardımcı olacaktır.{n}{n}Devam etmek için {0} düğmesini tıklayın.
+WelcomeMsgTextBox=Bu sihirbaz, Windows'un tam masaüstü sürümünü Raspberry Pi bilgisayarınıza kolayca yüklemenize yardımcı olacaktır.{n}{n}Devam etmek için {0} düğmesini tıklayın.
 SelectLangLabel=Dilinizi seçiniz:
 
 [SelectDevicePage]
@@ -83,17 +83,17 @@ MessageBox.NewBootloaderRequiredWarn={0} cihazınızı bir USB sürücüsünden 
 
 [SelectImagePage]
 PageTitle=Görüntü Seç
-SelectImageLabel=Windows 10 ARM görüntünüzü seçin
+SelectImageLabel=Windows ARM görüntünüzü seçin
 ImageFileLabel=İmaj dosyası
 WindowsEditionLabel=Windows versiyonu
-WorkingBuildsTextBox.MinBuild=Cihazınız Windows 10 {0} sürüm {1} veya daha yenisini desteklemektedir.
-WorkingBuildsTextBox.AllBuilds=Cihazınız bütün Windows 10 {0} sürümlerini desteklemektedir.
+WorkingBuildsTextBox.MinBuild=Cihazınız Windows {0} sürüm {1} veya daha yenisini desteklemektedir.
+WorkingBuildsTextBox.AllBuilds=Cihazınız bütün Windows {0} sürümlerini desteklemektedir.
 WorkingBuildsTextBox.GetImage=Henüz bir imaj dosyanız yoksa, nasıl indireceğinizle ilgili detayları proje web sitesinde bulabilirsiniz.
 SelectImageIndexCombo.TextEmptyList=Lütfen bir imaj dosyası seçin.
 MessageBox.SelectedImageInvalid=Seçilen dosya geçerli bir Windows görüntüsü değil!
 MessageBox.SelectedImageUnsupported=Seçilen görüntü dosyası desteklenmiyor!
 MessageBox.SelectedImageErrorInfo.AllBuilds=Lütfen desteklenen bir imaj dosyası seçiniz.
-MessageBox.SelectedImageErrorInfo.MinBuild=Please select a compatible Windows 10 {0} build {1} or newer image.
+MessageBox.SelectedImageErrorInfo.MinBuild=Please select a compatible Windows {0} build {1} or newer image.
 MessageBox.SelectedImageMountError.Heading=İmaj dosyası bağlanamadı!
 MessageBox.SelectedImageMountError.Message=İmaj dosyasının Windows tarafından yüklenebildiğini doğrulayın (sağ tıklama -> Bağla) ve yeniden deneyin. Bir ağ paylaşımı üzerinden erişim işe yaramayabilir.{n}{n}Hata devam ederse ancak görüntüyü manuel olarak bağlayabiliyorsanız, içindeki {1} dizininden doğrudan {0} dosyasını seçebilirsiniz.
 MessageBox.NotEnoughSpace.Heading=Diskte bu görüntüyü kullanmak için yeterli alan yok!

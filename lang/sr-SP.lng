@@ -64,7 +64,7 @@ MessageBox.TaskOngoing.Message=Operacija je trenutno u toku.
 [WelcomePage]
 PageTitle=Dobrodosli
 WelcomeLabel=Dobrodosli u {appname}!
-WelcomeMsgTextBox=Ovaj carobnjak ce vam pomoci da lako instalirate punu desktop verziju Windows 10  na vas Raspberry Pi racunar.{n}{n}Kliknite na {0} dugme da bi nastavili.
+WelcomeMsgTextBox=Ovaj carobnjak ce vam pomoci da lako instalirate punu desktop verziju Windows  na vas Raspberry Pi racunar.{n}{n}Kliknite na {0} dugme da bi nastavili.
 SelectLangLabel=Izaberite svoj jezik:
 
 [SelectDevicePage]
@@ -86,14 +86,14 @@ PageTitle=Odaberite datoteku
 SelectImageLabel=Selektujte svoju Windows on ARM datoteku
 ImageFileLabel=Datoteka slike sistema
 WindowsEditionLabel=Windows edicija
-WorkingBuildsTextBox.MinBuild=Vas uredjaj podrzava Windows 10 {0} verziju {1} ili noviju.
-WorkingBuildsTextBox.AllBuilds=Vas uredjaj podrzava sve dostupne verzije Windows 10-ke {0}.
+WorkingBuildsTextBox.MinBuild=Vas uredjaj podrzava Windows {0} verziju {1} ili noviju.
+WorkingBuildsTextBox.AllBuilds=Vas uredjaj podrzava sve dostupne verzije Windows-ke {0}.
 WorkingBuildsTextBox.GetImage=Ukoliko nemate datoteku sistema jos uvek, mozete pronaci detalje kako je preuzeti na vebsajtu projekta.
 SelectImageIndexCombo.TextEmptyList=Molim odaberite prvo datoteku sistema.
 MessageBox.SelectedImageInvalid=Odabrani fajl nije validna Windows datoteka!
 MessageBox.SelectedImageUnsupported=Odabrana datoteka nije podrzana!
-MessageBox.SelectedImageErrorInfo.AllBuilds=Molimo odaberite odgovarajucu Windows 10 {0} datoteku sistema.
-MessageBox.SelectedImageErrorInfo.MinBuild=Molimo odaberite odgovarajucu Windows 10 {0} verziju {1} ili noviju datoteku sistema.
+MessageBox.SelectedImageErrorInfo.AllBuilds=Molimo odaberite odgovarajucu Windows {0} datoteku sistema.
+MessageBox.SelectedImageErrorInfo.MinBuild=Molimo odaberite odgovarajucu Windows {0} verziju {1} ili noviju datoteku sistema.
 MessageBox.SelectedImageMountError.Heading=Slika sistema ne moze biti montirana!
 MessageBox.SelectedImageMountError.Message=Uverite se da slika sistema moze biti montirana (desni klik -> montiranje) i pokusajte ponovo. Pristupanje preko mreznog deljenja mozda nece raditi.{n}{n}Ako se problem i dalje pojavljuje a mozete rucno da montirate sliku sistema, mozete direktno odabrati {0} fajl iz {1} direktorijuma unutar njega.
 MessageBox.NotEnoughSpace.Heading=Nema dovoljno prostora na disku da se instalira ova datoteka!

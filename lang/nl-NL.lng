@@ -64,7 +64,7 @@ MessageBox.TaskOngoing.Message=Er wordt momenteel een bewerking uitgevoerd.
 [WelcomePage]
 PageTitle=Welkom
 WelcomeLabel=Welkom bij {appname}!
-WelcomeMsgTextBox=Met deze wizard kunt u eenvoudig de volledige desktopversie van Windows 10 op uw Raspberry Pi-computer installeren.{n}{n}klip op de {0} Knop om verder te gaan.
+WelcomeMsgTextBox=Met deze wizard kunt u eenvoudig de volledige desktopversie van Windows op uw Raspberry Pi-computer installeren.{n}{n}klip op de {0} Knop om verder te gaan.
 SelectLangLabel=Selecteer je taal:
 
 [SelectDevicePage]
@@ -86,14 +86,14 @@ PageTitle=Selecteer Schijfkopie Bestand
 SelectImageLabel=Selecteer je Windows on ARM Bestand
 ImageFileLabel=Image file
 WindowsEditionLabel=Windows editie
-WorkingBuildsTextBox.MinBuild=Uw apparaat ondersteunt Windows 10 {0} build {1} of nieuwer.
-WorkingBuildsTextBox.AllBuilds=Uw apparaat ondersteunt alle beschikbare builds van Windows 10 {0}.
+WorkingBuildsTextBox.MinBuild=Uw apparaat ondersteunt Windows {0} build {1} of nieuwer.
+WorkingBuildsTextBox.AllBuilds=Uw apparaat ondersteunt alle beschikbare builds van Windows {0}.
 WorkingBuildsTextBox.GetImage=Als je nog geen afbeelding hebt, Op de projectwebsite vindt u informatie over hoe u er een kunt downloaden.
 SelectImageIndexCombo.TextEmptyList=Selecteer eerst een ISO.
 MessageBox.SelectedImageInvalid=Het geselecteerde bestand is geen geldig Windows-Bestand!
 MessageBox.SelectedImageUnsupported=Het geselecteerde bestand wordt niet ondersteund!
-MessageBox.SelectedImageErrorInfo.AllBuilds=Selecteer een compatibele Windows 10 {0} -afbeelding.
-MessageBox.SelectedImageErrorInfo.MinBuild=Selecteer een compatibele Windows 10 {0} build {1} of nieuwere Installatie.
+MessageBox.SelectedImageErrorInfo.AllBuilds=Selecteer een compatibele Windows {0} -afbeelding.
+MessageBox.SelectedImageErrorInfo.MinBuild=Selecteer een compatibele Windows {0} build {1} of nieuwere Installatie.
 MessageBox.SelectedImageMountError.Heading=De image kon niet worden gemount!
 MessageBox.SelectedImageMountError.Message=Controleer of de image kan worden gemount door Windows (klik met de rechtermuisknop -> Mount) en probeer het opnieuw. Toegang krijgen via een netwerkshare werkt mogelijk niet.{n}{n}Als de fout zich blijft voordoen, maar u de afbeelding handmatig kunt koppelen, kunt u het {0}-bestand rechtstreeks selecteren in de map {1} erin.
 MessageBox.NotEnoughSpace.Heading=Er is niet genoeg ruimte op de schijf om deze afbeelding te installeren!

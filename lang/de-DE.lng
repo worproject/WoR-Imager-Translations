@@ -64,7 +64,7 @@ MessageBox.TaskOngoing.Message=Es wird gerade ein Vorgang ausgeführt.
 [WelcomePage]
 PageTitle=Willkommen
 WelcomeLabel=Willkommen bei {appname}!
-WelcomeMsgTextBox=Mit diesem Assistenten können Sie problemlos die vollständige Desktop-Version von Windows 10 auf Ihrem Raspberry Pi-Computer installieren.{n}{n}Klicken Sie auf die Schaltfläche {0}, um fortzufahren.
+WelcomeMsgTextBox=Mit diesem Assistenten können Sie problemlos die vollständige Desktop-Version von Windows auf Ihrem Raspberry Pi-Computer installieren.{n}{n}Klicken Sie auf die Schaltfläche {0}, um fortzufahren.
 SelectLangLabel=Sprache auswählen:
 
 [SelectDevicePage]
@@ -86,14 +86,14 @@ PageTitle=Abbilddatei wählen
 SelectImageLabel=Wählen Sie Ihre Windows on ARM-Abbilddatei
 ImageFileLabel=Bilddatei
 WindowsEditionLabel=Windows Edition
-WorkingBuildsTextBox.MinBuild=Ihr Gerät unterstützt Windows 10 {0} Build {1} oder neuer.
-WorkingBuildsTextBox.AllBuilds=Ihr Gerät unterstützt alle verfügbaren Builds von Windows 10 {0}.
+WorkingBuildsTextBox.MinBuild=Ihr Gerät unterstützt Windows {0} Build {1} oder neuer.
+WorkingBuildsTextBox.AllBuilds=Ihr Gerät unterstützt alle verfügbaren Builds von Windows {0}.
 WorkingBuildsTextBox.GetImage=Wenn Sie noch kein Bild haben, finden Sie Details zum Herunterladen eines auf der Projektwebsite.
 SelectImageIndexCombo.TextEmptyList=Bitte wählen Sie zuerst ein Bild aus.
 MessageBox.SelectedImageInvalid=Die ausgewählte Datei ist kein gültiges Windows-Abbild!
 MessageBox.SelectedImageUnsupported=Das ausgewählte Abbild wird nicht unterstützt!
-MessageBox.SelectedImageErrorInfo.AllBuilds=Bitte wählen Sie ein kompatibles Windows 10 {0} -Image.
-MessageBox.SelectedImageErrorInfo.MinBuild=Bitte wählen Sie ein kompatibles Windows 10 {0} Build {1} oder ein neueres Image aus.
+MessageBox.SelectedImageErrorInfo.AllBuilds=Bitte wählen Sie ein kompatibles Windows {0} -Image.
+MessageBox.SelectedImageErrorInfo.MinBuild=Bitte wählen Sie ein kompatibles Windows {0} Build {1} oder ein neueres Image aus.
 MessageBox.SelectedImageMountError.Heading=The image couldn't be mounted!
 MessageBox.SelectedImageMountError.Message=Verify that the image can be mounted by Windows (right click -> Mount) and try again. Accessing it over a network share may not work.{n}{n}If the error persists but you're able to mount the image manually, you can directly select the {0} file from the {1} directory inside it.
 MessageBox.NotEnoughSpace.Heading=Nicht genügend Speicher auf dem Datenträger vorhanden, um dieses Abbild zu installieren!

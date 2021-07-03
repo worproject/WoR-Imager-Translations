@@ -64,7 +64,7 @@ MessageBox.TaskOngoing.Message=Une opération est actuellement en cours.
 [WelcomePage]
 PageTitle=Bienvenue
 WelcomeLabel=Bienvenue sur {appname}!
-WelcomeMsgTextBox=Cet assistant vous aidera à installer facilement la version complète de Windows 10 sur votre ordinateur Raspberry Pi.{n}{n}Cliquez sur le bouton {0} pour continuer.
+WelcomeMsgTextBox=Cet assistant vous aidera à installer facilement la version complète de Windows sur votre ordinateur Raspberry Pi.{n}{n}Cliquez sur le bouton {0} pour continuer.
 SelectLangLabel=Sélectionner la langue:
 
 [SelectDevicePage]
@@ -86,16 +86,16 @@ PageTitle=Choix de l'image
 SelectImageLabel=Sélectionner l'image de Windows ARM
 ImageFileLabel=Fichier image
 WindowsEditionLabel=Edition Windows
-WorkingBuildsTextBox.MinBuild=Votre appareil est compatible avec Windows 10 {0} build {1} ou plus récent.
-WorkingBuildsTextBox.AllBuilds=Votre appareil prend en charge toutes les versions disponibles de Windows 10 {0}.
+WorkingBuildsTextBox.MinBuild=Votre appareil est compatible avec Windows {0} build {1} ou plus récent.
+WorkingBuildsTextBox.AllBuilds=Votre appareil prend en charge toutes les versions disponibles de Windows {0}.
 WorkingBuildsTextBox.GetImage=Si vous n'avez pas encore d'image, vous pouvez trouver des détails sur la façon d'en télécharger une sur le site web du projet.
 SelectImageIndexCombo.TextEmptyList=Veuillez d'abord sélectionner une image.
 MessageBox.SelectedImageInvalid=Le fichier sélectionné n'est pas une image Windows valide !
 MessageBox.SelectedImageUnsupported=Le fichier sélectionné n'est pas supporté !
-MessageBox.SelectedImageErrorInfo.AllBuilds=Veuillez sélectionner une image Windows 10 compatible {0}.
-MessageBox.SelectedImageErrorInfo.MinBuild=Veuillez sélectionner une image compatible Windows 10 {0} build {1} ou plus récent.
+MessageBox.SelectedImageErrorInfo.AllBuilds=Veuillez sélectionner une image Windows compatible {0}.
+MessageBox.SelectedImageErrorInfo.MinBuild=Veuillez sélectionner une image compatible Windows {0} build {1} ou plus récent.
 MessageBox.SelectedImageMountError.Heading=L'image n'a pas pu être montée !
-MessageBox.SelectedImageMountError.Vérifiez que l'image peut être montée par Windows (clic droit -> Monter) et réessayez. L'accès via un réseau partagé peut ne pas fonctionner.{n}{n}Si l'erreur persiste mais que vous êtes en mesure de monter l'image manuellement, vous pouvez sélectionner directement le fichier {0} dans le dossier {1} qu'elle contient.
+MessageBox.SelectedImageMountError.Message=Vérifiez que l'image peut être montée par Windows (clic droit -> Monter) et réessayez. L'accès via un réseau partagé peut ne pas fonctionner.{n}{n}Si l'erreur persiste mais que vous êtes en mesure de monter l'image manuellement, vous pouvez sélectionner directement le fichier {0} dans le dossier {1} qu'elle contient.
 MessageBox.NotEnoughSpace.Heading=Il n'y a pas assez d'espace sur le disque pour installer cette image !
 MessageBox.NotEnoughSpace.Message=Veuillez choisir un périphérique de stockage plus grand ou une image plus petite.
 Message.MountingISO=Montage de l'image ISO...

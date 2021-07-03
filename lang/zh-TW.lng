@@ -64,7 +64,7 @@ MessageBox.TaskOngoing.Message=另一個程序正在執行中。
 [WelcomePage]
 PageTitle=歡迎
 WelcomeLabel=歡迎使用 {appname}!
-WelcomeMsgTextBox=本嚮導將幫助您輕鬆地安裝 Windows 10 的完整桌面版本到您的 Raspberry Pi 電腦上。{n}{n}請點擊 {0} 按鈕以繼續。
+WelcomeMsgTextBox=本嚮導將幫助您輕鬆地安裝 Windows 的完整桌面版本到您的 Raspberry Pi 電腦上。{n}{n}請點擊 {0} 按鈕以繼續。
 SelectLangLabel=語言:
 
 [SelectDevicePage]
@@ -86,14 +86,14 @@ PageTitle=選擇映像檔
 SelectImageLabel=請選擇您的 Windows on ARM 映像檔。
 ImageFileLabel=映像檔
 WindowsEditionLabel=Windows版本
-WorkingBuildsTextBox.MinBuild=您的裝置支援 Windows 10 {0} 的版本 {1} 或更新的版本。
-WorkingBuildsTextBox.AllBuilds=您的裝置支援所有可用的 Windows 10 {0} 的版本。
+WorkingBuildsTextBox.MinBuild=您的裝置支援 Windows {0} 的版本 {1} 或更新的版本。
+WorkingBuildsTextBox.AllBuilds=您的裝置支援所有可用的 Windows {0} 的版本。
 WorkingBuildsTextBox.GetImage=若您還沒有任何的映像檔， 您可以在網站上找到如何下載的相關詳細資訊。
 SelectImageIndexCombo.TextEmptyList=請先選擇映像檔。
 MessageBox.SelectedImageInvalid=所選的檔案不是有效的Windows映像檔！
 MessageBox.SelectedImageUnsupported=不支援所選的檔案格式！
-MessageBox.SelectedImageErrorInfo.AllBuilds=請選擇兼容的 Windows 10 {0} 映像檔。
-MessageBox.SelectedImageErrorInfo.MinBuild=請選擇兼容的 Windows 10 {0} 的版本 {1} 或更新的映像檔。
+MessageBox.SelectedImageErrorInfo.AllBuilds=請選擇兼容的 Windows {0} 映像檔。
+MessageBox.SelectedImageErrorInfo.MinBuild=請選擇兼容的 Windows {0} 的版本 {1} 或更新的映像檔。
 MessageBox.SelectedImageMountError.Heading=無法掛載所選映像檔！
 MessageBox.SelectedImageMountError.Message=請驗證Windows是否可以掛載此映像檔（右鍵->掛載）並重試。通過網路共用訪問可能會無法工作。{n}{n}如果此問題仍然存在但您可以手動掛載，您可以直接選擇在其{1}目錄下選擇{0}檔案。
 MessageBox.NotEnoughSpace.Heading=所選裝置沒有足夠空間安裝所選映像檔

@@ -64,7 +64,7 @@ MessageBox.TaskOngoing.Message=Oprace právě probíhá.
 [WelcomePage]
 PageTitle=Vítejte
 WelcomeLabel=Vítejte ve {appname}!
-WelcomeMsgTextBox=Tento průvodce vám pomůže snadno nainstalovat plnou verzi systému Windows 10 pro stolní počítače do vašeho počítače Raspberry Pi.{n}{n}Klikněte na tlačítko {0} pro pokračování.
+WelcomeMsgTextBox=Tento průvodce vám pomůže snadno nainstalovat plnou verzi systému Windows pro stolní počítače do vašeho počítače Raspberry Pi.{n}{n}Klikněte na tlačítko {0} pro pokračování.
 SelectLangLabel=Zvolte jazyk:
 
 [SelectDevicePage]
@@ -87,13 +87,13 @@ SelectImageLabel=Vyberte Váš obraz Windows
 ImageFileLabel=Soubor obrazu
 WindowsEditionLabel=Edice Windows
 WorkingBuildsTextBox.MinBuild=Vaše zařízení podporuje Windows {0} build {1} nebo novější.
-WorkingBuildsTextBox.AllBuilds=Vaše zařízení podporuje všechny dostupné verze Windows 10 {0}.
+WorkingBuildsTextBox.AllBuilds=Vaše zařízení podporuje všechny dostupné verze Windows {0}.
 WorkingBuildsTextBox.GetImage=Pokud ještě nemáte obraz, najdete podrobnosti o jeho stažení na webových stránkách projektu.
 SelectImageIndexCombo.TextEmptyList=Nejprve prosím vyberte obraz.
 MessageBox.SelectedImageInvalid=Vybraný soubor není platný obraz Windows!
 MessageBox.SelectedImageUnsupported=Vybraný obraz není podporovaný!
-MessageBox.SelectedImageErrorInfo.AllBuilds=Vyberte prosím kompatibilní obraz Windows 10 {0}.
-MessageBox.SelectedImageErrorInfo.MinBuild=Vyberte prosím kompatibilní obraz Windows 10 {0} build {1} nebo novější.
+MessageBox.SelectedImageErrorInfo.AllBuilds=Vyberte prosím kompatibilní obraz Windows {0}.
+MessageBox.SelectedImageErrorInfo.MinBuild=Vyberte prosím kompatibilní obraz Windows {0} build {1} nebo novější.
 MessageBox.SelectedImageMountError.Heading=The image couldn't be mounted!
 MessageBox.SelectedImageMountError.Message=Verify that the image can be mounted by Windows (right click -> Mount) and try again. Accessing it over a network share may not work.{n}{n}If the error persists but you're able to mount the image manually, you can directly select the {0} file from the {1} directory inside it.
 MessageBox.NotEnoughSpace.Heading=Na disku není dostatek místa pro instalaci tohoto obrazu!

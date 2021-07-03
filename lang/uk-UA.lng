@@ -64,7 +64,7 @@ MessageBox.TaskOngoing.Message=В даний момент виконується
 [WelcomePage]
 PageTitle=Ласкаво просимо!
 WelcomeLabel=Ласкаво просимо в {appname}!
-WelcomeMsgTextBox=Цей майстер допоможе вам легко встановити повну настільну версію Windows 10 на комп'ютері Raspberry Pi.{n}{n}Натисність {0} кнопку, щоб продовжити.
+WelcomeMsgTextBox=Цей майстер допоможе вам легко встановити повну настільну версію Windows на комп'ютері Raspberry Pi.{n}{n}Натисність {0} кнопку, щоб продовжити.
 SelectLangLabel=Виберіть вашу мову:
 
 [SelectDevicePage]
@@ -86,14 +86,14 @@ PageTitle=Вибір образу
 SelectImageLabel=Виберіть ваш Windows ARM образ
 ImageFileLabel=Файл образу
 WindowsEditionLabel=Редакція Windows
-WorkingBuildsTextBox.MinBuild=Ваш пристрій підтримує Windows 10 {0} збірку {1} чи новішу.
-WorkingBuildsTextBox.AllBuilds=Ваш пристрій підтримує всі доступні збірки Windows 10 {0}.
+WorkingBuildsTextBox.MinBuild=Ваш пристрій підтримує Windows {0} збірку {1} чи новішу.
+WorkingBuildsTextBox.AllBuilds=Ваш пристрій підтримує всі доступні збірки Windows {0}.
 WorkingBuildsTextBox.GetImage=Якщо у вас ще немає образу, ви можете знайти детальну інформацію про те як його завантажити на веб-сайті проекту.
 SelectImageIndexCombo.TextEmptyList=Будь ласка, спершу виберіть образ.
 MessageBox.SelectedImageInvalid=Вибраний файл є недійсним образом Windows!
 MessageBox.SelectedImageUnsupported=Вибраний образ не підтримується!
-MessageBox.SelectedImageErrorInfo.AllBuilds=Будь ласка, виберіть сумісний образ Windows 10 {0}.
-MessageBox.SelectedImageErrorInfo.MinBuild=Виберіть сумісну {0} збірку {1} Windows 10 або новіший образ.
+MessageBox.SelectedImageErrorInfo.AllBuilds=Будь ласка, виберіть сумісний образ Windows {0}.
+MessageBox.SelectedImageErrorInfo.MinBuild=Виберіть сумісну {0} збірку {1} Windows або новіший образ.
 MessageBox.SelectedImageMountError.Heading=Неможливо змонтувати образ!
 MessageBox.SelectedImageMountError.Message=Перевірте чи образ може бути змонтований Windows (правик клік -> Змонтувати) та спробуйте знову. Доступ через спільний доступ до мережі може не працювати.{n}{n}Якщо помилка не зникне, але ви можете змонтувати образ вручну, ви можете безпосередньо вибрати {0} файл іщ {1} каталогу всередині нього.
 MessageBox.NotEnoughSpace.Heading=На вашому диску недостатньо місця щоб встатовити цей образ!

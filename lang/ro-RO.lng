@@ -64,7 +64,7 @@ MessageBox.TaskOngoing.Message=O sarcină este în curs de desfășurare.
 [WelcomePage]
 PageTitle=Bun venit
 WelcomeLabel=Bun venit la {appname}!
-WelcomeMsgTextBox=Acest vrăjitor vă va ajuta să instalați cu ușurință versiunea desktop completă a Windows 10 pe computerul dvs. Raspberry Pi.{n}{n}Apăsați pe butonul {0} pentru a continua.
+WelcomeMsgTextBox=Acest vrăjitor vă va ajuta să instalați cu ușurință versiunea desktop completă a Windows pe computerul dvs. Raspberry Pi.{n}{n}Apăsați pe butonul {0} pentru a continua.
 SelectLangLabel=Selectați limba:
 
 [SelectDevicePage]
@@ -86,14 +86,14 @@ PageTitle=Selectați imaginea
 SelectImageLabel=Selectați imaginea Windows on ARM
 ImageFileLabel=Fișier imagine
 WindowsEditionLabel=Ediție Windows
-WorkingBuildsTextBox.MinBuild=Dispozitivul dvs. suportă Windows 10 {0} compilarea {1} sau mai nouă.
-WorkingBuildsTextBox.AllBuilds=Dispozitivul dvs. suportă toate versiunile disponibile de Windows 10 {0}.
+WorkingBuildsTextBox.MinBuild=Dispozitivul dvs. suportă Windows {0} compilarea {1} sau mai nouă.
+WorkingBuildsTextBox.AllBuilds=Dispozitivul dvs. suportă toate versiunile disponibile de Windows {0}.
 WorkingBuildsTextBox.GetImage=Dacă nu aveți încă o imagine, puteți găsi detalii despre obținerea uneia pe site-ul web al proiectului.
 SelectImageIndexCombo.TextEmptyList=Vă rugăm să selectați o imagine mai întâi.
 MessageBox.SelectedImageInvalid=Fișierul selectat nu este o imagine Windows validă!
 MessageBox.SelectedImageUnsupported=Imaginea selectată nu este suportată!
-MessageBox.SelectedImageErrorInfo.AllBuilds=Vă rugăm să selectați o imagine Windows 10 {0} compatibilă.
-MessageBox.SelectedImageErrorInfo.MinBuild=Vă rugăm să selectați o imagine Windows 10 {0} compilarea {1} sau mai nouă.
+MessageBox.SelectedImageErrorInfo.AllBuilds=Vă rugăm să selectați o imagine Windows {0} compatibilă.
+MessageBox.SelectedImageErrorInfo.MinBuild=Vă rugăm să selectați o imagine Windows {0} compilarea {1} sau mai nouă.
 MessageBox.SelectedImageMountError.Heading=Imaginea nu a putut fi montată!
 MessageBox.SelectedImageMountError.Message=Verificați dacă imaginea poate fi montată de Windows (faceți clic dreapta -> Montare) și încercați din nou. Accesarea acesteia printr-o partajare de rețea poate să nu funcționeze.{n}{n}Dacă eroarea persistă însă puteți monta manual imaginea, selectați direct fișierul {0} din directorul {1} aflat în aceasta.
 MessageBox.NotEnoughSpace.Heading=Nu există spațiu suficient pe disc pentru a instala imaginea!

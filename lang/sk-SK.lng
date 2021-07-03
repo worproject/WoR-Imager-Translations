@@ -64,7 +64,7 @@ MessageBox.TaskOngoing.Message=Operácia momentálne prebieha.
 [WelcomePage]
 PageTitle=Vitajte
 WelcomeLabel=Vitajte vo {appname}!
-WelcomeMsgTextBox=Tento program vám pomôže jednoducho nainštalovať plnú desktopovú verziu Windowsu 10 na váš Raspberry Pi počítač.{n}{n}Kliknite na tlačidlo {0} pre pokračovanie.
+WelcomeMsgTextBox=Tento program vám pomôže jednoducho nainštalovať plnú desktopovú verziu Windowsu na váš Raspberry Pi počítač.{n}{n}Kliknite na tlačidlo {0} pre pokračovanie.
 SelectLangLabel=Zvoľte svoj jazyk:
 
 [SelectDevicePage]
@@ -86,14 +86,14 @@ PageTitle=Výber obrazu
 SelectImageLabel=Vyberte Váš Windows v ARM obraze
 ImageFileLabel=Súbor obrazu
 WindowsEditionLabel=Windows edícia
-WorkingBuildsTextBox.MinBuild=Vaše zariadenie podporuje Windows 10 {0} verzia {1} alebo novší.
-WorkingBuildsTextBox.AllBuilds=Vaše zariadenie podporuje všetky dostupné verzie systému Windows 10 {0}.
+WorkingBuildsTextBox.MinBuild=Vaše zariadenie podporuje Windows {0} verzia {1} alebo novší.
+WorkingBuildsTextBox.AllBuilds=Vaše zariadenie podporuje všetky dostupné verzie systému Windows {0}.
 WorkingBuildsTextBox.GetImage=Ak ešte nemáte obraz, podrobné informácie o tom, ako si jeden stiahnuť nájdete na webovej stránke projektu.
 SelectImageIndexCombo.TextEmptyList=Najskôr vyberte obraz.
 MessageBox.SelectedImageInvalid=Vybratý súbor nie je platným obrazom systému Windows !
 MessageBox.SelectedImageUnsupported=Vybraný súbor obrazu nie je podporovaný!
-MessageBox.SelectedImageErrorInfo.AllBuilds=Vyberte kompatibilný Windows 10 {0} obraz.
-MessageBox.SelectedImageErrorInfo.MinBuild=Vyberte kompatibilný Windows 10 {0} verzia {1} alebo novší obraz.
+MessageBox.SelectedImageErrorInfo.AllBuilds=Vyberte kompatibilný Windows {0} obraz.
+MessageBox.SelectedImageErrorInfo.MinBuild=Vyberte kompatibilný Windows {0} verzia {1} alebo novší obraz.
 MessageBox.SelectedImageMountError.Heading=The image couldn't be mounted!
 MessageBox.SelectedImageMountError.Message=Verify that the image can be mounted by Windows (right click -> Mount) and try again. Accessing it over a network share may not work.{n}{n}If the error persists but you're able to mount the image manually, you can directly select the {0} file from the {1} directory inside it.
 MessageBox.NotEnoughSpace.Heading=Na disku nie je dostatok miesta na inštaláciu tohto obrazu !

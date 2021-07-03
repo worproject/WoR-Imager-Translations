@@ -64,7 +64,7 @@ MessageBox.TaskOngoing.Message=操作正在进行中。
 [WelcomePage]
 PageTitle=欢迎
 WelcomeLabel=欢迎使用 {appname}！
-WelcomeMsgTextBox=这个向导将会帮助您轻松地在树莓派上安装完整的桌面版 Windows 10。{n}{n}点击{0}继续。
+WelcomeMsgTextBox=这个向导将会帮助您轻松地在树莓派上安装完整的桌面版 Windows。{n}{n}点击{0}继续。
 SelectLangLabel=选择您的语言：
 
 [SelectDevicePage]
@@ -83,17 +83,17 @@ MessageBox.NewBootloaderRequiredWarn=如果要从 USB 驱动器启动您的 {0} 
 
 [SelectImagePage]
 PageTitle=选择镜像
-SelectImageLabel=请选择您的 Windows 10 ARM 镜像。
+SelectImageLabel=请选择您的 Windows ARM 镜像。
 ImageFileLabel=镜像文件
 WindowsEditionLabel=Windows 版本
-WorkingBuildsTextBox.MinBuild=您的设备支持 Windows 10 {0} build {1} 及以上版本。
-WorkingBuildsTextBox.AllBuilds=您的设备支持所有 Windows 10 {0} 版本。
+WorkingBuildsTextBox.MinBuild=您的设备支持 Windows {0} build {1} 及以上版本。
+WorkingBuildsTextBox.AllBuilds=您的设备支持所有 Windows {0} 版本。
 WorkingBuildsTextBox.GetImage=如果您还没有镜像文件，可以在项目网站上找到下载镜像文件的教程。
 SelectImageIndexCombo.TextEmptyList=请先选择一个镜像文件
 MessageBox.SelectedImageInvalid=所选文件不是有效的 Windows 镜像！
 MessageBox.SelectedImageUnsupported=不支持所选的镜像文件！
-MessageBox.SelectedImageErrorInfo.AllBuilds=请选择一个兼容的 Windows 10 {0} 镜像。
-MessageBox.SelectedImageErrorInfo.MinBuild=请选择一个兼容的 Windows 10 {0} build {1} 及以上版本的镜像。
+MessageBox.SelectedImageErrorInfo.AllBuilds=请选择一个兼容的 Windows {0} 镜像。
+MessageBox.SelectedImageErrorInfo.MinBuild=请选择一个兼容的 Windows {0} build {1} 及以上版本的镜像。
 MessageBox.SelectedImageMountError.Heading=无法挂载此镜像！
 MessageBox.SelectedImageMountError.Message=请验证 Windows 是否可以挂载此镜像（右键 -> 挂载）并重试。通过网络共享访问可能会无法工作。{n}{n}如果此问题仍然存在但您可以手动挂载，您可以直接选择在其 {1} 目录下选择 {0} 文件。
 MessageBox.NotEnoughSpace.Heading=磁盘上没有足够的空间来安装此镜像！
