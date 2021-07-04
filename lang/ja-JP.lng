@@ -26,7 +26,7 @@ AcceptBtn=同意する
 DeclineBtn=同意しない
 
 [General]
-MessageBox.CustomPackageWarn=古すぎるか互換性のないパッケージはインストールに問題が生じる可能性があります。n}{n}サーバーから最新版を入手することを推奨します。{n}{n}続けますか?
+MessageBox.CustomPackageWarn=古すぎるか互換性のないパッケージはインストールに問題が生じる可能性があります。{n}{n}サーバーから最新版を入手することを推奨します。{n}{n}続けますか?
 MessageBox.SelectedPackageInvalid.Heading=選択したパッケージは無効かお使いのデバイスとの互換性がありません。
 MessageBox.SelectedPackageInvalid.Message="{0}" 用にビルドされたパッケージを選択してください。
 MessageBox.PackageUpdateError.Heading=最新のパッケージをダウンロードできませんでした!
@@ -128,12 +128,12 @@ ImgInstallLabel=イメージのインストール方法:
 EnableLZXCheck=LZX 圧縮によるインストールを有効にする
 BootOptionsGroup=ブートオプション
 MessageBox.BootConfigEditorWarn=標準のブート設定から変更した場合、デバイスが使用できなくなったり起動に失敗したりする可能性があります。{n}{n}続行しますか?
-MessageBox.MbrPartSchemeWarn=MBRパーティションスキームを選択すると、リカバリ-環境の使用やシステムアップデートができなくなります。{n}{n}続行しますか?
+MessageBox.MbrPartSchemeWarn=MBRパーティションスキームを選択すると、リカバリー環境の使用やシステムアップデートができなくなります。{n}{n}続行しますか?
 ConfigurationTabControl.AdvancedTabPage=拡張設定
 MessageBox.AdvancedTabPageWarn=拡張設定の項目を標準から変更した場合、デバイスが使用できなくなったり起動に失敗したりする可能性があります。{n}{n}本当に続行しますか?
 WindowsBootOptionsGroup=Windows起動オプション
 MemoryLimitLabel=メモリ制限:
-RecoveryEnabledCheck=Windowsリカバリ-環境を有効化
+RecoveryEnabledCheck=Windowsリカバリー環境を有効化
 WoROptionsGroup={appname} オプション
 SaveConfigOnExitCheck=終了時に、この設定を保存する
 SaveConfigOnExitCheckInfoLabel=注：無効になっているオプション（および {0} オプション）は保存されません。
