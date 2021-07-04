@@ -94,7 +94,8 @@ MessageBox.SelectedImageInvalid=選択したイメージファイルは破損し
 MessageBox.SelectedImageUnsupported=選択したイメージファイルはサポートされていません!
 MessageBox.SelectedImageErrorInfo.AllBuilds=互換性のあるWindows {0} イメージを選択してください。
 MessageBox.SelectedImageErrorInfo.MinBuild=互換性のあるWindows {0} ビルド {1} 以降のイメージを選択してください。
-MessageBox.SelectedImageMountError.Heading=イメージファイルのマウントに失敗しました!MessageBox.SelectedImageMountError.Message=イメージが Windows上でマウントできることを確認してもう一度お試しください(イメージファイルを右クリック -> マウントを選択）。ネットワークドライブ上へのアクセスは上手く行かない場合があります。{n}{n}エラーが起きていてもイメージを手動でマウントすることができる場合は、イメージ内の{1}ディレクトリから{0}ファイルを直接選択することができます。
+MessageBox.SelectedImageMountError.Heading=イメージファイルのマウントに失敗しました!
+MessageBox.SelectedImageMountError.Message=イメージが Windows上でマウントできることを確認してもう一度お試しください(イメージファイルを右クリック -> マウントを選択）。ネットワークドライブ上へのアクセスは上手く行かない場合があります。{n}{n}エラーが起きていてもイメージを手動でマウントすることができる場合は、イメージ内の{1}ディレクトリから{0}ファイルを直接選択することができます。
 MessageBox.NotEnoughSpace.Heading=このイメージを使ってインストールするにはディスクのサイズが不足しています!
 MessageBox.NotEnoughSpace.Message=大容量の記憶装置やコンパクトなイメージを選択してください。
 Message.MountingISO=ISO イメージのマウント中...
