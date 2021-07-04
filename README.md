@@ -46,6 +46,6 @@ Issues related to the WoR tool should be reported on the [dedicated bug tracker]
 | Русский (Russian)                           | ru-RU.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/ru-RU.lng) | aleksrovinski , Andryshik345 , beeoss
 | Українська (Ukrainian)                      | uk-UA.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/uk-UA.lng) | Volodymyr Borodaykevych
 | 한국어 (Korean)                              | ko-KR.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/ko-KR.lng) | DoyunShin , rlatn1234 , URK96 , Raccooni
-| 日本語 (Japanese)                            | ja-JP.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/ja-JP.lng) | okajimaitsuki , imai9999 , OSAKANATARO , Prime9999
+| 日本語 (Japanese)                            | ja-JP.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/ja-JP.lng) | creeper-0910 , okajimaitsuki , imai9999 , OSAKANATARO , Prime9999
 | 简体中文 (Simplified Chinese)                | zh-CN.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/zh-CN.lng) | F-fengzi , wherewhere , thchi12 , nyaruko , Meaqua233 , CirnoTH
 | 繁體中文 (Traditional Chinese)               | zh-TW.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/zh-TW.lng) | WangHan2014 , bacon166539 , Gekoii , ConashinChen
