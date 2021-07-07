@@ -1,4 +1,4 @@
-﻿[WoR lang file]
+[WoR lang file]
 Name=Português Brasileiro (Brazilian Portuguese)
 IsComplete=0
 
@@ -13,7 +13,7 @@ CloseBtn=Fechar
 WindowTitle=Sobre
 AppVersionLabel=Versão
 CreditsPage=Créditos
-ChangelogPage=Changelog
+ChangelogPage=Lista de Mudanças
 LicensesPage=Licenças
 
 [LoggerWindow]
@@ -28,29 +28,29 @@ DeclineBtn=Recusar
 [General]
 MessageBox.CustomPackageWarn=Escolher um pacote desatualizado ou incompatível pode causar problemas de instalação!{n}{n}É recomendável usar a versão mais recente disponível no servidor.{n}{n}Continuar mesmo assim?
 MessageBox.SelectedPackageInvalid.Heading=O pacote é inválido ou incompatível com seu dispositivo.
-MessageBox.SelectedPackageInvalid.Message=Please select a package built for {0}.
-MessageBox.PackageUpdateError.Heading=The latest version of the package couldn't be downloaded!
-MessageBox.PackageUpdateError.Message=If you ignore this error, the setup will continue with the local version which may be outdated.
+MessageBox.SelectedPackageInvalid.Message=Selecione um pacote criado para {0}.
+MessageBox.PackageUpdateError.Heading=Não foi possível baixar a versão mais recente do pacote!
+MessageBox.PackageUpdateError.Message=Se você ignorar esse erro, a configuração continuará com a versão local que pode estar desatualizada.
 Message.ExtractingPackageToTemp=Extraindo o arquivo para a pasta temporária...
 Message.DownloadingReqFiles=Baixando os arquivos necessários...
-Label.StorageDrive=Storage drive
+Label.StorageDrive=Drive de drmazenamento
 Label.DeviceType=Tipo do dispositivo
-FilePathTextPlaceholder=Click on the "{0}" button or drag and drop the file here.
-ServerPackageInfoLabel=This is the recommended option. It can be used offline too, as long as the package has been previously downloaded.
+FilePathTextPlaceholder=Clique no botão "{0}" ou arraste e solte o arquivo aqui.
+ServerPackageInfoLabel=Esta é a opção recomendada. Também pode ser usado offline, desde que o pacote tenha sido baixado anteriormente.
 
 [MessageBox]
 Button.OK=OK
-Button.Cancel=Cancel
-Button.Abort=Abort
-Button.Retry=Retry
-Button.Ignore=Ignore
-Button.Yes=Yes
-Button.No=No
-CheckBox.DoNotShowAgain=Don't show this again
+Button.Cancel=Cancelar
+Button.Abort=Abortar
+Button.Retry=Repetir
+Button.Ignore=Ignorar
+Button.Yes=Sim
+Button.No=Não
+CheckBox.DoNotShowAgain=Não mostrar novamente
 
 [MessageBox.Common]
-Heading.SomethingWentWrong=Something went wrong...
-Heading.Warning=Warning!
+Heading.SomethingWentWrong=Algo deu errado...
+Heading.Warning=Aviso!
 
 [MainWindow]
 SendFeedbackBtn=Enviar feedback
@@ -64,38 +64,38 @@ MessageBox.TaskOngoing.Message=Uma operação está em andamento no momento.
 [WelcomePage]
 PageTitle=Bem-vindo(a)
 WelcomeLabel=Bem-vindo(a) ao {appname}!
-WelcomeMsgTextBox=This wizard will help you easily install the full desktop version of Windows on your Raspberry Pi computer.{n}{n}Click on the {0} button to continue.
+WelcomeMsgTextBox=Este assistente o ajudará a instalar facilmente a versão desktop completa do Windows em seu computador Raspberry Pi.{n}{n}Clique no botão {0} para continuar.
 SelectLangLabel=Selecione seu idioma:
 
 [SelectDevicePage]
 PageTitle=Selecionar dispositivo
 SelectDeviceLabel=Selecione o dispositivo
-DisksListCombo.TextEmptyList=No drives have been found. Click on the {0} button to reload the list.
-DisksListCombo.TextNoItemSelected=Click here to select a drive from the list.
-StorageDriveWarningLabel=Warning! Selecting the wrong drive may lead to unwanted data loss.
+DisksListCombo.TextEmptyList=Nenhuma unidade foi encontrada. Clique no botão {0} para recarregar a lista.
+DisksListCombo.TextNoItemSelected=Clique aqui para selecionar a unidade de uma lista.
+StorageDriveWarningLabel=Aviso! Selecionar a unidade errada pode levar à perda indesejada de dados.
 Device.ExperimentalSupport=Experimental
-Device.SupportedModels=Modelos suportado: {0}
+Device.SupportedModels=Modelos suportados: {0}
 MessageBox.DiskAtLeast=O dispositivo deve ter pelo menos {0} GB de espaço disponível!
 MessageBox.DiskCompressedInstall.Heading=O dispositivo selecionado tem espaço suficiente para uma instalação comprimida.
-MessageBox.DiskCompressedInstall.Message=System performance may be slightly reduced due to compression.
+MessageBox.DiskCompressedInstall.Message=O desempenho do sistema pode ser ligeiramente reduzido devido à compressão.
 Message.LoadingDisks=Carregando a lista de discos...
-MessageBox.NewBootloaderRequiredWarn=If you want to boot your {0} from an USB drive or use the GPT partitioning scheme, the bootloader must be updated to the latest version.{n}{n}Please visit the following link for more details: {1}
+MessageBox.NewBootloaderRequiredWarn=Se você quiser inicializar seu {0} a partir de uma unidade USB ou usar o esquema de particionamento GPT, o bootloader deve ser atualizado para a versão mais recente.{n}{n}Visite o seguinte link para mais detalhes: {1}
 
 [SelectImagePage]
 PageTitle=Selecionar imagem
 SelectImageLabel=Selecione sua imagem de Windows para ARM
-ImageFileLabel=Image file
+ImageFileLabel=Arquivo de imagem
 WindowsEditionLabel=Edição do Windows
-WorkingBuildsTextBox.MinBuild=Your device supports Windows {0} build {1} or newer.
-WorkingBuildsTextBox.AllBuilds=Your device supports all the available builds of Windows {0}.
-WorkingBuildsTextBox.GetImage=If you don't have an image yet, you can find details on how to download one on the project website.
-SelectImageIndexCombo.TextEmptyList=Please select an image first.
+WorkingBuildsTextBox.MinBuild=Seu dispositivo suporta Windows {0} combilação {1} ou mais nova.
+WorkingBuildsTextBox.AllBuilds=Seu dispositivo suporta todas as compilações disponíveis do Windows {0}.
+WorkingBuildsTextBox.GetImage=Se você ainda não tem uma imagem, você pode encontrar detalhes sobre como baixar uma no site do projeto.
+SelectImageIndexCombo.TextEmptyList=Por favor, selecione uma imagem primeiro.
 MessageBox.SelectedImageInvalid=O arquivo selecionado não é uma imagem válida do Windows!
 MessageBox.SelectedImageUnsupported=O arquivo de imagem selecionado não é suportado!
-MessageBox.SelectedImageErrorInfo.AllBuilds=Please select a compatible Windows {0} image.
-MessageBox.SelectedImageErrorInfo.MinBuild=Please select a compatible Windows {0} build {1} or newer image.
-MessageBox.SelectedImageMountError.Heading=The image couldn't be mounted!
-MessageBox.SelectedImageMountError.Message=Verify that the image can be mounted by Windows (right click -> Mount) and try again. Accessing it over a network share may not work.{n}{n}If the error persists but you're able to mount the image manually, you can directly select the {0} file from the {1} directory inside it.
+MessageBox.SelectedImageErrorInfo.AllBuilds=Selecione uma imagem compatível do Windows {0}.
+MessageBox.SelectedImageErrorInfo.MinBuild=Selecione um Windows {0} compilação {1} compatível ou imagem mais recente.
+MessageBox.SelectedImageMountError.Heading=A imagem não pôde ser montada!
+MessageBox.SelectedImageMountError.Message=Verifique se a imagem pode ser montada pelo Windows (clique com o botão direito do mouse -> Montar) e tente novamente. Acessá-lo por um compartilhamento de rede pode não funcionar.{n}{n}Se o erro persistir, mas você for capaz de montar a imagem manualmente, você pode selecionar diretamente o arquivo {0} do diretório {1} dentro dela.
 MessageBox.NotEnoughSpace.Heading=Não há espaço suficiente no disco para instalar esta imagem!
 MessageBox.NotEnoughSpace.Message=Escolha um dispositivo de armazenamento maior ou uma imagem compacta.
 Message.MountingISO=Montando a imagem ISO...
@@ -109,7 +109,7 @@ DriversNoteTextBox=Nota: os drivers devem estar arquivados usando o formato de a
 LocalDrvPkgRadioBtn=Usar um pacote armazenado em seu computador
 ServerDrvPkgRadioBtn=Usar o pacote mais recente disponível no servidor
 MessageBox.LicenseNotAccepted.Heading=Você não aceitou um dos contratos de licença!
-MessageBox.LicenseNotAccepted.Message=All licenses must be accepted to use this drivers package.
+MessageBox.LicenseNotAccepted.Message=Todas as licenças devem ser aceitas para usar este pacote de drivers.
 
 [SelectUEFIPage]
 PageTitle=Firmware UEFI
@@ -127,8 +127,8 @@ PartSchemeLabel=Esquema de partições:
 ImgInstallLabel=Instalar imagem com:
 EnableLZXCheck=Habilitar compressão de instalação LZX
 BootOptionsGroup=Opções de inicialização
-MessageBox.BootConfigEditorWarn=Modificar a configuração padrão de inicialização pode causar um mau funcionamento ou não inicializar o dispositivo.{n}{n}Continuar assim mesmo?
-MessageBox.MbrPartSchemeWarn=Choosing the MBR partitioning scheme will prevent you from using the recovery environment and doing system updates.{n}{n}Continue anyway?
+MessageBox.BootConfigEditorWarn=Modificar a configuração padrão de inicialização pode causar um mau funcionamento ou não inicializar o dispositivo.{n}{n}Continuar mesmo assim?
+MessageBox.MbrPartSchemeWarn=Escolher o esquema de partição MBR impedirá que você use o ambiente de recuperação e faça atualizações do sistema.{n}{n}Continuar mesmo assim?
 ConfigurationTabControl.AdvancedTabPage=Avançado
 MessageBox.AdvancedTabPageWarn=Alterar as configurações padrão no menu avançado pode desabilitar recursos específicos do dispositivo ou impedir a inicialização do sistema.{n}{n}Tem certeza de que deseja continuar?
 WindowsBootOptionsGroup=Opções de inicialização do Windows
@@ -136,7 +136,7 @@ MemoryLimitLabel=Limite de memória:
 RecoveryEnabledCheck=Habilitar o Ambiente de Recuperação do Windows
 WoROptionsGroup=Opções de {appname}
 SaveConfigOnExitCheck=Salvar esta configuração e sair
-SaveConfigOnExitCheckInfoLabel=Note: options that are disabled (and those in the {0} menu) will not be saved.
+SaveConfigOnExitCheckInfoLabel=Nota: as opções que estão desativadas (e as do menu {0}) não serão salvas.
 
 [SetupOverviewPage]
 PageTitle=Instalar
@@ -154,7 +154,7 @@ LZXCompression.NO=NÃO
 [SetupProgressPage]
 PageTitle=Instalar
 InstallInfoBox=Este processo pode levar demorar um pouco dependendo do desempenho do dispositivo.
-TryAgainBtn=Try again
+TryAgainBtn=Tentar novamente
 InstallStatusLabel.GettingReady=Preparando...
 InstallStatusLabel.FormattingDisk=Formatando o dispositivo alvo...
 InstallStatusLabel.CreatingPartitions=Criando as partições...
@@ -163,5 +163,5 @@ InstallStatusLabel.InstallingBootFiles=Instalando os arquivos de inicialização
 InstallStatusLabel.InstallingDrivers=Instalando os drivers...
 InstallStatusLabel.InstallFinished=A instalação foi concluída com sucesso!
 InstallStatusLabel.InstallFailed=A instalação falhou!
-MessageBox.RecoveryNotFoundWarn.Heading=The recovery image could not be found!
-MessageBox.RecoveryNotFoundWarn.Message=If you continue, the recovery environment will be completely disabled.
+MessageBox.RecoveryNotFoundWarn.Heading=A imagem de recuperação não foi encontrada!
+MessageBox.RecoveryNotFoundWarn.Message=Se você continuar, o ambiente de recuperação será completamente desativado.
