@@ -1,0 +1,167 @@
+[WoR lang file]
+Name=Bahasa Melayu ( Malay (Malaysia) )
+IsComplete=1
+
+[UpdateNotifyWindow]
+WindowTitle=Versi baharu
+NewVersionAvailableLabel=Versi baharu boleh didapati sekarang
+NewVersionAvailableBox=Versi baharu {appname} {0} boleh didapati sekarang! Adakah anda mahu memuat turunnya sekarang?
+DownloadBtn=Muat Turun
+CloseBtn=Batal
+
+[AboutWindow]
+WindowTitle=Tentang WoR
+AppVersionLabel=Versi
+CreditsPage=Sumbangan
+ChangelogPage=Catatan kemas kini
+LicensesPage=Lesen
+
+[LoggerWindow]
+WindowTitle=Catatan
+CopyToClipboardBtn=Salin
+
+[LicenseAgreementWindow]
+WindowTitle=Lesen
+AcceptBtn=Terima
+DeclineBtn=Tolak
+
+[General]
+MessageBox.CustomPackageWarn=Memilih pakej yang usang atau tidak sesuai boleh menyebabkan masalah pemasangan! {n}{n}Sebaiknya menggunakan versi terbaru yang tersedia di pelayan.{n}{n}Teruskan？
+MessageBox.SelectedPackageInvalid.Heading=Pakej pemasangan yang dipilih tidak sah atau tidak sesuai dengan peranti anda.
+MessageBox.SelectedPackageInvalid.Message=Sila pilih pakej yang dibina untuk {0}.
+MessageBox.PackageUpdateError.Heading=Gagal memuat turun versi terbaru pakej pemasangan!
+MessageBox.PackageUpdateError.Message=Sekiranya anda mengabaikan amaran ini, panduan ini akan diteruskan dengan versi tempatan yang mungkin sudah usang.
+Message.ExtractingPackageToTemp=Mengekstrak arkib ke folder sementara ...
+Message.DownloadingReqFiles=Memuat turun fail yang diperlukan ...
+Label.StorageDrive=Storage penyimpanan
+Label.DeviceType=Jenis Peranti
+FilePathTextPlaceholder=Tekan pada "{0}" atau menyeretkan fail ke sini.
+ServerPackageInfoLabel=Ini adalah pilihan yang disyorkan. Ini juga boleh digunakan tanpa talian, selagi pakej itu telah dimuat turun sebelumnya.
+
+[MessageBox]
+Button.OK=OK
+Button.Cancel=Batal
+Button.Abort=Batal
+Button.Retry=Cuba lagi
+Button.Ignore=Abai
+Button.Yes=Ya
+Button.No=Tidak
+CheckBox.DoNotShowAgain=Jangan tunjuk lagi
+
+[MessageBox.Common]
+Heading.SomethingWentWrong=Ada masalah yang tidak kena
+Heading.Warning=Amaran!
+
+[MainWindow]
+SendFeedbackBtn=Hantarkan maklum balas
+NextPageBtn=Langkah seterusnya
+BackPageBtn=Langkah sebelumnya
+NextPageBtn.Install=Pasang
+NextPageBtn.Finish=Selesai
+MessageBox.TaskOngoing.Heading=Adakah anda pasti untuk menutup aplikasi ini?
+MessageBox.TaskOngoing.Message=Operasi sedang dijalankan.
+
+[WelcomePage]
+PageTitle=Selamat datang
+WelcomeLabel=Selamat menggunakan {appname}！
+WelcomeMsgTextBox=Panduan ini akan memandukan anda untuk memasangkan Windows pada Raspberry Pi anda. {n}{n}Tekan {0} untuk teruskan.
+SelectLangLabel=Pilihkan bahasa anda:
+
+[SelectDevicePage]
+PageTitle=Pilihkan peranti anda
+SelectDeviceLabel=Pilihkan peranti anda
+DisksListCombo.TextEmptyList=Tiada pemacu ditemui. Klik butang {0} untuk mengemas kini senarai.
+DisksListCombo.TextNoItemSelected=Klik sini untuk memilih pemandu sistem.
+StorageDriveWarningLabel=Amaran! Pilihan pemandu sistem yang salah boleh menyebabkan kehilangan data!
+Device.ExperimentalSupport=Tahap percubaan
+Device.SupportedModels=Peranti yang disokong {0}
+MessageBox.DiskAtLeast=Peranti anda perlulah mempunyai sekurang-kurangnya {0}GB ruang yang dapat diguna!
+MessageBox.DiskCompressedInstall.Heading=Peranti yang dipilih mempunyai ruang yang cukup untuk pemasangan yang dimampatkan.
+MessageBox.DiskCompressedInstall.Message=Prestasi sistem mungkin berkurang akibat pemampatan. 
+Message.LoadingDisks=Memuatkan senarai peranti ...
+MessageBox.NewBootloaderRequiredWarn=Sekiranya anda ingin boot {0} dari pemacu USB atau menggunakan skema partition GPT, pemuat but mesti dikemas kini ke versi terkini. {N} {n} Sila lawati pautan berikut untuk maklumat lebih lanjut: {1}
+
+[SelectImagePage]
+PageTitle=Pilih imej
+SelectImageLabel=Sila memilih imej Windows ARM anda.
+ImageFileLabel=Fail imej
+WindowsEditionLabel=Versi Windows
+WorkingBuildsTextBox.MinBuild=Peranti anda menyokong Windows {0} build {1} dan atasnya.
+WorkingBuildsTextBox.AllBuilds=Peranti anda menyokong semua versi Windows {0}.
+WorkingBuildsTextBox.GetImage=Sekiranya anda belum mempunyai fail imej, anda boleh mendapatkan maklumat mengenai cara memuat turunnya di laman web projek.
+SelectImageIndexCombo.TextEmptyList=Sila memilih fail imej.
+MessageBox.SelectedImageInvalid=Fail yang dipilih bukan fail imej yang sah!
+MessageBox.SelectedImageUnsupported=fail imej yang dipilih tidak disokong!
+MessageBox.SelectedImageErrorInfo.AllBuilds=Sila memilih fail imej Windows {0} yang serasi.
+MessageBox.SelectedImageErrorInfo.MinBuild=Sila pilih Windows {0} build {1} atau fail imej yang lebih baru.
+MessageBox.SelectedImageMountError.Heading=Tidak dapat memasang fail imej.
+MessageBox.SelectedImageMountError.Message=Sahkan bahawa fail imej boleh dipasang oleh Windows (klik kanan -> Pasang) dan cuba lagi. Mengaksesnya melalui pangsa rangkaian mungkin tidak berfungsi. {N} {n} Sekiranya ralat berlanjutan tetapi anda dapat memasang fail imej secara manual, anda dapat memilih file {0} dari direktori {1} di dalamnya.
+MessageBox.NotEnoughSpace.Heading=Tidak ada cukup ruang pada cakera untuk memasang fail imej ini!
+MessageBox.NotEnoughSpace.Message=Sila pilih peranti storan yang lebih besar atau fail gambar yang lebih kecil.
+Message.MountingISO=Sedang memasang fail imej ISO ...
+Message.UnmountingISO=Sedang menurunkan fail imej ISO ... 
+Message.VerifyingImage=Sedang megesahkan fail imej ISO ...
+
+[SelectDriversPage]
+PageTitle=Pilih pemandu sistem
+SelectDriversLabel=Pilih pemandu sistem
+DriversNoteTextBox=Catatan: pemandu sistem mesti diarkibkan menggunakan format fail {0}.
+LocalDrvPkgRadioBtn=Gunakan pakej yang disimpan di komputer anda
+ServerDrvPkgRadioBtn=Gunakan pakej terkini yang terdapat di pelayan
+MessageBox.LicenseNotAccepted.Heading=Anda belum menerima salah satu perjanjian lesen!
+MessageBox.LicenseNotAccepted.Message=Semua lesen mesti diterima untuk menggunakan pakej pemandu sistem ini. 
+
+[SelectUEFIPage]
+PageTitle=Firmware UEFI
+SelectUEFILabel=Pilihkan Firmware UEFI
+UEFINoteTextBox=Catatan: Firmware UEFI anda hendaklah mempunyai sambungan fail {0}.
+LocalUEFIRadioBtn=Gunakan Firmware UEFI yang disimpan di komputer anda
+ServerUEFIRadioBtn=Gunakan firmware terkini yang terdapat di pelayan
+
+[SetupConfigurationPage]
+PageTitle=Konfigurasi
+ConfigurationLabel=Konfigurasi
+ConfigurationTabControl.MainTabPage=Konfigurasi Am
+InstallOptionsGroup=Pilihan pemasangan
+PartSchemeLabel=Skema partition:
+ImgInstallLabel=Memasang fail imej dengan:
+EnableLZXCheck=Menggunakan pemampatan pemasangan LZX 
+BootOptionsGroup=Pilihan boot
+MessageBox.BootConfigEditorWarn=Mengubah konfigurasi boot lalai boleh menyebabkan peranti tidak berfungsi atau tidak dapat boot sama sekali. {N} {n} Teruskan?
+MessageBox.MbrPartSchemeWarn=Memilih skema partition MBR akan mengelakkan anda daripada menggunakan persekitaran pemulihan dan melakukan kemas kini sistem. {N} {n} Teruskan?
+ConfigurationTabControl.AdvancedTabPage=Lanjutan
+MessageBox.AdvancedTabPageWarn=Mengubah tetapan lalai di menu lanjutan boleh mematikan ciri peranti tertentu atau mencegah sistem boot. {N} {n} Adakah anda pasti mahu meneruskan? 
+WindowsBootOptionsGroup=Pilihan boot Windows
+MemoryLimitLabel=Had memori:
+RecoveryEnabledCheck=Menggunakan Persekitaran Pemulihan Windows
+WoROptionsGroup=Pilihan {appname}
+SaveConfigOnExitCheck=Mengemas kini konfigurasi ini apabila keluar
+SaveConfigOnExitCheckInfoLabel=Catatan: pilihan yang dilumpuhkan (dan yang ada di menu {0}) tidak akan disimpan. 
+
+[SetupOverviewPage]
+PageTitle=Pemasangan
+InstallOverviewLabel=Gambaran keseluruhan pemasangan
+InstallWarnBox=Amaran! Semua data pada peranti anda akan dihapuskan! Buat sandaran fail anda sebelum terlambat!
+OSLabel=Sistem operasi
+DriversPathLabel=Laluan ke fail pemandu sistem
+UEFIPathLabel=Laluan ke fail UEFI
+PartitionSchemeLabel=Skema partition
+ImageDeployerLabel=Penyebaran fail imej
+LZXCompressionLabel=Pemampatan pemasangan LZX
+LZXCompression.YES=YA
+LZXCompression.NO=TIDAK
+
+[SetupProgressPage]
+PageTitle=Pemasangan
+InstallInfoBox=Proses ini mungkin memerlukan masa yang lama bergantung pada prestasi peranti anda.
+TryAgainBtn=Cuba lagi
+InstallStatusLabel.GettingReady=Sedang membuat persediaan ...
+InstallStatusLabel.FormattingDisk=Sedang memformat peranti sasaran ...
+InstallStatusLabel.CreatingPartitions=Sedang membuat partition ...
+InstallStatusLabel.InstallingWindows=Sedang memasang Windows ...
+InstallStatusLabel.InstallingBootFiles=Sedang memasang fail boot ...
+InstallStatusLabel.InstallingDrivers=Sedang memasang pemandu sistem ...
+InstallStatusLabel.InstallFinished=Pemasangan berjaya!
+InstallStatusLabel.InstallFailed=Permasangan gagal! 
+MessageBox.RecoveryNotFoundWarn.Heading=Imej pemulihan tidak dapat dijumpai!
+MessageBox.RecoveryNotFoundWarn.Message=Sekiranya anda meneruskan, persekitaran pemulihan akan dilumpuhkan sepenuhnya.
