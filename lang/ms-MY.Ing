@@ -10,7 +10,7 @@ DownloadBtn=Muat Turun
 CloseBtn=Batal
 
 [AboutWindow]
-WindowTitle=Tentang WoR
+WindowTitle=Tentang
 AppVersionLabel=Versi
 CreditsPage=Sumbangan
 ChangelogPage=Catatan kemas kini
