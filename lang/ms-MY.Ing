@@ -79,7 +79,7 @@ MessageBox.DiskAtLeast=Peranti anda perlulah mempunyai sekurang-kurangnya {0} GB
 MessageBox.DiskCompressedInstall.Heading=Peranti yang dipilih mempunyai ruang yang cukup untuk pemasangan yang dimampatkan.
 MessageBox.DiskCompressedInstall.Message=Prestasi sistem mungkin berkurang akibat pemampatan. 
 Message.LoadingDisks=Memuatkan senarai peranti ...
-MessageBox.NewBootloaderRequiredWarn=Sekiranya anda ingin boot {0} dari pemacu USB atau menggunakan skema partition GPT, pemuat but mesti dikemas kini ke versi terkini. {N} {n} Sila lawati pautan berikut untuk maklumat lebih lanjut: {1}
+MessageBox.NewBootloaderRequiredWarn=Sekiranya anda ingin boot {0} dari pemacu USB atau menggunakan skema partition GPT, pemuat but mesti dikemas kini ke versi terkini.{n}{n}Sila lawati pautan berikut untuk maklumat lebih lanjut: {1}
 
 [SelectImagePage]
 PageTitle=Pilih imej
