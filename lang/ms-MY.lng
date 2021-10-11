@@ -64,7 +64,7 @@ MessageBox.TaskOngoing.Message=Operasi sedang dijalankan.
 [WelcomePage]
 PageTitle=Selamat datang
 WelcomeLabel=Selamat menggunakan {appname}！
-WelcomeMsgTextBox=Panduan ini akan memandukan anda untuk memasangkan Windows pada Raspberry Pi anda. {n}{n}Tekan {0} untuk teruskan.
+WelcomeMsgTextBox=Panduan ini akan memandukan anda untuk memasangkan Windows pada Raspberry Pi anda.{n}{n}Tekan {0} untuk teruskan.
 SelectLangLabel=Pilihkan bahasa anda:
 
 [SelectDevicePage]
@@ -78,7 +78,7 @@ Device.SupportedModels=Peranti yang disokong {0}
 MessageBox.DiskAtLeast=Peranti anda perlulah mempunyai sekurang-kurangnya {0} GB ruang yang dapat diguna!
 MessageBox.DiskCompressedInstall.Heading=Peranti yang dipilih mempunyai ruang yang cukup untuk pemasangan yang dimampatkan.
 MessageBox.DiskCompressedInstall.Message=Prestasi sistem mungkin berkurang akibat pemampatan. 
-Message.LoadingDisks=Memuatkan senarai peranti ...
+Message.LoadingDisks=Memuatkan senarai peranti...
 MessageBox.NewBootloaderRequiredWarn=Sekiranya anda ingin boot {0} dari pemacu USB atau menggunakan skema partition GPT, pemuat but mesti dikemas kini ke versi terkini.{n}{n}Sila lawati pautan berikut untuk maklumat lebih lanjut: {1}
 
 [SelectImagePage]
@@ -95,12 +95,12 @@ MessageBox.SelectedImageUnsupported=fail imej yang dipilih tidak disokong!
 MessageBox.SelectedImageErrorInfo.AllBuilds=Sila memilih fail imej Windows {0} yang serasi.
 MessageBox.SelectedImageErrorInfo.MinBuild=Sila pilih Windows {0} build {1} atau fail imej yang lebih baru.
 MessageBox.SelectedImageMountError.Heading=Tidak dapat memasang fail imej.
-MessageBox.SelectedImageMountError.Message=Sahkan bahawa fail imej boleh dipasang oleh Windows (klik kanan -> Pasang) dan cuba lagi. Mengaksesnya melalui pangsa rangkaian mungkin tidak berfungsi. {N} {n} Sekiranya ralat berlanjutan tetapi anda dapat memasang fail imej secara manual, anda dapat memilih file {0} dari direktori {1} di dalamnya.
+MessageBox.SelectedImageMountError.Message=Sahkan bahawa fail imej boleh dipasang oleh Windows (klik kanan -> Pasang) dan cuba lagi. Mengaksesnya melalui pangsa rangkaian mungkin tidak berfungsi.{n}{n}Sekiranya ralat berlanjutan tetapi anda dapat memasang fail imej secara manual, anda dapat memilih file {0} dari direktori {1} di dalamnya.
 MessageBox.NotEnoughSpace.Heading=Tidak ada cukup ruang pada cakera untuk memasang fail imej ini!
 MessageBox.NotEnoughSpace.Message=Sila pilih peranti storan yang lebih besar atau fail gambar yang lebih kecil.
-Message.MountingISO=Sedang memasang fail imej ISO ...
-Message.UnmountingISO=Sedang menurunkan fail imej ISO ... 
-Message.VerifyingImage=Sedang megesahkan fail imej ISO ...
+Message.MountingISO=Sedang memasang fail imej ISO...
+Message.UnmountingISO=Sedang menurunkan fail imej ISO... 
+Message.VerifyingImage=Sedang megesahkan fail imej ISO...
 
 [SelectDriversPage]
 PageTitle=Pilih pemandu sistem
@@ -127,10 +127,10 @@ PartSchemeLabel=Skema partition:
 ImgInstallLabel=Memasang fail imej dengan:
 EnableLZXCheck=Menggunakan pemampatan pemasangan LZX 
 BootOptionsGroup=Pilihan boot
-MessageBox.BootConfigEditorWarn=Mengubah konfigurasi boot lalai boleh menyebabkan peranti tidak berfungsi atau tidak dapat boot sama sekali. {N} {n} Teruskan?
-MessageBox.MbrPartSchemeWarn=Memilih skema partition MBR akan mengelakkan anda daripada menggunakan persekitaran pemulihan dan melakukan kemas kini sistem. {N} {n} Teruskan?
+MessageBox.BootConfigEditorWarn=Mengubah konfigurasi boot lalai boleh menyebabkan peranti tidak berfungsi atau tidak dapat boot sama sekali.{n}{n}Teruskan?
+MessageBox.MbrPartSchemeWarn=Memilih skema partition MBR akan mengelakkan anda daripada menggunakan persekitaran pemulihan dan melakukan kemas kini sistem.{n}{n}Teruskan?
 ConfigurationTabControl.AdvancedTabPage=Lanjutan
-MessageBox.AdvancedTabPageWarn=Mengubah tetapan lalai di menu lanjutan boleh mematikan ciri peranti tertentu atau mencegah sistem boot. {N} {n} Adakah anda pasti mahu meneruskan? 
+MessageBox.AdvancedTabPageWarn=Mengubah tetapan lalai di menu lanjutan boleh mematikan ciri peranti tertentu atau mencegah sistem boot.{n}{n}Adakah anda pasti mahu meneruskan? 
 WindowsBootOptionsGroup=Pilihan boot Windows
 MemoryLimitLabel=Had memori:
 RecoveryEnabledCheck=Menggunakan Persekitaran Pemulihan Windows
@@ -155,12 +155,12 @@ LZXCompression.NO=TIDAK
 PageTitle=Pemasangan
 InstallInfoBox=Proses ini mungkin memerlukan masa yang lama bergantung pada prestasi peranti anda.
 TryAgainBtn=Cuba lagi
-InstallStatusLabel.GettingReady=Sedang membuat persediaan ...
-InstallStatusLabel.FormattingDisk=Sedang memformat peranti sasaran ...
-InstallStatusLabel.CreatingPartitions=Sedang membuat partition ...
-InstallStatusLabel.InstallingWindows=Sedang memasang Windows ...
-InstallStatusLabel.InstallingBootFiles=Sedang memasang fail boot ...
-InstallStatusLabel.InstallingDrivers=Sedang memasang pemandu sistem ...
+InstallStatusLabel.GettingReady=Sedang membuat persediaan...
+InstallStatusLabel.FormattingDisk=Sedang memformat peranti sasaran...
+InstallStatusLabel.CreatingPartitions=Sedang membuat partition...
+InstallStatusLabel.InstallingWindows=Sedang memasang Windows...
+InstallStatusLabel.InstallingBootFiles=Sedang memasang fail boot...
+InstallStatusLabel.InstallingDrivers=Sedang memasang pemandu sistem...
 InstallStatusLabel.InstallFinished=Pemasangan berjaya!
 InstallStatusLabel.InstallFailed=Permasangan gagal! 
 MessageBox.RecoveryNotFoundWarn.Heading=Imej pemulihan tidak dapat dijumpai!
