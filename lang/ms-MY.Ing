@@ -54,8 +54,8 @@ Heading.Warning=Amaran!
 
 [MainWindow]
 SendFeedbackBtn=Hantarkan maklum balas
-NextPageBtn=Langkah seterusnya
-BackPageBtn=Langkah sebelumnya
+NextPageBtn=Seterusnya
+BackPageBtn=Sebelumnya
 NextPageBtn.Install=Pasang
 NextPageBtn.Finish=Selesai
 MessageBox.TaskOngoing.Heading=Adakah anda pasti untuk menutup aplikasi ini?
