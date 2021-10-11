@@ -26,7 +26,7 @@ AcceptBtn=Terima
 DeclineBtn=Tolak
 
 [General]
-MessageBox.CustomPackageWarn=Memilih pakej yang usang atau tidak sesuai boleh menyebabkan masalah pemasangan! {n}{n}Sebaiknya menggunakan versi terbaru yang tersedia di pelayan.{n}{n}Teruskan？
+MessageBox.CustomPackageWarn=Memilih pakej yang usang atau tidak sesuai boleh menyebabkan masalah pemasangan!{n}{n}Sebaiknya menggunakan versi terbaru yang tersedia di pelayan.{n}{n}Teruskan？
 MessageBox.SelectedPackageInvalid.Heading=Pakej pemasangan yang dipilih tidak sah atau tidak sesuai dengan peranti anda.
 MessageBox.SelectedPackageInvalid.Message=Sila pilih pakej yang dibina untuk {0}.
 MessageBox.PackageUpdateError.Heading=Gagal memuat turun versi terbaru pakej pemasangan!
