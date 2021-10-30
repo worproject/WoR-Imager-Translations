@@ -1,6 +1,6 @@
-﻿[WoR lang file]
+[WoR lang file]
 Name=Deutsch (German)
-IsComplete=0
+IsComplete=1
 
 [UpdateNotifyWindow]
 WindowTitle=Update
@@ -30,7 +30,7 @@ MessageBox.CustomPackageWarn=Die Auswahl eines veralteten oder inkompatiblen Pak
 MessageBox.SelectedPackageInvalid.Heading=Das ausgewählte Paket ist ungültig oder nicht mit Ihrem Gerät kompatibel.
 MessageBox.SelectedPackageInvalid.Message=Bitte wählen Sie ein für {0} erstelltes Paket.
 MessageBox.PackageUpdateError.Heading=Die neueste Version des Pakets konnte nicht heruntergeladen werden!
-MessageBox.PackageUpdateError.Message=Wenn Sie diesen Fehler ignorieren, wird das Setup mit einer möglicherweise veralteten lokalen Version fortgesetzt!
+MessageBox.PackageUpdateError.Message=Wenn Sie diesen Fehler ignorieren, wird das Setup mit der lokalen Version fortgesetzt, die möglicherweise veraltet ist. 
 Message.ExtractingPackageToTemp=Das Archiv wird in das temporäre Verzeichnis entpackt...
 Message.DownloadingReqFiles=Erforderliche Dateien werden heruntergeladen...
 Label.StorageDrive=Speicherlaufwerk
@@ -94,8 +94,8 @@ MessageBox.SelectedImageInvalid=Die ausgewählte Datei ist kein gültiges Window
 MessageBox.SelectedImageUnsupported=Das ausgewählte Abbild wird nicht unterstützt!
 MessageBox.SelectedImageErrorInfo.AllBuilds=Bitte wählen Sie ein kompatibles Windows {0} -Image.
 MessageBox.SelectedImageErrorInfo.MinBuild=Bitte wählen Sie ein kompatibles Windows {0} Build {1} oder ein neueres Image aus.
-MessageBox.SelectedImageMountError.Heading=Das Abbild konnte nicht bereitgestellt werden.
-MessageBox.SelectedImageMountError.Message=Stellen sie sicher das das Abbild in Windows bereitgestellt werden kann (rechte Maustaste -> Bereitstellen) und versuchen Sie es erneut. Der Zugriff über eine Netzwerkfreigabe wird nicht unterstützt.{n}{n}Wenn der Fehler bestehen bleibt aber das Abbild manuell bereitgestellt werden konnte, you can directly select the {0} file from the {1} directory inside it.
+MessageBox.SelectedImageMountError.Heading=Das Abblid konnte nicht bereitgestellt werden!
+MessageBox.SelectedImageMountError.Message=Stellen Sie sicher, dass das Abbild von Windows bereitgestellt werden kann (Rechtsklick -> Berreitstellen) und versuchen Sie es erneut. Der Zugriff über eine Netzwerkfreigabe funktioniert möglicherweise nicht.{n}{n}Wenn der Fehler weiterhin besteht, Sie das Image jedoch manuell bereitstellen können, können Sie die Datei {0} direkt aus dem darin enthaltenen Verzeichnis {1} auswählen. 
 MessageBox.NotEnoughSpace.Heading=Nicht genügend Speicher auf dem Datenträger vorhanden, um dieses Abbild zu installieren!
 MessageBox.NotEnoughSpace.Message=Bitte wählen Sie einen größeren Datenträger oder verwenden Sie ein kleineres Abbild.
 Message.MountingISO=ISO wird bereitgestellt...
@@ -128,9 +128,7 @@ ImgInstallLabel=Installation mit:
 EnableLZXCheck=LZX-komprimierte Installation
 BootOptionsGroup=Startoptionen
 MessageBox.BootConfigEditorWarn=Das Verändern der Standard-Boot-Konfiguration kann dazu führen, dass das Gerät nicht korrekt funktioniert oder überhaupt nicht bootet.{n}{n}Dennoch fortfahren?
-MessageBox.MbrPartSchemeWarn=115 / 5000
-Übersetzungsergebnisse
-Wenn Sie das MBR-Partitionierungsschema auswählen, können Sie die Wiederherstellungsumgebung nicht verwenden und Systemaktualisierungen durchführen.{n}{n}Trotzdem fortfahren?
+MessageBox.MbrPartSchemeWarn=Wenn Sie das MBR-Partitionierungsschema wählen, können Sie die Wiederherstellungsumgebung nicht verwenden und Systemaktualisierungen durchführen.{n}{n}Trotzdem fortfahren?
 ConfigurationTabControl.AdvancedTabPage=Erweitert
 MessageBox.AdvancedTabPageWarn=Das Verändern der Standard-Einstellungen im Menü >Erweitert< kann bestimmte Features des Geräts deaktivieren oder verhindern, dass das Gerät bootet.{n}{n}Möchten Sie sicher fortfahren?
 WindowsBootOptionsGroup=Windows Boot Optionen
@@ -165,5 +163,5 @@ InstallStatusLabel.InstallingBootFiles=Startdateien werden installiert...
 InstallStatusLabel.InstallingDrivers=Treiber werden installiert...
 InstallStatusLabel.InstallFinished=Die Installation wurde fertig gestellt!
 InstallStatusLabel.InstallFailed=Die Installation schlug fehl!
-MessageBox.RecoveryNotFoundWarn.Heading=Das Abbild zur Wiederherstellung konnte nicht gefunden werden! 
+MessageBox.RecoveryNotFoundWarn.Heading=Das Abbild zur Wiederherstellung konnte nicht gefunden werden!
 MessageBox.RecoveryNotFoundWarn.Message=Wenn Sie fortfahren, wird die Wiederherstellungsumgebung vollständig deaktiviert.
