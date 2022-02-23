@@ -66,6 +66,9 @@ PageTitle=Välkommen
 WelcomeLabel=Välkommen till {appname}!
 WelcomeMsgTextBox=Det här programet kommer att hjälpa dig att lätt installera en full skrivbords version av Windows på din Raspberry Pi computer.{n}{n}Klicka på {0} för att fortsätta.
 SelectLangLabel=Språkval:
+SelectWizardModeLabel=Wizard mode:
+SelectWizardModeCombo.BasicMode=Show only the required options
+SelectWizardModeCombo.AdvancedMode=Show all the options
 
 [SelectDevicePage]
 PageTitle=Välj enhet
@@ -136,7 +139,7 @@ MemoryLimitLabel=Minnesbegränsning:
 RecoveryEnabledCheck=Aktivera Windows återställnings-miljön
 WoROptionsGroup={appname} val
 SaveConfigOnExitCheck=Spara konfigurationen vid avslut
-SaveConfigOnExitCheckInfoLabel=Observera: val som har inaktiverats (och de i {0} meny) kommer inte att sparas.
+SaveConfigOnExitCheckInfoLabel=Observera: val som har inaktiverats kommer inte att sparas.
 
 [SetupOverviewPage]
 PageTitle=Installation
@@ -161,6 +164,7 @@ InstallStatusLabel.CreatingPartitions=Skapar partitionerna...
 InstallStatusLabel.InstallingWindows=Installerar Windows...
 InstallStatusLabel.InstallingBootFiles=Installerar uppstartsfiler...
 InstallStatusLabel.InstallingDrivers=Installerar driverrutiner...
+InstallStatusLabel.RunningScript=Running the custom script...
 InstallStatusLabel.InstallFinished=Installationen är färdig!
 InstallStatusLabel.InstallFailed=Installationen fungerade inte!
 MessageBox.RecoveryNotFoundWarn.Heading=The recovery image could not be found!

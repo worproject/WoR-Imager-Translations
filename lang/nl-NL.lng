@@ -1,6 +1,6 @@
 ﻿[WoR lang file]
 Name=Nederlands (Dutch)
-IsComplete=1
+IsComplete=0
 
 [UpdateNotifyWindow]
 WindowTitle=Update
@@ -66,6 +66,9 @@ PageTitle=Welkom
 WelcomeLabel=Welkom bij {appname}!
 WelcomeMsgTextBox=Met deze wizard kunt u eenvoudig de volledige desktopversie van Windows op uw Raspberry Pi-computer installeren.{n}{n}klip op de {0} Knop om verder te gaan.
 SelectLangLabel=Selecteer je taal:
+SelectWizardModeLabel=Wizard mode:
+SelectWizardModeCombo.BasicMode=Show only the required options
+SelectWizardModeCombo.AdvancedMode=Show all the options
 
 [SelectDevicePage]
 PageTitle=Selecteer apparaat
@@ -136,7 +139,7 @@ MemoryLimitLabel=Geheugenlimiet:
 RecoveryEnabledCheck=Schakel de Windows Herstelomgeving in
 WoROptionsGroup={appname} opties
 SaveConfigOnExitCheck=Bewaar deze configuratie bij het afsluiten
-SaveConfigOnExitCheckInfoLabel=Opmerking: opties die zijn uitgeschakeld (en die in het menu {0}) worden niet opgeslagen.
+SaveConfigOnExitCheckInfoLabel=Opmerking: opties die zijn uitgeschakeld worden niet opgeslagen.
 
 [SetupOverviewPage]
 PageTitle=Installeren
@@ -161,6 +164,7 @@ InstallStatusLabel.CreatingPartitions=De partities maken...
 InstallStatusLabel.InstallingWindows=Windows installeren...
 InstallStatusLabel.InstallingBootFiles=De opstartbestanden installeren...
 InstallStatusLabel.InstallingDrivers=De stuurprogramma's installeren...
+InstallStatusLabel.RunningScript=Running the custom script...
 InstallStatusLabel.InstallFinished=De installatie is voltooid!
 InstallStatusLabel.InstallFailed=De installatie is mislukt!
 MessageBox.RecoveryNotFoundWarn.Heading=Het herstelimage kan niet worden gevonden!

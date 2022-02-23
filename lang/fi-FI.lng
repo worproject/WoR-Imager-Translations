@@ -1,6 +1,6 @@
 ﻿[WoR lang file]
 Name=Suomi (Finnish)
-IsComplete=1
+IsComplete=0
 
 [UpdateNotifyWindow]
 WindowTitle=Päivitä
@@ -66,6 +66,9 @@ PageTitle=Tervetuloa
 WelcomeLabel=Tervetuloa {appname}!
 WelcomeMsgTextBox=Tämän ohjatun toiminnon avulla voit helposti asentaa Windows työpöytäversion Raspberry Pi-tietokoneellesi. {n}{n} Jatka napsauttamalla {0}-painiketta.
 SelectLangLabel=Valitse kieli:
+SelectWizardModeLabel=Wizard mode:
+SelectWizardModeCombo.BasicMode=Show only the required options
+SelectWizardModeCombo.AdvancedMode=Show all the options
 
 [SelectDevicePage]
 PageTitle=Valitse laite
@@ -134,7 +137,7 @@ MemoryLimitLabel=Muistiraja:
 RecoveryEnabledCheck=Ota Windowsin palautusympäristö käyttöön
 WoROptionsGroup={appname} asetukset
 SaveConfigOnExitCheck=Tallenna tämä kokoonpano poistuttaessa
-SaveConfigOnExitCheckInfoLabel=Huomaa: Poistettuja vaihtoehtoja (ja {0} -valikossa olevia) ei tallenneta.
+SaveConfigOnExitCheckInfoLabel=Huomaa: Poistettuja vaihtoehtoja ei tallenneta.
 
 [SetupOverviewPage]
 PageTitle=Asenna
@@ -159,6 +162,7 @@ InstallStatusLabel.CreatingPartitions=Luodaan osioita...
 InstallStatusLabel.InstallingWindows=Asennetaan Windowsia...
 InstallStatusLabel.InstallingBootFiles=Asennetaan Käynnistystiedostoja...
 InstallStatusLabel.InstallingDrivers=Asennetaan ohjaimia...
+InstallStatusLabel.RunningScript=Running the custom script...
 InstallStatusLabel.InstallFinished=Asennus on valmis!
 InstallStatusLabel.InstallFailed=Asennus epäonnistui!
 MessageBox.RecoveryNotFoundWarn.Heading=Palautuskuvaa ei löytynyt!

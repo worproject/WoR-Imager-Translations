@@ -1,6 +1,6 @@
 ﻿[WoR lang file]
 Name=繁體中文(台灣) (Traditional Chinese)
-IsComplete=1
+IsComplete=0
 
 [UpdateNotifyWindow]
 WindowTitle=更新
@@ -66,6 +66,9 @@ PageTitle=歡迎
 WelcomeLabel=歡迎使用 {appname}!
 WelcomeMsgTextBox=本嚮導將幫助您輕鬆地安裝 Windows 的完整桌面版本到您的 Raspberry Pi 電腦上。{n}{n}請點擊 {0} 按鈕以繼續。
 SelectLangLabel=語言:
+SelectWizardModeLabel=Wizard mode:
+SelectWizardModeCombo.BasicMode=Show only the required options
+SelectWizardModeCombo.AdvancedMode=Show all the options
 
 [SelectDevicePage]
 PageTitle=裝置選擇
@@ -136,7 +139,7 @@ MemoryLimitLabel=記憶體限制:
 RecoveryEnabledCheck=啟用Windows修復環境（WinRE）
 WoROptionsGroup={appname}選項
 SaveConfigOnExitCheck=離開時儲存設定
-SaveConfigOnExitCheckInfoLabel=注意：關閉的選項（以及 {0} 選單中的選項）將不會保存。
+SaveConfigOnExitCheckInfoLabel=注意：關閉的選項將不會保存。
 
 [SetupOverviewPage]
 PageTitle=安裝
@@ -161,6 +164,7 @@ InstallStatusLabel.CreatingPartitions=正在建立磁碟分割...
 InstallStatusLabel.InstallingWindows=正在安裝Windows...
 InstallStatusLabel.InstallingBootFiles=正在安裝開機檔案...
 InstallStatusLabel.InstallingDrivers=正在安裝驅動程式...
+InstallStatusLabel.RunningScript=Running the custom script...
 InstallStatusLabel.InstallFinished=安裝成功！
 InstallStatusLabel.InstallFailed=安裝失敗！
 MessageBox.RecoveryNotFoundWarn.Heading=找不到恢復鏡像！

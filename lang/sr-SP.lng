@@ -1,6 +1,6 @@
 ﻿[WoR lang file]
 Name=Srpski (Serbian)
-IsComplete=1
+IsComplete=0
 
 [UpdateNotifyWindow]
 WindowTitle=Azuriranje
@@ -66,6 +66,9 @@ PageTitle=Dobrodosli
 WelcomeLabel=Dobrodosli u {appname}!
 WelcomeMsgTextBox=Ovaj carobnjak ce vam pomoci da lako instalirate punu desktop verziju Windows  na vas Raspberry Pi racunar.{n}{n}Kliknite na {0} dugme da bi nastavili.
 SelectLangLabel=Izaberite svoj jezik:
+SelectWizardModeLabel=Wizard mode:
+SelectWizardModeCombo.BasicMode=Show only the required options
+SelectWizardModeCombo.AdvancedMode=Show all the options
 
 [SelectDevicePage]
 PageTitle=Izaberite uredjaj
@@ -136,7 +139,7 @@ MemoryLimitLabel=Ogranicenje memorije:
 RecoveryEnabledCheck=Omoguci Windows Recovery Environment
 WoROptionsGroup={appname} opcije
 SaveConfigOnExitCheck=Sacuvaj ovu konfiguraciju na izlasku
-SaveConfigOnExitCheckInfoLabel=Obavestenje: opcije koje su onemogucene (i one u {0} meniju) nece biti sacuvane.
+SaveConfigOnExitCheckInfoLabel=Obavestenje: opcije koje su onemogucene nece biti sacuvane.
 
 [SetupOverviewPage]
 PageTitle=Instaliraj
@@ -161,6 +164,7 @@ InstallStatusLabel.CreatingPartitions=Kreiranje particija...
 InstallStatusLabel.InstallingWindows=Instaliranje Windows-a...
 InstallStatusLabel.InstallingBootFiles=Instaliranje boot fajlova...
 InstallStatusLabel.InstallingDrivers=Instaliranje drajvera...
+InstallStatusLabel.RunningScript=Running the custom script...
 InstallStatusLabel.InstallFinished=Instalacija je zavrsena!
 InstallStatusLabel.InstallFailed=Instalacija nije uspela!
 MessageBox.RecoveryNotFoundWarn.Heading=Slika oporavka ne moze biti pronadjena!

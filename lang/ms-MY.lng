@@ -1,6 +1,6 @@
 ﻿[WoR lang file]
 Name=Bahasa Melayu (Malay)
-IsComplete=1
+IsComplete=0
 
 [UpdateNotifyWindow]
 WindowTitle=Versi baharu
@@ -66,6 +66,9 @@ PageTitle=Selamat datang
 WelcomeLabel=Selamat menggunakan {appname}！
 WelcomeMsgTextBox=Panduan ini akan memandukan anda untuk memasangkan Windows pada Raspberry Pi anda.{n}{n}Tekan {0} untuk teruskan.
 SelectLangLabel=Pilihkan bahasa anda:
+SelectWizardModeLabel=Wizard mode:
+SelectWizardModeCombo.BasicMode=Show only the required options
+SelectWizardModeCombo.AdvancedMode=Show all the options
 
 [SelectDevicePage]
 PageTitle=Pilihkan peranti anda
@@ -136,7 +139,7 @@ MemoryLimitLabel=Had memori:
 RecoveryEnabledCheck=Menggunakan Persekitaran Pemulihan Windows
 WoROptionsGroup=Pilihan {appname}
 SaveConfigOnExitCheck=Mengemas kini konfigurasi ini apabila keluar
-SaveConfigOnExitCheckInfoLabel=Catatan: pilihan yang dilumpuhkan (dan yang ada di menu {0}) tidak akan disimpan. 
+SaveConfigOnExitCheckInfoLabel=Catatan: pilihan yang dilumpuhkan tidak akan disimpan. 
 
 [SetupOverviewPage]
 PageTitle=Pemasangan
@@ -161,6 +164,7 @@ InstallStatusLabel.CreatingPartitions=Sedang membuat partition...
 InstallStatusLabel.InstallingWindows=Sedang memasang Windows...
 InstallStatusLabel.InstallingBootFiles=Sedang memasang fail boot...
 InstallStatusLabel.InstallingDrivers=Sedang memasang pemandu sistem...
+InstallStatusLabel.RunningScript=Running the custom script...
 InstallStatusLabel.InstallFinished=Pemasangan berjaya!
 InstallStatusLabel.InstallFailed=Permasangan gagal! 
 MessageBox.RecoveryNotFoundWarn.Heading=Imej pemulihan tidak dapat dijumpai!

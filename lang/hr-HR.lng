@@ -66,6 +66,9 @@ PageTitle=Dobrodošli
 WelcomeLabel=Dobrodošli u {appname}!
 WelcomeMsgTextBox=This wizard will help you easily install the full desktop version of Windows on your Raspberry Pi computer.{n}{n}Click on the {0} button to continue.
 SelectLangLabel=Odaberite jezik:
+SelectWizardModeLabel=Wizard mode:
+SelectWizardModeCombo.BasicMode=Show only the required options
+SelectWizardModeCombo.AdvancedMode=Show all the options
 
 [SelectDevicePage]
 PageTitle=Odaberite uređaj
@@ -136,7 +139,7 @@ MemoryLimitLabel=Memory limit:
 RecoveryEnabledCheck=Enable the Windows Recovery Environment
 WoROptionsGroup={appname} opcije
 SaveConfigOnExitCheck=Spremite ovu konfiguraciju prilikom izlasku
-SaveConfigOnExitCheckInfoLabel=Note: options that are disabled (and those in the {0} menu) will not be saved.
+SaveConfigOnExitCheckInfoLabel=Note: options that are disabled will not be saved.
 
 [SetupOverviewPage]
 PageTitle=Instalacija
@@ -161,6 +164,7 @@ InstallStatusLabel.CreatingPartitions=Stvaranje particija...
 InstallStatusLabel.InstallingWindows=Instaliranje Windows sustava...
 InstallStatusLabel.InstallingBootFiles=Instaliranje boot datoteka...
 InstallStatusLabel.InstallingDrivers=Instaliranje upravljačkih programa...
+InstallStatusLabel.RunningScript=Running the custom script...
 InstallStatusLabel.InstallFinished=Instalacija je završena!
 InstallStatusLabel.InstallFailed=Instalacija nije uspjela!
 MessageBox.RecoveryNotFoundWarn.Heading=The recovery image could not be found!

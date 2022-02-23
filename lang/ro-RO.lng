@@ -66,6 +66,9 @@ PageTitle=Bun venit
 WelcomeLabel=Bun venit la {appname}!
 WelcomeMsgTextBox=Acest vrăjitor vă va ajuta să instalați cu ușurință versiunea desktop completă a Windows pe computerul dvs. Raspberry Pi.{n}{n}Apăsați pe butonul {0} pentru a continua.
 SelectLangLabel=Selectați limba:
+SelectWizardModeLabel=Mod vrăjitor:
+SelectWizardModeCombo.BasicMode=Arată doar opțiunile necesare
+SelectWizardModeCombo.AdvancedMode=Arată toate opțiunile
 
 [SelectDevicePage]
 PageTitle=Selectați dispozitivul
@@ -136,7 +139,7 @@ MemoryLimitLabel=Limită memorie:
 RecoveryEnabledCheck=Activați mediul de recuperare Windows
 WoROptionsGroup=Opțiuni {appname}
 SaveConfigOnExitCheck=Salvați această configurație la închidere
-SaveConfigOnExitCheckInfoLabel=Notă: opțiunile dezactivate (și cele din meniul {0}) nu vor fi salvate.
+SaveConfigOnExitCheckInfoLabel=Notă: opțiunile dezactivate nu vor fi salvate.
 
 [SetupOverviewPage]
 PageTitle=Instalare
@@ -161,6 +164,7 @@ InstallStatusLabel.CreatingPartitions=Se creează partițiile...
 InstallStatusLabel.InstallingWindows=Se instalează Windows...
 InstallStatusLabel.InstallingBootFiles=Se instalează fișierele de boot...
 InstallStatusLabel.InstallingDrivers=Se instalează driverele...
+InstallStatusLabel.RunningScript=Se rulează scriptul personalizat...
 InstallStatusLabel.InstallFinished=Instalarea s-a terminat!
 InstallStatusLabel.InstallFailed=Instalarea a eșuat!
 MessageBox.RecoveryNotFoundWarn.Heading=Imaginea de recuperare nu a putut fi găsită!

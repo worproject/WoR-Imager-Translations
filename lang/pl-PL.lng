@@ -66,6 +66,9 @@ PageTitle=Witaj!
 WelcomeLabel=Witaj w {appname}!
 WelcomeMsgTextBox=Ten kreator pomoże Ci łatwo zainstalować pełną wersję Windows na twoim komputerze Raspberry Pi.{n}{n} Naciśnij na ten {0} przycisk, aby kontynuować.
 SelectLangLabel=Wybierz język:
+SelectWizardModeLabel=Wizard mode:
+SelectWizardModeCombo.BasicMode=Show only the required options
+SelectWizardModeCombo.AdvancedMode=Show all the options
 
 [SelectDevicePage]
 PageTitle=Wybór urządzenia
@@ -136,7 +139,7 @@ MemoryLimitLabel=Limit Pamięci:
 RecoveryEnabledCheck=Uruchom środowisko odzyskiwania Windowsa
 WoROptionsGroup=Ustawienia {appname}
 SaveConfigOnExitCheck=Zapisz tę konfigurację
-SaveConfigOnExitCheckInfoLabel=Informacja: Opcje, które są wyłączone (i te w {0} menu) nie zostaną zapisane.
+SaveConfigOnExitCheckInfoLabel=Informacja: Opcje, które są wyłączone nie zostaną zapisane.
 
 [SetupOverviewPage]
 PageTitle=Instalacja
@@ -161,6 +164,7 @@ InstallStatusLabel.CreatingPartitions=Tworzenie partycji...
 InstallStatusLabel.InstallingWindows=Instalowanie systemu Windows...
 InstallStatusLabel.InstallingBootFiles=Instalowanie plików rozruchowych...
 InstallStatusLabel.InstallingDrivers=Instalowanie sterowników...
+InstallStatusLabel.RunningScript=Running the custom script...
 InstallStatusLabel.InstallFinished=Instalacja została zakończona!
 InstallStatusLabel.InstallFailed=Instalacja się nie powiodła!
 MessageBox.RecoveryNotFoundWarn.Heading=The recovery image could not be found!

@@ -66,6 +66,9 @@ PageTitle=Vitajte
 WelcomeLabel=Vitajte vo {appname}!
 WelcomeMsgTextBox=Tento program vám pomôže jednoducho nainštalovať plnú desktopovú verziu Windowsu na váš Raspberry Pi počítač.{n}{n}Kliknite na tlačidlo {0} pre pokračovanie.
 SelectLangLabel=Zvoľte svoj jazyk:
+SelectWizardModeLabel=Wizard mode:
+SelectWizardModeCombo.BasicMode=Show only the required options
+SelectWizardModeCombo.AdvancedMode=Show all the options
 
 [SelectDevicePage]
 PageTitle=Výber zariadenia
@@ -136,7 +139,7 @@ MemoryLimitLabel=Limit pamäte:
 RecoveryEnabledCheck=Povoliť Windows Recovery Environment
 WoROptionsGroup={appname} nastavenia
 SaveConfigOnExitCheck=Pri ukončení túto konfiguráciu uložiť
-SaveConfigOnExitCheckInfoLabel=Poznámka: nastavenia sú vypnuté (a tie v ponuke {0}) nebudú uložené.
+SaveConfigOnExitCheckInfoLabel=Poznámka: nastavenia sú vypnuté nebudú uložené.
 
 [SetupOverviewPage]
 PageTitle=Inštalácia
@@ -161,6 +164,7 @@ InstallStatusLabel.CreatingPartitions=Vytváranie zväzkov...
 InstallStatusLabel.InstallingWindows=Inštalácia Windowsu...
 InstallStatusLabel.InstallingBootFiles=Inštalácia bootovacích súborov...
 InstallStatusLabel.InstallingDrivers=Inštalácia ovládačov...
+InstallStatusLabel.RunningScript=Running the custom script...
 InstallStatusLabel.InstallFinished=Inštalácia bola dokončená!
 InstallStatusLabel.InstallFailed=Inštalácia zlyhala!
 MessageBox.RecoveryNotFoundWarn.Heading=The recovery image could not be found!

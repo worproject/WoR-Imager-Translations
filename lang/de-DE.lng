@@ -1,6 +1,6 @@
 ﻿[WoR lang file]
 Name=Deutsch (German)
-IsComplete=1
+IsComplete=0
 
 [UpdateNotifyWindow]
 WindowTitle=Update
@@ -66,6 +66,9 @@ PageTitle=Willkommen
 WelcomeLabel=Willkommen bei {appname}!
 WelcomeMsgTextBox=Mit diesem Assistenten können Sie problemlos die vollständige Desktop-Version von Windows auf Ihrem Raspberry Pi-Computer installieren.{n}{n}Klicken Sie auf die Schaltfläche {0}, um fortzufahren.
 SelectLangLabel=Sprache auswählen:
+SelectWizardModeLabel=Wizard mode:
+SelectWizardModeCombo.BasicMode=Show only the required options
+SelectWizardModeCombo.AdvancedMode=Show all the options
 
 [SelectDevicePage]
 PageTitle=Datenträger wählen
@@ -136,7 +139,7 @@ MemoryLimitLabel=Speicherlimit:
 RecoveryEnabledCheck=Aktivieren der Windows Recovery Environment
 WoROptionsGroup={appname}-Optionen
 SaveConfigOnExitCheck=Diese Konfiguration beim Beenden speichern
-SaveConfigOnExitCheckInfoLabel=Hinweis: Deaktivierte Optionen (und die, die im {0} Menü) werden nicht gespeichert!
+SaveConfigOnExitCheckInfoLabel=Hinweis: Deaktivierte Optionen werden nicht gespeichert!
 
 [SetupOverviewPage]
 PageTitle=Installation
@@ -161,6 +164,7 @@ InstallStatusLabel.CreatingPartitions=Partitionen werden erstellt...
 InstallStatusLabel.InstallingWindows=Windows wird installiert...
 InstallStatusLabel.InstallingBootFiles=Startdateien werden installiert...
 InstallStatusLabel.InstallingDrivers=Treiber werden installiert...
+InstallStatusLabel.RunningScript=Running the custom script...
 InstallStatusLabel.InstallFinished=Die Installation wurde fertig gestellt!
 InstallStatusLabel.InstallFailed=Die Installation schlug fehl!
 MessageBox.RecoveryNotFoundWarn.Heading=Das Abbild zur Wiederherstellung konnte nicht gefunden werden!

@@ -1,6 +1,6 @@
 ﻿[WoR lang file]
 Name=Українська (Ukrainian)
-IsComplete=1
+IsComplete=0
 
 [UpdateNotifyWindow]
 WindowTitle=Оновлення
@@ -66,6 +66,9 @@ PageTitle=Ласкаво просимо!
 WelcomeLabel=Ласкаво просимо в {appname}!
 WelcomeMsgTextBox=Цей майстер допоможе вам легко встановити повну настільну версію Windows на комп'ютері Raspberry Pi.{n}{n}Натисність {0} кнопку, щоб продовжити.
 SelectLangLabel=Виберіть вашу мову:
+SelectWizardModeLabel=Wizard mode:
+SelectWizardModeCombo.BasicMode=Show only the required options
+SelectWizardModeCombo.AdvancedMode=Show all the options
 
 [SelectDevicePage]
 PageTitle=Виберіть носій
@@ -136,7 +139,7 @@ MemoryLimitLabel=Обмеження пам'яті:
 RecoveryEnabledCheck=Увімкнути середовище відновлення Windows
 WoROptionsGroup=Налаштування {appname}
 SaveConfigOnExitCheck=Зберегти цю конфігурацію при виході
-SaveConfigOnExitCheckInfoLabel=Примітка: параметри, які вимкнено (і ті, що знаходяться в меню {0}), не будуть збережені.
+SaveConfigOnExitCheckInfoLabel=Примітка: параметри, які вимкнено, не будуть збережені.
 
 [SetupOverviewPage]
 PageTitle=Втановити
@@ -161,6 +164,7 @@ InstallStatusLabel.CreatingPartitions=Створення розділів...
 InstallStatusLabel.InstallingWindows=Встановлення Windows...
 InstallStatusLabel.InstallingBootFiles=Встановлюються файли запуску...
 InstallStatusLabel.InstallingDrivers=Встановлюються драйвери...
+InstallStatusLabel.RunningScript=Running the custom script...
 InstallStatusLabel.InstallFinished=Встановлення завершено!
 InstallStatusLabel.InstallFailed=Встановлення перервано!
 MessageBox.RecoveryNotFoundWarn.Heading=Не вдалося знайти образ відновлення!

@@ -1,6 +1,6 @@
 ﻿[WoR lang file]
 Name=简体中文 (Simplified Chinese)
-IsComplete=1
+IsComplete=0
 
 [UpdateNotifyWindow]
 WindowTitle=更新
@@ -66,6 +66,9 @@ PageTitle=欢迎
 WelcomeLabel=欢迎使用 {appname}！
 WelcomeMsgTextBox=这个向导将会帮助您轻松地在树莓派上安装完整的桌面版 Windows。{n}{n}点击{0}继续。
 SelectLangLabel=选择您的语言：
+SelectWizardModeLabel=Wizard mode:
+SelectWizardModeCombo.BasicMode=Show only the required options
+SelectWizardModeCombo.AdvancedMode=Show all the options
 
 [SelectDevicePage]
 PageTitle=选择您的设备
@@ -136,7 +139,7 @@ MemoryLimitLabel=内存限制：
 RecoveryEnabledCheck=启用 Windows 恢复环境
 WoROptionsGroup={appname} 选项
 SaveConfigOnExitCheck=退出时保存此配置
-SaveConfigOnExitCheckInfoLabel=提醒: 已禁用的选项（以及{0}菜单中选项）将不会被保存。
+SaveConfigOnExitCheckInfoLabel=提醒: 已禁用的选项将不会被保存。
 
 [SetupOverviewPage]
 PageTitle=安装
@@ -161,6 +164,7 @@ InstallStatusLabel.CreatingPartitions=正在创建分区……
 InstallStatusLabel.InstallingWindows=正在安装 Windows……
 InstallStatusLabel.InstallingBootFiles=正在安装启动引导文件……
 InstallStatusLabel.InstallingDrivers=正在安装驱动程序……
+InstallStatusLabel.RunningScript=Running the custom script...
 InstallStatusLabel.InstallFinished=安装完成！
 InstallStatusLabel.InstallFailed=安装失败！
 MessageBox.RecoveryNotFoundWarn.Heading=找不到恢复镜像！

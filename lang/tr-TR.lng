@@ -1,6 +1,6 @@
 ﻿[WoR lang file]
 Name=Türkçe (Turkish)
-IsComplete=1
+IsComplete=0
 
 [UpdateNotifyWindow]
 WindowTitle=Güncelle
@@ -66,6 +66,9 @@ PageTitle=Merhaba
 WelcomeLabel={appname}'ye Hoş Geldiniz!
 WelcomeMsgTextBox=Bu sihirbaz, Windows'un tam masaüstü sürümünü Raspberry Pi bilgisayarınıza kolayca yüklemenize yardımcı olacaktır.{n}{n}Devam etmek için {0} düğmesini tıklayın.
 SelectLangLabel=Dilinizi seçiniz:
+SelectWizardModeLabel=Wizard mode:
+SelectWizardModeCombo.BasicMode=Show only the required options
+SelectWizardModeCombo.AdvancedMode=Show all the options
 
 [SelectDevicePage]
 PageTitle=Cihaz seç
@@ -136,7 +139,7 @@ MemoryLimitLabel=Hafıza limiti:
 RecoveryEnabledCheck=Windows Kurtarma Ortamını Aç
 WoROptionsGroup={appname} seçenekleri
 SaveConfigOnExitCheck=Bu konfigürasyonu kaydet ve çık
-SaveConfigOnExitCheckInfoLabel=Not: Devre dışı bırakılan seçenekler (ve {0} menüsündekiler) kaydedilmeyecektir.
+SaveConfigOnExitCheckInfoLabel=Not: Devre dışı bırakılan seçenekler kaydedilmeyecektir.
 
 [SetupOverviewPage]
 PageTitle=Yükle
@@ -161,6 +164,7 @@ InstallStatusLabel.CreatingPartitions=Bölüntüler oluşturuluyor...
 InstallStatusLabel.InstallingWindows=Windows kuruluyor...
 InstallStatusLabel.InstallingBootFiles=Önyükleme dosyaları yaratılıyor...
 InstallStatusLabel.InstallingDrivers=Sürücüler kuruluyor...
+InstallStatusLabel.RunningScript=Running the custom script...
 InstallStatusLabel.InstallFinished=Kurulum tamamlandı!
 InstallStatusLabel.InstallFailed=Yükleme başarısız!
 MessageBox.RecoveryNotFoundWarn.Heading=Kurtarma imaj dosyası bulunamadı.

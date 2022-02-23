@@ -66,6 +66,9 @@ PageTitle=Üdvözöljük
 WelcomeLabel=Üdvözöljük a {appname}!
 WelcomeMsgTextBox=This wizard will help you easily install the full desktop version of Windows on your Raspberry Pi computer.{n}{n}Click on the {0} button to continue.
 SelectLangLabel=Válasszon nyelvet:
+SelectWizardModeLabel=Wizard mode:
+SelectWizardModeCombo.BasicMode=Show only the required options
+SelectWizardModeCombo.AdvancedMode=Show all the options
 
 [SelectDevicePage]
 PageTitle=Válassza ki az eszközt
@@ -136,7 +139,7 @@ MemoryLimitLabel=Memory limit:
 RecoveryEnabledCheck=Enable the Windows Recovery Environment
 WoROptionsGroup={appname} beállításai
 SaveConfigOnExitCheck=Beállítások elmentése kilépéskor
-SaveConfigOnExitCheckInfoLabel=Note: options that are disabled (and those in the {0} menu) will not be saved.
+SaveConfigOnExitCheckInfoLabel=Note: options that are disabled will not be saved.
 
 [SetupOverviewPage]
 PageTitle=Telepítés
@@ -161,6 +164,7 @@ InstallStatusLabel.CreatingPartitions=Partíciók létrehozása...
 InstallStatusLabel.InstallingWindows=Windows telepítése...
 InstallStatusLabel.InstallingBootFiles=Boot fájlok telepítése...
 InstallStatusLabel.InstallingDrivers=Illesztők telepítése...
+InstallStatusLabel.RunningScript=Running the custom script...
 InstallStatusLabel.InstallFinished=A telepítés befejeződött!
 InstallStatusLabel.InstallFailed=Hiba történt a telepítés során!
 MessageBox.RecoveryNotFoundWarn.Heading=The recovery image could not be found!

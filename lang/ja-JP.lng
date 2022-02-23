@@ -1,6 +1,6 @@
 ﻿[WoR lang file]
 Name=日本語 (Japanese)
-IsComplete=1
+IsComplete=0
 
 [UpdateNotifyWindow]
 WindowTitle=アップデート
@@ -66,6 +66,9 @@ PageTitle=ようこそ
 WelcomeLabel={appname} にようこそ!
 WelcomeMsgTextBox=このウィザードは、Raspberry PiにWindowsのフルバージョンを簡単にインストールするのに役立ちます。{n}{n} 続行するには {0} をクリックしてください。
 SelectLangLabel=言語を選択してください
+SelectWizardModeLabel=Wizard mode:
+SelectWizardModeCombo.BasicMode=Show only the required options
+SelectWizardModeCombo.AdvancedMode=Show all the options
 
 [SelectDevicePage]
 PageTitle=デバイス選択
@@ -136,7 +139,7 @@ MemoryLimitLabel=メモリ制限:
 RecoveryEnabledCheck=Windowsリカバリー環境を有効化
 WoROptionsGroup={appname} オプション
 SaveConfigOnExitCheck=終了時に、この設定を保存する
-SaveConfigOnExitCheckInfoLabel=注：無効になっているオプション（および {0} オプション）は保存されません。
+SaveConfigOnExitCheckInfoLabel=注：無効になっているオプションは保存されません。
 
 [SetupOverviewPage]
 PageTitle=インストール
@@ -161,6 +164,7 @@ InstallStatusLabel.CreatingPartitions=パーティションの作成中...
 InstallStatusLabel.InstallingWindows=Windows のインストール中...
 InstallStatusLabel.InstallingBootFiles=ブートファイルのインストール中...
 InstallStatusLabel.InstallingDrivers=ドライバーのインストール中...
+InstallStatusLabel.RunningScript=Running the custom script...
 InstallStatusLabel.InstallFinished=インストールが完了しました!
 InstallStatusLabel.InstallFailed=インストールが失敗しました!
 MessageBox.RecoveryNotFoundWarn.Heading=リカバリーイメージが見つかりませんでした!
