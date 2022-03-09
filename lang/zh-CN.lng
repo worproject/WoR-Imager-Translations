@@ -66,9 +66,9 @@ PageTitle=欢迎
 WelcomeLabel=欢迎使用 {appname}！
 WelcomeMsgTextBox=这个向导将会帮助您轻松地在树莓派上安装完整的桌面版 Windows。{n}{n}点击{0}继续。
 SelectLangLabel=选择您的语言：
-SelectWizardModeLabel=Wizard mode:
-SelectWizardModeCombo.BasicMode=Show only the required options
-SelectWizardModeCombo.AdvancedMode=Show all the options
+SelectWizardModeLabel=向导模式：
+SelectWizardModeCombo.BasicMode=只显示必要的选项
+SelectWizardModeCombo.AdvancedMode=显示所有的选项
 
 [SelectDevicePage]
 PageTitle=选择您的设备
@@ -164,7 +164,7 @@ InstallStatusLabel.CreatingPartitions=正在创建分区……
 InstallStatusLabel.InstallingWindows=正在安装 Windows……
 InstallStatusLabel.InstallingBootFiles=正在安装启动引导文件……
 InstallStatusLabel.InstallingDrivers=正在安装驱动程序……
-InstallStatusLabel.RunningScript=Running the custom script...
+InstallStatusLabel.RunningScript=正在运行自定义脚本……
 InstallStatusLabel.InstallFinished=安装完成！
 InstallStatusLabel.InstallFailed=安装失败！
 MessageBox.RecoveryNotFoundWarn.Heading=找不到恢复镜像！
