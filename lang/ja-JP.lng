@@ -66,9 +66,9 @@ PageTitle=ようこそ
 WelcomeLabel={appname} にようこそ!
 WelcomeMsgTextBox=このウィザードは、Raspberry PiにWindowsのフルバージョンを簡単にインストールするのに役立ちます。{n}{n} 続行するには {0} をクリックしてください。
 SelectLangLabel=言語を選択してください
-SelectWizardModeLabel=Wizard mode:
-SelectWizardModeCombo.BasicMode=Show only the required options
-SelectWizardModeCombo.AdvancedMode=Show all the options
+SelectWizardModeLabel=ウィザードモード:
+SelectWizardModeCombo.BasicMode=必要なオプションのみを表示します
+SelectWizardModeCombo.AdvancedMode=すべてのオプションを表示します
 
 [SelectDevicePage]
 PageTitle=デバイス選択
@@ -164,7 +164,7 @@ InstallStatusLabel.CreatingPartitions=パーティションの作成中...
 InstallStatusLabel.InstallingWindows=Windows のインストール中...
 InstallStatusLabel.InstallingBootFiles=ブートファイルのインストール中...
 InstallStatusLabel.InstallingDrivers=ドライバーのインストール中...
-InstallStatusLabel.RunningScript=Running the custom script...
+InstallStatusLabel.RunningScript=カスタムスクリプトを実行しています...
 InstallStatusLabel.InstallFinished=インストールが完了しました!
 InstallStatusLabel.InstallFailed=インストールが失敗しました!
 MessageBox.RecoveryNotFoundWarn.Heading=リカバリーイメージが見つかりませんでした!
