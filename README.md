@@ -1,8 +1,6 @@
 # WoR-Translations
 This repository contains the language files for the Windows on Raspberry imager tool.
 
-Project page: https://www.worproject.ml
-
 ## Contribute
 Updates or new language files can be submitted through pull requests or by creating an issue and attaching the translation file to it. See the status of the existing translations below.
 
