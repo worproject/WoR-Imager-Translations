@@ -1,6 +1,6 @@
 ﻿[WoR lang file]
 Name=한국어 (Korean)
-IsComplete=0
+IsComplete=1
 
 [UpdateNotifyWindow]
 WindowTitle=업데이트
@@ -66,9 +66,9 @@ PageTitle=환영합니다
 WelcomeLabel={appname}에 오신 것을 환영합니다!
 WelcomeMsgTextBox=본 프로그램은 Raspberry Pi에 데스크탑 버전의 Windows을 쉽게 설치할 수 있도록 도와줍니다.{n}{n}{0} 버튼을 눌러 진행하세요.
 SelectLangLabel=언어를 선택:
-SelectWizardModeLabel=Wizard mode:
-SelectWizardModeCombo.BasicMode=Show only the required options
-SelectWizardModeCombo.AdvancedMode=Show all the options
+SelectWizardModeLabel=고급 옵션:
+SelectWizardModeCombo.BasicMode=필수 옵션만 보기
+SelectWizardModeCombo.AdvancedMode=모든 옵션 보기
 
 [SelectDevicePage]
 PageTitle=장치 선택
@@ -164,7 +164,7 @@ InstallStatusLabel.CreatingPartitions=파티션을 만드는 중...
 InstallStatusLabel.InstallingWindows=Windows 설치 중...
 InstallStatusLabel.InstallingBootFiles=부트 파일 설치 중...
 InstallStatusLabel.InstallingDrivers=드라이버 설치 중...
-InstallStatusLabel.RunningScript=Running the custom script...
+InstallStatusLabel.RunningScript=사용자 지정 스크립트 실행 중...
 InstallStatusLabel.InstallFinished=설치가 완료 되었습니다!
 InstallStatusLabel.InstallFailed=설치에 실패했습니다!
 MessageBox.RecoveryNotFoundWarn.Heading=복구 이미지를 찾을 수 없습니다!
