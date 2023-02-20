@@ -1,6 +1,6 @@
-﻿[WoR lang file]
+[WoR lang file]
 Name=Italiano (Italian)
-IsComplete=0
+IsComplete=1
 
 [UpdateNotifyWindow]
 WindowTitle=Aggiornamento
@@ -10,7 +10,7 @@ DownloadBtn=Scarica
 CloseBtn=Chiudi
 
 [AboutWindow]
-WindowTitle=Informazioni
+WindowTitle=Info
 AppVersionLabel=Versione
 CreditsPage=Crediti
 ChangelogPage=Registro dei cambiamenti
@@ -33,7 +33,7 @@ MessageBox.PackageUpdateError.Heading=L'ultima versione del pachetto non può es
 MessageBox.PackageUpdateError.Message=Se ignori questo errore, il setup continuerà con la versione locale che potrebbe essere non aggiornata.
 Message.ExtractingPackageToTemp=Estrazione dell'archivio sulla cartella temporanea...
 Message.DownloadingReqFiles=Scaricamento dei file necessari...
-Label.StorageDrive=Storage drive
+Label.StorageDrive=Unità di archiviazione
 Label.DeviceType=Tipo dispositivo
 FilePathTextPlaceholder=Clicca sul bottone "{0}" o trascina il file qui.
 ServerPackageInfoLabel=Questa è l'opzione raccomandata. Può essere usata anche offline, a patto che il pacchetto sia stato scaricato precedentemente.
@@ -44,7 +44,7 @@ Button.Cancel=Annulla
 Button.Abort=Interrompi
 Button.Retry=Riprova
 Button.Ignore=Ignora
-Button.Yes=Si
+Button.Yes=Sì
 Button.No=No
 CheckBox.DoNotShowAgain=Non mostrarlo più
 
@@ -66,9 +66,9 @@ PageTitle=Benvenuto
 WelcomeLabel=Benvenuto su {appname}!
 WelcomeMsgTextBox=Questa guida ti aiuterà a installare facilmente la versione desktop completa di Windows sul tuo Raspberry Pi.{n}{n}Clicca sul bottone {0} per continuare.
 SelectLangLabel=Seleziona la tua lingua:
-SelectWizardModeLabel=Wizard mode:
-SelectWizardModeCombo.BasicMode=Show only the required options
-SelectWizardModeCombo.AdvancedMode=Show all the options
+SelectWizardModeLabel=Modalità guidata:
+SelectWizardModeCombo.BasicMode=Mostra solo le opzioni richieste
+SelectWizardModeCombo.AdvancedMode=Mostra tutte le opzioni
 
 [SelectDevicePage]
 PageTitle=Seleziona il dispositivo
@@ -151,7 +151,7 @@ UEFIPathLabel=Posizione firmware UEFI
 PartitionSchemeLabel=Schema partizioni
 ImageDeployerLabel=Metodo di installazione
 LZXCompressionLabel=Compressione LZX
-LZXCompression.YES=SI
+LZXCompression.YES=SÌ
 LZXCompression.NO=NO
 
 [SetupProgressPage]
@@ -164,7 +164,7 @@ InstallStatusLabel.CreatingPartitions=Creazione delle partizioni...
 InstallStatusLabel.InstallingWindows=Installazione di Windows...
 InstallStatusLabel.InstallingBootFiles=Installazione dei file di boot...
 InstallStatusLabel.InstallingDrivers=Installazione dei driver...
-InstallStatusLabel.RunningScript=Running the custom script...
+InstallStatusLabel.RunningScript=Esecuzione dello script personalizzato...
 InstallStatusLabel.InstallFinished=L'installazione è finita!
 InstallStatusLabel.InstallFailed=L'installazione è fallita!
 MessageBox.RecoveryNotFoundWarn.Heading=L'immagine di ripristino non è stata trovata!
