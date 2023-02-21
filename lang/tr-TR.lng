@@ -1,6 +1,6 @@
-﻿[WoR lang file]
+[WoR lang file]
 Name=Türkçe (Turkish)
-IsComplete=0
+IsComplete=1
 
 [UpdateNotifyWindow]
 WindowTitle=Güncelle
@@ -31,7 +31,7 @@ MessageBox.SelectedPackageInvalid.Heading=Seçilen paket geçersiz ya da cihazı
 MessageBox.SelectedPackageInvalid.Message=Kurmak için paket seçin {0}.
 MessageBox.PackageUpdateError.Heading=Paketin son sürümü indirilemedi!
 MessageBox.PackageUpdateError.Message=Bu hatayı görmezden gelirseniz kurulum, eski olabilecek yerel sürümle devam eder.
-Message.ExtractingPackageToTemp=Arşivi geçici klasöre çıkartılıyor...
+Message.ExtractingPackageToTemp=Arşiv geçici klasöre çıkartılıyor...
 Message.DownloadingReqFiles=Gerekli dosyalar indiriliyor...
 Label.StorageDrive=Kurulum medyası
 Label.DeviceType=Cihaz tipi
@@ -66,9 +66,9 @@ PageTitle=Merhaba
 WelcomeLabel={appname}'ye Hoş Geldiniz!
 WelcomeMsgTextBox=Bu sihirbaz, Windows'un tam masaüstü sürümünü Raspberry Pi bilgisayarınıza kolayca yüklemenize yardımcı olacaktır.{n}{n}Devam etmek için {0} düğmesini tıklayın.
 SelectLangLabel=Dilinizi seçiniz:
-SelectWizardModeLabel=Wizard mode:
-SelectWizardModeCombo.BasicMode=Show only the required options
-SelectWizardModeCombo.AdvancedMode=Show all the options
+SelectWizardModeLabel=Kurulum Modu:
+SelectWizardModeCombo.BasicMode=Sadece gerekli seçenekleri göster
+SelectWizardModeCombo.AdvancedMode=Bütün seçenekleri göster
 
 [SelectDevicePage]
 PageTitle=Cihaz seç
