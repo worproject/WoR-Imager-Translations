@@ -5,7 +5,7 @@ IsComplete=1
 [UpdateNotifyWindow]
 WindowTitle=Update
 NewVersionAvailableLabel=Nouvelle version disponible
-NewVersionAvailableBox={appname} {0} est disponible! Voulez-vous la télécharger maintenant?
+NewVersionAvailableBox={appname} {0} est disponible ! Voulez-vous la télécharger maintenant ?
 DownloadBtn=Télécharger
 CloseBtn=Fermer
 
@@ -50,7 +50,7 @@ CheckBox.DoNotShowAgain=Ne plus montrer
 
 [MessageBox.Common]
 Heading.SomethingWentWrong=Il y a eu un problème...
-Heading.Warning=Attention!
+Heading.Warning=Attention !
 
 [MainWindow]
 SendFeedbackBtn=Envoyer un commentaire
@@ -58,12 +58,12 @@ NextPageBtn=Suivant
 BackPageBtn=Retour
 NextPageBtn.Install=Installation
 NextPageBtn.Finish=Terminé
-MessageBox.TaskOngoing.Heading=Etes-vous sur de vouloir forcer la fermeture de l'application?
+MessageBox.TaskOngoing.Heading=Etes-vous sur de vouloir forcer la fermeture de l'application ?
 MessageBox.TaskOngoing.Message=Une opération est actuellement en cours.
 
 [WelcomePage]
 PageTitle=Bienvenue
-WelcomeLabel=Bienvenue sur {appname}!
+WelcomeLabel=Bienvenue sur {appname} !
 WelcomeMsgTextBox=Cet assistant vous aidera à installer facilement la version complète de Windows sur votre ordinateur Raspberry Pi.{n}{n}Cliquez sur le bouton {0} pour continuer.
 SelectLangLabel=Sélectionner la langue:
 SelectWizardModeLabel=Configuration de l'assistant:
@@ -75,14 +75,14 @@ PageTitle=Choix du disque
 SelectDeviceLabel=Sélectionner le disque
 DisksListCombo.TextEmptyList=Aucun disque n'a été trouvé. Cliquez sur le bouton {0} pour recharger la liste.
 DisksListCombo.TextNoItemSelected=Cliquez ici pour sélectionner un lecteur dans la liste.
-StorageDriveWarningLabel=Attention! Le choix du disque incorrect peut entraîner une perte de données.
+StorageDriveWarningLabel=Attention ! Le choix du disque incorrect peut entraîner une perte de données.
 Device.ExperimentalSupport=Expérimental
 Device.SupportedModels=Modèles pris en charge: {0}
 MessageBox.DiskAtLeast=La carte doit posséder au moins {0} Go d'espace disponible !
 MessageBox.DiskCompressedInstall.Heading=La carte dispose de suffisamment d'espace pour une installation compressée.
 MessageBox.DiskCompressedInstall.Message=Les performances du système peuvent être légèrement réduites en raison de la compression.
 Message.LoadingDisks=Attente disque...
-MessageBox.NewBootloaderRequiredWarn=Si vous souhaitez démarrer votre {0} à partir d'une clé USB ou utiliser la table de partitionnement GPT, le chargeur d'amorçage doit être mis à jour à la dernière version.{n}{n}Veuillez consulter le lien suivant pour plus de détails : {1}
+MessageBox.NewBootloaderRequiredWarn=Si vous souhaitez démarrer votre {0} à partir d'une clé USB ou utiliser la table de partitionnement GPT, le chargeur d'amorçage doit être mis à jour à la dernière version.{n}{n}Veuillez consulter le lien suivant pour plus de détails : {1}.
 
 [SelectImagePage]
 PageTitle=Choix de l'image
