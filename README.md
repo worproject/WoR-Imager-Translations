@@ -24,7 +24,7 @@ Issues related to the WoR tool should be reported on the [dedicated bug tracker]
 | Language                                    | Filename  | Status                                                                       | Contributors 
 | ------------------------------------------- | --------- | ---------------------------------------------------------------------------- | --------------
 | Bahasa Melayu (Malay)                       | ms-MY.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/ms-MY.lng) | cycool29
-| Čeština (Czech)                             | cs-CZ.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/cs-CZ.lng) | czsgaba , martindrey , Nuparu00 , lukajin
+| Čeština (Czech)                             | cs-CZ.lng | [![Complete](https://img.shields.io/badge/-Outdated-red)](/lang/cs-CZ.lng) | czsgaba , martindrey , Nuparu00 , lukajin , Martin40645
 | Deutsch (German)                            | de-DE.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/de-DE.lng) | Gnanf , manfred-mueller , EpicLPer , BastiJames333 , Schule04 , NASS-eK , ulrichrobin , Finnie2006
 | English                                     | en-US.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/en-US.lng) | Mario Bălănică
 | Español (Spanish)                           | es-ES.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/es-ES.lng) | TheNeoStormZ , davilico05 , tailys98 , Ivan Ruiz (ivigamergames) 
