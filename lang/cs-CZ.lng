@@ -1,6 +1,6 @@
-﻿[WoR lang file]
+[WoR lang file]
 Name=Čeština (Czech)
-IsComplete=0
+IsComplete=1
 
 [UpdateNotifyWindow]
 WindowTitle=Aktualizace
@@ -29,8 +29,8 @@ DeclineBtn=Odmítnout
 MessageBox.CustomPackageWarn=Výběr zastaralého nebo nekompatibilního balíčku může způsobit problémy s instalací!{n}{n}Doporučujeme místo toho použít nejnovější verzi dostupnou na serveru.{n}{n}Přesto pokračovat?
 MessageBox.SelectedPackageInvalid.Heading=Vybraný balíček je neplatný nebo nekompatibilní s vaším zařízením.
 MessageBox.SelectedPackageInvalid.Message=Prosím vyberte balíček vytvořený pro {0}.
-MessageBox.PackageUpdateError.Heading=The latest version of the package couldn't be downloaded!
-MessageBox.PackageUpdateError.Message=If you ignore this error, the setup will continue with the local version which may be outdated.
+MessageBox.PackageUpdateError.Heading=Nejnovější verze balíčku nemohla být stáhnuta!
+MessageBox.PackageUpdateError.Message=Pokud budete ingnorovat tuhle chybu, nastavení bude pokračovat s místní verzí, která může být zastaralá.
 Message.ExtractingPackageToTemp=Rozbalování archivu do dočasné složky...
 Message.DownloadingReqFiles=Stahování vyžadovaných souborů...
 Label.StorageDrive=Úložná jednotka
@@ -66,9 +66,9 @@ PageTitle=Vítejte
 WelcomeLabel=Vítejte ve {appname}!
 WelcomeMsgTextBox=Tento průvodce vám pomůže snadno nainstalovat plnou verzi systému Windows pro stolní počítače do vašeho počítače Raspberry Pi.{n}{n}Klikněte na tlačítko {0} pro pokračování.
 SelectLangLabel=Zvolte jazyk:
-SelectWizardModeLabel=Wizard mode:
-SelectWizardModeCombo.BasicMode=Show only the required options
-SelectWizardModeCombo.AdvancedMode=Show all the options
+SelectWizardModeLabel=Režim průvodce:
+SelectWizardModeCombo.BasicMode=Zobrazit pouze požadované možnosti
+SelectWizardModeCombo.AdvancedMode=Zobrazit všechny možnosti
 
 [SelectDevicePage]
 PageTitle=Vyberte zařízení
@@ -97,8 +97,8 @@ MessageBox.SelectedImageInvalid=Vybraný soubor není platný obraz Windows!
 MessageBox.SelectedImageUnsupported=Vybraný obraz není podporovaný!
 MessageBox.SelectedImageErrorInfo.AllBuilds=Vyberte prosím kompatibilní obraz Windows {0}.
 MessageBox.SelectedImageErrorInfo.MinBuild=Vyberte prosím kompatibilní obraz Windows {0} build {1} nebo novější.
-MessageBox.SelectedImageMountError.Heading=The image couldn't be mounted!
-MessageBox.SelectedImageMountError.Message=Verify that the image can be mounted by Windows (right click -> Mount) and try again. Accessing it over a network share may not work.{n}{n}If the error persists but you're able to mount the image manually, you can directly select the {0} file from the {1} directory inside it.
+MessageBox.SelectedImageMountError.Heading=Obraz nelze připojit!
+MessageBox.SelectedImageMountError.Message=Ověřte, zda lze obraz připojit k systému Windows (pravé tlačítko myši -> Připojit) a zkuste znovu. Přístupem přes síťové zdílení nemusí fungovat.{n}{n}Pokud chyba přetrvává, ale můžete připojit obraz manuálně, můžete vybrat {0} soubor z {1} adresáře uvnitř.
 MessageBox.NotEnoughSpace.Heading=Na disku není dostatek místa pro instalaci tohoto obrazu!
 MessageBox.NotEnoughSpace.Message=Zvolte prosím větší úložné zařízení nebo kompaktní obraz.
 Message.MountingISO=Připojování ISO obrazu...
@@ -131,15 +131,15 @@ ImgInstallLabel=Instalovat obraz s:
 EnableLZXCheck=Povolit LZX kompresi instalace
 BootOptionsGroup=Nastavení bootování
 MessageBox.BootConfigEditorWarn=Úprava výchozí konfigurace spouštění může způsobit nefunkčnost zařízení nebo, že se vůbec nespustí.{n}{n}Přesto pokračovat?
-MessageBox.MbrPartSchemeWarn=Choosing the MBR partitioning scheme will prevent you from using the recovery environment and doing system updates.{n}{n}Continue anyway?
+MessageBox.MbrPartSchemeWarn=Vybrání MBR oddílovacího schématu zamezí používat prostředí obnovy a aktualizace systému.{n}{n}Přesto pokračovat?
 ConfigurationTabControl.AdvancedTabPage=Pokročilé
 MessageBox.AdvancedTabPageWarn=Změna výchozího nastavení v rozšířené nabídce může deaktivovat konkrétní funkce zařízení nebo zabránit spuštění systému.{n}{n}Opravdu chcete pokračovat?
-WindowsBootOptionsGroup=Windows boot options
+WindowsBootOptionsGroup=možnosti spouštění
 MemoryLimitLabel=Limit paměti:
 RecoveryEnabledCheck=Povolit prostředí Windows Recovery Environment
 WoROptionsGroup=Nastavení {appname}
 SaveConfigOnExitCheck=Při ukončení uložit tuto konfiguraci.
-SaveConfigOnExitCheckInfoLabel=Poznámka: možnosti, které jsou deaktivovány nebudou uloženy.
+SaveConfigOnExitCheckInfoLabel=Poznámka: Možnosti, které jsou deaktivovány nebudou uloženy.
 
 [SetupOverviewPage]
 PageTitle=Instalovat
@@ -164,8 +164,8 @@ InstallStatusLabel.CreatingPartitions=Vytváření oddílů...
 InstallStatusLabel.InstallingWindows=Instalace Windows...
 InstallStatusLabel.InstallingBootFiles=Instalace bootovacích souborů...
 InstallStatusLabel.InstallingDrivers=Instalace ovladačů...
-InstallStatusLabel.RunningScript=Running the custom script...
+InstallStatusLabel.RunningScript=Spouštění vlastního skriptu...
 InstallStatusLabel.InstallFinished=Instalace byla dokončena!
 InstallStatusLabel.InstallFailed=Instalace selhala!
-MessageBox.RecoveryNotFoundWarn.Heading=The recovery image could not be found!
-MessageBox.RecoveryNotFoundWarn.Message=If you continue, the recovery environment will be completely disabled.
+MessageBox.RecoveryNotFoundWarn.Heading=Obraz obnovy nebyl nalezen!
+MessageBox.RecoveryNotFoundWarn.Message=Pokud budete pokračovat, prostředí obnovy bude kopletně zakázáno.
