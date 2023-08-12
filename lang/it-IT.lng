@@ -67,8 +67,8 @@ WelcomeLabel=Benvenuto su {appname}!
 WelcomeMsgTextBox=Questa guida ti aiuterà a installare facilmente la versione desktop completa di Windows sul tuo Raspberry Pi.{n}{n}Clicca sul bottone {0} per continuare.
 SelectLangLabel=Seleziona la tua lingua:
 SelectWizardModeLabel=Wizard mode:
-SelectWizardModeCombo.BasicMode=Show only the required options
-SelectWizardModeCombo.AdvancedMode=Show all the options
+SelectWizardModeCombo.BasicMode=Mostra solo le opzioni richieste
+SelectWizardModeCombo.AdvancedMode=Mostra tutte le opzioni.
 
 [SelectDevicePage]
 PageTitle=Seleziona il dispositivo
