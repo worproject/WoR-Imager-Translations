@@ -30,7 +30,7 @@ Issues related to the WoR tool should be reported on the [dedicated bug tracker]
 | Español (Spanish)                           | es-ES.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/es-ES.lng) | TheNeoStormZ , davilico05 , tailys98 , Ivan Ruiz (ivigamergames) 
 | Français (French)                           | fr-FR.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/fr-FR.lng) | SraamaR , Garfi69
 | Hrvatski (Croatian)                         | hr-HR.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/hr-HR.lng)   | Biggie 
-| Italiano (Italian)                          | it-IT.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/it-IT.lng) | gestef , nopesir , xicciodj , lorecast162 
+| Italiano (Italian)                          | it-IT.lng | [![Complete](https://img.shields.io/badge/-Outdated-red)](/lang/it-IT.lng) | gestef , nopesir , xicciodj , lorecast162 , lori28167  
 | Magyar (Hungarian)                          | hu-HU.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/hu-HU.lng)   | Janaboy , Googulator 
 | Nederlands (Dutch)                          | nl-NL.lng | [![Complete](https://img.shields.io/badge/-Complete-green)](/lang/nl-NL.lng) | Finnie2006
 | Polski (Polish)                             | pl-PL.lng | [![Outdated](https://img.shields.io/badge/-Outdated-red)](/lang/pl-PL.lng) | macmmm81 , Gotard , Marcinoo97 , LUKI N (lukin123) , krolik-exe
